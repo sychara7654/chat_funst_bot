@@ -91,7 +91,7 @@ async def github_push_logs() -> None:
     payload: dict = {
         "message": "[userbot-log] push logs",
         "content": encoded,
-        "branch": "main",
+        "branch": "bot-state",
     }
     if sha:
         payload["sha"] = sha
