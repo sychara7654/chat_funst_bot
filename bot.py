@@ -2725,6 +2725,109 @@ async def cmd_relink(message: Message):
         )
 
 
+@dp.message(Command("viewonce_test"))
+async def cmd_viewonce_test(message: Message):
+    """Диагностика: почему сообщение распознано как view-once.
+
+    Использование:
+      Ответь на медиа-сообщение командой /viewonce_test
+      Или: /viewonce_test <chat_id> <msg_id>
+    """
+    if not message.from_user or message.from_user.id != ADMIN_ID:
+        return
+
+    target_chat_id: int | None = None
+    target_msg_id:  int | None = None
+
+    if message.reply_to_message:
+        target_chat_id = message.chat.id
+        target_msg_id  = message.reply_to_message.message_id
+
+    if target_msg_id is None:
+        parts = (message.text or "").split()
+        if len(parts) == 3:
+            try:
+                target_chat_id = int(parts[1])
+                target_msg_id  = int(parts[2])
+            except ValueError:
+                await message.answer(
+                    "❌ Ответь командой на сообщение, или:
+"
+                    "<code>/viewonce_test &lt;chat_id&gt; &lt;msg_id&gt;</code>",
+                    parse_mode="HTML",
+                )
+                return
+
+    if target_msg_id is None or target_chat_id is None:
+        await message.answer(
+            "ℹ️ Ответь командой на сообщение, которое хочешь проверить.
+"
+            "Или: <code>/viewonce_test &lt;chat_id&gt; &lt;msg_id&gt;</code>",
+            parse_mode="HTML",
+        )
+        return
+
+    cached          = get_cached_message(target_chat_id, target_msg_id)
+    in_cache        = cached is not None
+    cache_has_media = cached is not None and has_media(cached)
+    in_seen         = was_msg_seen(target_chat_id, target_msg_id)
+
+    media_type = "нет"
+    if cached:
+        if cached.photo:        media_type = "фото"
+        elif cached.video:      media_type = "видео"
+        elif cached.voice:      media_type = "голосовое"
+        elif cached.audio:      media_type = "аудио"
+        elif cached.document:   media_type = "документ"
+        elif cached.video_note: media_type = "кружочек"
+        elif cached.sticker:    media_type = "стикер"
+        elif cached.animation:  media_type = "GIF"
+        else:                   media_type = "текст"
+
+    seen_count  = len(seen_msg_ids.get(target_chat_id, {}))
+    cache_count = len(cache.get(target_chat_id, {}))
+
+    would_be_viewonce = not cache_has_media and not in_seen
+
+    verdict = (
+        "🔥 <b>Засчиталось бы как VIEW-ONCE</b>" if would_be_viewonce
+        else "✅ Обычное сообщение"
+    )
+
+    parts_r = []
+    if cache_has_media:
+        parts_r.append("• кэш содержит медиа → не одноразка")
+    elif in_cache:
+        parts_r.append("• в кэше есть, но без медиа")
+    else:
+        parts_r.append("• не в кэше (вытеснено или не приходило)")
+
+    if in_seen:
+        parts_r.append("• есть в seen_msg_ids → бот получал → не одноразка")
+    else:
+        parts_r.append(
+            f"• <b>НЕТ в seen_msg_ids</b> "
+            f"(запомнено {seen_count}/{MAX_SEEN_IDS_PER_CHAT} ID для этого чата)"
+        )
+
+    lines = [
+        "🔍 <b>Диагностика view-once</b>",
+        "",
+        f"📌 msg_id: <code>{target_msg_id}</code>",
+        f"💬 chat_id: <code>{target_chat_id}</code>",
+        "",
+        f"📦 Кэш: {'✅ есть, тип: ' + media_type if in_cache else '❌ нет'} ({cache_count} всего в чате)",
+        f"👁 seen_msg_ids: {'✅ есть' if in_seen else '❌ нет'} ({seen_count}/{MAX_SEEN_IDS_PER_CHAT})",
+        "",
+        f"🏷 Вердикт: {verdict}",
+        "",
+        "<b>Причина:</b>",
+    ] + parts_r
+
+    await message.answer("
+".join(lines), parse_mode="HTML")
+
+
 @dp.message(Command("view_once"))
 async def cmd_view_once(message: Message):
     """/view_once <thread_id> — назначить тему ОДНОРАЗКИ вручную.
