@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Userbot-рассыльщик на Pyrogram.
-Команды отправлять в «Избранное» (Saved Messages):
+Команды отправлять в Saved Messages (Избранное):
   /spam <текст>  — запустить рассылку
   /stop          — остановить
   /status        — статус
@@ -15,8 +15,7 @@ import logging
 import os
 import urllib.request
 
-from pyrogram import Client, filters, idle
-from pyrogram.types import Message
+from pyrogram import Client
 from pyrogram.enums import ChatType, ChatMemberStatus
 
 logging.basicConfig(
@@ -46,11 +45,11 @@ _spam_text: str = ""
 
 
 # ---------------------------------------------------------------------------
-# Memory log handler + GitHub push
+# Memory log handler
 # ---------------------------------------------------------------------------
 
 class MemoryLogHandler(logging.Handler):
-    def __init__(self, maxlines: int = 600) -> None:
+    def __init__(self, maxlines: int = 800) -> None:
         super().__init__()
         self._lines: list[str] = []
         self._maxlines = maxlines
@@ -64,10 +63,14 @@ class MemoryLogHandler(logging.Handler):
         return "\n".join(self._lines)
 
 
-_mem_handler = MemoryLogHandler(maxlines=600)
+_mem_handler = MemoryLogHandler()
 _mem_handler.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(message)s"))
 logging.getLogger().addHandler(_mem_handler)
 
+
+# ---------------------------------------------------------------------------
+# GitHub log push
+# ---------------------------------------------------------------------------
 
 async def _gh_get_sha() -> str | None:
     api = (
@@ -96,7 +99,6 @@ async def github_push_logs() -> None:
     payload: dict = {"message": "[userbot-log] push logs", "content": encoded, "branch": GITHUB_BRANCH}
     if sha:
         payload["sha"] = sha
-
     for attempt in range(3):
         try:
             body = json.dumps(payload).encode()
@@ -106,7 +108,7 @@ async def github_push_logs() -> None:
                 "User-Agent": "userbot-logger",
                 "Content-Type": "application/json",
             })
-            with urllib.request.urlopen(req, timeout=15) as resp:
+            with urllib.request.urlopen(req, timeout=15):
                 logging.info("[log-push] логи отправлены в GitHub")
                 return
         except urllib.error.HTTPError as e:
@@ -134,26 +136,17 @@ async def github_log_loop() -> None:
 
 
 # ---------------------------------------------------------------------------
-# Helpers
+# Spam helpers
 # ---------------------------------------------------------------------------
 
-async def ensure_my_id(client: Client) -> int:
-    global _my_id
-    if _my_id is None:
-        me = await client.get_me()
-        _my_id = me.id
-        logging.info(f"[userbot] my_id={_my_id}")
-    return _my_id
-
-
-async def get_active_groups(client: Client) -> list[int]:
+async def get_active_groups() -> list[int]:
     groups = []
-    async for dialog in client.get_dialogs():
+    async for dialog in app.get_dialogs():
         chat = dialog.chat
         if chat.type not in (ChatType.GROUP, ChatType.SUPERGROUP):
             continue
         try:
-            member = await client.get_chat_member(chat.id, "me")
+            member = await app.get_chat_member(chat.id, "me")
             if member.status == ChatMemberStatus.BANNED:
                 continue
             if member.status == ChatMemberStatus.RESTRICTED:
@@ -168,15 +161,15 @@ async def get_active_groups(client: Client) -> list[int]:
     return groups
 
 
-async def spam_loop(client: Client, text: str) -> None:
+async def spam_loop(text: str) -> None:
     try:
         while True:
-            groups = await get_active_groups(client)
+            groups = await get_active_groups()
             sent = 0
             failed = 0
             for chat_id in groups:
                 try:
-                    await client.send_message(chat_id, text)
+                    await app.send_message(chat_id, text)
                     sent += 1
                 except Exception as e:
                     logging.warning(f"[spam] чат {chat_id}: {e}")
@@ -185,7 +178,7 @@ async def spam_loop(client: Client, text: str) -> None:
             summary = f"итерация: отправлено={sent}, ошибок={failed}, групп={len(groups)}"
             logging.info(f"[spam] {summary}")
             try:
-                await client.send_message("me", f"\U0001f4ca {summary}")
+                await app.send_message("me", f"\U0001f4ca {summary}")
             except Exception:
                 pass
             await asyncio.sleep(60)
@@ -194,40 +187,13 @@ async def spam_loop(client: Client, text: str) -> None:
 
 
 # ---------------------------------------------------------------------------
-# Catch-all handler — логирует ВСЕ входящие сообщения для диагностики
+# Command handlers
 # ---------------------------------------------------------------------------
 
-@app.on_message()
-async def debug_all_messages(client: Client, msg: Message) -> None:
-    my_id = await ensure_my_id(client)
-    txt = (msg.text or "")[:60]
-    logging.info(
-        f"[MSG] chat={msg.chat.id} my_id={my_id} "
-        f"outgoing={msg.outgoing} type={msg.chat.type} text={txt!r}"
-    )
-    # Обрабатываем команды прямо здесь — без фильтров
-    if msg.chat.id != my_id:
-        return  # только Избранное
-    text = msg.text or ""
-    if text.startswith("/spam "):
-        await handle_spam(client, text[6:].strip())
-    elif text == "/stop":
-        await handle_stop(client)
-    elif text == "/status":
-        await handle_status(client)
-    elif text == "/logs":
-        await github_push_logs()
-        await client.send_message("me", "\u2705 Логи запушены")
-
-
-# ---------------------------------------------------------------------------
-# Handlers (вызываются из debug_all_messages)
-# ---------------------------------------------------------------------------
-
-async def handle_spam(client: Client, text: str) -> None:
+async def do_spam(text: str) -> None:
     global _spam_task, _spam_text
     if not text:
-        await client.send_message("me", "\u274c Укажи текст: /spam <текст>")
+        await app.send_message("me", "\u274c Укажи текст: /spam <текст>")
         return
     if _spam_task and not _spam_task.done():
         _spam_task.cancel()
@@ -236,14 +202,14 @@ async def handle_spam(client: Client, text: str) -> None:
         except asyncio.CancelledError:
             pass
     _spam_text = text
-    logging.info(f"[cmd] /spam запускаю рассылку: {text[:50]!r}")
-    await client.send_message("me", "\U0001f50d Собираю список групп...")
-    groups = await get_active_groups(client)
+    logging.info(f"[cmd] /spam: {text[:80]!r}")
+    await app.send_message("me", "\U0001f50d Собираю список групп...")
+    groups = await get_active_groups()
     if not groups:
-        await client.send_message("me", "\u274c Нет доступных групп.")
+        await app.send_message("me", "\u274c Нет доступных групп.")
         return
-    _spam_task = asyncio.create_task(spam_loop(client, text))
-    await client.send_message(
+    _spam_task = asyncio.create_task(spam_loop(text))
+    await app.send_message(
         "me",
         f"\u2705 Рассылка запущена\n"
         f"\U0001f4dd {text[:150]}\n"
@@ -252,7 +218,7 @@ async def handle_spam(client: Client, text: str) -> None:
     )
 
 
-async def handle_stop(client: Client) -> None:
+async def do_stop() -> None:
     global _spam_task
     logging.info("[cmd] /stop")
     if _spam_task and not _spam_task.done():
@@ -262,45 +228,98 @@ async def handle_stop(client: Client) -> None:
         except asyncio.CancelledError:
             pass
         _spam_task = None
-        await client.send_message("me", "\U0001f6d1 Рассылка остановлена.")
+        await app.send_message("me", "\U0001f6d1 Рассылка остановлена.")
     else:
-        await client.send_message("me", "\u2139\ufe0f Рассылка не активна.")
+        await app.send_message("me", "\u2139\ufe0f Рассылка не активна.")
 
 
-async def handle_status(client: Client) -> None:
+async def do_status() -> None:
     logging.info("[cmd] /status")
     active = _spam_task is not None and not _spam_task.done()
     if active:
-        groups = await get_active_groups(client)
-        await client.send_message(
+        groups = await get_active_groups()
+        await app.send_message(
             "me",
             f"\U0001f4ca Рассылка активна \U0001f7e2\n"
             f"\U0001f4dd {_spam_text[:150]}\n"
             f"\U0001f4ac Групп: {len(groups)}",
         )
     else:
-        await client.send_message("me", "\U0001f4ca Рассылка остановлена \U0001f534")
+        await app.send_message("me", "\U0001f4ca Рассылка остановлена \U0001f534")
 
 
 # ---------------------------------------------------------------------------
-# Entry point — используем pyrogram.idle() (стандартный паттерн для юзерботов)
+# Polling loop — читает Избранное каждые 3 сек, ищет новые команды
+# Не зависит от on_message / update handlers — работает всегда
+# ---------------------------------------------------------------------------
+
+async def command_poll_loop() -> None:
+    """
+    Каждые 3 секунды читает последние 5 сообщений из Saved Messages
+    и обрабатывает команды которые ещё не обработали (по message_id).
+    """
+    last_seen_id: int = 0
+
+    # Инициализируем last_seen_id текущим последним сообщением (не обрабатываем старые)
+    try:
+        async for msg in app.get_chat_history("me", limit=1):
+            last_seen_id = msg.id
+        logging.info(f"[poll] инициализирован, last_seen_id={last_seen_id}")
+    except Exception as e:
+        logging.warning(f"[poll] ошибка инициализации: {e}")
+
+    while True:
+        await asyncio.sleep(3)
+        try:
+            async for msg in app.get_chat_history("me", limit=10):
+                if msg.id <= last_seen_id:
+                    break  # дошли до уже обработанных
+                text = msg.text or ""
+                logging.info(f"[poll] новое сообщение id={msg.id}: {text[:60]!r}")
+                last_seen_id = max(last_seen_id, msg.id)
+                if text.startswith("/spam "):
+                    await do_spam(text[6:].strip())
+                elif text.strip() == "/stop":
+                    await do_stop()
+                elif text.strip() == "/status":
+                    await do_status()
+                elif text.strip() == "/logs":
+                    await github_push_logs()
+                    await app.send_message("me", "\u2705 Логи запушены")
+        except Exception as e:
+            logging.warning(f"[poll] ошибка: {e}")
+
+
+# ---------------------------------------------------------------------------
+# Entry point
 # ---------------------------------------------------------------------------
 
 async def main() -> None:
     await app.start()
-    logging.info("[userbot] запущен, прогреваю кэш...")
-    await ensure_my_id(app)
+    logging.info("[userbot] запущен")
+
+    me = await app.get_me()
+    _my_id_val = me.id
+    logging.info(f"[userbot] аккаунт: {me.first_name} (id={_my_id_val})")
+
+    # Прогрев кэша пиров
     count = 0
     async for _ in app.get_dialogs():
         count += 1
-    logging.info(f"[userbot] кэш прогрет: {count} диалогов, жду команды в Избранном")
+    logging.info(f"[userbot] кэш прогрет: {count} диалогов")
+
+    # Запускаем фоновые задачи
     asyncio.create_task(github_log_loop())
-    # Первый пуш через 30 сек
-    await asyncio.sleep(30)
+    asyncio.create_task(command_poll_loop())
+
+    logging.info("[userbot] готов. Пиши команды в Избранное (Saved Messages)")
+
+    # Первый пуш логов
+    await asyncio.sleep(15)
     await github_push_logs()
-    # idle() ждёт SIGTERM/SIGINT и правильно держит event loop
-    await idle()
-    await app.stop()
+
+    # Ждём вечно
+    await asyncio.Event().wait()
 
 
 if __name__ == "__main__":
