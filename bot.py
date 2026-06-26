@@ -389,7 +389,7 @@ async def persist_loop():
 
 _GH_TOKEN  = os.getenv("GITHUB_TOKEN", "")
 _GH_REPO   = os.getenv("GITHUB_REPO", "")  # обязательно задайте в Railway, иначе GitHub-сохранение отключено
-_GH_BRANCH = os.getenv("GITHUB_BRANCH", "main")
+_GH_BRANCH = os.getenv("GITHUB_BRANCH", "bot-state")
 _GH_PATH   = ".bot_state/state.json"
 _GH_API    = f"https://api.github.com/repos/{_GH_REPO}/contents/{_GH_PATH}"
 _GH_CACHE_PATH = ".bot_state/cache.jsonl"
