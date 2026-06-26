@@ -161,21 +161,39 @@ async def get_active_groups() -> list[int]:
     return groups
 
 
+# Чаты куда нет смысла слать (нет прав, закрыты и т.д.)
+_blacklist: set[int] = set()
+
+
 async def spam_loop(text: str) -> None:
     try:
         while True:
-            groups = await get_active_groups()
+            groups = [g for g in await get_active_groups() if g not in _blacklist]
             sent = 0
             failed = 0
+            flood_skipped = 0
             for chat_id in groups:
                 try:
                     await app.send_message(chat_id, text)
                     sent += 1
                 except Exception as e:
-                    logging.warning(f"[spam] чат {chat_id}: {e}")
-                    failed += 1
-                await asyncio.sleep(0.5)
-            summary = f"итерация: отправлено={sent}, ошибок={failed}, групп={len(groups)}"
+                    err = str(e)
+                    if "FLOOD_WAIT" in err:
+                        # Не баним — просто пропускаем эту итерацию
+                        flood_skipped += 1
+                    elif any(x in err for x in ("CHAT_WRITE_FORBIDDEN", "TOPIC_CLOSED", "ALLOW_PAYMENT_REQUIRED", "CHANNEL_PRIVATE")):
+                        # Нет прав навсегда — добавляем в blacklist
+                        _blacklist.add(chat_id)
+                        logging.info(f"[spam] {chat_id} -> blacklist ({err[:60]})")
+                        failed += 1
+                    else:
+                        logging.warning(f"[spam] чат {chat_id}: {e}")
+                        failed += 1
+                await asyncio.sleep(1)  # увеличен до 1 сек чтобы снизить flood
+            summary = (
+                f"итерация: отправлено={sent}, flood_skip={flood_skipped}, "
+                f"ошибок={failed}, групп={len(groups)}, blacklist={len(_blacklist)}"
+            )
             logging.info(f"[spam] {summary}")
             try:
                 await app.send_message("me", f"\U0001f4ca {summary}")
