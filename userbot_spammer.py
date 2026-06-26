@@ -42,9 +42,24 @@ spam_tasks: dict[int, asyncio.Task] = {}
 async def do_spam(client: Client, chat_id: int, text: str) -> None:
     """Отправляет text в chat_id каждые 60 секунд до отмены."""
     try:
+        # Резолвим peer один раз перед циклом — без этого Pyrogram
+        # падает с ValueError: Peer id invalid после рестарта контейнера
+        # (session_string не сохраняет кэш entity между запусками).
+        try:
+            await client.get_chat(chat_id)
+        except Exception as e:
+            logging.warning(f"[spam] не удалось разрешить peer {chat_id}: {e}")
         while True:
             try:
                 await client.send_message(chat_id, text)
+            except ValueError as e:
+                # Повторная попытка разрешить peer и отправить
+                logging.warning(f"[spam] чат {chat_id}: Peer invalid, пробую get_chat: {e}")
+                try:
+                    await client.get_chat(chat_id)
+                    await client.send_message(chat_id, text)
+                except Exception as e2:
+                    logging.warning(f"[spam] чат {chat_id}: повторная ошибка: {e2}")
             except Exception as e:
                 logging.warning(f"[spam] чат {chat_id}: ошибка отправки: {e}")
             await asyncio.sleep(60)
