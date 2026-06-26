@@ -2810,8 +2810,7 @@ async def cmd_viewonce_test(message: Message):
                 target_msg_id  = int(parts[2])
             except ValueError:
                 await message.answer(
-                    "❌ Ответь командой на сообщение, или:
-"
+                    "❌ Ответь командой на сообщение, или:\n"
                     "<code>/viewonce_test &lt;chat_id&gt; &lt;msg_id&gt;</code>",
                     parse_mode="HTML",
                 )
@@ -2819,8 +2818,7 @@ async def cmd_viewonce_test(message: Message):
 
     if target_msg_id is None or target_chat_id is None:
         await message.answer(
-            "ℹ️ Ответь командой на сообщение, которое хочешь проверить.
-"
+            "ℹ️ Ответь командой на сообщение, которое хочешь проверить.\n"
             "Или: <code>/viewonce_test &lt;chat_id&gt; &lt;msg_id&gt;</code>",
             parse_mode="HTML",
         )
@@ -2883,8 +2881,7 @@ async def cmd_viewonce_test(message: Message):
         "<b>Причина:</b>",
     ] + parts_r
 
-    await message.answer("
-".join(lines), parse_mode="HTML")
+    await message.answer("\n".join(lines), parse_mode="HTML")
 
 
 @dp.message(Command("view_once"))
