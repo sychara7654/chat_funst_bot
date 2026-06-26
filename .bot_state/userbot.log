@@ -44,3 +44,14 @@ ValueError: Peer id invalid: -1003824081307
 2026-06-26 17:51:07,484 [INFO] [poll] новое сообщение id=5458: '✅ Рассылка запущена\n📝 (@)sliv862 - то что ты ищешь🍒🍑\n💬 Г'
 2026-06-26 17:51:09,689 [INFO] [spam] доступных групп: 37
 2026-06-26 17:51:21,852 [WARNING] [spammer] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2026-06-26 17:51:26,032 [INFO] [log-push] логи отправлены в GitHub
+2026-06-26 17:51:36,379 [INFO] [spam] -1002326068009 -> blacklist (Telegram says: [403 CHAT_WRITE_FORBIDDEN] - You don't have r)
+2026-06-26 17:51:37,502 [INFO] [spam] -1003838050481 -> blacklist (Telegram says: [403 CHAT_WRITE_FORBIDDEN] - You don't have r)
+2026-06-26 17:51:55,032 [INFO] [spam] -1003660010535 -> blacklist (Telegram says: [403 CHAT_WRITE_FORBIDDEN] - You don't have r)
+2026-06-26 17:51:56,170 [INFO] [spam] -1002910472770 -> blacklist (Telegram says: [400 Bad Request] - [400 TOPIC_CLOSED] (cause)
+2026-06-26 17:51:58,385 [INFO] [spam] -1002461892776 -> blacklist (Telegram says: [403 CHAT_WRITE_FORBIDDEN] - You don't have r)
+2026-06-26 17:51:59,467 [INFO] [spam] -1004438217882 -> blacklist (Telegram says: [403 CHAT_WRITE_FORBIDDEN] - You don't have r)
+2026-06-26 17:52:03,944 [INFO] [spam] -1002698463969 -> blacklist (Telegram says: [406 Not Acceptable] - [406 ALLOW_PAYMENT_REQ)
+2026-06-26 17:52:06,101 [INFO] [spam] итерация: отправлено=18, flood_skip=12, ошибок=7, групп=37, blacklist=7
+2026-06-26 17:52:06,631 [INFO] [poll] новое сообщение id=5459: '📊 итерация: отправлено=18, flood_skip=12, ошибок=7, групп=3'
+2026-06-26 17:53:12,343 [INFO] [spam] доступных групп: 37
