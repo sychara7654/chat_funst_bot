@@ -161,45 +161,64 @@ async def get_active_groups() -> list[int]:
     return groups
 
 
-# Чаты куда нет смысла слать (нет прав, закрыты и т.д.)
+import re as _re
+import time as _time
+
+# Чаты без прав (навсегда)
 _blacklist: set[int] = set()
+# Per-chat flood-wait: chat_id -> unix timestamp когда можно слать снова
+_flood_until: dict[int, float] = {}
 
 
 async def spam_loop(text: str) -> None:
     try:
         while True:
-            groups = [g for g in await get_active_groups() if g not in _blacklist]
+            now = _time.time()
+            all_groups = [g for g in await get_active_groups() if g not in _blacklist]
+            # Разделяем на готовых и ещё в flood-wait
+            ready    = [g for g in all_groups if _flood_until.get(g, 0) <= now]
+            cooling  = [g for g in all_groups if _flood_until.get(g, 0) >  now]
+
             sent = 0
             failed = 0
-            flood_skipped = 0
-            for chat_id in groups:
+            for chat_id in ready:
                 try:
                     await app.send_message(chat_id, text)
                     sent += 1
                 except Exception as e:
                     err = str(e)
                     if "FLOOD_WAIT" in err:
-                        # Не баним — просто пропускаем эту итерацию
-                        flood_skipped += 1
-                    elif any(x in err for x in ("CHAT_WRITE_FORBIDDEN", "TOPIC_CLOSED", "ALLOW_PAYMENT_REQUIRED", "CHANNEL_PRIVATE")):
-                        # Нет прав навсегда — добавляем в blacklist
+                        # Извлекаем сколько секунд ждать и запоминаем для этого чата
+                        m = _re.search(r"wait of (\d+) second", err)
+                        wait_sec = int(m.group(1)) if m else 60
+                        _flood_until[chat_id] = _time.time() + wait_sec
+                        logging.info(f"[spam] {chat_id} flood_wait={wait_sec}s")
+                    elif any(x in err for x in (
+                        "CHAT_WRITE_FORBIDDEN", "TOPIC_CLOSED",
+                        "ALLOW_PAYMENT_REQUIRED", "CHANNEL_PRIVATE",
+                        "USER_BANNED_IN_CHANNEL",
+                    )):
                         _blacklist.add(chat_id)
                         logging.info(f"[spam] {chat_id} -> blacklist ({err[:60]})")
                         failed += 1
                     else:
                         logging.warning(f"[spam] чат {chat_id}: {e}")
                         failed += 1
-                await asyncio.sleep(1)  # увеличен до 1 сек чтобы снизить flood
+                await asyncio.sleep(0.5)
+
             summary = (
-                f"итерация: отправлено={sent}, flood_skip={flood_skipped}, "
-                f"ошибок={failed}, групп={len(groups)}, blacklist={len(_blacklist)}"
+                f"отправлено={sent}, ошибок={failed}, "
+                f"cooling={len(cooling)}, blacklist={len(_blacklist)}, "
+                f"всего_групп={len(all_groups)}"
             )
             logging.info(f"[spam] {summary}")
             try:
                 await app.send_message("me", f"\U0001f4ca {summary}")
             except Exception:
                 pass
-            await asyncio.sleep(60)
+            # Ждём 30 сек — за это время многие flood-wait истекут,
+            # следующая итерация подхватит их быстрее чем за 60 сек
+            await asyncio.sleep(30)
     except asyncio.CancelledError:
         logging.info("[spam] рассылка отменена")
 
