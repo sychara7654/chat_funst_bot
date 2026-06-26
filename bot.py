@@ -40,6 +40,40 @@ from newcontact import notify_new_contact
 
 logging.basicConfig(level=logging.INFO)
 
+# ── Перехватчик логов в память (для выгрузки в GitHub) ─────────────────────
+class MemoryLogHandler(logging.Handler):
+    """Хранит последние MAX_LOG_LINES строк лога в памяти."""
+    MAX_LOG_LINES = 500
+
+    def __init__(self):
+        super().__init__()
+        self._lines: list[str] = []
+        self.setFormatter(logging.Formatter(
+            "%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+            datefmt="%Y-%m-%d %H:%M:%S",
+        ))
+
+    def emit(self, record: logging.LogRecord) -> None:
+        try:
+            line = self.format(record)
+            self._lines.append(line)
+            if len(self._lines) > self.MAX_LOG_LINES:
+                self._lines = self._lines[-self.MAX_LOG_LINES:]
+        except Exception:
+            pass
+
+    def get_lines(self) -> list[str]:
+        return list(self._lines)
+
+    def clear(self) -> None:
+        self._lines.clear()
+
+
+_mem_log_handler = MemoryLogHandler()
+logging.getLogger().addHandler(_mem_log_handler)
+# ───────────────────────────────────────────────────────────────────────────
+
+
 
 TOKEN2 = os.getenv("TOKEN2")
 _admin_raw = os.getenv("ADMIN_ID", "")
@@ -2725,6 +2759,31 @@ async def cmd_relink(message: Message):
         )
 
 
+@dp.message(Command("flush_logs"))
+async def cmd_flush_logs(message: Message):
+    """/flush_logs — немедленно пушит логи бота в GitHub .bot_state/bot.log"""
+    if not message.from_user or message.from_user.id != ADMIN_ID:
+        return
+    lines = _mem_log_handler.get_lines()
+    if not lines:
+        await message.answer("📭 Буфер логов пуст.")
+        return
+    notice = await message.answer(f"⏳ Пушу {len(lines)} строк логов в GitHub...")
+    try:
+        ok = await asyncio.get_running_loop().run_in_executor(None, _gh_push_log_sync)
+        if ok:
+            await notice.edit_text(
+                f"✅ Логи запушены в GitHub\n"
+                f"📄 <code>.bot_state/bot.log</code> ({len(lines)} строк)\n"
+                f"🔗 github.com/{_GH_REPO}/blob/{_GH_BRANCH}/.bot_state/bot.log",
+                parse_mode="HTML",
+            )
+        else:
+            await notice.edit_text("❌ Не удалось запушить логи. Проверь GITHUB_TOKEN и GITHUB_REPO.")
+    except Exception as e:
+        await notice.edit_text(f"❌ Ошибка: {e}")
+
+
 @dp.message(Command("viewonce_test"))
 async def cmd_viewonce_test(message: Message):
     """Диагностика: почему сообщение распознано как view-once.
@@ -3192,12 +3251,54 @@ async def handle_alias(message: Message):
     )
 
 
+_GH_LOG_PATH = ".bot_state/bot.log"
+_GH_LOG_API  = f"https://api.github.com/repos/{_GH_REPO}/contents/{_GH_LOG_PATH}"
+
+
+def _gh_push_log_sync() -> bool:
+    """Синхронно пушит текущий буфер логов в GitHub (.bot_state/bot.log).
+    Вызывается из executor чтобы не блокировать event loop."""
+    if not _GH_TOKEN or not _GH_REPO:
+        return False
+    lines = _mem_log_handler.get_lines()
+    if not lines:
+        return True
+    log_text = "\n".join(lines)
+    cur = _gh_request("GET", f"{_GH_LOG_API}?ref={_GH_BRANCH}")
+    sha = cur.get("sha")
+    body: dict = {
+        "message": "[bot-log] auto-push logs",
+        "content": base64.b64encode(log_text.encode()).decode(),
+        "branch": _GH_BRANCH,
+    }
+    if sha:
+        body["sha"] = sha
+    resp = _gh_request("PUT", _GH_LOG_API, body)
+    if "commit" in resp:
+        logging.info(f"[GH-LOG] логи запушены в GitHub ({len(lines)} строк)")
+        return True
+    logging.error(f"[GH-LOG] не удалось запушить логи: {resp}")
+    return False
+
+
+async def github_log_loop():
+    """Фоновая задача: пушит логи в GitHub каждые 5 минут."""
+    await asyncio.sleep(120)  # первый пуш через 2 мин после старта
+    while True:
+        try:
+            await asyncio.get_running_loop().run_in_executor(None, _gh_push_log_sync)
+        except Exception as e:
+            logging.error(f"[GH-LOG] ошибка в цикле: {e}")
+        await asyncio.sleep(300)  # каждые 5 минут
+
+
 async def main():
     load_persistent_state()
     await init_troll_effects(bot)
     asyncio.create_task(cache_cleanup_task())
     asyncio.create_task(persist_loop())
     asyncio.create_task(github_persist_loop())
+    asyncio.create_task(github_log_loop())
 
     await bot.delete_webhook(drop_pending_updates=True)
 
