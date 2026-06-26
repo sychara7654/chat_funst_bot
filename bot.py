@@ -3299,33 +3299,9 @@ async def main():
 
     await bot.delete_webhook(drop_pending_updates=True)
 
-    # Retry при Conflict: Railway поднимает новый контейнер до остановки старого.
-    # Ждём до 30 сек пока старый экземпляр не освободит polling.
-    _poll_retries = 6
-    for _attempt in range(_poll_retries):
-        try:
-            await dp.start_polling(bot)
-            break  # нормальное завершение
-        except Exception as _poll_err:
-            _err_str = str(_poll_err)
-            if "Conflict" in _err_str and _attempt < _poll_retries - 1:
-                logging.warning(
-                    f"[STARTUP] Conflict: другой экземпляр ещё работает, "
-                    f"жду 5с (попытка {_attempt + 1}/{_poll_retries})..."
-                )
-                await asyncio.sleep(5)
-                try:
-                    await bot.delete_webhook(drop_pending_updates=True)
-                except Exception:
-                    pass
-            else:
-                raise
-    if False:
-        pass  # заглушка для finally-блока ниже
     try:
-        x = None  # dummy
+        await dp.start_polling(bot)
     finally:
-        # Финальный дамп на диск и в GitHub при штатной остановке (SIGTERM).
         try:
             _do_persist_sync()
         except Exception as e:
