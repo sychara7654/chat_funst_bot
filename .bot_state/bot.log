@@ -1,14 +1,15 @@
-2026-06-26 17:34:14 [INFO] root: [GH-STATE] локальный state не найден, пробуем GitHub...
-2026-06-26 17:34:14 [INFO] root: [GH-STATE] загружен из GitHub, topics=11
-2026-06-26 17:34:14 [INFO] root: State загружен: connections=13, users=11, banned=2
-2026-06-26 17:34:14 [INFO] root: [GH-CACHE] локальный кэш пуст, восстанавливаем из GitHub...
-2026-06-26 17:34:15 [INFO] root: [GH-CACHE] загружено 21 сообщений из GitHub
-2026-06-26 17:34:15 [WARNING] root: [TROLL] get_available_effects не удалось: 'Bot' object has no attribute 'get_available_effects'
-2026-06-26 17:34:15 [WARNING] root: [TROLL] API не вернул нужные эффекты, пробуем 6 стандартных
-2026-06-26 17:34:15 [INFO] aiogram.dispatcher: Start polling
-2026-06-26 17:34:15 [INFO] aiogram.dispatcher: Run polling for bot @Alimpii_bot id=7851684074 - 'Алимп даунёнок'
-2026-06-26 17:34:20 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
-2026-06-26 17:34:20 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7851684074)
-2026-06-26 17:34:31 [INFO] aiogram.dispatcher: Connection established (tryings = 1, bot id = 7851684074)
-2026-06-26 17:35:16 [INFO] root: [GH-STATE] сохранено в GitHub, topics=11
-2026-06-26 17:35:17 [INFO] root: [GH-CACHE] сохранено 21 сообщений в GitHub
+2026-06-26 17:39:57 [INFO] root: [GH-STATE] локальный state не найден, пробуем GitHub...
+2026-06-26 17:39:57 [INFO] root: [GH-STATE] загружен из GitHub, topics=11
+2026-06-26 17:39:57 [INFO] root: State загружен: connections=13, users=11, banned=2
+2026-06-26 17:39:57 [INFO] root: [GH-CACHE] локальный кэш пуст, восстанавливаем из GitHub...
+2026-06-26 17:39:57 [INFO] root: [GH-CACHE] загружено 21 сообщений из GitHub
+2026-06-26 17:39:57 [WARNING] root: [TROLL] get_available_effects не удалось: 'Bot' object has no attribute 'get_available_effects'
+2026-06-26 17:39:57 [WARNING] root: [TROLL] API не вернул нужные эффекты, пробуем 6 стандартных
+2026-06-26 17:39:58 [INFO] aiogram.dispatcher: Start polling
+2026-06-26 17:39:58 [INFO] aiogram.dispatcher: Run polling for bot @Alimpii_bot id=7851684074 - 'Алимп даунёнок'
+2026-06-26 17:40:02 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-06-26 17:40:02 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7851684074)
+2026-06-26 17:40:13 [INFO] aiogram.dispatcher: Connection established (tryings = 1, bot id = 7851684074)
+2026-06-26 17:40:58 [INFO] root: [GH-STATE] сохранено в GitHub, topics=11
+2026-06-26 17:41:00 [INFO] root: [GH-CACHE] сохранено 19 сообщений в GitHub
+2026-06-26 17:41:24 [INFO] aiogram.event: Update id=846663753 is not handled. Duration 1 ms by bot id=7851684074
