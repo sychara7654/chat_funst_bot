@@ -1,14 +1,11 @@
 #!/usr/bin/env python3
 """
-Userbot-спаммер на Pyrogram.
+Userbot-рассыльщик на Pyrogram.
 
-Команды (только от владельца аккаунта, в группах):
-  /spam <текст>  — запускает рассылку каждую минуту в текущем чате
-  /stop          — останавливает рассылку в текущем чате
-
-• Команды удаляются сразу.
-• В «Избранное» отправляется "я начинаю спам ✅".
-• Несколько чатов работают одновременно.
+Управление только из «Избранного» (Saved Messages):
+  /spam <текст>  — рассылать текст во все группы каждую минуту
+  /stop          — остановить рассылку
+  /status        — показать статус (активна ли рассылка, сколько групп)
 """
 
 import asyncio
@@ -17,13 +14,13 @@ import os
 
 from pyrogram import Client, filters
 from pyrogram.types import Message
+from pyrogram.enums import ChatType, ChatMemberStatus
 
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
 )
 
-# Официальные credentials Telegram Desktop (публичные)
 API_ID   = 2040
 API_HASH = "b18441a1ff607e10a989891a5462e627"
 SESSION  = os.environ["SPAM_SESSION"]
@@ -35,92 +32,168 @@ app = Client(
     session_string=SESSION,
 )
 
-# chat_id -> asyncio.Task
-spam_tasks: dict[int, asyncio.Task] = {}
+# Кэшируем свой ID чтобы не дёргать get_me() на каждое сообщение
+_my_id: int | None = None
+
+_spam_task: asyncio.Task | None = None
+_spam_text: str = ""
 
 
-async def do_spam(client: Client, chat_id: int, text: str) -> None:
-    """Отправляет text в chat_id каждые 60 секунд до отмены."""
-    try:
-        # Резолвим peer один раз перед циклом — без этого Pyrogram
-        # падает с ValueError: Peer id invalid после рестарта контейнера
-        # (session_string не сохраняет кэш entity между запусками).
+async def get_my_id(client: Client) -> int:
+    global _my_id
+    if _my_id is None:
+        me = await client.get_me()
+        _my_id = me.id
+    return _my_id
+
+
+async def get_active_groups(client: Client) -> list[int]:
+    """Возвращает chat_id всех групп где пользователь не в муте и не забанен."""
+    groups = []
+    async for dialog in client.get_dialogs():
+        chat = dialog.chat
+        if chat.type not in (ChatType.GROUP, ChatType.SUPERGROUP):
+            continue
         try:
-            await client.get_chat(chat_id)
+            member = await client.get_chat_member(chat.id, "me")
+            if member.status == ChatMemberStatus.BANNED:
+                logging.info(f"[spam] пропускаю '{chat.title}' — бан")
+                continue
+            if member.status == ChatMemberStatus.RESTRICTED:
+                privs = getattr(member, "privileges", None)
+                can_send = getattr(privs, "can_send_messages", True) if privs else True
+                if not can_send:
+                    logging.info(f"[spam] пропускаю '{chat.title}' — мут")
+                    continue
         except Exception as e:
-            logging.warning(f"[spam] не удалось разрешить peer {chat_id}: {e}")
+            logging.warning(f"[spam] статус в {chat.id} не проверить: {e}")
+        groups.append(chat.id)
+    logging.info(f"[spam] доступных групп: {len(groups)}")
+    return groups
+
+
+async def spam_loop(client: Client, text: str) -> None:
+    """Бесконечно рассылает text во все группы раз в 60 секунд."""
+    try:
         while True:
-            try:
-                await client.send_message(chat_id, text)
-            except ValueError as e:
-                # Повторная попытка разрешить peer и отправить
-                logging.warning(f"[spam] чат {chat_id}: Peer invalid, пробую get_chat: {e}")
+            groups = await get_active_groups(client)
+            sent = 0
+            failed = 0
+            for chat_id in groups:
                 try:
-                    await client.get_chat(chat_id)
                     await client.send_message(chat_id, text)
-                except Exception as e2:
-                    logging.warning(f"[spam] чат {chat_id}: повторная ошибка: {e2}")
-            except Exception as e:
-                logging.warning(f"[spam] чат {chat_id}: ошибка отправки: {e}")
+                    sent += 1
+                except Exception as e:
+                    logging.warning(f"[spam] чат {chat_id}: {e}")
+                    failed += 1
+                await asyncio.sleep(0.5)
+
+            summary = (
+                f"[spam] итерация завершена: "
+                f"отправлено={sent}, ошибок={failed}, групп={len(groups)}"
+            )
+            logging.info(summary)
+            try:
+                await client.send_message(
+                    "me",
+                    f"📊 {summary}"
+                )
+            except Exception:
+                pass
+
             await asyncio.sleep(60)
     except asyncio.CancelledError:
-        pass
+        logging.info("[spam] рассылка отменена")
 
 
-async def safe_delete(msg: Message) -> None:
-    try:
-        await msg.delete()
-    except Exception:
-        pass
+def _is_saved_messages(msg: Message) -> bool:
+    """True если сообщение отправлено в «Избранное» (чат с самим собой)."""
+    return _my_id is not None and msg.chat.id == _my_id
 
 
-@app.on_message(filters.me & filters.group & filters.command("spam", prefixes="/"))
+@app.on_message(filters.me & filters.private & filters.command("spam", prefixes="/"))
 async def cmd_spam(client: Client, msg: Message) -> None:
+    await get_my_id(client)
+    if not _is_saved_messages(msg):
+        return
+
+    global _spam_task, _spam_text
+
     parts = msg.text.split(None, 1)
     text = parts[1].strip() if len(parts) > 1 else ""
 
-    await safe_delete(msg)
-
     if not text:
+        await client.send_message("me", "❌ Укажи текст: /spam <текст рассылки>")
         return
 
-    chat_id = msg.chat.id
-
-    # Останавливаем предыдущий спам в этом чате (если был)
-    old_task = spam_tasks.pop(chat_id, None)
-    if old_task and not old_task.done():
-        old_task.cancel()
+    if _spam_task and not _spam_task.done():
+        _spam_task.cancel()
         try:
-            await old_task
+            await _spam_task
         except asyncio.CancelledError:
             pass
 
-    task = asyncio.create_task(do_spam(client, chat_id, text))
-    spam_tasks[chat_id] = task
+    _spam_text = text
 
-    try:
-        await client.send_message("me", "я начинаю спам ✅")
-    except Exception as e:
-        logging.warning(f"Не удалось написать в Избранное: {e}")
+    await client.send_message("me", "🔍 Собираю список групп...")
+    groups = await get_active_groups(client)
+
+    if not groups:
+        await client.send_message("me", "❌ Нет доступных групп для рассылки.")
+        return
+
+    _spam_task = asyncio.create_task(spam_loop(client, text))
+    await client.send_message(
+        "me",
+        f"✅ Рассылка запущена\n"
+        f"📝 Текст: {text[:150]}\n"
+        f"💬 Групп найдено: {len(groups)}\n"
+        f"⏱ Интервал: 60 сек"
+    )
 
 
-@app.on_message(filters.me & filters.group & filters.command("stop", prefixes="/"))
+@app.on_message(filters.me & filters.private & filters.command("stop", prefixes="/"))
 async def cmd_stop(client: Client, msg: Message) -> None:
-    chat_id = msg.chat.id
+    await get_my_id(client)
+    if not _is_saved_messages(msg):
+        return
 
-    await safe_delete(msg)
+    global _spam_task
 
-    task = spam_tasks.pop(chat_id, None)
-    if task and not task.done():
-        task.cancel()
+    if _spam_task and not _spam_task.done():
+        _spam_task.cancel()
         try:
-            await task
+            await _spam_task
         except asyncio.CancelledError:
             pass
-        try:
-            await client.send_message("me", "спам остановлен 🛑")
-        except Exception:
-            pass
+        _spam_task = None
+        await client.send_message("me", "🛑 Рассылка остановлена.")
+    else:
+        await client.send_message("me", "ℹ️ Рассылка сейчас не активна.")
+
+
+@app.on_message(filters.me & filters.private & filters.command("status", prefixes="/"))
+async def cmd_status(client: Client, msg: Message) -> None:
+    await get_my_id(client)
+    if not _is_saved_messages(msg):
+        return
+
+    global _spam_task, _spam_text
+
+    active = _spam_task is not None and not _spam_task.done()
+
+    if active:
+        groups = await get_active_groups(client)
+        text = (
+            f"📊 Рассылка активна 🟢\n\n"
+            f"📝 Текст: {_spam_text[:150]}\n"
+            f"💬 Групп: {len(groups)}\n"
+            f"⏱ Интервал: 60 сек"
+        )
+    else:
+        text = "📊 Рассылка остановлена 🔴"
+
+    await client.send_message("me", text)
 
 
 if __name__ == "__main__":
