@@ -707,3 +707,30 @@ ValueError: Peer id invalid: -1003824081307
 2026-06-26 19:06:09,221 [INFO] [spam] -1002594080951 flood_wait=37s
 2026-06-26 19:06:09,721 [INFO] [spam] отправлено=12, ошибок=0, cooling=2, blacklist=7, всего_групп=30
 2026-06-26 19:06:11,286 [INFO] [poll] новое сообщение id=5553: '📊 отправлено=12, ошибок=0, cooling=2, blacklist=7, всего_гр'
+2026-06-26 19:06:33,011 [INFO] [log-push] логи отправлены в GitHub
+2026-06-26 19:06:44,844 [INFO] [spam] доступных групп: 37
+2026-06-26 19:06:45,062 [WARNING] [spammer] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2026-06-26 19:07:00,375 [INFO] [spam] -1002493400213 flood_wait=49s
+2026-06-26 19:07:02,271 [INFO] [spam] -1002144086627 flood_wait=47s
+2026-06-26 19:07:03,990 [INFO] [spam] отправлено=12, ошибок=0, cooling=16, blacklist=7, всего_групп=30
+2026-06-26 19:07:04,253 [INFO] [poll] новое сообщение id=5554: '📊 отправлено=12, ошибок=0, cooling=16, blacklist=7, всего_г'
+2026-06-26 19:07:39,964 [INFO] [spam] доступных групп: 37
+2026-06-26 19:07:40,073 [WARNING] [spammer] Waiting for 10 seconds before continuing (required by "messages.SendMessage")
+2026-06-26 19:08:03,620 [INFO] [spam] -1003824081307 flood_wait=48s
+2026-06-26 19:08:04,224 [INFO] [spam] -1003093414892 flood_wait=47s
+2026-06-26 19:08:06,076 [INFO] [spam] -1003066766365 flood_wait=46s
+2026-06-26 19:08:06,679 [INFO] [spam] -1001897185605 flood_wait=45s
+2026-06-26 19:08:07,284 [INFO] [spam] -1003170503214 flood_wait=44s
+2026-06-26 19:08:07,904 [INFO] [spam] -1003388839323 flood_wait=44s
+2026-06-26 19:08:08,524 [INFO] [spam] -1004386075138 flood_wait=43s
+2026-06-26 19:08:09,148 [INFO] [spam] -1002884395055 flood_wait=42s
+2026-06-26 19:08:09,751 [INFO] [spam] -1002467376687 flood_wait=42s
+2026-06-26 19:08:10,358 [INFO] [spam] -1003721958702 flood_wait=41s
+2026-06-26 19:08:10,973 [INFO] [spam] -1002684793720 flood_wait=41s
+2026-06-26 19:08:11,587 [INFO] [spam] -1004373408634 flood_wait=40s
+2026-06-26 19:08:12,212 [INFO] [spam] -1002904673550 flood_wait=39s
+2026-06-26 19:08:12,817 [INFO] [spam] -1004357140296 flood_wait=39s
+2026-06-26 19:08:13,423 [INFO] [spam] -1003971778755 flood_wait=38s
+2026-06-26 19:08:14,029 [INFO] [spam] -1002594080951 flood_wait=38s
+2026-06-26 19:08:14,530 [INFO] [spam] отправлено=12, ошибок=0, cooling=2, blacklist=7, всего_групп=30
+2026-06-26 19:08:15,487 [INFO] [poll] новое сообщение id=5555: '📊 отправлено=12, ошибок=0, cooling=2, blacklist=7, всего_гр'
