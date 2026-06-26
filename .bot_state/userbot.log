@@ -60,3 +60,9 @@ ValueError: Peer id invalid: -1003824081307
 2026-06-26 17:53:55,020 [INFO] [poll] новое сообщение id=5460: '📊 итерация: отправлено=12, flood_skip=18, ошибок=0, групп=3'
 2026-06-26 17:54:59,905 [INFO] [spam] доступных групп: 37
 2026-06-26 17:55:12,235 [WARNING] [spammer] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2026-06-26 17:55:27,954 [INFO] [log-push] логи отправлены в GitHub
+2026-06-26 17:55:48,623 [INFO] [spam] итерация: отправлено=19, flood_skip=11, ошибок=0, групп=30, blacklist=7
+2026-06-26 17:55:49,811 [INFO] [poll] новое сообщение id=5461: '📊 итерация: отправлено=19, flood_skip=11, ошибок=0, групп=3'
+2026-06-26 17:56:54,616 [INFO] [spam] доступных групп: 37
+2026-06-26 17:57:10,118 [WARNING] [spammer] Waiting for 8 seconds before continuing (required by "messages.SendMessage")
+2026-06-26 17:57:19,535 [INFO] [poll] новое сообщение id=5462: ''
