@@ -295,8 +295,15 @@ async def cmd_logs(client: Client, msg: Message) -> None:
 
 async def _run() -> None:
     async with app:
-        logging.info("[userbot] запущен, жду команды в Избранном")
+        logging.info("[userbot] запущен, прогреваю кэш пиров...")
         await get_my_id(app)
+        # Прогрев entity-кэша: Pyrogram с session_string не сохраняет SQLite между
+        # перезапусками, поэтому апдейты из незнакомых чатов дают Peer id invalid.
+        # get_dialogs() резолвит всех пиров и кладёт их в кэш.
+        count = 0
+        async for _ in app.get_dialogs():
+            count += 1
+        logging.info(f"[userbot] кэш прогрет: {count} диалогов")
         asyncio.create_task(github_log_loop())
         # Первый пуш логов через 30 сек после старта
         await asyncio.sleep(30)
