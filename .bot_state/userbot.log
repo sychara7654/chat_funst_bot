@@ -1,14 +1,3 @@
-2026-06-27 21:20:35,080 [INFO] [spam] -1003921839532 flood_wait=45s
-2026-06-27 21:20:35,690 [INFO] [spam] -1003959056448 flood_wait=44s
-2026-06-27 21:20:36,382 [INFO] [spam] -1003217374068 flood_wait=43s
-2026-06-27 21:20:36,997 [INFO] [spam] -1004357140296 flood_wait=43s
-2026-06-27 21:20:37,625 [INFO] [spam] -1002904673550 flood_wait=42s
-2026-06-27 21:20:38,244 [INFO] [spam] -1003971778755 flood_wait=41s
-2026-06-27 21:20:38,862 [INFO] [spam] -1004373408634 flood_wait=41s
-2026-06-27 21:20:39,497 [INFO] [spam] -1002594080951 flood_wait=40s
-2026-06-27 21:20:40,110 [INFO] [spam] -1003763565968 flood_wait=39s
-2026-06-27 21:20:40,610 [INFO] [spam] отправлено=11, ошибок=0, cooling=2, blacklist=10, всего_групп=27
-2026-06-27 21:20:42,732 [INFO] [poll] новое сообщение id=7352: '📊 отправлено=11, ошибок=0, cooling=2, blacklist=10, всего_г'
 2026-06-27 21:21:16,942 [INFO] [spam] доступных групп: 37
 2026-06-27 21:21:17,058 [WARNING] [spammer] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
 2026-06-27 21:21:33,414 [INFO] [spam] -1004386075138 flood_wait=48s
@@ -798,3 +787,14 @@
 2026-06-27 22:40:56,967 [INFO] [spam] доступных групп: 37
 2026-06-27 22:40:58,215 [INFO] [spam] отправлено=1, ошибок=0, cooling=26, blacklist=10, всего_групп=27
 2026-06-27 22:40:58,411 [INFO] [poll] новое сообщение id=7464: '📊 отправлено=1, ошибок=0, cooling=26, blacklist=10, всего_г'
+2026-06-27 22:41:11,010 [INFO] [log-push] логи отправлены в GitHub
+2026-06-27 22:41:34,660 [INFO] [spam] доступных групп: 37
+2026-06-27 22:41:38,519 [INFO] [spam] отправлено=1, ошибок=0, cooling=26, blacklist=10, всего_групп=27
+2026-06-27 22:41:39,234 [INFO] [poll] новое сообщение id=7465: '📊 отправлено=1, ошибок=0, cooling=26, blacklist=10, всего_г'
+2026-06-27 22:42:15,226 [INFO] [spam] доступных групп: 37
+2026-06-27 22:42:19,086 [INFO] [1] Retrying "messages.SendMessage" due to: Telegram says: [500 INTERDC_X_CALL_ERROR] - An error occurred while Telegram was intercommunicating with DC4. Please try again later (caused by "messages.SendMessage")
+2026-06-27 22:42:20,186 [INFO] [spam] отправлено=1, ошибок=0, cooling=26, blacklist=10, всего_групп=27
+2026-06-27 22:42:22,860 [INFO] [poll] новое сообщение id=7466: '📊 отправлено=1, ошибок=0, cooling=26, blacklist=10, всего_г'
+2026-06-27 22:42:59,242 [INFO] [spam] доступных групп: 37
+2026-06-27 22:43:00,455 [INFO] [spam] отправлено=1, ошибок=0, cooling=26, blacklist=10, всего_групп=27
+2026-06-27 22:43:03,226 [INFO] [poll] новое сообщение id=7467: '📊 отправлено=1, ошибок=0, cooling=26, blacklist=10, всего_г'
