@@ -1,66 +1,3 @@
-2026-06-27 20:15:27 [INFO] root: [CACHE] chat=6348613179 mid=19185 from=8947170643 owner=8947170643 cache_size=163
-2026-06-27 20:15:27 [INFO] aiogram.event: Update id=846664975 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 20:15:27 [INFO] root: [CACHE] chat=6348613179 mid=19186 from=8947170643 owner=8947170643 cache_size=164
-2026-06-27 20:15:27 [INFO] aiogram.event: Update id=846664976 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 20:15:27 [INFO] root: [CACHE] chat=6348613179 mid=19187 from=8947170643 owner=8947170643 cache_size=165
-2026-06-27 20:15:27 [INFO] aiogram.event: Update id=846664977 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 20:15:28 [INFO] root: [CACHE] chat=6348613179 mid=19188 from=8947170643 owner=8947170643 cache_size=166
-2026-06-27 20:15:28 [INFO] aiogram.event: Update id=846664978 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 20:15:28 [INFO] root: [CACHE] chat=6348613179 mid=19189 from=8947170643 owner=8947170643 cache_size=167
-2026-06-27 20:15:28 [INFO] aiogram.event: Update id=846664979 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 20:15:28 [INFO] root: [CACHE] chat=6348613179 mid=19190 from=8947170643 owner=8947170643 cache_size=168
-2026-06-27 20:15:28 [INFO] aiogram.event: Update id=846664980 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 20:15:28 [INFO] root: [CACHE] chat=6348613179 mid=19191 from=8947170643 owner=8947170643 cache_size=169
-2026-06-27 20:15:28 [INFO] aiogram.event: Update id=846664981 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 20:15:28 [INFO] root: [CACHE] chat=6348613179 mid=19192 from=8947170643 owner=8947170643 cache_size=170
-2026-06-27 20:15:28 [INFO] aiogram.event: Update id=846664982 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 20:15:28 [INFO] root: [CACHE] chat=6348613179 mid=19193 from=8947170643 owner=8947170643 cache_size=171
-2026-06-27 20:15:28 [INFO] aiogram.event: Update id=846664983 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 20:15:29 [INFO] root: [CACHE] chat=6348613179 mid=19194 from=8947170643 owner=8947170643 cache_size=172
-2026-06-27 20:15:29 [INFO] aiogram.event: Update id=846664984 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 20:15:29 [INFO] root: [CACHE] chat=6348613179 mid=19195 from=8947170643 owner=8947170643 cache_size=173
-2026-06-27 20:15:29 [INFO] aiogram.event: Update id=846664985 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 20:15:29 [INFO] root: [CACHE] chat=6348613179 mid=19196 from=8947170643 owner=8947170643 cache_size=174
-2026-06-27 20:15:29 [INFO] aiogram.event: Update id=846664986 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 20:15:29 [INFO] root: [CACHE] chat=6348613179 mid=19197 from=8947170643 owner=8947170643 cache_size=175
-2026-06-27 20:15:29 [INFO] aiogram.event: Update id=846664987 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 20:15:29 [INFO] root: [CACHE] chat=6348613179 mid=19198 from=8947170643 owner=8947170643 cache_size=176
-2026-06-27 20:15:29 [INFO] aiogram.event: Update id=846664988 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 20:15:30 [INFO] root: [CACHE] chat=6348613179 mid=19199 from=8947170643 owner=8947170643 cache_size=177
-2026-06-27 20:15:30 [INFO] aiogram.event: Update id=846664989 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 20:15:30 [INFO] root: [CACHE] chat=6348613179 mid=19200 from=8947170643 owner=8947170643 cache_size=178
-2026-06-27 20:15:30 [INFO] aiogram.event: Update id=846664990 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 20:15:31 [INFO] root: [CACHE] chat=6348613179 mid=19201 from=6348613179 owner=8947170643 cache_size=179
-2026-06-27 20:15:31 [INFO] aiogram.event: Update id=846664991 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 20:15:35 [INFO] root: [CACHE] chat=6348613179 mid=19202 from=6348613179 owner=8947170643 cache_size=180
-2026-06-27 20:15:35 [INFO] aiogram.event: Update id=846664992 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 20:15:36 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-06-27 20:15:36 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-06-27 20:15:36 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-06-27 20:15:36 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-06-27 20:15:36 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-06-27 20:15:36 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-06-27 20:15:36 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-06-27 20:15:36 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendSticker' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-06-27 20:15:36 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendSticker' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
 2026-06-27 20:15:36 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendSticker' in chat -1003974749024. Retry in 5 seconds.
 Original description: Too Many Requests: retry after 5
 (background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
@@ -532,3 +469,48 @@ Original description: Too Many Requests: retry after 5
 2026-06-27 23:13:45 [INFO] aiogram.event: Update id=846665178 is handled. Duration 0 ms by bot id=7851684074
 2026-06-27 23:13:48 [INFO] root: [CACHE] chat=8218581656 mid=19309 from=8218581656 owner=8947170643 cache_size=69
 2026-06-27 23:13:48 [INFO] aiogram.event: Update id=846665179 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:16:04 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-06-27 23:16:10 [INFO] root: [CACHE] chat=8218581656 mid=19310 from=8947170643 owner=8947170643 cache_size=70
+2026-06-27 23:16:10 [INFO] aiogram.event: Update id=846665180 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:16:17 [INFO] root: [CACHE] chat=8218581656 mid=19311 from=8218581656 owner=8947170643 cache_size=71
+2026-06-27 23:16:17 [INFO] aiogram.event: Update id=846665181 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:16:20 [INFO] root: [CACHE] chat=8218581656 mid=19312 from=8218581656 owner=8947170643 cache_size=72
+2026-06-27 23:16:20 [INFO] aiogram.event: Update id=846665182 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:16:23 [INFO] root: [CACHE] chat=8218581656 mid=19313 from=8218581656 owner=8947170643 cache_size=73
+2026-06-27 23:16:23 [INFO] aiogram.event: Update id=846665183 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:16:24 [INFO] root: [CACHE] chat=8218581656 mid=19314 from=8218581656 owner=8947170643 cache_size=74
+2026-06-27 23:16:24 [INFO] aiogram.event: Update id=846665184 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:16:32 [INFO] root: [CACHE] chat=8218581656 mid=19315 from=8218581656 owner=8947170643 cache_size=75
+2026-06-27 23:16:32 [INFO] aiogram.event: Update id=846665185 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:16:41 [INFO] root: [CACHE] chat=8218581656 mid=19316 from=8218581656 owner=8947170643 cache_size=76
+2026-06-27 23:16:41 [INFO] aiogram.event: Update id=846665186 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:16:46 [INFO] root: [CACHE] chat=8218581656 mid=19317 from=8218581656 owner=8947170643 cache_size=77
+2026-06-27 23:16:46 [INFO] aiogram.event: Update id=846665187 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:16:47 [INFO] root: [CACHE] chat=8218581656 mid=19318 from=8218581656 owner=8947170643 cache_size=78
+2026-06-27 23:16:47 [INFO] aiogram.event: Update id=846665188 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:16:58 [INFO] root: [CACHE] chat=8218581656 mid=19319 from=8218581656 owner=8947170643 cache_size=79
+2026-06-27 23:16:58 [INFO] aiogram.event: Update id=846665189 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:17:00 [INFO] root: [CACHE] chat=8218581656 mid=19320 from=8218581656 owner=8947170643 cache_size=80
+2026-06-27 23:17:00 [INFO] aiogram.event: Update id=846665190 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:17:02 [INFO] root: [CACHE] chat=8218581656 mid=19321 from=8947170643 owner=8947170643 cache_size=81
+2026-06-27 23:17:02 [INFO] aiogram.event: Update id=846665191 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:17:11 [INFO] root: [CACHE] chat=8218581656 mid=19322 from=8218581656 owner=8947170643 cache_size=82
+2026-06-27 23:17:11 [INFO] aiogram.event: Update id=846665192 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:17:13 [INFO] root: [CACHE] chat=8218581656 mid=19323 from=8218581656 owner=8947170643 cache_size=83
+2026-06-27 23:17:13 [INFO] aiogram.event: Update id=846665193 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:18:47 [INFO] root: [CACHE] chat=8218581656 mid=19324 from=8218581656 owner=8947170643 cache_size=84
+2026-06-27 23:18:47 [INFO] aiogram.event: Update id=846665194 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:18:51 [INFO] root: [CACHE] chat=8218581656 mid=19325 from=8218581656 owner=8947170643 cache_size=85
+2026-06-27 23:18:51 [INFO] aiogram.event: Update id=846665195 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:18:58 [INFO] root: [CACHE] chat=8218581656 mid=19326 from=8218581656 owner=8947170643 cache_size=86
+2026-06-27 23:18:58 [INFO] aiogram.event: Update id=846665196 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:19:02 [INFO] root: [CACHE] chat=8218581656 mid=19327 from=8218581656 owner=8947170643 cache_size=87
+2026-06-27 23:19:02 [INFO] aiogram.event: Update id=846665197 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:19:13 [INFO] root: [CACHE] chat=8218581656 mid=19328 from=8218581656 owner=8947170643 cache_size=88
+2026-06-27 23:19:13 [INFO] aiogram.event: Update id=846665198 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:19:16 [INFO] root: [CACHE] chat=8218581656 mid=19329 from=8218581656 owner=8947170643 cache_size=89
+2026-06-27 23:19:16 [INFO] aiogram.event: Update id=846665199 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 23:20:04 [INFO] root: [GH-STATE] сохранено в GitHub, topics=12
+2026-06-27 23:20:05 [INFO] root: [GH-CACHE] сохранено 224 сообщений в GitHub
+2026-06-27 23:20:51 [INFO] root: [CACHE] chat=1321861082 mid=19330 from=1321861082 owner=8947170643 cache_size=16
+2026-06-27 23:20:51 [INFO] aiogram.event: Update id=846665200 is handled. Duration 0 ms by bot id=7851684074
