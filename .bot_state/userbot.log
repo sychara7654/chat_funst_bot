@@ -1,25 +1,3 @@
-2026-06-27 13:01:18,809 [INFO] [spam] -1003926645982 flood_wait=42s
-2026-06-27 13:01:19,422 [INFO] [spam] -1004357140296 flood_wait=41s
-2026-06-27 13:01:20,039 [INFO] [spam] -1004373408634 flood_wait=41s
-2026-06-27 13:01:20,659 [INFO] [spam] -1003971778755 flood_wait=40s
-2026-06-27 13:01:21,271 [INFO] [spam] -1003763565968 flood_wait=39s
-2026-06-27 13:01:21,884 [INFO] [spam] -1002594080951 flood_wait=39s
-2026-06-27 13:01:22,385 [INFO] [spam] отправлено=12, ошибок=0, cooling=1, blacklist=9, всего_групп=26
-2026-06-27 13:01:24,090 [INFO] [poll] новое сообщение id=6935: '📊 отправлено=12, ошибок=0, cooling=1, blacklist=9, всего_гр'
-2026-06-27 13:01:58,246 [INFO] [spam] доступных групп: 35
-2026-06-27 13:01:58,423 [WARNING] [spammer] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
-2026-06-27 13:02:16,477 [INFO] [spam] -1002904673550 flood_wait=46s
-2026-06-27 13:02:16,978 [INFO] [spam] отправлено=12, ошибок=0, cooling=13, blacklist=9, всего_групп=26
-2026-06-27 13:02:19,997 [INFO] [poll] новое сообщение id=6936: '📊 отправлено=12, ошибок=0, cooling=13, blacklist=9, всего_г'
-2026-06-27 13:02:41,752 [INFO] [log-push] логи отправлены в GitHub
-2026-06-27 13:02:54,542 [INFO] [spam] доступных групп: 35
-2026-06-27 13:02:54,737 [WARNING] [spammer] Waiting for 8 seconds before continuing (required by "messages.SendMessage")
-2026-06-27 13:03:17,609 [INFO] [spam] -1003170503214 flood_wait=46s
-2026-06-27 13:03:18,225 [INFO] [spam] -1004386075138 flood_wait=45s
-2026-06-27 13:03:18,851 [INFO] [spam] -1002884395055 flood_wait=45s
-2026-06-27 13:03:19,513 [INFO] [spam] -1002467376687 flood_wait=44s
-2026-06-27 13:03:20,132 [INFO] [spam] -1003721958702 flood_wait=43s
-2026-06-27 13:03:20,755 [INFO] [spam] -1002684793720 flood_wait=43s
 2026-06-27 13:03:21,383 [INFO] [spam] -1003926645982 flood_wait=42s
 2026-06-27 13:03:21,998 [INFO] [spam] -1003921839532 flood_wait=42s
 2026-06-27 13:03:22,660 [INFO] [spam] -1004357140296 flood_wait=41s
@@ -798,3 +776,25 @@
 2026-06-27 17:57:16,016 [INFO] [poll] новое сообщение id=7043: '📊 отправлено=11, ошибок=0, cooling=11, blacklist=10, всего_'
 2026-06-27 17:57:49,010 [INFO] [spam] доступных групп: 34
 2026-06-27 17:57:49,124 [WARNING] [spammer] Waiting for 10 seconds before continuing (required by "messages.SendMessage")
+2026-06-27 17:58:01,213 [INFO] [log-push] логи отправлены в GitHub
+2026-06-27 17:58:13,805 [INFO] [spam] -1002467376687 flood_wait=47s
+2026-06-27 17:58:14,425 [INFO] [spam] -1003721958702 flood_wait=46s
+2026-06-27 17:58:15,125 [INFO] [spam] -1002684793720 flood_wait=45s
+2026-06-27 17:58:15,855 [INFO] [spam] -1004357140296 flood_wait=45s
+2026-06-27 17:58:16,468 [INFO] [spam] -1003921839532 flood_wait=44s
+2026-06-27 17:58:17,081 [INFO] [spam] -1003926645982 flood_wait=43s
+2026-06-27 17:58:17,697 [INFO] [spam] -1004373408634 flood_wait=43s
+2026-06-27 17:58:18,343 [INFO] [spam] -1002904673550 flood_wait=42s
+2026-06-27 17:58:18,955 [INFO] [spam] -1003971778755 flood_wait=42s
+2026-06-27 17:58:19,597 [INFO] [spam] -1002594080951 flood_wait=41s
+2026-06-27 17:58:20,214 [INFO] [spam] -1003763565968 flood_wait=40s
+2026-06-27 17:58:20,714 [INFO] [spam] отправлено=11, ошибок=0, cooling=2, blacklist=10, всего_групп=24
+2026-06-27 17:58:21,204 [INFO] [poll] новое сообщение id=7044: '📊 отправлено=11, ошибок=0, cooling=2, blacklist=10, всего_г'
+2026-06-27 17:58:56,466 [INFO] [spam] доступных групп: 34
+2026-06-27 17:58:56,589 [WARNING] [spammer] Waiting for 4 seconds before continuing (required by "messages.SendMessage")
+2026-06-27 17:59:14,059 [INFO] [spam] -1004386075138 flood_wait=48s
+2026-06-27 17:59:14,688 [INFO] [spam] -1002884395055 flood_wait=47s
+2026-06-27 17:59:15,189 [INFO] [spam] отправлено=11, ошибок=0, cooling=11, blacklist=10, всего_групп=24
+2026-06-27 17:59:17,045 [INFO] [poll] новое сообщение id=7045: '📊 отправлено=11, ошибок=0, cooling=11, blacklist=10, всего_'
+2026-06-27 17:59:51,254 [INFO] [spam] доступных групп: 34
+2026-06-27 17:59:51,438 [WARNING] [spammer] Waiting for 10 seconds before continuing (required by "messages.SendMessage")
