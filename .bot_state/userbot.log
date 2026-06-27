@@ -1,23 +1,3 @@
-2026-06-27 12:02:45,195 [INFO] [poll] новое сообщение id=6862: '📊 отправлено=12, ошибок=0, cooling=13, blacklist=9, всего_г'
-2026-06-27 12:03:18,851 [INFO] [spam] доступных групп: 35
-2026-06-27 12:03:19,046 [INFO] [spam] -1004282733822 flood_wait=11s
-2026-06-27 12:03:19,655 [WARNING] [spammer] Waiting for 10 seconds before continuing (required by "messages.SendMessage")
-2026-06-27 12:03:44,389 [INFO] [spam] -1002884395055 flood_wait=46s
-2026-06-27 12:03:45,004 [INFO] [spam] -1002467376687 flood_wait=46s
-2026-06-27 12:03:45,619 [INFO] [spam] -1003721958702 flood_wait=45s
-2026-06-27 12:03:46,230 [INFO] [spam] -1002684793720 flood_wait=44s
-2026-06-27 12:03:46,845 [INFO] [spam] -1003926645982 flood_wait=44s
-2026-06-27 12:03:47,511 [INFO] [spam] -1003921839532 flood_wait=43s
-2026-06-27 12:03:48,124 [INFO] [spam] -1004357140296 flood_wait=42s
-2026-06-27 12:03:48,747 [INFO] [spam] -1002904673550 flood_wait=42s
-2026-06-27 12:03:49,360 [INFO] [spam] -1004373408634 flood_wait=41s
-2026-06-27 12:03:49,980 [INFO] [spam] -1003971778755 flood_wait=41s
-2026-06-27 12:03:50,613 [INFO] [spam] -1003763565968 flood_wait=40s
-2026-06-27 12:03:51,225 [INFO] [spam] -1002594080951 flood_wait=39s
-2026-06-27 12:03:51,726 [INFO] [spam] отправлено=12, ошибок=0, cooling=1, blacklist=9, всего_групп=26
-2026-06-27 12:03:53,603 [INFO] [poll] новое сообщение id=6863: '📊 отправлено=12, ошибок=0, cooling=1, blacklist=9, всего_гр'
-2026-06-27 12:04:02,657 [INFO] [log-push] логи отправлены в GitHub
-2026-06-27 12:04:27,806 [INFO] [spam] доступных групп: 35
 2026-06-27 12:04:27,915 [WARNING] [spammer] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
 2026-06-27 12:04:45,824 [INFO] [spam] -1003170503214 flood_wait=46s
 2026-06-27 12:04:46,435 [INFO] [spam] -1004386075138 flood_wait=45s
@@ -798,3 +778,23 @@
 2026-06-27 13:37:02,082 [INFO] [spam] -1003926645982 flood_wait=45s
 2026-06-27 13:37:02,694 [INFO] [spam] -1003921839532 flood_wait=45s
 2026-06-27 13:37:03,322 [INFO] [spam] -1002904673550 flood_wait=41s
+2026-06-27 13:37:04,898 [INFO] [log-push] логи отправлены в GitHub
+2026-06-27 13:37:05,014 [INFO] [spam] -1004357140296 flood_wait=40s
+2026-06-27 13:37:05,630 [INFO] [spam] -1003971778755 flood_wait=39s
+2026-06-27 13:37:06,251 [INFO] [spam] -1004373408634 flood_wait=38s
+2026-06-27 13:37:06,861 [INFO] [spam] -1003763565968 flood_wait=38s
+2026-06-27 13:37:07,476 [INFO] [spam] -1002594080951 flood_wait=37s
+2026-06-27 13:37:07,977 [INFO] [spam] отправлено=12, ошибок=0, cooling=0, blacklist=9, всего_групп=26
+2026-06-27 13:37:08,175 [INFO] [poll] новое сообщение id=6988: '📊 отправлено=12, ошибок=0, cooling=0, blacklist=9, всего_гр'
+2026-06-27 13:37:44,175 [INFO] [spam] доступных групп: 35
+2026-06-27 13:37:59,078 [INFO] [spam] отправлено=12, ошибок=0, cooling=14, blacklist=9, всего_групп=26
+2026-06-27 13:38:00,979 [INFO] [poll] новое сообщение id=6990: '📊 отправлено=12, ошибок=0, cooling=14, blacklist=9, всего_г'
+2026-06-27 13:38:35,624 [INFO] [spam] доступных групп: 35
+2026-06-27 13:38:35,821 [WARNING] [spammer] Waiting for 10 seconds before continuing (required by "messages.SendMessage")
+2026-06-27 13:39:00,727 [INFO] [spam] -1003170503214 flood_wait=46s
+2026-06-27 13:39:01,343 [INFO] [spam] -1004386075138 flood_wait=45s
+2026-06-27 13:39:01,965 [INFO] [spam] -1002884395055 flood_wait=45s
+2026-06-27 13:39:02,576 [INFO] [spam] -1002467376687 flood_wait=44s
+2026-06-27 13:39:03,189 [INFO] [spam] -1003721958702 flood_wait=43s
+2026-06-27 13:39:03,804 [INFO] [spam] -1002684793720 flood_wait=43s
+2026-06-27 13:39:04,493 [INFO] [spam] -1003926645982 flood_wait=42s
