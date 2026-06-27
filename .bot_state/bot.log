@@ -1,8 +1,3 @@
-2026-06-27 13:23:40 [INFO] aiogram.event: Update id=846664539 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 13:23:49 [INFO] root: [CACHE] chat=6348613179 mid=19043 from=6348613179 owner=8947170643 cache_size=43
-2026-06-27 13:23:49 [INFO] aiogram.event: Update id=846664540 is handled. Duration 0 ms by bot id=7851684074
-2026-06-27 13:24:03 [INFO] root: [CACHE] chat=6348613179 mid=19044 from=6348613179 owner=8947170643 cache_size=44
-2026-06-27 13:24:03 [INFO] aiogram.event: Update id=846664541 is handled. Duration 0 ms by bot id=7851684074
 2026-06-27 13:24:03 [ERROR] root: Ошибка тихой пересылки в группу: 'Message' object has no attribute 'html_caption'
 2026-06-27 13:24:07 [INFO] root: [CACHE] chat=6348613179 mid=19045 from=6348613179 owner=8947170643 cache_size=45
 2026-06-27 13:24:07 [INFO] aiogram.event: Update id=846664542 is handled. Duration 0 ms by bot id=7851684074
@@ -498,3 +493,8 @@
 2026-06-27 14:32:06 [INFO] aiogram.event: Update id=846664772 is handled. Duration 0 ms by bot id=7851684074
 2026-06-27 14:32:14 [INFO] root: [CACHE] chat=5472219604 mid=455367 from=5047236340 owner=5047236340 cache_size=500
 2026-06-27 14:32:14 [INFO] aiogram.event: Update id=846664773 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 14:33:51 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-06-27 14:34:16 [INFO] root: [CACHE] chat=5472219604 mid=455368 from=5472219604 owner=5047236340 cache_size=500
+2026-06-27 14:34:16 [INFO] aiogram.event: Update id=846664774 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 14:37:52 [INFO] root: [GH-STATE] сохранено в GitHub, topics=11
+2026-06-27 14:37:54 [INFO] root: [GH-CACHE] сохранено 200 сообщений в GitHub
