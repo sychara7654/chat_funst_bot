@@ -1,6 +1,3 @@
-2026-06-26 18:01:51 [WARNING] root: [TROLL] get_available_effects не удалось: 'Bot' object has no attribute 'get_available_effects'
-2026-06-26 18:01:51 [WARNING] root: [TROLL] API не вернул нужные эффекты, пробуем 6 стандартных
-2026-06-26 18:01:51 [INFO] aiogram.dispatcher: Start polling
 2026-06-26 18:01:51 [INFO] aiogram.dispatcher: Run polling for bot @Alimpii_bot id=7851684074 - 'Алимп даунёнок'
 2026-06-26 18:01:56 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
 2026-06-26 18:01:56 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7851684074)
@@ -498,3 +495,6 @@
 2026-06-27 00:27:30 [INFO] aiogram.event: Update id=846663911 is handled. Duration 0 ms by bot id=7851684074
 2026-06-27 00:28:29 [INFO] root: [CACHE] chat=5472219604 mid=454580 from=5047236340 owner=5047236340 cache_size=35
 2026-06-27 00:28:29 [INFO] aiogram.event: Update id=846663912 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 00:30:20 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-06-27 00:34:25 [INFO] root: [GH-STATE] сохранено в GitHub, topics=11
+2026-06-27 00:34:26 [INFO] root: [GH-CACHE] сохранено 134 сообщений в GitHub
