@@ -1,27 +1,3 @@
-2026-06-27 21:56:20,051 [INFO] [spam] -1002684793720 flood_wait=48s
-2026-06-27 21:56:20,680 [INFO] [spam] -1003959056448 flood_wait=47s
-2026-06-27 21:56:21,290 [INFO] [spam] -1003921839532 flood_wait=46s
-2026-06-27 21:56:21,906 [INFO] [spam] -1004395652731 flood_wait=46s
-2026-06-27 21:56:22,522 [INFO] [spam] -1003926645982 flood_wait=45s
-2026-06-27 21:56:23,149 [INFO] [spam] -1003217374068 flood_wait=41s
-2026-06-27 21:56:23,764 [INFO] [spam] -1004357140296 flood_wait=41s
-2026-06-27 21:56:24,383 [INFO] [spam] -1004373408634 flood_wait=40s
-2026-06-27 21:56:25,032 [INFO] [spam] -1002904673550 flood_wait=40s
-2026-06-27 21:56:25,662 [INFO] [spam] -1003971778755 flood_wait=39s
-2026-06-27 21:56:26,273 [INFO] [spam] -1002594080951 flood_wait=38s
-2026-06-27 21:56:26,929 [INFO] [spam] -1003763565968 flood_wait=38s
-2026-06-27 21:56:27,431 [INFO] [spam] отправлено=11, ошибок=0, cooling=0, blacklist=10, всего_групп=27
-2026-06-27 21:56:28,963 [INFO] [poll] новое сообщение id=7404: '📊 отправлено=11, ошибок=0, cooling=0, blacklist=10, всего_г'
-2026-06-27 21:56:41,195 [INFO] [log-push] логи отправлены в GitHub
-2026-06-27 21:57:03,149 [INFO] [spam] доступных групп: 37
-2026-06-27 21:57:03,270 [WARNING] [spammer] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
-2026-06-27 21:57:19,499 [INFO] [spam] отправлено=11, ошибок=0, cooling=16, blacklist=10, всего_групп=27
-2026-06-27 21:57:21,694 [INFO] [poll] новое сообщение id=7405: '📊 отправлено=11, ошибок=0, cooling=16, blacklist=10, всего_'
-2026-06-27 21:57:55,858 [INFO] [spam] доступных групп: 37
-2026-06-27 21:57:56,041 [INFO] [spam] -1004282733822 flood_wait=12s
-2026-06-27 21:57:56,654 [INFO] [spam] -1004299280933 flood_wait=11s
-2026-06-27 21:57:57,268 [WARNING] [spammer] Waiting for 10 seconds before continuing (required by "messages.SendMessage")
-2026-06-27 21:58:10,385 [INFO] [1] Retrying "messages.SendMessage" due to: Telegram says: [500 INTERDC_X_CALL_ERROR] - An error occurred while Telegram was intercommunicating with DC2. Please try again later (caused by "messages.SendMessage")
 2026-06-27 21:58:14,016 [INFO] [2] Retrying "messages.SendMessage" due to: Telegram says: [500 INTERDC_X_CALL_ERROR] - An error occurred while Telegram was intercommunicating with DC2. Please try again later (caused by "messages.SendMessage")
 2026-06-27 21:58:17,632 [INFO] [3] Retrying "messages.SendMessage" due to: Telegram says: [500 INTERDC_X_CALL_ERROR] - An error occurred while Telegram was intercommunicating with DC2. Please try again later (caused by "messages.SendMessage")
 2026-06-27 21:58:21,330 [INFO] [4] Retrying "messages.SendMessage" due to: Telegram says: [500 INTERDC_X_CALL_ERROR] - An error occurred while Telegram was intercommunicating with DC2. Please try again later (caused by "messages.SendMessage")
@@ -798,3 +774,27 @@
 2026-06-27 23:13:30,390 [INFO] [spam] -1003763565968 flood_wait=40s
 2026-06-27 23:13:31,006 [INFO] [spam] -1002594080951 flood_wait=40s
 2026-06-27 23:13:31,506 [INFO] [spam] отправлено=11, ошибок=0, cooling=3, blacklist=10, всего_групп=28
+2026-06-27 23:13:33,605 [INFO] [log-push] логи отправлены в GitHub
+2026-06-27 23:13:33,874 [INFO] [poll] новое сообщение id=7510: '📊 отправлено=11, ошибок=0, cooling=3, blacklist=10, всего_г'
+2026-06-27 23:14:08,113 [INFO] [spam] доступных групп: 38
+2026-06-27 23:14:08,349 [WARNING] [spammer] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2026-06-27 23:14:24,648 [INFO] [spam] -1004386075138 flood_wait=48s
+2026-06-27 23:14:25,287 [INFO] [spam] -1002884395055 flood_wait=47s
+2026-06-27 23:14:25,904 [INFO] [spam] -1002467376687 flood_wait=47s
+2026-06-27 23:14:26,405 [INFO] [spam] отправлено=11, ошибок=0, cooling=14, blacklist=10, всего_групп=28
+2026-06-27 23:14:26,750 [INFO] [poll] новое сообщение id=7511: '📊 отправлено=11, ошибок=0, cooling=14, blacklist=10, всего_'
+2026-06-27 23:15:03,389 [INFO] [spam] доступных групп: 38
+2026-06-27 23:15:03,506 [WARNING] [spammer] Waiting for 9 seconds before continuing (required by "messages.SendMessage")
+2026-06-27 23:15:25,778 [INFO] [spam] -1003721958702 flood_wait=48s
+2026-06-27 23:15:26,394 [INFO] [spam] -1002684793720 flood_wait=47s
+2026-06-27 23:15:27,007 [INFO] [spam] -1003926645982 flood_wait=47s
+2026-06-27 23:15:27,621 [INFO] [spam] -1003959056448 flood_wait=46s
+2026-06-27 23:15:28,247 [INFO] [spam] -1003217374068 flood_wait=45s
+2026-06-27 23:15:28,859 [INFO] [spam] -1004357140296 flood_wait=45s
+2026-06-27 23:15:29,489 [INFO] [spam] -1002904673550 flood_wait=44s
+2026-06-27 23:15:30,103 [INFO] [spam] -1004395652731 flood_wait=43s
+2026-06-27 23:15:30,719 [INFO] [spam] -1003921839532 flood_wait=43s
+2026-06-27 23:15:31,333 [INFO] [spam] -1004373408634 flood_wait=42s
+2026-06-27 23:15:31,953 [INFO] [spam] -1003971778755 flood_wait=42s
+2026-06-27 23:15:32,567 [INFO] [spam] -1003837056814 flood_wait=41s
+2026-06-27 23:15:33,183 [INFO] [spam] -1003763565968 flood_wait=40s
