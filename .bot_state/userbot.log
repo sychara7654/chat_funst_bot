@@ -1,16 +1,3 @@
-2026-06-27 22:13:51,097 [INFO] [4] Retrying "messages.SendMessage" due to: Telegram says: [500 INTERDC_X_CALL_ERROR] - An error occurred while Telegram was intercommunicating with DC4. Please try again later (caused by "messages.SendMessage")
-2026-06-27 22:13:55,036 [INFO] [5] Retrying "messages.SendMessage" due to: Telegram says: [500 INTERDC_X_CALL_ERROR] - An error occurred while Telegram was intercommunicating with DC4. Please try again later (caused by "messages.SendMessage")
-2026-06-27 22:13:58,895 [INFO] [6] Retrying "messages.SendMessage" due to: Telegram says: [500 INTERDC_X_CALL_ERROR] - An error occurred while Telegram was intercommunicating with DC4. Please try again later (caused by "messages.SendMessage")
-2026-06-27 22:14:02,352 [INFO] [spam] -1004301420981 flood_wait=24s
-2026-06-27 22:14:02,966 [INFO] [spam] -1004357534277 flood_wait=24s
-2026-06-27 22:14:03,583 [INFO] [spam] -1003824081307 flood_wait=23s
-2026-06-27 22:14:05,633 [INFO] [spam] -1003066766365 flood_wait=21s
-2026-06-27 22:14:06,243 [INFO] [spam] -1001897185605 flood_wait=20s
-2026-06-27 22:14:06,859 [INFO] [spam] -1003170503214 flood_wait=20s
-2026-06-27 22:14:07,472 [INFO] [spam] -1004386075138 flood_wait=19s
-2026-06-27 22:14:08,100 [INFO] [spam] -1002884395055 flood_wait=18s
-2026-06-27 22:14:08,731 [INFO] [spam] -1002467376687 flood_wait=18s
-2026-06-27 22:14:09,231 [INFO] [spam] отправлено=5, ошибок=0, cooling=13, blacklist=10, всего_групп=27
 2026-06-27 22:14:10,785 [INFO] [poll] новое сообщение id=7429: '📊 отправлено=5, ошибок=0, cooling=13, blacklist=10, всего_г'
 2026-06-27 22:14:45,687 [INFO] [spam] доступных групп: 37
 2026-06-27 22:14:53,894 [INFO] [log-push] логи отправлены в GitHub
@@ -798,3 +785,16 @@
 2026-06-27 23:35:09,624 [INFO] [spam] доступных групп: 38
 2026-06-27 23:35:10,813 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
 2026-06-27 23:35:11,091 [INFO] [poll] новое сообщение id=7649: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-27 23:35:48,119 [INFO] [log-push] логи отправлены в GitHub
+2026-06-27 23:35:48,297 [INFO] [spam] доступных групп: 38
+2026-06-27 23:35:49,521 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-27 23:35:51,569 [INFO] [poll] новое сообщение id=7650: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-27 23:36:25,446 [INFO] [spam] доступных групп: 38
+2026-06-27 23:36:26,674 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-27 23:36:28,815 [INFO] [poll] новое сообщение id=7651: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-27 23:37:03,228 [INFO] [spam] доступных групп: 38
+2026-06-27 23:37:04,515 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-27 23:37:06,017 [INFO] [poll] новое сообщение id=7652: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-27 23:37:40,652 [INFO] [spam] доступных групп: 38
+2026-06-27 23:37:41,915 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-27 23:37:43,259 [INFO] [poll] новое сообщение id=7653: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
