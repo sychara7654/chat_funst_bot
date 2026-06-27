@@ -1,8 +1,3 @@
-2026-06-26 18:01:50 [INFO] root: [GH-STATE] локальный state не найден, пробуем GitHub...
-2026-06-26 18:01:50 [INFO] root: [GH-STATE] загружен из GitHub, topics=11
-2026-06-26 18:01:50 [INFO] root: State загружен: connections=13, users=11, banned=2
-2026-06-26 18:01:50 [INFO] root: [GH-CACHE] локальный кэш пуст, восстанавливаем из GitHub...
-2026-06-26 18:01:51 [INFO] root: [GH-CACHE] загружено 16 сообщений из GitHub
 2026-06-26 18:01:51 [WARNING] root: [TROLL] get_available_effects не удалось: 'Bot' object has no attribute 'get_available_effects'
 2026-06-26 18:01:51 [WARNING] root: [TROLL] API не вернул нужные эффекты, пробуем 6 стандартных
 2026-06-26 18:01:51 [INFO] aiogram.dispatcher: Start polling
@@ -466,3 +461,40 @@
 2026-06-27 00:24:56 [INFO] aiogram.event: Update id=846663893 is handled. Duration 0 ms by bot id=7851684074
 2026-06-27 00:25:01 [INFO] root: [CACHE] chat=5472219604 mid=454562 from=5472219604 owner=5047236340 cache_size=17
 2026-06-27 00:25:01 [INFO] aiogram.event: Update id=846663894 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 00:25:18 [INFO] root: [GH-LOG] логи запушены в GitHub (468 строк)
+2026-06-27 00:25:22 [INFO] root: [CACHE] chat=5472219604 mid=454563 from=5472219604 owner=5047236340 cache_size=18
+2026-06-27 00:25:22 [INFO] aiogram.event: Update id=846663895 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 00:25:31 [INFO] root: [CACHE] chat=5472219604 mid=454564 from=5472219604 owner=5047236340 cache_size=19
+2026-06-27 00:25:31 [INFO] aiogram.event: Update id=846663896 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 00:25:33 [INFO] root: [CACHE] chat=5472219604 mid=454565 from=5472219604 owner=5047236340 cache_size=20
+2026-06-27 00:25:33 [INFO] aiogram.event: Update id=846663897 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 00:25:43 [INFO] root: [CACHE] chat=5472219604 mid=454566 from=5047236340 owner=5047236340 cache_size=21
+2026-06-27 00:25:43 [INFO] aiogram.event: Update id=846663898 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 00:25:56 [INFO] root: [CACHE] chat=5472219604 mid=454567 from=5472219604 owner=5047236340 cache_size=22
+2026-06-27 00:25:56 [INFO] aiogram.event: Update id=846663899 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 00:26:08 [INFO] root: [CACHE] chat=5472219604 mid=454568 from=5047236340 owner=5047236340 cache_size=23
+2026-06-27 00:26:08 [INFO] aiogram.event: Update id=846663900 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 00:26:16 [INFO] root: [CACHE] chat=5472219604 mid=454569 from=5472219604 owner=5047236340 cache_size=24
+2026-06-27 00:26:16 [INFO] aiogram.event: Update id=846663901 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 00:26:27 [INFO] root: [CACHE] chat=5472219604 mid=454570 from=5047236340 owner=5047236340 cache_size=25
+2026-06-27 00:26:27 [INFO] aiogram.event: Update id=846663902 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 00:26:29 [INFO] root: [CACHE] chat=5472219604 mid=454571 from=5472219604 owner=5047236340 cache_size=26
+2026-06-27 00:26:29 [INFO] aiogram.event: Update id=846663903 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 00:26:38 [INFO] root: [CACHE] chat=5472219604 mid=454572 from=5472219604 owner=5047236340 cache_size=27
+2026-06-27 00:26:38 [INFO] aiogram.event: Update id=846663904 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 00:26:51 [INFO] root: [CACHE] chat=5472219604 mid=454573 from=5047236340 owner=5047236340 cache_size=28
+2026-06-27 00:26:51 [INFO] aiogram.event: Update id=846663905 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 00:26:51 [INFO] root: [CACHE] chat=5472219604 mid=454574 from=5472219604 owner=5047236340 cache_size=29
+2026-06-27 00:26:51 [INFO] aiogram.event: Update id=846663906 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 00:27:13 [INFO] root: [CACHE] chat=5472219604 mid=454575 from=5047236340 owner=5047236340 cache_size=30
+2026-06-27 00:27:13 [INFO] aiogram.event: Update id=846663907 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 00:27:22 [INFO] root: [CACHE] chat=5472219604 mid=454576 from=5472219604 owner=5047236340 cache_size=31
+2026-06-27 00:27:22 [INFO] aiogram.event: Update id=846663908 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 00:27:26 [INFO] root: [CACHE] chat=5472219604 mid=454577 from=5472219604 owner=5047236340 cache_size=32
+2026-06-27 00:27:26 [INFO] aiogram.event: Update id=846663909 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 00:27:29 [INFO] root: [CACHE] chat=5472219604 mid=454578 from=5472219604 owner=5047236340 cache_size=33
+2026-06-27 00:27:29 [INFO] aiogram.event: Update id=846663910 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 00:27:30 [INFO] root: [CACHE] chat=5472219604 mid=454579 from=5472219604 owner=5047236340 cache_size=34
+2026-06-27 00:27:30 [INFO] aiogram.event: Update id=846663911 is handled. Duration 0 ms by bot id=7851684074
+2026-06-27 00:28:29 [INFO] root: [CACHE] chat=5472219604 mid=454580 from=5047236340 owner=5047236340 cache_size=35
+2026-06-27 00:28:29 [INFO] aiogram.event: Update id=846663912 is handled. Duration 0 ms by bot id=7851684074
