@@ -1,26 +1,3 @@
-2026-06-27 20:55:37,443 [INFO] [spam] -1004386075138 flood_wait=48s
-2026-06-27 20:55:38,067 [INFO] [spam] -1002884395055 flood_wait=48s
-2026-06-27 20:55:38,676 [INFO] [spam] -1002467376687 flood_wait=47s
-2026-06-27 20:55:39,385 [INFO] [spam] -1003721958702 flood_wait=48s
-2026-06-27 20:55:39,996 [INFO] [spam] -1002684793720 flood_wait=48s
-2026-06-27 20:55:40,611 [INFO] [spam] -1003921839532 flood_wait=47s
-2026-06-27 20:55:41,230 [INFO] [spam] -1004357140296 flood_wait=44s
-2026-06-27 20:55:41,870 [INFO] [spam] -1003926645982 flood_wait=46s
-2026-06-27 20:55:42,495 [INFO] [spam] -1002904673550 flood_wait=43s
-2026-06-27 20:55:43,109 [INFO] [spam] -1004373408634 flood_wait=42s
-2026-06-27 20:55:43,748 [INFO] [spam] -1003971778755 flood_wait=42s
-2026-06-27 20:55:44,364 [INFO] [spam] -1002594080951 flood_wait=41s
-2026-06-27 20:55:44,988 [INFO] [spam] -1003763565968 flood_wait=41s
-2026-06-27 20:55:45,489 [INFO] [spam] отправлено=11, ошибок=0, cooling=0, blacklist=10, всего_групп=24
-2026-06-27 20:55:46,516 [INFO] [poll] новое сообщение id=7314: '📊 отправлено=11, ошибок=0, cooling=0, blacklist=10, всего_г'
-2026-06-27 20:56:00,990 [INFO] [log-push] логи отправлены в GitHub
-2026-06-27 20:56:17,325 [WARNING] [spammer] Waiting for 15 seconds before continuing (required by "channels.GetMessages")
-2026-06-27 20:56:36,486 [INFO] [spam] доступных групп: 34
-2026-06-27 20:56:49,730 [INFO] [spam] отправлено=11, ошибок=0, cooling=13, blacklist=10, всего_групп=24
-2026-06-27 20:56:51,692 [INFO] [poll] новое сообщение id=7315: '📊 отправлено=11, ошибок=0, cooling=13, blacklist=10, всего_'
-2026-06-27 20:57:25,970 [INFO] [spam] доступных групп: 35
-2026-06-27 20:57:26,183 [INFO] [spam] -1004282733822 flood_wait=11s
-2026-06-27 20:57:26,799 [INFO] [spam] -1004299280933 flood_wait=11s
 2026-06-27 20:57:27,421 [WARNING] [spammer] Waiting for 10 seconds before continuing (required by "messages.SendMessage")
 2026-06-27 20:57:49,662 [INFO] [spam] -1002884395055 flood_wait=49s
 2026-06-27 20:57:50,276 [INFO] [spam] -1002467376687 flood_wait=48s
@@ -798,3 +775,26 @@
 2026-06-27 22:12:44,031 [INFO] [spam] -1002594080951 flood_wait=41s
 2026-06-27 22:12:44,532 [INFO] [spam] отправлено=11, ошибок=0, cooling=3, blacklist=10, всего_групп=27
 2026-06-27 22:12:46,887 [INFO] [poll] новое сообщение id=7428: '📊 отправлено=11, ошибок=0, cooling=3, blacklist=10, всего_г'
+2026-06-27 22:12:52,246 [INFO] [log-push] логи отправлены в GitHub
+2026-06-27 22:13:20,900 [INFO] [spam] доступных групп: 37
+2026-06-27 22:13:21,018 [WARNING] [spammer] Waiting for 4 seconds before continuing (required by "messages.SendMessage")
+2026-06-27 22:13:30,108 [INFO] [1] Retrying "messages.SendMessage" due to: Telegram says: [-503 Timeout] - Telegram is having internal problems. Please try again later. (caused by "messages.SendMessage")
+2026-06-27 22:13:34,576 [INFO] [1] Retrying "messages.SendMessage" due to: Telegram says: [500 INTERDC_X_CALL_ERROR] - An error occurred while Telegram was intercommunicating with DC4. Please try again later (caused by "messages.SendMessage")
+2026-06-27 22:13:39,053 [INFO] [1] Retrying "messages.SendMessage" due to: Telegram says: [500 INTERDC_X_CALL_ERROR] - An error occurred while Telegram was intercommunicating with DC4. Please try again later (caused by "messages.SendMessage")
+2026-06-27 22:13:42,918 [INFO] [2] Retrying "messages.SendMessage" due to: Telegram says: [500 INTERDC_X_CALL_ERROR] - An error occurred while Telegram was intercommunicating with DC4. Please try again later (caused by "messages.SendMessage")
+2026-06-27 22:13:47,212 [INFO] [3] Retrying "messages.SendMessage" due to: Telegram says: [500 INTERDC_X_CALL_ERROR] - An error occurred while Telegram was intercommunicating with DC4. Please try again later (caused by "messages.SendMessage")
+2026-06-27 22:13:51,097 [INFO] [4] Retrying "messages.SendMessage" due to: Telegram says: [500 INTERDC_X_CALL_ERROR] - An error occurred while Telegram was intercommunicating with DC4. Please try again later (caused by "messages.SendMessage")
+2026-06-27 22:13:55,036 [INFO] [5] Retrying "messages.SendMessage" due to: Telegram says: [500 INTERDC_X_CALL_ERROR] - An error occurred while Telegram was intercommunicating with DC4. Please try again later (caused by "messages.SendMessage")
+2026-06-27 22:13:58,895 [INFO] [6] Retrying "messages.SendMessage" due to: Telegram says: [500 INTERDC_X_CALL_ERROR] - An error occurred while Telegram was intercommunicating with DC4. Please try again later (caused by "messages.SendMessage")
+2026-06-27 22:14:02,352 [INFO] [spam] -1004301420981 flood_wait=24s
+2026-06-27 22:14:02,966 [INFO] [spam] -1004357534277 flood_wait=24s
+2026-06-27 22:14:03,583 [INFO] [spam] -1003824081307 flood_wait=23s
+2026-06-27 22:14:05,633 [INFO] [spam] -1003066766365 flood_wait=21s
+2026-06-27 22:14:06,243 [INFO] [spam] -1001897185605 flood_wait=20s
+2026-06-27 22:14:06,859 [INFO] [spam] -1003170503214 flood_wait=20s
+2026-06-27 22:14:07,472 [INFO] [spam] -1004386075138 flood_wait=19s
+2026-06-27 22:14:08,100 [INFO] [spam] -1002884395055 flood_wait=18s
+2026-06-27 22:14:08,731 [INFO] [spam] -1002467376687 flood_wait=18s
+2026-06-27 22:14:09,231 [INFO] [spam] отправлено=5, ошибок=0, cooling=13, blacklist=10, всего_групп=27
+2026-06-27 22:14:10,785 [INFO] [poll] новое сообщение id=7429: '📊 отправлено=5, ошибок=0, cooling=13, blacklist=10, всего_г'
+2026-06-27 22:14:45,687 [INFO] [spam] доступных групп: 37
