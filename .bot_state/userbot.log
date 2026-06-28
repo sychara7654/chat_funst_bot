@@ -1,31 +1,3 @@
-2026-06-28 04:27:33,189 [INFO] Send exception: ConnectionResetError Connection lost
-2026-06-28 04:27:33,189 [INFO] Disconnected
-2026-06-28 04:27:33,189 [INFO] Session stopped
-2026-06-28 04:27:33,189 [INFO] Connecting...
-2026-06-28 04:27:33,272 [INFO] Connected! Production DC1 - IPv4
-2026-06-28 04:27:33,272 [INFO] NetworkTask started
-2026-06-28 04:27:33,491 [INFO] {
-    "_": "types.UpdatesTooLong"
-}
-2026-06-28 04:27:33,492 [INFO] Discarding packet: The msg_id is lower than all the stored values
-2026-06-28 04:27:33,492 [INFO] Discarding packet: The msg_id is lower than all the stored values
-2026-06-28 04:27:33,492 [INFO] Discarding packet: The msg_id is lower than all the stored values
-2026-06-28 04:27:33,492 [INFO] Discarding packet: The msg_id is lower than all the stored values
-2026-06-28 04:27:33,492 [INFO] {
-    "_": "types.UpdatesTooLong"
-}
-2026-06-28 04:27:33,492 [INFO] Discarding packet: The msg_id is lower than all the stored values
-2026-06-28 04:27:33,492 [INFO] Send exception: ConnectionResetError Connection lost
-2026-06-28 04:27:33,493 [INFO] Disconnected
-2026-06-28 04:27:33,493 [INFO] Disconnected
-2026-06-28 04:27:33,493 [INFO] Disconnected
-2026-06-28 04:27:33,493 [INFO] Disconnected
-2026-06-28 04:27:33,493 [INFO] NetworkTask stopped
-2026-06-28 04:27:33,493 [INFO] Disconnected
-2026-06-28 04:27:33,493 [INFO] Send exception: ConnectionResetError Connection lost
-2026-06-28 04:27:33,493 [INFO] Send exception: ConnectionResetError Connection lost
-2026-06-28 04:27:33,493 [INFO] Send exception: ConnectionResetError Connection lost
-2026-06-28 04:27:33,493 [WARNING] socket.send() raised exception.
 2026-06-28 04:27:33,493 [INFO] Send exception: ConnectionResetError Connection lost
 2026-06-28 04:27:33,493 [INFO] Disconnected
 2026-06-28 04:27:33,494 [INFO] Session stopped
@@ -802,3 +774,27 @@
 2026-06-28 04:58:17,520 [INFO] [spam] доступных групп: 38
 2026-06-28 04:58:18,844 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
 2026-06-28 04:58:21,470 [INFO] [poll] новое сообщение id=8061: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 04:59:24,050 [INFO] [log-push] логи отправлены в GitHub
+2026-06-28 05:00:16,937 [INFO] [spam] доступных групп: 38
+2026-06-28 05:00:18,213 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-28 05:00:20,279 [INFO] [poll] новое сообщение id=8062: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 05:00:54,872 [INFO] [spam] доступных групп: 38
+2026-06-28 05:01:08,619 [INFO] [spam] -1004386075138 flood_wait=47s
+2026-06-28 05:01:09,299 [INFO] [spam] -1002884395055 flood_wait=46s
+2026-06-28 05:01:09,917 [INFO] [spam] -1002467376687 flood_wait=46s
+2026-06-28 05:01:10,530 [INFO] [spam] -1003721958702 flood_wait=45s
+2026-06-28 05:01:11,146 [INFO] [spam] -1002684793720 flood_wait=47s
+2026-06-28 05:01:11,762 [INFO] [spam] -1003921839532 flood_wait=47s
+2026-06-28 05:01:12,377 [INFO] [spam] -1004395652731 flood_wait=46s
+2026-06-28 05:01:12,990 [INFO] [spam] -1003959056448 flood_wait=46s
+2026-06-28 05:01:13,601 [INFO] [spam] -1003926645982 flood_wait=45s
+2026-06-28 05:01:14,279 [INFO] [spam] -1004357140296 flood_wait=41s
+2026-06-28 05:01:14,900 [INFO] [spam] -1002904673550 flood_wait=41s
+2026-06-28 05:01:15,548 [INFO] [spam] -1003217374068 flood_wait=40s
+2026-06-28 05:01:16,161 [INFO] [spam] -1004373408634 flood_wait=39s
+2026-06-28 05:01:16,772 [INFO] [spam] -1003971778755 flood_wait=39s
+2026-06-28 05:01:17,384 [INFO] [spam] -1003837056814 flood_wait=38s
+2026-06-28 05:01:18,009 [INFO] [spam] -1003763565968 flood_wait=38s
+2026-06-28 05:01:18,628 [INFO] [spam] -1002594080951 flood_wait=37s
+2026-06-28 05:01:19,129 [INFO] [spam] отправлено=11, ошибок=0, cooling=0, blacklist=10, всего_групп=28
+2026-06-28 05:01:19,354 [INFO] [poll] новое сообщение id=8063: '📊 отправлено=11, ошибок=0, cooling=0, blacklist=10, всего_г'
