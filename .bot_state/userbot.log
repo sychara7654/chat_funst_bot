@@ -1,7 +1,3 @@
-2026-06-28 04:27:33,188 [INFO] Send exception: ConnectionResetError Connection lost
-2026-06-28 04:27:33,188 [WARNING] socket.send() raised exception.
-2026-06-28 04:27:33,189 [INFO] Send exception: ConnectionResetError Connection lost
-2026-06-28 04:27:33,189 [WARNING] socket.send() raised exception.
 2026-06-28 04:27:33,189 [INFO] Send exception: ConnectionResetError Connection lost
 2026-06-28 04:27:33,189 [INFO] Disconnected
 2026-06-28 04:27:33,189 [INFO] Session stopped
@@ -802,3 +798,7 @@
 2026-06-28 04:56:16,194 [INFO] [spam] доступных групп: 38
 2026-06-28 04:56:17,427 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
 2026-06-28 04:56:18,196 [INFO] [poll] новое сообщение id=8060: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 04:57:22,835 [INFO] [log-push] логи отправлены в GitHub
+2026-06-28 04:58:17,520 [INFO] [spam] доступных групп: 38
+2026-06-28 04:58:18,844 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-28 04:58:21,470 [INFO] [poll] новое сообщение id=8061: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
