@@ -1,27 +1,3 @@
-2026-06-28 04:48:47,035 [INFO] [poll] новое сообщение id=8053: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
-2026-06-28 04:49:17,514 [INFO] [log-push] логи отправлены в GitHub
-2026-06-28 04:49:21,091 [INFO] [spam] доступных групп: 38
-2026-06-28 04:49:22,394 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
-2026-06-28 04:49:24,269 [INFO] [poll] новое сообщение id=8054: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
-2026-06-28 04:49:58,799 [INFO] [spam] доступных групп: 38
-2026-06-28 04:50:00,035 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
-2026-06-28 04:50:01,598 [INFO] [poll] новое сообщение id=8055: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
-2026-06-28 04:50:36,232 [INFO] [spam] доступных групп: 38
-2026-06-28 04:50:37,445 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
-2026-06-28 04:50:38,913 [INFO] [poll] новое сообщение id=8056: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
-2026-06-28 04:51:14,117 [INFO] [spam] доступных групп: 38
-2026-06-28 04:51:15,351 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
-2026-06-28 04:51:16,205 [INFO] [poll] новое сообщение id=8057: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
-2026-06-28 04:51:18,809 [INFO] [log-push] логи отправлены в GitHub
-2026-06-28 04:52:26,939 [INFO] NetworkTask stopped
-2026-06-28 04:52:26,939 [INFO] PingTask stopped
-2026-06-28 04:52:26,939 [INFO] Disconnected
-2026-06-28 04:52:26,940 [INFO] Session stopped
-2026-06-28 04:52:26,940 [INFO] Connecting...
-2026-06-28 04:52:27,023 [INFO] Connected! Production DC1 - IPv4
-2026-06-28 04:52:27,023 [INFO] NetworkTask started
-2026-06-28 04:52:28,303 [INFO] [1] Retrying "messages.GetHistory" due to: Request timed out
-2026-06-28 04:52:29,024 [INFO] Disconnected
 2026-06-28 04:52:29,024 [INFO] NetworkTask stopped
 2026-06-28 04:52:29,024 [INFO] Session stopped
 2026-06-28 04:52:29,025 [INFO] Connecting...
@@ -798,3 +774,27 @@
 2026-06-28 05:15:31,428 [INFO] [spam] -1004373408634 flood_wait=41s
 2026-06-28 05:15:32,041 [INFO] [spam] -1003971778755 flood_wait=41s
 2026-06-28 05:15:32,654 [INFO] [spam] -1003837056814 flood_wait=40s
+2026-06-28 05:15:34,297 [INFO] [log-push] логи отправлены в GitHub
+2026-06-28 05:15:34,492 [INFO] [spam] -1003763565968 flood_wait=38s
+2026-06-28 05:15:35,104 [INFO] [spam] -1002594080951 flood_wait=37s
+2026-06-28 05:15:35,604 [INFO] [spam] отправлено=11, ошибок=1, cooling=2, blacklist=10, всего_групп=28
+2026-06-28 05:15:37,717 [INFO] [poll] новое сообщение id=8077: '📊 отправлено=11, ошибок=1, cooling=2, blacklist=10, всего_г'
+2026-06-28 05:16:06,830 [INFO] [1] Retrying "messages.GetDialogs" due to: Telegram says: [500 RPC_CALL_FAIL] - Telegram is having internal problems. Please try again later (caused by "messages.GetDialogs")
+2026-06-28 05:16:08,432 [INFO] [2] Retrying "messages.GetDialogs" due to: Telegram says: [500 RPC_CALL_FAIL] - Telegram is having internal problems. Please try again later (caused by "messages.GetDialogs")
+2026-06-28 05:16:10,038 [INFO] [3] Retrying "messages.GetDialogs" due to: Telegram says: [500 RPC_CALL_FAIL] - Telegram is having internal problems. Please try again later (caused by "messages.GetDialogs")
+2026-06-28 05:16:16,800 [INFO] [spam] доступных групп: 38
+2026-06-28 05:16:30,344 [INFO] [spam] -1004386075138 flood_wait=47s
+2026-06-28 05:16:30,959 [INFO] [spam] -1002884395055 flood_wait=47s
+2026-06-28 05:16:31,548 [WARNING] [spam] чат -1003217374068: Telegram says: [420 SLOWMODE_WAIT_X] - A wait of 51 seconds is required to send messages in this chat. (caused by "messages.SendMessage")
+2026-06-28 05:16:32,049 [INFO] [spam] отправлено=11, ошибок=1, cooling=14, blacklist=10, всего_групп=28
+2026-06-28 05:16:33,657 [INFO] [poll] новое сообщение id=8078: '📊 отправлено=11, ошибок=1, cooling=14, blacklist=10, всего_'
+2026-06-28 05:17:03,497 [INFO] [1] Retrying "messages.GetDialogs" due to: Telegram says: [500 RPC_CALL_FAIL] - Telegram is having internal problems. Please try again later (caused by "messages.GetDialogs")
+2026-06-28 05:17:05,101 [INFO] [2] Retrying "messages.GetDialogs" due to: Telegram says: [500 RPC_CALL_FAIL] - Telegram is having internal problems. Please try again later (caused by "messages.GetDialogs")
+2026-06-28 05:17:06,702 [INFO] [3] Retrying "messages.GetDialogs" due to: Telegram says: [500 RPC_CALL_FAIL] - Telegram is having internal problems. Please try again later (caused by "messages.GetDialogs")
+2026-06-28 05:17:08,318 [INFO] [4] Retrying "messages.GetDialogs" due to: Telegram says: [500 RPC_CALL_FAIL] - Telegram is having internal problems. Please try again later (caused by "messages.GetDialogs")
+2026-06-28 05:17:15,327 [INFO] [spam] доступных групп: 38
+2026-06-28 05:17:15,435 [WARNING] [spammer] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2026-06-28 05:17:31,917 [INFO] [spam] -1002467376687 flood_wait=48s
+2026-06-28 05:17:32,530 [INFO] [spam] -1003721958702 flood_wait=47s
+2026-06-28 05:17:33,140 [INFO] [spam] -1002684793720 flood_wait=46s
+2026-06-28 05:17:33,750 [INFO] [spam] -1003959056448 flood_wait=46s
