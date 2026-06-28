@@ -1,13 +1,3 @@
-2026-06-28 02:25:06,274 [INFO] Send exception: ConnectionResetError Connection lost
-2026-06-28 02:25:06,274 [INFO] [4] Retrying "updates.GetChannelDifference" due to: Connection lost
-2026-06-28 02:25:06,906 [INFO] Disconnected
-2026-06-28 02:25:06,906 [INFO] Session stopped
-2026-06-28 02:25:06,906 [INFO] Connecting...
-2026-06-28 02:25:06,993 [INFO] Connected! Production DC1 - IPv4
-2026-06-28 02:25:06,993 [INFO] NetworkTask started
-2026-06-28 02:25:07,302 [INFO] Session initialized: Layer 158
-2026-06-28 02:25:07,302 [INFO] Device: CPython 3.11.15 - Pyrogram 2.0.106
-2026-06-28 02:25:07,302 [INFO] System: Linux 6.18.15+deb13-cloud-amd64 (en)
 2026-06-28 02:25:07,302 [INFO] Session started
 2026-06-28 02:25:07,302 [INFO] PingTask started
 2026-06-28 02:25:11,382 [INFO] [4] Retrying "messages.GetDialogs" due to: Request timed out
@@ -798,3 +788,13 @@
 2026-06-28 03:54:22,073 [INFO] [spam] доступных групп: 38
 2026-06-28 03:54:23,281 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
 2026-06-28 03:54:25,726 [INFO] [poll] новое сообщение id=7986: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 03:54:40,852 [INFO] [log-push] логи отправлены в GitHub
+2026-06-28 03:54:59,614 [INFO] [spam] доступных групп: 38
+2026-06-28 03:55:00,969 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-28 03:55:03,266 [INFO] [poll] новое сообщение id=7987: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 03:55:37,404 [INFO] [spam] доступных групп: 38
+2026-06-28 03:55:38,714 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-28 03:55:40,696 [INFO] [poll] новое сообщение id=7988: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 03:56:15,237 [INFO] [spam] доступных групп: 38
+2026-06-28 03:56:16,476 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-28 03:56:18,019 [INFO] [poll] новое сообщение id=7989: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
