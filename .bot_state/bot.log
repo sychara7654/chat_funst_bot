@@ -1,16 +1,3 @@
-2026-06-28 18:11:49 [INFO] root: [CACHE] chat=1321861082 mid=19701 from=8947170643 owner=8947170643 cache_size=77
-2026-06-28 18:11:49 [INFO] aiogram.event: Update id=846665809 is handled. Duration 0 ms by bot id=7851684074
-2026-06-28 18:14:55 [INFO] root: [GH-STATE] сохранено в GitHub, topics=12
-2026-06-28 18:14:57 [INFO] root: [GH-CACHE] сохранено 299 сообщений в GitHub
-2026-06-28 18:15:50 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-06-28 18:17:09 [INFO] root: [CACHE] chat=1321861082 mid=19702 from=1321861082 owner=8947170643 cache_size=78
-2026-06-28 18:17:09 [INFO] aiogram.event: Update id=846665810 is handled. Duration 0 ms by bot id=7851684074
-2026-06-28 18:20:51 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-06-28 18:23:05 [INFO] root: [CACHE] chat=1321861082 mid=19703 from=8947170643 owner=8947170643 cache_size=79
-2026-06-28 18:23:05 [INFO] aiogram.event: Update id=846665811 is handled. Duration 0 ms by bot id=7851684074
-2026-06-28 18:24:58 [INFO] root: [GH-STATE] сохранено в GitHub, topics=12
-2026-06-28 18:24:59 [INFO] root: [GH-CACHE] сохранено 297 сообщений в GitHub
-2026-06-28 18:25:52 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-06-28 18:30:53 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-06-28 18:31:04 [INFO] root: [CACHE] chat=1321861082 mid=19705 from=1321861082 owner=8947170643 cache_size=80
 2026-06-28 18:31:04 [INFO] aiogram.event: Update id=846665812 is handled. Duration 0 ms by bot id=7851684074
@@ -504,3 +491,16 @@ Original description: Too Many Requests: retry after 17
 2026-06-28 21:00:07 [INFO] root: [CACHE] chat=1321861082 mid=19837 from=8947170643 owner=8947170643 cache_size=100
 2026-06-28 21:00:07 [INFO] aiogram.event: Update id=846666019 is handled. Duration 0 ms by bot id=7851684074
 2026-06-28 21:00:08 [WARNING] root: Не удалось скопировать неизвестный тип сообщения: Telegram server says - Bad Request: message to copy not found
+2026-06-28 21:01:31 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-06-28 21:01:51 [INFO] root: Кэш очищен от сообщений старше 7 дней
+2026-06-28 21:05:42 [INFO] root: [GH-STATE] сохранено в GitHub, topics=12
+2026-06-28 21:05:44 [INFO] root: [GH-CACHE] сохранено 341 сообщений в GitHub
+2026-06-28 21:06:13 [INFO] root: [CACHE] chat=8662203967 mid=455806 from=8662203967 owner=5047236340 cache_size=1
+2026-06-28 21:06:13 [INFO] aiogram.event: Update id=846666020 is handled. Duration 0 ms by bot id=7851684074
+2026-06-28 21:06:22 [INFO] root: [CACHE] chat=8662203967 mid=455807 from=8662203967 owner=5047236340 cache_size=2
+2026-06-28 21:06:22 [INFO] aiogram.event: Update id=846666021 is handled. Duration 0 ms by bot id=7851684074
+2026-06-28 21:06:23 [INFO] newcontact: [FUNSTAT] user_id=8662203967 full=False fields=0 names=0 unames=0 groups=0 stickers=0
+2026-06-28 21:06:29 [INFO] root: [CACHE] chat=8662203967 mid=455809 from=5047236340 owner=5047236340 cache_size=3
+2026-06-28 21:06:29 [INFO] aiogram.event: Update id=846666022 is handled. Duration 0 ms by bot id=7851684074
+2026-06-28 21:06:29 [INFO] root: [CACHE] chat=8662203967 mid=455810 from=5047236340 owner=5047236340 cache_size=4
+2026-06-28 21:06:29 [INFO] aiogram.event: Update id=846666023 is handled. Duration 0 ms by bot id=7851684074
