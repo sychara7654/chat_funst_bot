@@ -1,29 +1,3 @@
-2026-06-28 01:02:25,371 [INFO] [spam] -1004357140296 flood_wait=40s
-2026-06-28 01:02:25,989 [INFO] [spam] -1003837056814 flood_wait=40s
-2026-06-28 01:02:26,602 [INFO] [spam] -1003971778755 flood_wait=39s
-2026-06-28 01:02:27,216 [INFO] [spam] -1003763565968 flood_wait=38s
-2026-06-28 01:02:27,836 [INFO] [spam] -1002594080951 flood_wait=38s
-2026-06-28 01:02:28,336 [INFO] [spam] отправлено=11, ошибок=1, cooling=3, blacklist=10, всего_групп=28
-2026-06-28 01:02:28,514 [INFO] [poll] новое сообщение id=7770: '📊 отправлено=11, ошибок=1, cooling=3, blacklist=10, всего_г'
-2026-06-28 01:02:47,121 [INFO] [log-push] логи отправлены в GitHub
-2026-06-28 01:03:05,646 [INFO] [spam] доступных групп: 38
-2026-06-28 01:03:18,921 [INFO] [spam] -1004386075138 flood_wait=48s
-2026-06-28 01:03:19,545 [INFO] [spam] -1002884395055 flood_wait=47s
-2026-06-28 01:03:20,233 [INFO] [spam] -1002467376687 flood_wait=46s
-2026-06-28 01:03:20,857 [INFO] [spam] -1003217374068 flood_wait=46s
-2026-06-28 01:03:21,358 [INFO] [spam] отправлено=11, ошибок=0, cooling=13, blacklist=10, всего_групп=28
-2026-06-28 01:03:21,602 [INFO] [poll] новое сообщение id=7771: '📊 отправлено=11, ошибок=0, cooling=13, blacklist=10, всего_'
-2026-06-28 01:03:58,180 [INFO] [spam] доступных групп: 38
-2026-06-28 01:03:58,321 [WARNING] [spammer] Waiting for 8 seconds before continuing (required by "messages.SendMessage")
-2026-06-28 01:04:19,623 [INFO] [spam] -1003721958702 flood_wait=48s
-2026-06-28 01:04:20,236 [INFO] [spam] -1002684793720 flood_wait=47s
-2026-06-28 01:04:20,852 [INFO] [spam] -1003926645982 flood_wait=47s
-2026-06-28 01:04:21,498 [INFO] [spam] -1004395652731 flood_wait=46s
-2026-06-28 01:04:22,155 [INFO] [spam] -1003921839532 flood_wait=45s
-2026-06-28 01:04:22,768 [INFO] [spam] -1003959056448 flood_wait=45s
-2026-06-28 01:04:23,395 [INFO] [spam] -1002904673550 flood_wait=44s
-2026-06-28 01:04:24,011 [INFO] [spam] -1004357140296 flood_wait=44s
-2026-06-28 01:04:24,625 [INFO] [spam] -1004373408634 flood_wait=43s
 2026-06-28 01:04:25,240 [INFO] [spam] -1003837056814 flood_wait=42s
 2026-06-28 01:04:25,900 [INFO] [spam] -1003971778755 flood_wait=42s
 2026-06-28 01:04:26,518 [INFO] [spam] -1003763565968 flood_wait=41s
@@ -798,3 +772,29 @@
 2026-06-28 02:19:04,132 [INFO] [spam] -1002594080951 flood_wait=39s
 2026-06-28 02:19:04,634 [INFO] [spam] отправлено=11, ошибок=0, cooling=3, blacklist=10, всего_групп=28
 2026-06-28 02:19:05,029 [INFO] [poll] новое сообщение id=7862: '📊 отправлено=11, ошибок=0, cooling=3, blacklist=10, всего_г'
+2026-06-28 02:19:38,851 [INFO] [log-push] логи отправлены в GitHub
+2026-06-28 02:19:41,812 [INFO] [spam] доступных групп: 38
+2026-06-28 02:19:41,940 [WARNING] [spammer] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2026-06-28 02:19:58,286 [INFO] [spam] -1004386075138 flood_wait=48s
+2026-06-28 02:19:58,909 [INFO] [spam] -1002884395055 flood_wait=48s
+2026-06-28 02:19:59,521 [INFO] [spam] -1002467376687 flood_wait=47s
+2026-06-28 02:20:00,021 [INFO] [spam] отправлено=11, ошибок=0, cooling=14, blacklist=10, всего_групп=28
+2026-06-28 02:20:00,900 [INFO] [poll] новое сообщение id=7863: '📊 отправлено=11, ошибок=0, cooling=14, blacklist=10, всего_'
+2026-06-28 02:20:36,246 [INFO] [spam] доступных групп: 38
+2026-06-28 02:20:36,354 [WARNING] [spammer] Waiting for 10 seconds before continuing (required by "messages.SendMessage")
+2026-06-28 02:20:59,975 [INFO] [spam] -1003721958702 flood_wait=48s
+2026-06-28 02:21:00,591 [INFO] [spam] -1002684793720 flood_wait=47s
+2026-06-28 02:21:01,202 [INFO] [spam] -1003921839532 flood_wait=46s
+2026-06-28 02:21:01,811 [INFO] [spam] -1004395652731 flood_wait=46s
+2026-06-28 02:21:02,424 [INFO] [spam] -1003926645982 flood_wait=45s
+2026-06-28 02:21:03,037 [INFO] [spam] -1003959056448 flood_wait=45s
+2026-06-28 02:21:03,690 [INFO] [spam] -1002904673550 flood_wait=44s
+2026-06-28 02:21:04,301 [INFO] [spam] -1004357140296 flood_wait=43s
+2026-06-28 02:21:04,955 [INFO] [spam] -1004373408634 flood_wait=43s
+2026-06-28 02:21:05,547 [WARNING] [spam] чат -1003217374068: Telegram says: [420 SLOWMODE_WAIT_X] - A wait of 172 seconds is required to send messages in this chat. (caused by "messages.SendMessage")
+2026-06-28 02:21:06,167 [INFO] [spam] -1003971778755 flood_wait=41s
+2026-06-28 02:21:06,782 [INFO] [spam] -1003837056814 flood_wait=41s
+2026-06-28 02:21:07,392 [INFO] [spam] -1003763565968 flood_wait=40s
+2026-06-28 02:21:08,069 [INFO] [spam] -1002594080951 flood_wait=40s
+2026-06-28 02:21:08,570 [INFO] [spam] отправлено=11, ошибок=1, cooling=3, blacklist=10, всего_групп=28
+2026-06-28 02:21:09,453 [INFO] [poll] новое сообщение id=7864: '📊 отправлено=11, ошибок=1, cooling=3, blacklist=10, всего_г'
