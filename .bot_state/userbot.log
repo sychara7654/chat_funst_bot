@@ -1,13 +1,3 @@
-2026-06-28 02:24:54,166 [INFO] NetworkTask started
-2026-06-28 02:24:54,398 [INFO] Discarding packet: The msg_id belongs to over 300 seconds in the past. Most likely the client time has to be synchronized.
-2026-06-28 02:24:54,399 [INFO] Disconnected
-2026-06-28 02:24:54,399 [INFO] NetworkTask stopped
-2026-06-28 02:24:55,749 [INFO] Send exception: ConnectionResetError Connection lost
-2026-06-28 02:24:55,749 [INFO] [4] Retrying "updates.GetChannelDifference" due to: Connection lost
-2026-06-28 02:24:56,167 [INFO] Disconnected
-2026-06-28 02:24:56,167 [INFO] Session stopped
-2026-06-28 02:24:56,167 [INFO] Connecting...
-2026-06-28 02:24:56,258 [INFO] Connected! Production DC1 - IPv4
 2026-06-28 02:24:56,258 [INFO] NetworkTask started
 2026-06-28 02:24:56,470 [INFO] Discarding packet: The msg_id belongs to over 300 seconds in the past. Most likely the client time has to be synchronized.
 2026-06-28 02:24:56,471 [INFO] Disconnected
@@ -798,3 +788,13 @@
 2026-06-28 03:42:17,133 [INFO] [spam] доступных групп: 38
 2026-06-28 03:42:18,375 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
 2026-06-28 03:42:18,628 [INFO] [poll] новое сообщение id=7967: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 03:42:32,464 [INFO] [log-push] логи отправлены в GitHub
+2026-06-28 03:42:54,850 [INFO] [spam] доступных групп: 38
+2026-06-28 03:42:56,032 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-28 03:42:59,083 [INFO] [poll] новое сообщение id=7968: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 03:43:31,673 [INFO] [spam] доступных групп: 38
+2026-06-28 03:43:32,895 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-28 03:43:33,306 [INFO] [poll] новое сообщение id=7969: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 03:44:09,102 [INFO] [spam] доступных групп: 38
+2026-06-28 03:44:10,297 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-28 03:44:10,574 [INFO] [poll] новое сообщение id=7970: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
