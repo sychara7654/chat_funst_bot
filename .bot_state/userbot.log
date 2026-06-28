@@ -1,27 +1,3 @@
-2026-06-28 04:54:41,349 [INFO] Disconnected
-2026-06-28 04:54:41,349 [INFO] NetworkTask stopped
-2026-06-28 04:54:41,349 [INFO] Session stopped
-2026-06-28 04:54:41,349 [INFO] Connecting...
-2026-06-28 04:54:41,433 [INFO] Connected! Production DC1 - IPv4
-2026-06-28 04:54:41,433 [INFO] NetworkTask started
-2026-06-28 04:54:43,435 [INFO] Disconnected
-2026-06-28 04:54:43,436 [INFO] NetworkTask stopped
-2026-06-28 04:54:43,436 [INFO] Session stopped
-2026-06-28 04:54:43,436 [INFO] Connecting...
-2026-06-28 04:54:43,519 [INFO] Connected! Production DC1 - IPv4
-2026-06-28 04:54:43,520 [INFO] NetworkTask started
-2026-06-28 04:54:45,522 [INFO] Disconnected
-2026-06-28 04:54:45,522 [INFO] NetworkTask stopped
-2026-06-28 04:54:45,522 [INFO] Session stopped
-2026-06-28 04:54:45,522 [INFO] Connecting...
-2026-06-28 04:54:45,605 [INFO] Connected! Production DC1 - IPv4
-2026-06-28 04:54:45,606 [INFO] NetworkTask started
-2026-06-28 04:54:47,609 [INFO] Disconnected
-2026-06-28 04:54:47,609 [INFO] NetworkTask stopped
-2026-06-28 04:54:47,609 [INFO] Session stopped
-2026-06-28 04:54:47,609 [INFO] Connecting...
-2026-06-28 04:54:47,693 [INFO] Connected! Production DC1 - IPv4
-2026-06-28 04:54:47,693 [INFO] NetworkTask started
 2026-06-28 04:54:47,994 [INFO] Discarding packet: The msg_id is lower than all the stored values
 2026-06-28 04:54:47,994 [INFO] Disconnected
 2026-06-28 04:54:47,994 [INFO] NetworkTask stopped
@@ -798,3 +774,27 @@
 2026-06-28 05:59:50,054 [INFO] [spam] доступных групп: 38
 2026-06-28 05:59:51,251 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
 2026-06-28 05:59:52,748 [INFO] [poll] новое сообщение id=8143: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 06:00:01,976 [INFO] [log-push] логи отправлены в GitHub
+2026-06-28 06:00:27,737 [INFO] [spam] доступных групп: 38
+2026-06-28 06:00:29,107 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-28 06:00:30,181 [INFO] [poll] новое сообщение id=8144: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 06:01:05,174 [INFO] [spam] доступных групп: 38
+2026-06-28 06:01:18,374 [INFO] [spam] -1004386075138 flood_wait=48s
+2026-06-28 06:01:19,003 [INFO] [spam] -1002884395055 flood_wait=48s
+2026-06-28 06:01:19,615 [INFO] [spam] -1002467376687 flood_wait=47s
+2026-06-28 06:01:20,229 [INFO] [spam] -1003721958702 flood_wait=46s
+2026-06-28 06:01:20,914 [INFO] [spam] -1002684793720 flood_wait=48s
+2026-06-28 06:01:21,562 [INFO] [spam] -1003921839532 flood_wait=47s
+2026-06-28 06:01:22,196 [INFO] [spam] -1003959056448 flood_wait=46s
+2026-06-28 06:01:22,806 [INFO] [spam] -1003926645982 flood_wait=46s
+2026-06-28 06:01:23,420 [INFO] [spam] -1004357140296 flood_wait=43s
+2026-06-28 06:01:24,042 [INFO] [spam] -1002904673550 flood_wait=43s
+2026-06-28 06:01:24,653 [INFO] [spam] -1004395652731 flood_wait=44s
+2026-06-28 06:01:25,275 [INFO] [spam] -1003217374068 flood_wait=41s
+2026-06-28 06:01:25,887 [INFO] [spam] -1004373408634 flood_wait=41s
+2026-06-28 06:01:26,502 [INFO] [spam] -1003837056814 flood_wait=40s
+2026-06-28 06:01:27,116 [INFO] [spam] -1003971778755 flood_wait=39s
+2026-06-28 06:01:27,726 [INFO] [spam] -1003763565968 flood_wait=39s
+2026-06-28 06:01:28,338 [INFO] [spam] -1002594080951 flood_wait=38s
+2026-06-28 06:01:28,840 [INFO] [spam] отправлено=11, ошибок=0, cooling=0, blacklist=10, всего_групп=28
+2026-06-28 06:01:29,199 [INFO] [poll] новое сообщение id=8145: '📊 отправлено=11, ошибок=0, cooling=0, blacklist=10, всего_г'
