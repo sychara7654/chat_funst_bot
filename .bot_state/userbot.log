@@ -1,28 +1,3 @@
-2026-06-28 02:23:59,566 [INFO] Disconnected
-2026-06-28 02:23:59,967 [INFO] Send exception: ConnectionResetError Connection lost
-2026-06-28 02:23:59,968 [INFO] [3] Retrying "messages.GetHistory" due to: Connection lost
-2026-06-28 02:24:01,348 [INFO] Disconnected
-2026-06-28 02:24:01,348 [INFO] Session stopped
-2026-06-28 02:24:01,349 [INFO] Connecting...
-2026-06-28 02:24:02,475 [INFO] Connected! Production DC1 - IPv4
-2026-06-28 02:24:02,475 [INFO] NetworkTask started
-2026-06-28 02:24:04,478 [INFO] Disconnected
-2026-06-28 02:24:04,478 [INFO] NetworkTask stopped
-2026-06-28 02:24:04,478 [INFO] Session stopped
-2026-06-28 02:24:04,478 [INFO] Connecting...
-2026-06-28 02:24:04,763 [INFO] [1] Retrying "updates.GetChannelDifference" due to: Request timed out
-2026-06-28 02:24:05,568 [INFO] Connected! Production DC1 - IPv4
-2026-06-28 02:24:05,568 [INFO] NetworkTask started
-2026-06-28 02:24:07,571 [INFO] Disconnected
-2026-06-28 02:24:07,571 [INFO] NetworkTask stopped
-2026-06-28 02:24:07,571 [INFO] Session stopped
-2026-06-28 02:24:07,571 [INFO] Connecting...
-2026-06-28 02:24:07,660 [INFO] Connected! Production DC1 - IPv4
-2026-06-28 02:24:07,661 [INFO] NetworkTask started
-2026-06-28 02:24:07,898 [INFO] Discarding packet: The msg_id is lower than all the stored values
-2026-06-28 02:24:07,899 [INFO] Discarding packet: The msg_id is lower than all the stored values
-2026-06-28 02:24:07,899 [INFO] Discarding packet: The msg_id is lower than all the stored values
-2026-06-28 02:24:07,899 [INFO] Discarding packet: The msg_id is lower than all the stored values
 2026-06-28 02:24:07,899 [INFO] Discarding packet: The msg_id is lower than all the stored values
 2026-06-28 02:24:07,899 [INFO] Discarding packet: The msg_id is lower than all the stored values
 2026-06-28 02:24:07,899 [INFO] Discarding packet: The msg_id is lower than all the stored values
@@ -798,3 +773,28 @@
 2026-06-28 03:09:27,952 [INFO] [poll] новое сообщение id=7927: '📊 отправлено=11, ошибок=0, cooling=2, blacklist=10, всего_г'
 2026-06-28 03:10:04,092 [INFO] [spam] доступных групп: 38
 2026-06-28 03:10:04,211 [WARNING] [spammer] Waiting for 3 seconds before continuing (required by "messages.SendMessage")
+2026-06-28 03:10:11,438 [INFO] [log-push] логи отправлены в GitHub
+2026-06-28 03:10:21,836 [INFO] [spam] -1004386075138 flood_wait=47s
+2026-06-28 03:10:22,457 [INFO] [spam] -1002884395055 flood_wait=46s
+2026-06-28 03:10:22,958 [INFO] [spam] отправлено=11, ошибок=0, cooling=15, blacklist=10, всего_групп=28
+2026-06-28 03:10:24,018 [INFO] [poll] новое сообщение id=7928: '📊 отправлено=11, ошибок=0, cooling=15, blacklist=10, всего_'
+2026-06-28 03:10:59,373 [INFO] [spam] доступных групп: 38
+2026-06-28 03:10:59,487 [WARNING] [spammer] Waiting for 9 seconds before continuing (required by "messages.SendMessage")
+2026-06-28 03:11:22,533 [INFO] [spam] -1002467376687 flood_wait=47s
+2026-06-28 03:11:23,146 [INFO] [spam] -1003721958702 flood_wait=46s
+2026-06-28 03:11:23,965 [INFO] [spam] -1002684793720 flood_wait=46s
+2026-06-28 03:11:24,577 [INFO] [spam] -1004357140296 flood_wait=45s
+2026-06-28 03:11:25,191 [INFO] [spam] -1003921839532 flood_wait=44s
+2026-06-28 03:11:25,803 [INFO] [spam] -1003959056448 flood_wait=44s
+2026-06-28 03:11:26,423 [INFO] [spam] -1003926645982 flood_wait=43s
+2026-06-28 03:11:27,038 [INFO] [spam] -1004395652731 flood_wait=43s
+2026-06-28 03:11:27,651 [INFO] [spam] -1003971778755 flood_wait=42s
+2026-06-28 03:11:28,274 [INFO] [spam] -1002904673550 flood_wait=41s
+2026-06-28 03:11:28,885 [INFO] [spam] -1004373408634 flood_wait=41s
+2026-06-28 03:11:29,475 [WARNING] [spam] чат -1003217374068: Telegram says: [420 SLOWMODE_WAIT_X] - A wait of 172 seconds is required to send messages in this chat. (caused by "messages.SendMessage")
+2026-06-28 03:11:30,090 [INFO] [spam] -1003837056814 flood_wait=39s
+2026-06-28 03:11:30,700 [INFO] [spam] -1003763565968 flood_wait=39s
+2026-06-28 03:11:31,320 [INFO] [spam] -1002594080951 flood_wait=38s
+2026-06-28 03:11:31,821 [INFO] [spam] отправлено=11, ошибок=1, cooling=2, blacklist=10, всего_групп=28
+2026-06-28 03:11:32,265 [INFO] [poll] новое сообщение id=7929: '📊 отправлено=11, ошибок=1, cooling=2, blacklist=10, всего_г'
+2026-06-28 03:12:08,868 [INFO] [spam] доступных групп: 38
