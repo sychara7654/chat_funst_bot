@@ -1,24 +1,3 @@
-2026-06-28 19:35:18 [INFO] root: [GH-STATE] сохранено в GitHub, topics=12
-2026-06-28 19:35:19 [INFO] root: [GH-CACHE] сохранено 296 сообщений в GitHub
-2026-06-28 19:36:09 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-06-28 19:41:10 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-06-28 19:41:51 [INFO] root: [CACHE] chat=5472219604 mid=455712 from=5047236340 owner=5047236340 cache_size=500
-2026-06-28 19:41:51 [INFO] aiogram.event: Update id=846665827 is handled. Duration 0 ms by bot id=7851684074
-2026-06-28 19:42:10 [INFO] root: [CACHE] chat=5472219604 mid=455713 from=5047236340 owner=5047236340 cache_size=500
-2026-06-28 19:42:10 [INFO] aiogram.event: Update id=846665828 is handled. Duration 0 ms by bot id=7851684074
-2026-06-28 19:42:12 [INFO] root: [CACHE] chat=5472219604 mid=455714 from=5047236340 owner=5047236340 cache_size=500
-2026-06-28 19:42:12 [INFO] aiogram.event: Update id=846665829 is handled. Duration 0 ms by bot id=7851684074
-2026-06-28 19:43:15 [INFO] root: [CACHE] chat=5472219604 mid=455715 from=5472219604 owner=5047236340 cache_size=500
-2026-06-28 19:43:15 [INFO] aiogram.event: Update id=846665830 is handled. Duration 0 ms by bot id=7851684074
-2026-06-28 19:43:18 [INFO] root: [CACHE] chat=5472219604 mid=455716 from=5472219604 owner=5047236340 cache_size=500
-2026-06-28 19:43:18 [INFO] aiogram.event: Update id=846665831 is handled. Duration 0 ms by bot id=7851684074
-2026-06-28 19:43:51 [INFO] root: [CACHE] chat=5472219604 mid=455717 from=5047236340 owner=5047236340 cache_size=500
-2026-06-28 19:43:51 [INFO] aiogram.event: Update id=846665832 is handled. Duration 0 ms by bot id=7851684074
-2026-06-28 19:43:54 [INFO] root: [CACHE] chat=5472219604 mid=455718 from=5047236340 owner=5047236340 cache_size=500
-2026-06-28 19:43:54 [INFO] aiogram.event: Update id=846665833 is handled. Duration 0 ms by bot id=7851684074
-2026-06-28 19:44:06 [INFO] root: [CACHE] chat=5472219604 mid=455719 from=5047236340 owner=5047236340 cache_size=500
-2026-06-28 19:44:06 [INFO] aiogram.event: Update id=846665834 is handled. Duration 0 ms by bot id=7851684074
-2026-06-28 19:44:13 [INFO] root: [CACHE] chat=5472219604 mid=455720 from=5047236340 owner=5047236340 cache_size=500
 2026-06-28 19:44:13 [INFO] aiogram.event: Update id=846665835 is handled. Duration 0 ms by bot id=7851684074
 2026-06-28 19:44:15 [INFO] root: [CACHE] chat=5472219604 mid=455721 from=5047236340 owner=5047236340 cache_size=500
 2026-06-28 19:44:15 [INFO] aiogram.event: Update id=846665836 is handled. Duration 0 ms by bot id=7851684074
@@ -504,3 +483,25 @@ Original description: Too Many Requests: retry after 17
 2026-06-28 21:11:06 [INFO] aiogram.event: Update id=846666050 is handled. Duration 0 ms by bot id=7851684074
 2026-06-28 21:11:19 [INFO] root: [CACHE] chat=6705103797 mid=455836 from=5047236340 owner=5047236340 cache_size=67
 2026-06-28 21:11:19 [INFO] aiogram.event: Update id=846666051 is handled. Duration 0 ms by bot id=7851684074
+2026-06-28 21:11:34 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-06-28 21:13:39 [INFO] root: [CACHE] chat=1321861082 mid=19844 from=8947170643 owner=8947170643 cache_size=102
+2026-06-28 21:13:39 [INFO] aiogram.event: Update id=846666052 is handled. Duration 0 ms by bot id=7851684074
+2026-06-28 21:13:44 [INFO] root: [CACHE] chat=1321861082 mid=19845 from=8947170643 owner=8947170643 cache_size=103
+2026-06-28 21:13:44 [INFO] aiogram.event: Update id=846666053 is handled. Duration 0 ms by bot id=7851684074
+2026-06-28 21:14:31 [INFO] root: [CACHE] chat=1321861082 mid=19849 from=1321861082 owner=8947170643 cache_size=104
+2026-06-28 21:14:31 [INFO] aiogram.event: Update id=846666054 is handled. Duration 0 ms by bot id=7851684074
+2026-06-28 21:14:39 [INFO] root: [CACHE] chat=1321861082 mid=19851 from=1321861082 owner=8947170643 cache_size=105
+2026-06-28 21:14:39 [INFO] aiogram.event: Update id=846666055 is handled. Duration 0 ms by bot id=7851684074
+2026-06-28 21:14:56 [INFO] aiogram.event: Update id=846666056 is handled. Duration 1 ms by bot id=7851684074
+2026-06-28 21:15:20 [INFO] root: [music] Deezer: 'Папины дочки Uma2rman' → 'Uma2rman - Папины дочки'
+2026-06-28 21:15:20 [INFO] root: [music] Deezer нормализация: 'Папины дочки Uma2rman' → 'Uma2rman Папины дочки'
+2026-06-28 21:15:21 [INFO] root: [music] Bandcamp не скачал (rc=1): ERROR: Unable to handle request: Unsupported url scheme: "bcsearch1" (urllib)
+
+2026-06-28 21:15:21 [WARNING] root: [music] VK API error 1116: Anonymous token is invalid
+2026-06-28 21:15:22 [INFO] root: [music] YouTube → оригинал: «Uma2rmaН - Папины дочки»
+2026-06-28 21:15:22 [INFO] root: [music] SoundCloud → оригинал: «Папины дочки»
+2026-06-28 21:15:23 [INFO] root: [music] YouTube не скачал (rc=1): -do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  
+2026-06-28 21:15:29 [INFO] root: [music] отправлено 'Uma2rman — Папины дочки' из SoundCloud
+2026-06-28 21:15:29 [INFO] aiogram.event: Update id=846666057 is handled. Duration 8724 ms by bot id=7851684074
+2026-06-28 21:15:45 [INFO] root: [GH-STATE] сохранено в GitHub, topics=12
+2026-06-28 21:15:47 [INFO] root: [GH-CACHE] сохранено 361 сообщений в GitHub
