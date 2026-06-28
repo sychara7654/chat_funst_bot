@@ -1,28 +1,3 @@
-2026-06-28 04:27:33,493 [INFO] Send exception: ConnectionResetError Connection lost
-2026-06-28 04:27:33,493 [INFO] Disconnected
-2026-06-28 04:27:33,494 [INFO] Session stopped
-2026-06-28 04:27:33,494 [INFO] Connecting...
-2026-06-28 04:27:33,577 [INFO] Connected! Production DC1 - IPv4
-2026-06-28 04:27:33,577 [INFO] NetworkTask started
-2026-06-28 04:27:33,977 [INFO] Session initialized: Layer 158
-2026-06-28 04:27:33,978 [INFO] Device: CPython 3.11.15 - Pyrogram 2.0.106
-2026-06-28 04:27:33,978 [INFO] System: Linux 6.18.15+deb13-cloud-amd64 (en)
-2026-06-28 04:27:33,978 [INFO] Session started
-2026-06-28 04:27:33,978 [INFO] PingTask started
-2026-06-28 04:27:40,573 [INFO] [spam] доступных групп: 38
-2026-06-28 04:27:53,773 [INFO] [spam] -1002467376687 flood_wait=48s
-2026-06-28 04:27:54,390 [INFO] [spam] -1003721958702 flood_wait=47s
-2026-06-28 04:27:55,001 [INFO] [spam] -1002684793720 flood_wait=47s
-2026-06-28 04:27:55,613 [INFO] [spam] -1003926645982 flood_wait=46s
-2026-06-28 04:27:56,229 [INFO] [spam] -1004395652731 flood_wait=45s
-2026-06-28 04:27:56,840 [INFO] [spam] -1003921839532 flood_wait=45s
-2026-06-28 04:27:57,456 [INFO] [spam] -1003959056448 flood_wait=44s
-2026-06-28 04:27:58,109 [INFO] [spam] -1004357140296 flood_wait=43s
-2026-06-28 04:27:58,719 [INFO] [spam] -1004373408634 flood_wait=43s
-2026-06-28 04:27:59,340 [INFO] [spam] -1002904673550 flood_wait=42s
-2026-06-28 04:27:59,961 [INFO] [spam] -1003971778755 flood_wait=42s
-2026-06-28 04:28:00,571 [INFO] [spam] -1003837056814 flood_wait=41s
-2026-06-28 04:28:01,180 [INFO] [spam] -1003763565968 flood_wait=40s
 2026-06-28 04:28:01,791 [INFO] [spam] -1002594080951 flood_wait=40s
 2026-06-28 04:28:02,292 [INFO] [spam] отправлено=11, ошибок=0, cooling=3, blacklist=10, всего_групп=28
 2026-06-28 04:28:05,412 [INFO] [poll] новое сообщение id=8022: '📊 отправлено=11, ошибок=0, cooling=3, blacklist=10, всего_г'
@@ -798,3 +773,28 @@
 2026-06-28 05:01:18,628 [INFO] [spam] -1002594080951 flood_wait=37s
 2026-06-28 05:01:19,129 [INFO] [spam] отправлено=11, ошибок=0, cooling=0, blacklist=10, всего_групп=28
 2026-06-28 05:01:19,354 [INFO] [poll] новое сообщение id=8063: '📊 отправлено=11, ошибок=0, cooling=0, blacklist=10, всего_г'
+2026-06-28 05:01:25,272 [INFO] [log-push] логи отправлены в GitHub
+2026-06-28 05:01:55,456 [INFO] [spam] доступных групп: 38
+2026-06-28 05:02:08,925 [INFO] [spam] отправлено=11, ошибок=0, cooling=17, blacklist=10, всего_групп=28
+2026-06-28 05:02:09,110 [INFO] [poll] новое сообщение id=8064: '📊 отправлено=11, ошибок=0, cooling=17, blacklist=10, всего_'
+2026-06-28 05:02:46,411 [INFO] [spam] доступных групп: 38
+2026-06-28 05:02:46,520 [WARNING] [spammer] Waiting for 10 seconds before continuing (required by "messages.SendMessage")
+2026-06-28 05:03:09,756 [INFO] [spam] -1004386075138 flood_wait=48s
+2026-06-28 05:03:10,380 [INFO] [spam] -1002884395055 flood_wait=47s
+2026-06-28 05:03:10,989 [INFO] [spam] -1002467376687 flood_wait=47s
+2026-06-28 05:03:11,600 [INFO] [spam] -1003721958702 flood_wait=46s
+2026-06-28 05:03:12,215 [INFO] [spam] -1002684793720 flood_wait=45s
+2026-06-28 05:03:12,826 [INFO] [spam] -1003921839532 flood_wait=45s
+2026-06-28 05:03:13,437 [INFO] [spam] -1004395652731 flood_wait=44s
+2026-06-28 05:03:14,028 [WARNING] [spam] чат -1003217374068: Telegram says: [420 SLOWMODE_WAIT_X] - A wait of 182 seconds is required to send messages in this chat. (caused by "messages.SendMessage")
+2026-06-28 05:03:14,641 [INFO] [spam] -1004357140296 flood_wait=43s
+2026-06-28 05:03:15,252 [INFO] [spam] -1003926645982 flood_wait=42s
+2026-06-28 05:03:15,867 [INFO] [spam] -1003959056448 flood_wait=42s
+2026-06-28 05:03:16,491 [INFO] [spam] -1002904673550 flood_wait=41s
+2026-06-28 05:03:17,102 [INFO] [spam] -1004373408634 flood_wait=40s
+2026-06-28 05:03:17,725 [INFO] [spam] -1003971778755 flood_wait=40s
+2026-06-28 05:03:18,338 [INFO] [spam] -1003837056814 flood_wait=39s
+2026-06-28 05:03:18,948 [INFO] [spam] -1003763565968 flood_wait=39s
+2026-06-28 05:03:19,565 [INFO] [spam] -1002594080951 flood_wait=38s
+2026-06-28 05:03:20,066 [INFO] [spam] отправлено=11, ошибок=1, cooling=0, blacklist=10, всего_групп=28
+2026-06-28 05:03:20,553 [INFO] [poll] новое сообщение id=8065: '📊 отправлено=11, ошибок=1, cooling=0, blacklist=10, всего_г'
