@@ -1,13 +1,3 @@
-2026-06-28 02:24:56,258 [INFO] NetworkTask started
-2026-06-28 02:24:56,470 [INFO] Discarding packet: The msg_id belongs to over 300 seconds in the past. Most likely the client time has to be synchronized.
-2026-06-28 02:24:56,471 [INFO] Disconnected
-2026-06-28 02:24:56,471 [INFO] NetworkTask stopped
-2026-06-28 02:24:58,261 [INFO] Disconnected
-2026-06-28 02:24:58,261 [INFO] Session stopped
-2026-06-28 02:24:58,261 [INFO] Connecting...
-2026-06-28 02:24:58,344 [INFO] Connected! Production DC1 - IPv4
-2026-06-28 02:24:58,344 [INFO] NetworkTask started
-2026-06-28 02:24:58,553 [INFO] Discarding packet: The msg_id is lower than all the stored values
 2026-06-28 02:24:58,553 [INFO] Disconnected
 2026-06-28 02:24:58,553 [INFO] Send exception: ConnectionResetError Connection lost
 2026-06-28 02:24:58,554 [INFO] Disconnected
@@ -798,3 +788,13 @@
 2026-06-28 03:44:09,102 [INFO] [spam] доступных групп: 38
 2026-06-28 03:44:10,297 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
 2026-06-28 03:44:10,574 [INFO] [poll] новое сообщение id=7970: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 03:44:33,671 [INFO] [log-push] логи отправлены в GitHub
+2026-06-28 03:44:46,648 [INFO] [spam] доступных групп: 38
+2026-06-28 03:44:47,856 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-28 03:44:50,871 [INFO] [poll] новое сообщение id=7971: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 03:45:31,705 [INFO] [spam] доступных групп: 38
+2026-06-28 03:45:33,114 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-28 03:45:35,820 [INFO] [poll] новое сообщение id=7972: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 03:46:13,432 [INFO] [spam] доступных групп: 38
+2026-06-28 03:46:14,709 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-28 03:46:17,157 [INFO] [poll] новое сообщение id=7973: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
