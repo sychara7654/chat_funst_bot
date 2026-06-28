@@ -1,13 +1,3 @@
-2026-06-28 02:24:47,388 [INFO] Disconnected
-2026-06-28 02:24:47,471 [INFO] Connected! Production DC1 - IPv4
-2026-06-28 02:24:47,471 [INFO] NetworkTask started
-2026-06-28 02:24:47,686 [INFO] Discarding packet: The msg_id belongs to over 300 seconds in the past. Most likely the client time has to be synchronized.
-2026-06-28 02:24:47,687 [INFO] Discarding packet: The msg_id is lower than all the stored values
-2026-06-28 02:24:47,687 [INFO] Disconnected
-2026-06-28 02:24:47,687 [INFO] Disconnected
-2026-06-28 02:24:47,687 [INFO] NetworkTask stopped
-2026-06-28 02:24:49,689 [INFO] Disconnected
-2026-06-28 02:24:49,689 [INFO] Session stopped
 2026-06-28 02:24:49,689 [INFO] Connecting...
 2026-06-28 02:24:49,772 [INFO] Connected! Production DC1 - IPv4
 2026-06-28 02:24:49,773 [INFO] NetworkTask started
@@ -798,3 +788,13 @@
 2026-06-28 03:35:54,659 [INFO] [spam] доступных групп: 38
 2026-06-28 03:35:55,832 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
 2026-06-28 03:35:58,108 [INFO] [poll] новое сообщение id=7957: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 03:36:28,548 [INFO] [log-push] логи отправлены в GitHub
+2026-06-28 03:36:33,571 [INFO] [spam] доступных групп: 38
+2026-06-28 03:36:34,825 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-28 03:36:35,527 [INFO] [poll] новое сообщение id=7958: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 03:37:10,837 [INFO] [spam] доступных групп: 38
+2026-06-28 03:37:12,019 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-28 03:37:12,794 [INFO] [poll] новое сообщение id=7959: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 03:37:51,213 [INFO] [spam] доступных групп: 38
+2026-06-28 03:37:52,516 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-28 03:37:53,333 [INFO] [poll] новое сообщение id=7960: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
