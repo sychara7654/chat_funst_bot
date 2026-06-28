@@ -1,13 +1,3 @@
-2026-06-28 04:54:26,707 [INFO] NetworkTask stopped
-2026-06-28 04:54:26,707 [INFO] Session stopped
-2026-06-28 04:54:26,707 [INFO] Connecting...
-2026-06-28 04:54:26,803 [INFO] Connected! Production DC1 - IPv4
-2026-06-28 04:54:26,804 [INFO] NetworkTask started
-2026-06-28 04:54:28,806 [INFO] Disconnected
-2026-06-28 04:54:28,806 [INFO] NetworkTask stopped
-2026-06-28 04:54:28,806 [INFO] Session stopped
-2026-06-28 04:54:28,806 [INFO] Connecting...
-2026-06-28 04:54:28,890 [INFO] Connected! Production DC1 - IPv4
 2026-06-28 04:54:28,890 [INFO] NetworkTask started
 2026-06-28 04:54:30,320 [INFO] [5] Retrying "messages.GetHistory" due to: Request timed out
 2026-06-28 04:54:30,891 [INFO] Disconnected
@@ -798,3 +788,13 @@
 2026-06-28 05:51:43,515 [INFO] [spam] доступных групп: 38
 2026-06-28 05:51:44,845 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
 2026-06-28 05:51:47,900 [INFO] [poll] новое сообщение id=8130: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 05:51:57,200 [INFO] [log-push] логи отправлены в GitHub
+2026-06-28 05:52:20,942 [INFO] [spam] доступных групп: 38
+2026-06-28 05:52:22,250 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-28 05:52:25,350 [INFO] [poll] новое сообщение id=8131: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 05:52:58,455 [INFO] [spam] доступных групп: 38
+2026-06-28 05:52:59,706 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-28 05:53:02,763 [INFO] [poll] новое сообщение id=8132: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
+2026-06-28 05:53:36,216 [INFO] [spam] доступных групп: 38
+2026-06-28 05:53:37,449 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-28 05:53:40,040 [INFO] [poll] новое сообщение id=8133: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
