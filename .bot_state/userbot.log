@@ -1,19 +1,3 @@
-2026-06-28 04:53:45,044 [INFO] NetworkTask started
-2026-06-28 04:53:47,045 [INFO] Disconnected
-2026-06-28 04:53:47,045 [INFO] NetworkTask stopped
-2026-06-28 04:53:47,045 [INFO] Session stopped
-2026-06-28 04:53:47,046 [INFO] Connecting...
-2026-06-28 04:53:48,175 [INFO] Connected! Production DC1 - IPv4
-2026-06-28 04:53:48,176 [INFO] NetworkTask started
-2026-06-28 04:53:50,179 [INFO] Disconnected
-2026-06-28 04:53:50,179 [INFO] NetworkTask stopped
-2026-06-28 04:53:50,179 [INFO] Session stopped
-2026-06-28 04:53:50,179 [INFO] Connecting...
-2026-06-28 04:53:50,265 [INFO] Connected! Production DC1 - IPv4
-2026-06-28 04:53:50,265 [INFO] NetworkTask started
-2026-06-28 04:53:52,267 [INFO] Disconnected
-2026-06-28 04:53:52,267 [INFO] NetworkTask stopped
-2026-06-28 04:53:52,267 [INFO] Session stopped
 2026-06-28 04:53:52,267 [INFO] Connecting...
 2026-06-28 04:53:52,351 [INFO] Connected! Production DC1 - IPv4
 2026-06-28 04:53:52,351 [INFO] NetworkTask started
@@ -798,3 +782,19 @@
 2026-06-28 05:31:41,968 [WARNING] [spam] чат -1003217374068: Telegram says: [420 SLOWMODE_WAIT_X] - A wait of 69 seconds is required to send messages in this chat. (caused by "messages.SendMessage")
 2026-06-28 05:31:42,577 [INFO] [spam] -1003971778755 flood_wait=1753s
 2026-06-28 05:31:43,188 [INFO] [spam] -1003837056814 flood_wait=1752s
+2026-06-28 05:31:44,496 [INFO] [log-push] логи отправлены в GitHub
+2026-06-28 05:31:44,695 [INFO] [spam] -1003763565968 flood_wait=1751s
+2026-06-28 05:31:45,307 [INFO] [spam] -1002594080951 flood_wait=1750s
+2026-06-28 05:31:45,808 [INFO] [spam] отправлено=1, ошибок=1, cooling=3, blacklist=10, всего_групп=28
+2026-06-28 05:31:47,885 [INFO] [poll] новое сообщение id=8095: '📊 отправлено=1, ошибок=1, cooling=3, blacklist=10, всего_гр'
+2026-06-28 05:32:21,826 [INFO] [spam] доступных групп: 38
+2026-06-28 05:32:23,142 [WARNING] [spam] чат -1003217374068: Telegram says: [420 SLOWMODE_WAIT_X] - A wait of 27 seconds is required to send messages in this chat. (caused by "messages.SendMessage")
+2026-06-28 05:32:23,642 [INFO] [spam] отправлено=1, ошибок=1, cooling=26, blacklist=10, всего_групп=28
+2026-06-28 05:32:25,133 [INFO] [poll] новое сообщение id=8096: '📊 отправлено=1, ошибок=1, cooling=26, blacklist=10, всего_г'
+2026-06-28 05:32:59,753 [INFO] [spam] доступных групп: 38
+2026-06-28 05:33:01,043 [INFO] [spam] -1003217374068 flood_wait=1675s
+2026-06-28 05:33:01,544 [INFO] [spam] отправлено=1, ошибок=0, cooling=26, blacklist=10, всего_групп=28
+2026-06-28 05:33:02,452 [INFO] [poll] новое сообщение id=8097: '📊 отправлено=1, ошибок=0, cooling=26, blacklist=10, всего_г'
+2026-06-28 05:33:38,373 [INFO] [spam] доступных групп: 38
+2026-06-28 05:33:39,557 [INFO] [spam] отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_групп=28
+2026-06-28 05:33:39,795 [INFO] [poll] новое сообщение id=8098: '📊 отправлено=1, ошибок=0, cooling=27, blacklist=10, всего_г'
