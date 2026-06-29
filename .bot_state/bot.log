@@ -1,16 +1,3 @@
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 418427 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 423491 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 428941 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 431544 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 431988 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 438579 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 439040 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 447950 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 448346 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 451652 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 453207 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 461774 bytes
 2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 465267 bytes
 2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
 2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 470238 bytes
@@ -540,3 +527,16 @@ Original description: Too Many Requests: retry after 5
 2026-06-29 20:56:00 [INFO] aiogram.event: Update id=846670548 is handled. Duration 0 ms by bot id=7851684074
 2026-06-29 20:57:51 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-06-29 21:01:51 [INFO] root: Кэш очищен от сообщений старше 7 дней
+2026-06-29 21:02:52 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-06-29 21:03:25 [INFO] root: [GH-STATE] сохранено в GitHub, topics=12
+2026-06-29 21:03:27 [INFO] root: [GH-CACHE] сохранено 758 сообщений в GitHub
+2026-06-29 21:07:35 [INFO] root: [CACHE] chat=6348613179 mid=21573 from=6348613179 owner=8947170643 cache_size=500
+2026-06-29 21:07:35 [INFO] aiogram.event: Update id=846670549 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 21:07:39 [INFO] root: [CACHE] chat=6348613179 mid=21574 from=6348613179 owner=8947170643 cache_size=500
+2026-06-29 21:07:39 [INFO] aiogram.event: Update id=846670550 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 21:07:42 [INFO] root: [CACHE] chat=6348613179 mid=21575 from=6348613179 owner=8947170643 cache_size=500
+2026-06-29 21:07:42 [INFO] aiogram.event: Update id=846670551 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 21:07:46 [INFO] root: [CACHE] chat=6348613179 mid=21576 from=6348613179 owner=8947170643 cache_size=500
+2026-06-29 21:07:46 [INFO] aiogram.event: Update id=846670552 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 21:07:50 [INFO] root: [CACHE] chat=6348613179 mid=21577 from=6348613179 owner=8947170643 cache_size=500
+2026-06-29 21:07:50 [INFO] aiogram.event: Update id=846670553 is handled. Duration 0 ms by bot id=7851684074
