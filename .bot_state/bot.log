@@ -1,17 +1,3 @@
-2026-06-29 10:53:50 [INFO] aiogram.event: Update id=846668310 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 10:53:50 [INFO] root: [CACHE] chat=6705103797 mid=456592 from=6705103797 owner=5047236340 cache_size=273
-2026-06-29 10:53:50 [INFO] aiogram.event: Update id=846668311 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 10:53:51 [INFO] root: [CACHE] chat=6705103797 mid=456593 from=5047236340 owner=5047236340 cache_size=274
-2026-06-29 10:53:51 [INFO] aiogram.event: Update id=846668312 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 10:54:08 [INFO] root: [CACHE] chat=6705103797 mid=456594 from=5047236340 owner=5047236340 cache_size=275
-2026-06-29 10:54:08 [INFO] aiogram.event: Update id=846668313 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 10:54:09 [INFO] root: [CACHE] chat=6705103797 mid=456595 from=5047236340 owner=5047236340 cache_size=276
-2026-06-29 10:54:09 [INFO] aiogram.event: Update id=846668314 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 10:54:11 [INFO] root: [CACHE] chat=6705103797 mid=456596 from=5047236340 owner=5047236340 cache_size=277
-2026-06-29 10:54:11 [INFO] aiogram.event: Update id=846668315 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 10:54:12 [INFO] root: [CACHE] chat=6705103797 mid=456597 from=5047236340 owner=5047236340 cache_size=278
-2026-06-29 10:54:12 [INFO] aiogram.event: Update id=846668316 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 10:54:13 [INFO] root: [CACHE] chat=6705103797 mid=456598 from=5047236340 owner=5047236340 cache_size=279
 2026-06-29 10:54:13 [INFO] aiogram.event: Update id=846668317 is handled. Duration 0 ms by bot id=7851684074
 2026-06-29 10:54:19 [INFO] root: [CACHE] chat=6705103797 mid=456599 from=6705103797 owner=5047236340 cache_size=280
 2026-06-29 10:54:19 [INFO] aiogram.event: Update id=846668318 is handled. Duration 0 ms by bot id=7851684074
@@ -516,3 +502,17 @@ Original description: Too Many Requests: retry after 14
 2026-06-29 12:10:25 [INFO] root: [GH-STATE] сохранено в GitHub, topics=12
 2026-06-29 12:10:27 [INFO] root: [GH-CACHE] сохранено 456 сообщений в GitHub
 2026-06-29 12:10:28 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-06-29 12:15:29 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-06-29 12:20:28 [INFO] root: [GH-STATE] сохранено в GitHub, topics=12
+2026-06-29 12:20:30 [INFO] root: [GH-CACHE] сохранено 456 сообщений в GitHub
+2026-06-29 12:20:30 [ERROR] root: [GH-LOG] не удалось запушить логи: {'_status': 409, '_body': '{"message":"is at 1b724d11b1b735090b3cc5490e1bcc573e8abf2a but expected 73df94a88a2d7dd8505a5d3ee750779b6757ff0e","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}'}
+2026-06-29 12:23:59 [INFO] root: [CACHE] chat=6348613179 mid=21377 from=8947170643 owner=8947170643 cache_size=500
+2026-06-29 12:23:59 [INFO] aiogram.event: Update id=846668536 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 12:24:06 [INFO] root: [CACHE] chat=6348613179 mid=21378 from=8947170643 owner=8947170643 cache_size=500
+2026-06-29 12:24:06 [INFO] aiogram.event: Update id=846668537 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 12:24:13 [INFO] root: [CACHE] chat=6348613179 mid=21379 from=8947170643 owner=8947170643 cache_size=500
+2026-06-29 12:24:13 [INFO] aiogram.event: Update id=846668538 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 12:24:36 [INFO] root: [CACHE] chat=6348613179 mid=21380 from=8947170643 owner=8947170643 cache_size=500
+2026-06-29 12:24:36 [INFO] aiogram.event: Update id=846668539 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 12:24:47 [INFO] root: [CACHE] chat=6348613179 mid=21381 from=8947170643 owner=8947170643 cache_size=500
+2026-06-29 12:24:47 [INFO] aiogram.event: Update id=846668540 is handled. Duration 0 ms by bot id=7851684074
