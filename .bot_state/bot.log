@@ -1,7 +1,3 @@
-2026-06-29 11:16:28 [INFO] root: [CACHE] chat=5472219604 mid=456641 from=5472219604 owner=5047236340 cache_size=500
-2026-06-29 11:16:28 [INFO] aiogram.event: Update id=846668360 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:16:31 [INFO] root: [CACHE] chat=5472219604 mid=456642 from=5047236340 owner=5047236340 cache_size=500
-2026-06-29 11:16:31 [INFO] aiogram.event: Update id=846668361 is handled. Duration 0 ms by bot id=7851684074
 2026-06-29 11:16:32 [INFO] root: [CACHE] chat=5472219604 mid=456643 from=5472219604 owner=5047236340 cache_size=500
 2026-06-29 11:16:32 [INFO] aiogram.event: Update id=846668362 is handled. Duration 0 ms by bot id=7851684074
 2026-06-29 11:16:38 [INFO] root: [CACHE] chat=5472219604 mid=456644 from=5472219604 owner=5047236340 cache_size=500
@@ -516,3 +512,7 @@ Original description: Too Many Requests: retry after 14
 2026-06-29 12:55:51 [INFO] aiogram.event: Update id=846668579 is handled. Duration 0 ms by bot id=7851684074
 2026-06-29 12:57:48 [INFO] root: [CACHE] chat=6348613179 mid=21397 from=6348613179 owner=8947170643 cache_size=500
 2026-06-29 12:57:48 [INFO] aiogram.event: Update id=846668580 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:00:41 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-06-29 13:00:41 [ERROR] root: [GH-STATE] не удалось сохранить: {'_status': 409, '_body': '{"message":"is at aa4bf6cfe86deea1c7f7810d092337a4c4915d08 but expected 6fad8049e875a1a171d52589969814fbcc62a616","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}'}
+2026-06-29 13:00:43 [INFO] root: [GH-CACHE] сохранено 473 сообщений в GitHub
+2026-06-29 13:01:51 [INFO] root: Кэш очищен от сообщений старше 7 дней
