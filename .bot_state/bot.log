@@ -1,6 +1,3 @@
-2026-06-29 01:45:00 [INFO] aiogram.event: Update id=846668087 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 01:45:03 [INFO] root: [CACHE] chat=6348613179 mid=21262 from=6348613179 owner=8947170643 cache_size=500
-2026-06-29 01:45:03 [INFO] aiogram.event: Update id=846668088 is handled. Duration 0 ms by bot id=7851684074
 2026-06-29 01:45:14 [INFO] aiogram.event: Update id=846668089 is handled. Duration 0 ms by bot id=7851684074
 2026-06-29 01:45:14 [INFO] root: [/q DEBUG] raw_text='/q 2'  parsed: r=False count=2
 2026-06-29 01:45:15 [INFO] root: [/q DEBUG] cmd_chat_id=6348613179 base_chat_id=6348613179 base_mid=21261 all_cache_chats=[1321861082, 6348613179, 8075097383, 8218581656, 8670538453, 1815808514, 8563553994, 8947170643, 7141954392, 5047236340, 5472219604, 5061136062, 6705103797, 6565948550, 1461550527, 2044239610, 8550452322, 5329108507, 8396441610, 8950152467, 7627269216, 5810660873, 999667701, 8662203967, 8380188782, 7404358252, 8426322545, 7379411633, 7420838260, 7101931991, 7588636537] this_chat_cache_size=500 sample_ids=[20758, 20759, 20760, 20761, 20762, 20763, 20764, 20765, 20766, 20767]
@@ -498,3 +495,6 @@
 2026-06-29 09:19:28 [INFO] root: [GH-STATE] сохранено в GitHub, topics=12
 2026-06-29 09:19:30 [INFO] root: [GH-CACHE] сохранено 404 сообщений в GitHub
 2026-06-29 09:19:41 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-06-29 09:24:43 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-06-29 09:29:32 [INFO] root: [GH-STATE] сохранено в GitHub, topics=12
+2026-06-29 09:29:34 [INFO] root: [GH-CACHE] сохранено 404 сообщений в GitHub
