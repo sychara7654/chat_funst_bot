@@ -1,16 +1,3 @@
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 373109 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 380116 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 381523 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 386082 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 386097 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 389156 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 389419 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 391804 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 402805 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 406080 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 408229 bytes
-2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 414180 bytes
 2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
 2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 418406 bytes
 2026-06-29 20:09:15 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 418427 bytes
@@ -540,3 +527,16 @@ Original description: Too Many Requests: retry after 5
 2026-06-29 20:48:57 [INFO] aiogram.event: Update id=846670542 is handled. Duration 0 ms by bot id=7851684074
 2026-06-29 20:49:08 [INFO] root: [CACHE] chat=1321861082 mid=21556 from=8947170643 owner=8947170643 cache_size=270
 2026-06-29 20:49:08 [INFO] aiogram.event: Update id=846670543 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 20:52:50 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-06-29 20:53:22 [INFO] root: [GH-STATE] сохранено в GitHub, topics=12
+2026-06-29 20:53:24 [INFO] root: [GH-CACHE] сохранено 756 сообщений в GitHub
+2026-06-29 20:54:56 [INFO] root: [CACHE] chat=7420838260 mid=457534 from=5047236340 owner=5047236340 cache_size=226
+2026-06-29 20:54:56 [INFO] aiogram.event: Update id=846670544 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 20:54:57 [INFO] root: [CACHE] chat=7420838260 mid=457535 from=5047236340 owner=5047236340 cache_size=227
+2026-06-29 20:54:57 [INFO] aiogram.event: Update id=846670545 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 20:55:11 [INFO] root: [CACHE] chat=7420838260 mid=457536 from=5047236340 owner=5047236340 cache_size=228
+2026-06-29 20:55:11 [INFO] aiogram.event: Update id=846670546 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 20:56:00 [INFO] root: [CACHE] chat=8563553994 mid=21557 from=8563553994 owner=8947170643 cache_size=27
+2026-06-29 20:56:00 [INFO] aiogram.event: Update id=846670547 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 20:56:00 [INFO] root: [CACHE] chat=8947170643 mid=50759 from=8563553994 owner=8563553994 cache_size=6
+2026-06-29 20:56:00 [INFO] aiogram.event: Update id=846670548 is handled. Duration 0 ms by bot id=7851684074
