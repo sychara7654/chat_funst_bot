@@ -1,37 +1,3 @@
-2026-06-29 11:54:41 [INFO] aiogram.event: Update id=846668410 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:54:43 [INFO] root: [CACHE] chat=1788702230 mid=456694 from=5047236340 owner=5047236340 cache_size=18
-2026-06-29 11:54:43 [INFO] aiogram.event: Update id=846668411 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:54:43 [INFO] root: [CACHE] chat=1788702230 mid=456695 from=1788702230 owner=5047236340 cache_size=19
-2026-06-29 11:54:43 [INFO] aiogram.event: Update id=846668412 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:54:45 [INFO] root: [CACHE] chat=1788702230 mid=456696 from=5047236340 owner=5047236340 cache_size=20
-2026-06-29 11:54:45 [INFO] aiogram.event: Update id=846668413 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:54:47 [INFO] root: [CACHE] chat=1788702230 mid=456697 from=5047236340 owner=5047236340 cache_size=21
-2026-06-29 11:54:47 [INFO] aiogram.event: Update id=846668414 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:54:47 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 9 seconds.
-Original description: Too Many Requests: retry after 9
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-06-29 11:54:48 [INFO] root: [CACHE] chat=1788702230 mid=456698 from=1788702230 owner=5047236340 cache_size=22
-2026-06-29 11:54:48 [INFO] aiogram.event: Update id=846668415 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:54:50 [INFO] root: [CACHE] chat=1788702230 mid=456699 from=5047236340 owner=5047236340 cache_size=23
-2026-06-29 11:54:50 [INFO] aiogram.event: Update id=846668416 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:54:50 [INFO] root: [CACHE] chat=1788702230 mid=456700 from=1788702230 owner=5047236340 cache_size=24
-2026-06-29 11:54:50 [INFO] aiogram.event: Update id=846668417 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:54:52 [INFO] root: [CACHE] chat=1788702230 mid=456701 from=5047236340 owner=5047236340 cache_size=25
-2026-06-29 11:54:52 [INFO] aiogram.event: Update id=846668418 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:54:54 [INFO] root: [CACHE] chat=1788702230 mid=456702 from=1788702230 owner=5047236340 cache_size=26
-2026-06-29 11:54:54 [INFO] aiogram.event: Update id=846668419 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:54:55 [INFO] root: [CACHE] chat=1788702230 mid=456703 from=5047236340 owner=5047236340 cache_size=27
-2026-06-29 11:54:55 [INFO] aiogram.event: Update id=846668420 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:54:56 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 3 seconds.
-Original description: Too Many Requests: retry after 3
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-06-29 11:54:57 [INFO] root: [CACHE] chat=1788702230 mid=456704 from=5047236340 owner=5047236340 cache_size=28
-2026-06-29 11:54:57 [INFO] aiogram.event: Update id=846668421 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:54:57 [INFO] root: [CACHE] chat=1788702230 mid=456705 from=1788702230 owner=5047236340 cache_size=29
-2026-06-29 11:54:57 [INFO] aiogram.event: Update id=846668422 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:54:59 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 3 seconds.
-Original description: Too Many Requests: retry after 3
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
 2026-06-29 11:54:59 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 3 seconds.
 Original description: Too Many Requests: retry after 3
 (background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
@@ -516,3 +482,31 @@ Original description: Too Many Requests: retry after 14
 2026-06-29 13:50:51 [INFO] root: [CACHE] chat=8380188782 mid=111853 from=8662203967 owner=8662203967 cache_size=60
 2026-06-29 13:50:51 [INFO] aiogram.event: Update id=846668626 is handled. Duration 0 ms by bot id=7851684074
 2026-06-29 13:50:51 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Bad Request: can't parse entities: Invalid custom emoji identifier specified
+2026-06-29 13:50:55 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-06-29 13:50:58 [INFO] root: [CACHE] chat=8380188782 mid=111854 from=8380188782 owner=8662203967 cache_size=61
+2026-06-29 13:50:58 [INFO] aiogram.event: Update id=846668627 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:50:58 [INFO] root: [GH-STATE] сохранено в GitHub, topics=12
+2026-06-29 13:51:00 [INFO] root: [GH-CACHE] сохранено 477 сообщений в GitHub
+2026-06-29 13:51:10 [INFO] root: [CACHE] chat=8380188782 mid=111855 from=8662203967 owner=8662203967 cache_size=62
+2026-06-29 13:51:10 [INFO] aiogram.event: Update id=846668628 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:51:11 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Bad Request: can't parse entities: Invalid custom emoji identifier specified
+2026-06-29 13:51:20 [INFO] root: [CACHE] chat=8380188782 mid=111856 from=8380188782 owner=8662203967 cache_size=63
+2026-06-29 13:51:20 [INFO] aiogram.event: Update id=846668629 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:51:24 [INFO] root: [CACHE] chat=8380188782 mid=111857 from=8380188782 owner=8662203967 cache_size=64
+2026-06-29 13:51:24 [INFO] aiogram.event: Update id=846668630 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:51:51 [INFO] root: [CACHE] chat=8380188782 mid=111858 from=8662203967 owner=8662203967 cache_size=65
+2026-06-29 13:51:51 [INFO] aiogram.event: Update id=846668631 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:55:35 [INFO] root: [CACHE] chat=8573476514 mid=111859 from=8573476514 owner=8662203967 cache_size=3
+2026-06-29 13:55:35 [INFO] aiogram.event: Update id=846668632 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:55:43 [INFO] root: [CACHE] chat=8573476514 mid=111860 from=8573476514 owner=8662203967 cache_size=4
+2026-06-29 13:55:43 [INFO] aiogram.event: Update id=846668633 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:55:44 [INFO] root: [CACHE] chat=8573476514 mid=111861 from=8662203967 owner=8662203967 cache_size=5
+2026-06-29 13:55:44 [INFO] aiogram.event: Update id=846668634 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:55:46 [INFO] root: [CACHE] chat=8573476514 mid=111862 from=8662203967 owner=8662203967 cache_size=6
+2026-06-29 13:55:46 [INFO] aiogram.event: Update id=846668635 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:55:46 [INFO] newcontact: [FUNSTAT] user_id=8573476514 full=False fields=13 names=0 unames=0 groups=0 stickers=0
+2026-06-29 13:55:49 [INFO] root: [CACHE] chat=8573476514 mid=111864 from=8662203967 owner=8662203967 cache_size=7
+2026-06-29 13:55:49 [INFO] aiogram.event: Update id=846668636 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:55:50 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Bad Request: can't parse entities: Invalid custom emoji identifier specified
+2026-06-29 13:55:51 [INFO] root: [CACHE] chat=8573476514 mid=111865 from=8573476514 owner=8662203967 cache_size=8
+2026-06-29 13:55:51 [INFO] aiogram.event: Update id=846668637 is handled. Duration 0 ms by bot id=7851684074
