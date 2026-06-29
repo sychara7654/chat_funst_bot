@@ -1,44 +1,3 @@
-2026-06-29 11:54:59 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 3 seconds.
-Original description: Too Many Requests: retry after 3
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-06-29 11:54:59 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 3 seconds.
-Original description: Too Many Requests: retry after 3
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-06-29 11:54:59 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 3 seconds.
-Original description: Too Many Requests: retry after 3
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-06-29 11:55:02 [INFO] root: [CACHE] chat=1788702230 mid=456706 from=5047236340 owner=5047236340 cache_size=30
-2026-06-29 11:55:02 [INFO] aiogram.event: Update id=846668423 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:55:05 [INFO] root: [CACHE] chat=1788702230 mid=456707 from=1788702230 owner=5047236340 cache_size=31
-2026-06-29 11:55:05 [INFO] aiogram.event: Update id=846668424 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:55:09 [INFO] root: [CACHE] chat=1788702230 mid=456708 from=5047236340 owner=5047236340 cache_size=32
-2026-06-29 11:55:09 [INFO] aiogram.event: Update id=846668425 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:55:10 [INFO] root: [CACHE] chat=1788702230 mid=456709 from=1788702230 owner=5047236340 cache_size=33
-2026-06-29 11:55:10 [INFO] aiogram.event: Update id=846668426 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:55:13 [INFO] root: [CACHE] chat=1788702230 mid=456710 from=5047236340 owner=5047236340 cache_size=34
-2026-06-29 11:55:13 [INFO] aiogram.event: Update id=846668427 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:55:16 [INFO] root: [CACHE] chat=1788702230 mid=456711 from=1788702230 owner=5047236340 cache_size=35
-2026-06-29 11:55:16 [INFO] aiogram.event: Update id=846668428 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:55:24 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-06-29 11:55:24 [INFO] root: [CACHE] chat=1788702230 mid=456712 from=1788702230 owner=5047236340 cache_size=36
-2026-06-29 11:55:24 [INFO] aiogram.event: Update id=846668429 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:55:30 [INFO] root: [CACHE] chat=1788702230 mid=456713 from=1788702230 owner=5047236340 cache_size=37
-2026-06-29 11:55:30 [INFO] aiogram.event: Update id=846668430 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:55:32 [INFO] root: [CACHE] chat=1788702230 mid=456714 from=5047236340 owner=5047236340 cache_size=38
-2026-06-29 11:55:32 [INFO] aiogram.event: Update id=846668431 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:55:42 [INFO] root: [CACHE] chat=1788702230 mid=456715 from=1788702230 owner=5047236340 cache_size=39
-2026-06-29 11:55:42 [INFO] aiogram.event: Update id=846668432 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:55:43 [INFO] root: [CACHE] chat=1788702230 mid=456716 from=5047236340 owner=5047236340 cache_size=40
-2026-06-29 11:55:43 [INFO] aiogram.event: Update id=846668433 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:55:45 [INFO] root: [CACHE] chat=1788702230 mid=456717 from=1788702230 owner=5047236340 cache_size=41
-2026-06-29 11:55:45 [INFO] aiogram.event: Update id=846668434 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:55:47 [INFO] root: [CACHE] chat=1788702230 mid=456718 from=5047236340 owner=5047236340 cache_size=42
-2026-06-29 11:55:47 [INFO] aiogram.event: Update id=846668435 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:55:51 [INFO] root: [CACHE] chat=1788702230 mid=456719 from=1788702230 owner=5047236340 cache_size=43
-2026-06-29 11:55:51 [INFO] aiogram.event: Update id=846668436 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:55:54 [INFO] root: [CACHE] chat=1788702230 mid=456720 from=1788702230 owner=5047236340 cache_size=44
-2026-06-29 11:55:54 [INFO] aiogram.event: Update id=846668437 is handled. Duration 0 ms by bot id=7851684074
-2026-06-29 11:55:54 [INFO] root: [CACHE] chat=1788702230 mid=456721 from=5047236340 owner=5047236340 cache_size=45
 2026-06-29 11:55:54 [INFO] aiogram.event: Update id=846668438 is handled. Duration 0 ms by bot id=7851684074
 2026-06-29 11:55:57 [INFO] root: [CACHE] chat=1788702230 mid=456722 from=5047236340 owner=5047236340 cache_size=46
 2026-06-29 11:55:57 [INFO] aiogram.event: Update id=846668439 is handled. Duration 0 ms by bot id=7851684074
@@ -510,3 +469,38 @@ Original description: Too Many Requests: retry after 14
 2026-06-29 13:55:50 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Bad Request: can't parse entities: Invalid custom emoji identifier specified
 2026-06-29 13:55:51 [INFO] root: [CACHE] chat=8573476514 mid=111865 from=8573476514 owner=8662203967 cache_size=8
 2026-06-29 13:55:51 [INFO] aiogram.event: Update id=846668637 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:55:57 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-06-29 13:55:58 [INFO] root: [CACHE] chat=8573476514 mid=111866 from=8662203967 owner=8662203967 cache_size=9
+2026-06-29 13:55:58 [INFO] aiogram.event: Update id=846668638 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:56:09 [INFO] root: [CACHE] chat=8573476514 mid=111867 from=8573476514 owner=8662203967 cache_size=10
+2026-06-29 13:56:09 [INFO] aiogram.event: Update id=846668639 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:56:20 [INFO] root: [CACHE] chat=8573476514 mid=111868 from=8573476514 owner=8662203967 cache_size=11
+2026-06-29 13:56:20 [INFO] aiogram.event: Update id=846668640 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:56:43 [INFO] root: [CACHE] chat=8573476514 mid=111869 from=8573476514 owner=8662203967 cache_size=12
+2026-06-29 13:56:43 [INFO] aiogram.event: Update id=846668641 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:56:46 [INFO] root: [CACHE] chat=8573476514 mid=111870 from=8573476514 owner=8662203967 cache_size=13
+2026-06-29 13:56:46 [INFO] aiogram.event: Update id=846668642 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:57:05 [INFO] root: [CACHE] chat=8573476514 mid=111871 from=8573476514 owner=8662203967 cache_size=14
+2026-06-29 13:57:05 [INFO] aiogram.event: Update id=846668643 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:57:11 [INFO] root: [CACHE] chat=8573476514 mid=111872 from=8573476514 owner=8662203967 cache_size=15
+2026-06-29 13:57:11 [INFO] aiogram.event: Update id=846668644 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:57:21 [INFO] root: [save] короткая ссылка развёрнута: https://vm.tiktok.com/ZNRwmrus8/ -> https://www.tiktok.com/@zelya_fan0/video/7639235278074367253?_r=1&_t=ZN-97cHUmtXjfC
+2026-06-29 13:57:21 [INFO] root: [save] yt-dlp video: https://www.tiktok.com/@zelya_fan0/video/7639235278074367253?_r=1&_t=ZN-97cHUmtXjfC
+2026-06-29 13:57:22 [INFO] root: [save] yt-dlp video успех: 1 файл(ов)
+2026-06-29 13:57:26 [INFO] aiogram.event: Update id=846668645 is handled. Duration 5515 ms by bot id=7851684074
+2026-06-29 13:57:40 [INFO] root: [CACHE] chat=7141954392 mid=50628 from=8563553994 owner=8563553994 cache_size=32
+2026-06-29 13:57:40 [INFO] aiogram.event: Update id=846668646 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:57:41 [INFO] root: [CACHE] chat=7141954392 mid=50629 from=8563553994 owner=8563553994 cache_size=33
+2026-06-29 13:57:41 [INFO] aiogram.event: Update id=846668647 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:57:44 [INFO] root: [CACHE] chat=7141954392 mid=50630 from=8563553994 owner=8563553994 cache_size=34
+2026-06-29 13:57:44 [INFO] aiogram.event: Update id=846668648 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:57:47 [INFO] root: [save] короткая ссылка развёрнута: https://vm.tiktok.com/ZN96QYDXpBYk8-ptQjI/ -> https://www.tiktok.com/@mbike.mt/video/7656556573585575190?_d=secCgYIASAHKAESPgo8stV0F87n6TDejNrGr60ZjSKutJ8YD%2Bis01J3HbHuG0vyC9REpPEejXjMQKPWFTVbZyVGkBi6Vku4vGohGgA%3D&_r=1&_svg=2&aweme_type=40&biz_cover_on=1&checksum=ef138e3394b3e5791c298590fb63e5a472ecf57da8724474d2303e67db0d4436&item_author_type=2&og_size_on=1&panel_source_v2=share_panel&preview_pb=0&reflow_sign_scene=3&rgssign=4.1.T750D6EK88gRWwhj0OZTLQ&sec_user_id=MS4wLjABAAAAk6Aicm1u31IsKX3T6qhBRsqXSYtfK-jBPC4eliydRYrqiofahVFFmwhCO2GjF25y&share_app_id=1233&share_enter_from=notification_page&share_item_id=7656556573585575190&share_link_id=A48BF4EE-6806-4270-85D6-F91B07819E13&share_region=CZ&share_scene=17&share_source=app_panel_share&sharer_language=uk&social_share_type=20&source=h5_m&sp_level=1&sp_root_d=secCgYIASAHKAESPgo8stV0F87n6TDejNrGr60ZjSKutJ8YD%2Bis01J3HbHuG0vyC9REpPEejXjMQKPWFTVbZyVGkBi6Vku4vGohGgA%3D&sp_root_share_link_id=A48BF4EE-6806-4270-85D6-F91B07819E13&sp_root_u=ek76kdhjcl6814&story_type=1&story_uid=7603720889783780374&timestamp=1782740706&tt_from=copy&u_code=ek76kdhjcl6814&ug_btm=b9081%2Cb0&user_id=7501756884997571606&utm_campaign=client_share&utm_medium=ios&utm_source=copy&vid_fwc_v6=1
+2026-06-29 13:57:47 [INFO] root: [save] yt-dlp video: https://www.tiktok.com/@mbike.mt/video/7656556573585575190?_d=secCgYIASAHKAESPgo8stV0F87n6TDejNrGr60ZjSKutJ8YD%2Bis01J3HbHuG0vyC9REpPEejXjMQKPWFTVbZyVGkBi6Vku4vGohGgA%3D&_r=1&_svg=2&aweme_type=40&biz_cover_on=1&checksum=ef138e3394b3e5791c298590fb63e5a472ecf57da8724474d2303e67db0d4436&item_author_type=2&og_size_on=1&panel_source_v2=share_panel&preview_pb=0&reflow_sign_scene=3&rgssign=4.1.T750D6EK88gRWwhj0OZTLQ&sec_user_id=MS4wLjABAAAAk6Aicm1u31IsKX3T6qhBRsqXSYtfK-jBPC4eliydRYrqiofahVFFmwhCO2GjF25y&share_app_id=1233&share_enter_from=notification_page&share_item_id=7656556573585575190&share_link_id=A48BF4EE-6806-4270-85D6-F91B07819E13&share_region=CZ&share_scene=17&share_source=app_panel_share&sharer_language=uk&social_share_type=20&source=h5_m&sp_level=1&sp_root_d=secCgYIASAHKAESPgo8stV0F87n6TDejNrGr60ZjSKutJ8YD%2Bis01J3HbHuG0vyC9REpPEejXjMQKPWFTVbZyVGkBi6Vku4vGohGgA%3D&sp_root_share_link_id=A48BF4EE-6806-4270-85D6-F91B07819E13&sp_root_u=ek76kdhjcl6814&story_type=1&story_uid=7603720889783780374&timestamp=1782740706&tt_from=copy&u_code=ek76kdhjcl6814&ug_btm=b9081%2Cb0&user_id=7501756884997571606&utm_campaign=client_share&utm_medium=ios&utm_source=copy&vid_fwc_v6=1
+2026-06-29 13:57:49 [INFO] root: [save] yt-dlp video успех: 1 файл(ов)
+2026-06-29 13:57:51 [INFO] aiogram.event: Update id=846668649 is handled. Duration 4533 ms by bot id=7851684074
+2026-06-29 13:58:16 [INFO] root: [CACHE] chat=5472219604 mid=456837 from=5047236340 owner=5047236340 cache_size=500
+2026-06-29 13:58:16 [INFO] aiogram.event: Update id=846668650 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:58:26 [INFO] root: [CACHE] chat=7141954392 mid=50634 from=8563553994 owner=8563553994 cache_size=35
+2026-06-29 13:58:26 [INFO] aiogram.event: Update id=846668651 is handled. Duration 0 ms by bot id=7851684074
+2026-06-29 13:58:29 [INFO] root: [CACHE] chat=7141954392 mid=50635 from=8563553994 owner=8563553994 cache_size=36
+2026-06-29 13:58:29 [INFO] aiogram.event: Update id=846668652 is handled. Duration 0 ms by bot id=7851684074
