@@ -1,9 +1,3 @@
-2026-06-30 10:57:17 [INFO] root: [CACHE] chat=7736807896 mid=114025 from=8662203967 owner=8662203967 cache_size=84
-2026-06-30 10:57:17 [INFO] aiogram.event: Update id=846673771 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 10:57:17 [INFO] root: [CACHE] chat=7736807896 mid=114026 from=8662203967 owner=8662203967 cache_size=85
-2026-06-30 10:57:17 [INFO] aiogram.event: Update id=846673772 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 10:57:17 [INFO] root: [CACHE] chat=7736807896 mid=114027 from=8662203967 owner=8662203967 cache_size=86
-2026-06-30 10:57:17 [INFO] aiogram.event: Update id=846673773 is handled. Duration 0 ms by bot id=7851684074
 2026-06-30 10:57:17 [INFO] root: [CACHE] chat=7736807896 mid=114028 from=8662203967 owner=8662203967 cache_size=87
 2026-06-30 10:57:17 [INFO] aiogram.event: Update id=846673774 is handled. Duration 0 ms by bot id=7851684074
 2026-06-30 10:57:17 [INFO] root: [CACHE] chat=7736807896 mid=114029 from=8662203967 owner=8662203967 cache_size=88
@@ -680,3 +674,9 @@ Original description: Too Many Requests: retry after 5
 2026-06-30 11:36:19 [INFO] aiogram.event: Update id=846673961 is handled. Duration 0 ms by bot id=7851684074
 2026-06-30 11:36:22 [INFO] root: [CACHE] chat=5472219604 mid=458293 from=5472219604 owner=5047236340 cache_size=500
 2026-06-30 11:36:22 [INFO] aiogram.event: Update id=846673962 is handled. Duration 0 ms by bot id=7851684074
+2026-06-30 11:36:43 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-06-30 11:38:37 [INFO] root: [GH-STATE] сохранено в GitHub, topics=12
+2026-06-30 11:38:39 [INFO] root: [GH-CACHE] сохранено 843 сообщений в GitHub
+2026-06-30 11:41:01 [INFO] root: Пересылка 1 удалённых сообщений владельцу 5047236340
+2026-06-30 11:41:02 [INFO] root: Переслано 1/1 удалённых владельцу 5047236340
+2026-06-30 11:41:02 [INFO] aiogram.event: Update id=846673963 is handled. Duration 461 ms by bot id=7851684074
