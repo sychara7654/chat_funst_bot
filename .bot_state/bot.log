@@ -1,73 +1,3 @@
-2026-06-30 13:27:15 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-06-30 13:28:30 [INFO] root: [CACHE] chat=6705103797 mid=458337 from=5047236340 owner=5047236340 cache_size=309
-2026-06-30 13:28:30 [INFO] aiogram.event: Update id=846674288 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:29:19 [INFO] root: [GH-STATE] сохранено в GitHub, topics=12
-2026-06-30 13:29:22 [INFO] root: [GH-CACHE] сохранено 782 сообщений в GitHub
-2026-06-30 13:29:40 [INFO] root: [CACHE] chat=8103885889 mid=458338 from=5047236340 owner=5047236340 cache_size=1
-2026-06-30 13:29:40 [INFO] aiogram.event: Update id=846674289 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:30:06 [INFO] root: [CACHE] chat=8103885889 mid=458339 from=8103885889 owner=5047236340 cache_size=2
-2026-06-30 13:30:06 [INFO] aiogram.event: Update id=846674290 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:30:17 [INFO] newcontact: [FUNSTAT] user_id=8103885889 full=False fields=0 names=0 unames=0 groups=0 stickers=0
-2026-06-30 13:30:20 [INFO] root: [CACHE] chat=8103885889 mid=458341 from=5047236340 owner=5047236340 cache_size=3
-2026-06-30 13:30:20 [INFO] aiogram.event: Update id=846674291 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:30:21 [INFO] root: [CACHE] chat=8103885889 mid=458342 from=5047236340 owner=5047236340 cache_size=4
-2026-06-30 13:30:21 [INFO] aiogram.event: Update id=846674292 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:30:22 [INFO] root: [CACHE] chat=8103885889 mid=458343 from=5047236340 owner=5047236340 cache_size=5
-2026-06-30 13:30:22 [INFO] aiogram.event: Update id=846674293 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:31:13 [INFO] root: [CACHE] chat=8103885889 mid=458344 from=8103885889 owner=5047236340 cache_size=6
-2026-06-30 13:31:13 [INFO] aiogram.event: Update id=846674294 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:31:13 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Bad Request: can't parse entities: Invalid custom emoji identifier specified
-2026-06-30 13:31:33 [INFO] root: [CACHE] chat=8103885889 mid=458345 from=5047236340 owner=5047236340 cache_size=7
-2026-06-30 13:31:33 [INFO] aiogram.event: Update id=846674295 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:31:38 [INFO] root: [CACHE] chat=8103885889 mid=458346 from=5047236340 owner=5047236340 cache_size=8
-2026-06-30 13:31:38 [INFO] aiogram.event: Update id=846674296 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:31:50 [INFO] root: [CACHE] chat=8103885889 mid=458347 from=8103885889 owner=5047236340 cache_size=9
-2026-06-30 13:31:50 [INFO] aiogram.event: Update id=846674297 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:31:54 [INFO] root: [CACHE] chat=8396441610 mid=458348 from=8396441610 owner=5047236340 cache_size=291
-2026-06-30 13:31:54 [INFO] aiogram.event: Update id=846674298 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:31:55 [INFO] root: [CACHE] chat=8103885889 mid=458349 from=5047236340 owner=5047236340 cache_size=10
-2026-06-30 13:31:55 [INFO] aiogram.event: Update id=846674299 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:31:55 [INFO] root: [CACHE] chat=8103885889 mid=458350 from=8103885889 owner=5047236340 cache_size=11
-2026-06-30 13:31:55 [INFO] aiogram.event: Update id=846674300 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:31:59 [INFO] root: [CACHE] chat=8103885889 mid=458351 from=8103885889 owner=5047236340 cache_size=12
-2026-06-30 13:31:59 [INFO] aiogram.event: Update id=846674301 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:32:16 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-06-30 13:32:19 [INFO] root: [CACHE] chat=8103885889 mid=458352 from=5047236340 owner=5047236340 cache_size=13
-2026-06-30 13:32:19 [INFO] aiogram.event: Update id=846674302 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:32:27 [INFO] root: [CACHE] chat=8396441610 mid=458353 from=5047236340 owner=5047236340 cache_size=292
-2026-06-30 13:32:27 [INFO] aiogram.event: Update id=846674303 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:32:30 [INFO] root: [CACHE] chat=8396441610 mid=458354 from=5047236340 owner=5047236340 cache_size=293
-2026-06-30 13:32:30 [INFO] aiogram.event: Update id=846674304 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:32:31 [INFO] root: [CACHE] chat=8396441610 mid=458355 from=5047236340 owner=5047236340 cache_size=294
-2026-06-30 13:32:31 [INFO] aiogram.event: Update id=846674305 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:32:32 [INFO] root: [CACHE] chat=8396441610 mid=458356 from=5047236340 owner=5047236340 cache_size=295
-2026-06-30 13:32:32 [INFO] aiogram.event: Update id=846674306 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:32:43 [INFO] root: [CACHE] chat=8103885889 mid=458357 from=8103885889 owner=5047236340 cache_size=14
-2026-06-30 13:32:43 [INFO] aiogram.event: Update id=846674307 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:32:53 [INFO] root: [CACHE] chat=8103885889 mid=458358 from=8103885889 owner=5047236340 cache_size=15
-2026-06-30 13:32:53 [INFO] aiogram.event: Update id=846674308 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:32:59 [INFO] root: [CACHE] chat=8396441610 mid=458359 from=8396441610 owner=5047236340 cache_size=296
-2026-06-30 13:32:59 [INFO] aiogram.event: Update id=846674309 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:33:02 [INFO] root: [CACHE] chat=8396441610 mid=458360 from=8396441610 owner=5047236340 cache_size=297
-2026-06-30 13:33:02 [INFO] aiogram.event: Update id=846674310 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:33:17 [INFO] root: [CACHE] chat=8396441610 mid=458361 from=5047236340 owner=5047236340 cache_size=298
-2026-06-30 13:33:17 [INFO] aiogram.event: Update id=846674311 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:33:24 [INFO] root: [CACHE] chat=8103885889 mid=458362 from=5047236340 owner=5047236340 cache_size=16
-2026-06-30 13:33:24 [INFO] aiogram.event: Update id=846674312 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:33:24 [INFO] root: [CACHE] chat=8396441610 mid=458363 from=8396441610 owner=5047236340 cache_size=299
-2026-06-30 13:33:24 [INFO] aiogram.event: Update id=846674313 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:33:27 [INFO] root: [CACHE] chat=8103885889 mid=458364 from=5047236340 owner=5047236340 cache_size=17
-2026-06-30 13:33:27 [INFO] aiogram.event: Update id=846674314 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:33:27 [INFO] root: [CACHE] chat=8103885889 mid=458365 from=5047236340 owner=5047236340 cache_size=18
-2026-06-30 13:33:27 [INFO] aiogram.event: Update id=846674315 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:33:38 [INFO] root: [CACHE] chat=8103885889 mid=458366 from=8103885889 owner=5047236340 cache_size=19
-2026-06-30 13:33:38 [INFO] aiogram.event: Update id=846674316 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:33:40 [INFO] root: [CACHE] chat=8396441610 mid=458367 from=5047236340 owner=5047236340 cache_size=300
-2026-06-30 13:33:40 [INFO] aiogram.event: Update id=846674317 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:33:45 [INFO] root: [CACHE] chat=8103885889 mid=458368 from=8103885889 owner=5047236340 cache_size=20
-2026-06-30 13:33:45 [INFO] aiogram.event: Update id=846674318 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 13:33:47 [INFO] root: [CACHE] chat=8103885889 mid=458369 from=8103885889 owner=5047236340 cache_size=21
-2026-06-30 13:33:47 [INFO] aiogram.event: Update id=846674319 is handled. Duration 0 ms by bot id=7851684074
 2026-06-30 13:34:04 [INFO] root: [CACHE] chat=8396441610 mid=458370 from=8396441610 owner=5047236340 cache_size=301
 2026-06-30 13:34:04 [INFO] aiogram.event: Update id=846674320 is handled. Duration 0 ms by bot id=7851684074
 2026-06-30 13:34:05 [INFO] root: [CACHE] chat=8103885889 mid=458371 from=5047236340 owner=5047236340 cache_size=22
@@ -522,3 +452,73 @@ Original description: Too Many Requests: retry after 11
 2026-06-30 14:38:45 [INFO] aiogram.event: Update id=846674512 is handled. Duration 0 ms by bot id=7851684074
 2026-06-30 14:39:47 [INFO] root: [GH-STATE] сохранено в GitHub, topics=12
 2026-06-30 14:39:49 [INFO] root: [GH-CACHE] сохранено 777 сообщений в GitHub
+2026-06-30 14:42:36 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-06-30 14:45:28 [INFO] root: Пересылка 1 удалённых сообщений владельцу 5047236340
+2026-06-30 14:45:28 [INFO] root: Переслано 1/1 удалённых владельцу 5047236340
+2026-06-30 14:45:28 [INFO] aiogram.event: Update id=846674513 is handled. Duration 0 ms by bot id=7851684074
+2026-06-30 14:45:32 [INFO] root: Пересылка 1 удалённых сообщений владельцу 5047236340
+2026-06-30 14:45:32 [INFO] root: Переслано 1/1 удалённых владельцу 5047236340
+2026-06-30 14:45:32 [INFO] aiogram.event: Update id=846674514 is handled. Duration 0 ms by bot id=7851684074
+2026-06-30 14:45:49 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8662203967
+2026-06-30 14:45:49 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8563553994
+2026-06-30 14:45:49 [INFO] root: Переслано 1/1 удалённых владельцу 8563553994
+2026-06-30 14:45:49 [INFO] aiogram.event: Update id=846674516 is handled. Duration 0 ms by bot id=7851684074
+2026-06-30 14:45:49 [INFO] root: Переслано 1/1 удалённых владельцу 8662203967
+2026-06-30 14:45:49 [INFO] aiogram.event: Update id=846674515 is handled. Duration 814 ms by bot id=7851684074
+2026-06-30 14:46:03 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8662203967
+2026-06-30 14:46:03 [INFO] root: Переслано 1/1 удалённых владельцу 8662203967
+2026-06-30 14:46:03 [INFO] aiogram.event: Update id=846674517 is handled. Duration 0 ms by bot id=7851684074
+2026-06-30 14:46:03 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8563553994
+2026-06-30 14:46:03 [WARNING] root: Удалено 1 сообщений в чате 8563553994, в кэше отсутствует 1 (id: [111884]...)
+2026-06-30 14:46:03 [INFO] aiogram.event: Update id=846674519 is handled. Duration 0 ms by bot id=7851684074
+2026-06-30 14:46:03 [WARNING] root: Удалено 1 сообщений в чате 8662203967, в кэше отсутствует 1 (id: [50644]...)
+2026-06-30 14:46:03 [INFO] aiogram.event: Update id=846674520 is handled. Duration 0 ms by bot id=7851684074
+2026-06-30 14:46:04 [INFO] root: Переслано 1/1 удалённых владельцу 8563553994
+2026-06-30 14:46:04 [INFO] aiogram.event: Update id=846674518 is handled. Duration 723 ms by bot id=7851684074
+2026-06-30 14:46:05 [INFO] root: Пересылка 1 удалённых сообщений владельцу 5047236340
+2026-06-30 14:46:05 [INFO] root: Переслано 1/1 удалённых владельцу 5047236340
+2026-06-30 14:46:05 [INFO] aiogram.event: Update id=846674521 is handled. Duration 0 ms by bot id=7851684074
+2026-06-30 14:46:08 [WARNING] root: Удалено 1 сообщений в чате 8563553994, в кэше отсутствует 1 (id: [111885]...)
+2026-06-30 14:46:08 [INFO] aiogram.event: Update id=846674522 is handled. Duration 0 ms by bot id=7851684074
+2026-06-30 14:46:08 [WARNING] root: Удалено 1 сообщений в чате 8662203967, в кэше отсутствует 1 (id: [50646]...)
+2026-06-30 14:46:08 [INFO] aiogram.event: Update id=846674523 is handled. Duration 0 ms by bot id=7851684074
+2026-06-30 14:46:12 [INFO] root: [CACHE] chat=8662203967 mid=50780 from=8662203967 owner=8563553994 cache_size=99
+2026-06-30 14:46:12 [INFO] aiogram.event: Update id=846674524 is handled. Duration 0 ms by bot id=7851684074
+2026-06-30 14:46:12 [INFO] root: [CACHE] chat=8563553994 mid=114546 from=8662203967 owner=8662203967 cache_size=27
+2026-06-30 14:46:12 [INFO] aiogram.event: Update id=846674525 is handled. Duration 0 ms by bot id=7851684074
+2026-06-30 14:46:21 [INFO] root: Пересылка 1 удалённых сообщений владельцу 5047236340
+2026-06-30 14:46:21 [INFO] root: Переслано 1/1 удалённых владельцу 5047236340
+2026-06-30 14:46:21 [INFO] aiogram.event: Update id=846674526 is handled. Duration 0 ms by bot id=7851684074
+2026-06-30 14:46:26 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8662203967
+2026-06-30 14:46:26 [INFO] root: Переслано 1/1 удалённых владельцу 8662203967
+2026-06-30 14:46:26 [INFO] aiogram.event: Update id=846674527 is handled. Duration 0 ms by bot id=7851684074
+2026-06-30 14:46:26 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8563553994
+2026-06-30 14:46:26 [INFO] root: Переслано 1/1 удалённых владельцу 8563553994
+2026-06-30 14:46:26 [INFO] aiogram.event: Update id=846674528 is handled. Duration 357 ms by bot id=7851684074
+2026-06-30 14:46:28 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8662203967
+2026-06-30 14:46:28 [INFO] root: Переслано 1/1 удалённых владельцу 8662203967
+2026-06-30 14:46:28 [INFO] aiogram.event: Update id=846674529 is handled. Duration 0 ms by bot id=7851684074
+2026-06-30 14:46:28 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8563553994
+2026-06-30 14:46:28 [INFO] root: Переслано 1/1 удалённых владельцу 8563553994
+2026-06-30 14:46:28 [INFO] aiogram.event: Update id=846674530 is handled. Duration 367 ms by bot id=7851684074
+2026-06-30 14:46:49 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8563553994
+2026-06-30 14:46:49 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8662203967
+2026-06-30 14:46:49 [INFO] root: Переслано 1/1 удалённых владельцу 8662203967
+2026-06-30 14:46:49 [INFO] aiogram.event: Update id=846674532 is handled. Duration 0 ms by bot id=7851684074
+2026-06-30 14:46:49 [INFO] root: Переслано 1/1 удалённых владельцу 8563553994
+2026-06-30 14:46:49 [INFO] aiogram.event: Update id=846674531 is handled. Duration 532 ms by bot id=7851684074
+2026-06-30 14:47:00 [INFO] root: Пересылка 1 удалённых сообщений владельцу 5047236340
+2026-06-30 14:47:00 [INFO] root: Переслано 1/1 удалённых владельцу 5047236340
+2026-06-30 14:47:00 [INFO] aiogram.event: Update id=846674533 is handled. Duration 375 ms by bot id=7851684074
+2026-06-30 14:47:06 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8662203967
+2026-06-30 14:47:06 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8563553994
+2026-06-30 14:47:06 [INFO] root: Переслано 1/1 удалённых владельцу 8563553994
+2026-06-30 14:47:06 [INFO] aiogram.event: Update id=846674535 is handled. Duration 0 ms by bot id=7851684074
+2026-06-30 14:47:06 [INFO] root: Переслано 1/1 удалённых владельцу 8662203967
+2026-06-30 14:47:06 [INFO] aiogram.event: Update id=846674534 is handled. Duration 369 ms by bot id=7851684074
+2026-06-30 14:47:10 [INFO] root: Пересылка 1 удалённых сообщений владельцу 5047236340
+2026-06-30 14:47:10 [INFO] root: Переслано 1/1 удалённых владельцу 5047236340
+2026-06-30 14:47:10 [INFO] aiogram.event: Update id=846674536 is handled. Duration 369 ms by bot id=7851684074
+2026-06-30 14:47:14 [INFO] root: Пересылка 1 удалённых сообщений владельцу 5047236340
+2026-06-30 14:47:14 [INFO] root: Переслано 1/1 удалённых владельцу 5047236340
+2026-06-30 14:47:14 [INFO] aiogram.event: Update id=846674537 is handled. Duration 368 ms by bot id=7851684074
