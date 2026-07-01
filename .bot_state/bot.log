@@ -1,6 +1,3 @@
-2026-07-01 10:43:07 [INFO] root: [CACHE] chat=1457461865 mid=117030 from=1457461865 owner=8662203967 cache_size=61
-2026-07-01 10:43:07 [INFO] aiogram.event: Update id=846677140 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 10:43:16 [INFO] root: [CACHE] chat=1457461865 mid=117031 from=1457461865 owner=8662203967 cache_size=62
 2026-07-01 10:43:16 [INFO] aiogram.event: Update id=846677141 is handled. Duration 0 ms by bot id=7851684074
 2026-07-01 10:43:47 [INFO] root: [CACHE] chat=1457461865 mid=117032 from=1457461865 owner=8662203967 cache_size=63
 2026-07-01 10:43:47 [INFO] aiogram.event: Update id=846677142 is handled. Duration 0 ms by bot id=7851684074
@@ -498,3 +495,6 @@
 2026-07-01 16:29:36 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
 2026-07-01 16:29:36 [ERROR] root: [GH-LOG] не удалось запушить логи: {'_status': 409, '_body': '{"message":"is at b2215d87603e3427a646aa8b8ac5588df920fa3b but expected 523ee8b50caceb4ebf3492594dfacdf24f388ed8","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"409"}'}
 2026-07-01 16:29:38 [INFO] root: [GH-CACHE] сохранено 563 сообщений в GitHub
+2026-07-01 16:34:37 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-01 16:39:36 [INFO] root: [CACHE] chat=6122134641 mid=117227 from=6122134641 owner=8662203967 cache_size=1
+2026-07-01 16:39:36 [INFO] aiogram.event: Update id=846677309 is handled. Duration 0 ms by bot id=7851684074
