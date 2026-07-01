@@ -1,14 +1,3 @@
-2026-07-01 10:43:16 [INFO] aiogram.event: Update id=846677141 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 10:43:47 [INFO] root: [CACHE] chat=1457461865 mid=117032 from=1457461865 owner=8662203967 cache_size=63
-2026-07-01 10:43:47 [INFO] aiogram.event: Update id=846677142 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 10:47:25 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
-2026-07-01 10:47:27 [INFO] root: [GH-CACHE] сохранено 658 сообщений в GitHub
-2026-07-01 10:48:02 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-01 10:53:03 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-01 10:57:29 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
-2026-07-01 10:57:32 [INFO] root: [GH-CACHE] сохранено 658 сообщений в GitHub
-2026-07-01 10:58:05 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-01 11:01:51 [INFO] root: Кэш очищен от сообщений старше 7 дней
 2026-07-01 11:03:06 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-01 11:07:33 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
 2026-07-01 11:07:36 [INFO] root: [GH-CACHE] сохранено 640 сообщений в GitHub
@@ -498,3 +487,14 @@
 2026-07-01 16:34:37 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-01 16:39:36 [INFO] root: [CACHE] chat=6122134641 mid=117227 from=6122134641 owner=8662203967 cache_size=1
 2026-07-01 16:39:36 [INFO] aiogram.event: Update id=846677309 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 16:39:39 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-01 16:39:39 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
+2026-07-01 16:39:41 [INFO] root: [GH-CACHE] сохранено 561 сообщений в GitHub
+2026-07-01 16:39:46 [INFO] newcontact: [FUNSTAT] user_id=6122134641 full=False fields=0 names=0 unames=0 groups=0 stickers=0
+2026-07-01 16:40:18 [INFO] root: [CACHE] chat=7698853158 mid=50988 from=7698853158 owner=8563553994 cache_size=94
+2026-07-01 16:40:18 [INFO] aiogram.event: Update id=846677310 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 16:40:28 [INFO] newcontact: [FUNSTAT] user_id=7698853158 full=False fields=13 names=0 unames=0 groups=0 stickers=0
+2026-07-01 16:40:34 [INFO] root: [CACHE] chat=7698853158 mid=50991 from=8563553994 owner=8563553994 cache_size=95
+2026-07-01 16:40:34 [INFO] aiogram.event: Update id=846677311 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 16:40:40 [INFO] root: [CACHE] chat=7698853158 mid=50992 from=7698853158 owner=8563553994 cache_size=96
+2026-07-01 16:40:40 [INFO] aiogram.event: Update id=846677312 is handled. Duration 0 ms by bot id=7851684074
