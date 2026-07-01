@@ -1,108 +1,3 @@
-2026-07-01 17:51:42 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 3 seconds.
-Original description: Too Many Requests: retry after 3
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:51:43 [INFO] root: [CACHE] chat=8563553994 mid=24334 from=8563553994 owner=8947170643 cache_size=72
-2026-07-01 17:51:43 [INFO] aiogram.event: Update id=846677466 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:51:43 [INFO] root: [CACHE] chat=8947170643 mid=51001 from=8563553994 owner=8563553994 cache_size=16
-2026-07-01 17:51:43 [INFO] aiogram.event: Update id=846677467 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:51:43 [INFO] root: [CACHE] chat=8563553994 mid=24335 from=8563553994 owner=8947170643 cache_size=73
-2026-07-01 17:51:43 [INFO] aiogram.event: Update id=846677468 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:51:44 [INFO] root: [CACHE] chat=8947170643 mid=51002 from=8563553994 owner=8563553994 cache_size=17
-2026-07-01 17:51:44 [INFO] aiogram.event: Update id=846677469 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:51:45 [INFO] root: [CACHE] chat=8563553994 mid=24336 from=8563553994 owner=8947170643 cache_size=74
-2026-07-01 17:51:45 [INFO] aiogram.event: Update id=846677470 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:51:45 [INFO] root: [CACHE] chat=8947170643 mid=51003 from=8563553994 owner=8563553994 cache_size=18
-2026-07-01 17:51:45 [INFO] aiogram.event: Update id=846677471 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:51:46 [INFO] root: [CACHE] chat=8563553994 mid=24337 from=8563553994 owner=8947170643 cache_size=75
-2026-07-01 17:51:46 [INFO] aiogram.event: Update id=846677472 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:51:47 [INFO] root: [CACHE] chat=8947170643 mid=51004 from=8563553994 owner=8563553994 cache_size=19
-2026-07-01 17:51:47 [INFO] aiogram.event: Update id=846677473 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:51:47 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendDocument' in chat -1003974749024. Retry in 42 seconds.
-Original description: Too Many Requests: retry after 42
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:51:47 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendDocument' in chat -1003974749024. Retry in 42 seconds.
-Original description: Too Many Requests: retry after 42
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:51:47 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendSticker' in chat -1003974749024. Retry in 42 seconds.
-Original description: Too Many Requests: retry after 42
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:51:47 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendDocument' in chat -1003974749024. Retry in 42 seconds.
-Original description: Too Many Requests: retry after 42
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:51:47 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendDocument' in chat -1003974749024. Retry in 42 seconds.
-Original description: Too Many Requests: retry after 42
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:51:47 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendDocument' in chat -1003974749024. Retry in 42 seconds.
-Original description: Too Many Requests: retry after 42
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:51:47 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendDocument' in chat -1003974749024. Retry in 42 seconds.
-Original description: Too Many Requests: retry after 42
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:51:47 [INFO] root: [CACHE] chat=8563553994 mid=24338 from=8563553994 owner=8947170643 cache_size=76
-2026-07-01 17:51:47 [INFO] aiogram.event: Update id=846677474 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:51:47 [INFO] root: [CACHE] chat=8947170643 mid=51005 from=8563553994 owner=8563553994 cache_size=20
-2026-07-01 17:51:47 [INFO] aiogram.event: Update id=846677475 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:51:48 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendDocument' in chat -1003974749024. Retry in 42 seconds.
-Original description: Too Many Requests: retry after 42
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:51:48 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendDocument' in chat -1003974749024. Retry in 42 seconds.
-Original description: Too Many Requests: retry after 42
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:51:48 [INFO] root: [CACHE] chat=8563553994 mid=24339 from=8563553994 owner=8947170643 cache_size=77
-2026-07-01 17:51:48 [INFO] aiogram.event: Update id=846677476 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:51:48 [INFO] root: [CACHE] chat=8947170643 mid=51006 from=8563553994 owner=8563553994 cache_size=21
-2026-07-01 17:51:48 [INFO] aiogram.event: Update id=846677477 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:51:48 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendDocument' in chat -1003974749024. Retry in 41 seconds.
-Original description: Too Many Requests: retry after 41
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:51:48 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendDocument' in chat -1003974749024. Retry in 41 seconds.
-Original description: Too Many Requests: retry after 41
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:51:49 [INFO] root: [CACHE] chat=8563553994 mid=24340 from=8563553994 owner=8947170643 cache_size=78
-2026-07-01 17:51:49 [INFO] aiogram.event: Update id=846677478 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:51:49 [INFO] root: [CACHE] chat=8947170643 mid=51007 from=8563553994 owner=8563553994 cache_size=22
-2026-07-01 17:51:49 [INFO] aiogram.event: Update id=846677479 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:51:49 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendDocument' in chat -1003974749024. Retry in 40 seconds.
-Original description: Too Many Requests: retry after 40
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:51:49 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendDocument' in chat -1003974749024. Retry in 40 seconds.
-Original description: Too Many Requests: retry after 40
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:51:50 [INFO] root: [CACHE] chat=8563553994 mid=24341 from=8563553994 owner=8947170643 cache_size=79
-2026-07-01 17:51:50 [INFO] aiogram.event: Update id=846677480 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:51:50 [INFO] root: [CACHE] chat=8947170643 mid=51008 from=8563553994 owner=8563553994 cache_size=23
-2026-07-01 17:51:50 [INFO] aiogram.event: Update id=846677481 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:51:50 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendDocument' in chat -1003974749024. Retry in 39 seconds.
-Original description: Too Many Requests: retry after 39
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:51:50 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendDocument' in chat -1003974749024. Retry in 39 seconds.
-Original description: Too Many Requests: retry after 39
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:51:51 [INFO] root: [CACHE] chat=8563553994 mid=24342 from=8563553994 owner=8947170643 cache_size=80
-2026-07-01 17:51:51 [INFO] aiogram.event: Update id=846677482 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:51:51 [INFO] root: [CACHE] chat=8947170643 mid=51009 from=8563553994 owner=8563553994 cache_size=24
-2026-07-01 17:51:51 [INFO] aiogram.event: Update id=846677483 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:51:51 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendDocument' in chat -1003974749024. Retry in 38 seconds.
-Original description: Too Many Requests: retry after 38
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:51:52 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendDocument' in chat -1003974749024. Retry in 38 seconds.
-Original description: Too Many Requests: retry after 38
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:52:15 [INFO] root: [CACHE] chat=8563553994 mid=24343 from=8563553994 owner=8947170643 cache_size=81
-2026-07-01 17:52:15 [INFO] aiogram.event: Update id=846677484 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:52:15 [INFO] root: [CACHE] chat=8947170643 mid=51010 from=8563553994 owner=8563553994 cache_size=25
-2026-07-01 17:52:15 [INFO] aiogram.event: Update id=846677485 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:52:15 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 14 seconds.
-Original description: Too Many Requests: retry after 14
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:52:15 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 14 seconds.
-Original description: Too Many Requests: retry after 14
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-01 17:52:19 [INFO] root: [CACHE] chat=8563553994 mid=24344 from=8563553994 owner=8947170643 cache_size=82
-2026-07-01 17:52:19 [INFO] aiogram.event: Update id=846677486 is handled. Duration 0 ms by bot id=7851684074
-2026-07-01 17:52:19 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 10 seconds.
-Original description: Too Many Requests: retry after 10
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
 2026-07-01 17:52:19 [INFO] root: [CACHE] chat=8947170643 mid=51011 from=8563553994 owner=8563553994 cache_size=26
 2026-07-01 17:52:19 [INFO] aiogram.event: Update id=846677487 is handled. Duration 0 ms by bot id=7851684074
 2026-07-01 17:52:19 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 10 seconds.
@@ -590,3 +485,66 @@ Original description: Too Many Requests: retry after 9
 2026-07-01 20:00:22 [INFO] aiogram.event: Update id=846677661 is handled. Duration 0 ms by bot id=7851684074
 2026-07-01 20:00:26 [INFO] root: [CACHE] chat=5047236340 mid=117568 from=8662203967 owner=8662203967 cache_size=158
 2026-07-01 20:00:26 [INFO] aiogram.event: Update id=846677662 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:00:33 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-01 20:00:34 [INFO] root: [CACHE] chat=5047236340 mid=117569 from=5047236340 owner=8662203967 cache_size=159
+2026-07-01 20:00:34 [INFO] aiogram.event: Update id=846677663 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:00:43 [INFO] root: [CACHE] chat=5047236340 mid=117572 from=8662203967 owner=8662203967 cache_size=160
+2026-07-01 20:00:43 [INFO] aiogram.event: Update id=846677664 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:00:50 [INFO] root: [CACHE] chat=5047236340 mid=117573 from=5047236340 owner=8662203967 cache_size=161
+2026-07-01 20:00:50 [INFO] aiogram.event: Update id=846677665 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:00:54 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
+2026-07-01 20:00:56 [INFO] root: [GH-CACHE] сохранено 593 сообщений в GitHub
+2026-07-01 20:00:57 [INFO] root: [CACHE] chat=5047236340 mid=117574 from=5047236340 owner=8662203967 cache_size=162
+2026-07-01 20:00:57 [INFO] aiogram.event: Update id=846677666 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:01:05 [INFO] root: [CACHE] chat=5047236340 mid=117575 from=5047236340 owner=8662203967 cache_size=163
+2026-07-01 20:01:05 [INFO] aiogram.event: Update id=846677667 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:01:51 [INFO] root: Кэш очищен от сообщений старше 7 дней
+2026-07-01 20:03:16 [INFO] root: [CACHE] chat=5047236340 mid=117592 from=8662203967 owner=8662203967 cache_size=164
+2026-07-01 20:03:16 [INFO] aiogram.event: Update id=846677668 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:03:27 [INFO] root: [CACHE] chat=5047236340 mid=117595 from=8662203967 owner=8662203967 cache_size=165
+2026-07-01 20:03:27 [INFO] aiogram.event: Update id=846677669 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:03:36 [INFO] root: [CACHE] chat=5047236340 mid=117598 from=8662203967 owner=8662203967 cache_size=166
+2026-07-01 20:03:36 [INFO] aiogram.event: Update id=846677670 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:03:36 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Bad Request: can't parse entities: Invalid custom emoji identifier specified
+2026-07-01 20:03:37 [INFO] root: [CACHE] chat=5047236340 mid=117599 from=5047236340 owner=8662203967 cache_size=167
+2026-07-01 20:03:37 [INFO] aiogram.event: Update id=846677671 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:03:43 [INFO] root: [CACHE] chat=5047236340 mid=117600 from=8662203967 owner=8662203967 cache_size=168
+2026-07-01 20:03:43 [INFO] aiogram.event: Update id=846677672 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:03:45 [INFO] root: [CACHE] chat=7141954392 mid=51043 from=7141954392 owner=8563553994 cache_size=89
+2026-07-01 20:03:45 [INFO] aiogram.event: Update id=846677673 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:04:09 [INFO] root: [CACHE] chat=6348613179 mid=24412 from=6348613179 owner=8947170643 cache_size=500
+2026-07-01 20:04:09 [INFO] aiogram.event: Update id=846677674 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:04:14 [INFO] root: [CACHE] chat=5047236340 mid=117601 from=5047236340 owner=8662203967 cache_size=169
+2026-07-01 20:04:14 [INFO] aiogram.event: Update id=846677675 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:04:17 [INFO] root: [CACHE] chat=6348613179 mid=24413 from=6348613179 owner=8947170643 cache_size=500
+2026-07-01 20:04:17 [INFO] aiogram.event: Update id=846677676 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:04:18 [INFO] root: [CACHE] chat=5047236340 mid=117602 from=8662203967 owner=8662203967 cache_size=170
+2026-07-01 20:04:18 [INFO] aiogram.event: Update id=846677677 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:04:25 [INFO] root: [CACHE] chat=5047236340 mid=117603 from=5047236340 owner=8662203967 cache_size=171
+2026-07-01 20:04:25 [INFO] aiogram.event: Update id=846677678 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:04:29 [INFO] root: [CACHE] chat=5047236340 mid=117604 from=8662203967 owner=8662203967 cache_size=172
+2026-07-01 20:04:29 [INFO] aiogram.event: Update id=846677679 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:04:31 [INFO] root: [CACHE] chat=5047236340 mid=117605 from=8662203967 owner=8662203967 cache_size=173
+2026-07-01 20:04:31 [INFO] aiogram.event: Update id=846677680 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:04:33 [INFO] root: [CACHE] chat=5047236340 mid=117606 from=8662203967 owner=8662203967 cache_size=174
+2026-07-01 20:04:33 [INFO] aiogram.event: Update id=846677681 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:04:35 [INFO] root: [CACHE] chat=5047236340 mid=117607 from=5047236340 owner=8662203967 cache_size=175
+2026-07-01 20:04:35 [INFO] aiogram.event: Update id=846677682 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:04:55 [INFO] root: [CACHE] chat=5047236340 mid=117608 from=8662203967 owner=8662203967 cache_size=176
+2026-07-01 20:04:55 [INFO] aiogram.event: Update id=846677683 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:04:59 [INFO] root: [CACHE] chat=5047236340 mid=117609 from=8662203967 owner=8662203967 cache_size=177
+2026-07-01 20:04:59 [INFO] aiogram.event: Update id=846677684 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:05:02 [INFO] root: [CACHE] chat=5047236340 mid=117610 from=8662203967 owner=8662203967 cache_size=178
+2026-07-01 20:05:02 [INFO] aiogram.event: Update id=846677685 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:05:05 [INFO] root: [CACHE] chat=5047236340 mid=117611 from=8662203967 owner=8662203967 cache_size=179
+2026-07-01 20:05:05 [INFO] aiogram.event: Update id=846677686 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:05:05 [INFO] root: [CACHE] chat=5047236340 mid=117612 from=5047236340 owner=8662203967 cache_size=180
+2026-07-01 20:05:05 [INFO] aiogram.event: Update id=846677687 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:05:09 [INFO] root: [CACHE] chat=5047236340 mid=117613 from=8662203967 owner=8662203967 cache_size=181
+2026-07-01 20:05:09 [INFO] aiogram.event: Update id=846677688 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:05:11 [INFO] root: [CACHE] chat=5047236340 mid=117614 from=8662203967 owner=8662203967 cache_size=182
+2026-07-01 20:05:11 [INFO] aiogram.event: Update id=846677689 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:05:12 [INFO] root: [CACHE] chat=5047236340 mid=117615 from=5047236340 owner=8662203967 cache_size=183
+2026-07-01 20:05:12 [INFO] aiogram.event: Update id=846677690 is handled. Duration 0 ms by bot id=7851684074
+2026-07-01 20:05:22 [INFO] root: [CACHE] chat=5047236340 mid=117616 from=5047236340 owner=8662203967 cache_size=184
+2026-07-01 20:05:22 [INFO] aiogram.event: Update id=846677691 is handled. Duration 0 ms by bot id=7851684074
