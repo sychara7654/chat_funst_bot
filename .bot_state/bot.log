@@ -1,6 +1,3 @@
-2026-06-30 23:41:26 [INFO] root: [CACHE] chat=8950152467 mid=116490 from=8662203967 owner=8662203967 cache_size=500
-2026-06-30 23:41:26 [INFO] aiogram.event: Update id=846676663 is handled. Duration 0 ms by bot id=7851684074
-2026-06-30 23:41:26 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Bad Request: can't parse entities: Invalid custom emoji identifier specified
 2026-06-30 23:42:02 [INFO] root: [CACHE] chat=8662203967 mid=50952 from=8662203967 owner=8563553994 cache_size=139
 2026-06-30 23:42:02 [INFO] aiogram.event: Update id=846676664 is handled. Duration 0 ms by bot id=7851684074
 2026-06-30 23:42:02 [INFO] root: [CACHE] chat=8563553994 mid=116491 from=8662203967 owner=8662203967 cache_size=54
@@ -530,3 +527,6 @@ Original description: Too Many Requests: retry after 5
 2026-07-01 05:15:18 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
 2026-07-01 05:15:20 [INFO] root: [GH-CACHE] сохранено 674 сообщений в GitHub
 2026-07-01 05:16:32 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-01 05:21:33 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-01 05:25:22 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
+2026-07-01 05:25:24 [INFO] root: [GH-CACHE] сохранено 674 сообщений в GitHub
