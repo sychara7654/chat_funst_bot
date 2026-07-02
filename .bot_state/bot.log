@@ -1,10 +1,3 @@
-2026-07-02 17:47:26 [INFO] aiogram.event: Update id=846679610 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 17:47:26 [INFO] root: [CACHE] chat=8950152467 mid=51454 from=8950152467 owner=8563553994 cache_size=449
-2026-07-02 17:47:26 [INFO] aiogram.event: Update id=846679611 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 17:47:27 [INFO] root: [CACHE] chat=8950152467 mid=51455 from=8950152467 owner=8563553994 cache_size=450
-2026-07-02 17:47:27 [INFO] aiogram.event: Update id=846679612 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 17:47:27 [INFO] root: [CACHE] chat=8950152467 mid=51456 from=8950152467 owner=8563553994 cache_size=451
-2026-07-02 17:47:27 [INFO] aiogram.event: Update id=846679613 is handled. Duration 0 ms by bot id=7851684074
 2026-07-02 17:47:28 [INFO] root: [CACHE] chat=8950152467 mid=51457 from=8950152467 owner=8563553994 cache_size=452
 2026-07-02 17:47:28 [INFO] aiogram.event: Update id=846679614 is handled. Duration 0 ms by bot id=7851684074
 2026-07-02 17:47:29 [INFO] root: [CACHE] chat=8950152467 mid=51458 from=8950152467 owner=8563553994 cache_size=453
@@ -761,3 +754,10 @@ AttributeError: 'Message' object has no attribute 'html_caption'
 2026-07-02 20:37:01 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-02 20:39:13 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
 2026-07-02 20:39:15 [INFO] root: [GH-CACHE] сохранено 530 сообщений в GitHub
+2026-07-02 20:42:02 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-02 20:46:52 [INFO] root: [CACHE] chat=6136287374 mid=51521 from=6136287374 owner=8563553994 cache_size=3
+2026-07-02 20:46:52 [INFO] aiogram.event: Update id=846679808 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 20:46:52 [INFO] root: [CACHE] chat=6348613179 mid=24995 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 20:46:52 [INFO] aiogram.event: Update id=846679809 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 20:46:54 [INFO] root: [CACHE] chat=6348613179 mid=24996 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 20:46:54 [INFO] aiogram.event: Update id=846679810 is handled. Duration 0 ms by bot id=7851684074
