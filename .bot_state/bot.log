@@ -13,9 +13,6 @@ Original description: Too Many Requests: retry after 5
 2026-07-02 03:37:14 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
 Original description: Too Many Requests: retry after 5
 (background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-02 03:37:14 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
 2026-07-02 03:37:14 [WARNING] root: Не удалось скопировать неизвестный тип сообщения: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
 Original description: Too Many Requests: retry after 5
 (background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
@@ -578,3 +575,4 @@ Original description: Too Many Requests: retry after 3
 2026-07-02 09:03:55 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-02 09:05:15 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
 2026-07-02 09:05:17 [INFO] root: [GH-CACHE] сохранено 697 сообщений в GitHub
+2026-07-02 09:08:57 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
