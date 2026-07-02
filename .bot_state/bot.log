@@ -1,10 +1,3 @@
-2026-07-02 03:37:06 [INFO] root: [CACHE] chat=6881682501 mid=120037 from=8662203967 owner=8662203967 cache_size=1
-2026-07-02 03:37:06 [INFO] aiogram.event: Update id=846678899 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 03:37:06 [INFO] root: [CACHE] chat=6922448612 mid=120038 from=8662203967 owner=8662203967 cache_size=1
-2026-07-02 03:37:06 [INFO] aiogram.event: Update id=846678900 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 03:37:07 [INFO] root: [CACHE] chat=6935127899 mid=120039 from=8662203967 owner=8662203967 cache_size=1
-2026-07-02 03:37:07 [INFO] aiogram.event: Update id=846678901 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 03:37:07 [INFO] root: [CACHE] chat=6977836562 mid=120040 from=8662203967 owner=8662203967 cache_size=1
 2026-07-02 03:37:07 [INFO] aiogram.event: Update id=846678902 is handled. Duration 0 ms by bot id=7851684074
 2026-07-02 03:37:07 [INFO] root: [CACHE] chat=7001963456 mid=120041 from=8662203967 owner=8662203967 cache_size=1
 2026-07-02 03:37:07 [INFO] aiogram.event: Update id=846678903 is handled. Duration 0 ms by bot id=7851684074
@@ -584,3 +577,10 @@ Original description: Too Many Requests: retry after 3
 2026-07-02 07:53:37 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-02 07:54:50 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
 2026-07-02 07:54:52 [INFO] root: [GH-CACHE] сохранено 690 сообщений в GitHub
+2026-07-02 07:58:38 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-02 07:59:25 [INFO] root: [CACHE] chat=1384082736 mid=120226 from=1384082736 owner=8662203967 cache_size=1
+2026-07-02 07:59:25 [INFO] aiogram.event: Update id=846679064 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 07:59:26 [INFO] root: [CACHE] chat=1384082736 mid=120227 from=1384082736 owner=8662203967 cache_size=2
+2026-07-02 07:59:26 [INFO] aiogram.event: Update id=846679065 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 07:59:35 [INFO] newcontact: [FUNSTAT] user_id=1384082736 full=False fields=0 names=0 unames=0 groups=0 stickers=0
+2026-07-02 08:01:51 [INFO] root: Кэш очищен от сообщений старше 7 дней
