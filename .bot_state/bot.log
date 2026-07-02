@@ -1,39 +1,3 @@
-2026-07-02 19:48:56 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
-2026-07-02 19:48:58 [INFO] root: [GH-CACHE] сохранено 591 сообщений в GitHub
-2026-07-02 19:51:10 [INFO] root: [CACHE] chat=6348613179 mid=24932 from=6348613179 owner=8947170643 cache_size=500
-2026-07-02 19:51:10 [INFO] aiogram.event: Update id=846679718 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 19:51:39 [INFO] root: [CACHE] chat=6348613179 mid=24933 from=6348613179 owner=8947170643 cache_size=500
-2026-07-02 19:51:39 [INFO] aiogram.event: Update id=846679719 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 19:51:49 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-02 19:52:34 [INFO] root: [CACHE] chat=6348613179 mid=24934 from=6348613179 owner=8947170643 cache_size=500
-2026-07-02 19:52:34 [INFO] aiogram.event: Update id=846679720 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 19:56:50 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-02 19:58:59 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
-2026-07-02 19:59:01 [INFO] root: [GH-CACHE] сохранено 591 сообщений в GitHub
-2026-07-02 20:01:51 [INFO] root: Кэш очищен от сообщений старше 7 дней
-2026-07-02 20:01:52 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-02 20:06:53 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-02 20:08:49 [INFO] root: [CACHE] chat=6348613179 mid=24935 from=8947170643 owner=8947170643 cache_size=500
-2026-07-02 20:08:49 [INFO] aiogram.event: Update id=846679721 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:09:03 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
-2026-07-02 20:09:05 [INFO] root: [GH-CACHE] сохранено 568 сообщений в GitHub
-2026-07-02 20:09:23 [INFO] root: [CACHE] chat=6348613179 mid=24937 from=8947170643 owner=8947170643 cache_size=500
-2026-07-02 20:09:23 [INFO] aiogram.event: Update id=846679722 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:11:44 [INFO] root: [CACHE] chat=6348613179 mid=24938 from=6348613179 owner=8947170643 cache_size=500
-2026-07-02 20:11:44 [INFO] aiogram.event: Update id=846679723 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:11:52 [INFO] root: [CACHE] chat=6348613179 mid=24939 from=6348613179 owner=8947170643 cache_size=500
-2026-07-02 20:11:52 [INFO] aiogram.event: Update id=846679724 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:11:54 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-02 20:12:02 [INFO] root: [CACHE] chat=6348613179 mid=24940 from=6348613179 owner=8947170643 cache_size=500
-2026-07-02 20:12:02 [INFO] aiogram.event: Update id=846679725 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:12:15 [INFO] root: [CACHE] chat=6348613179 mid=24941 from=6348613179 owner=8947170643 cache_size=500
-2026-07-02 20:12:15 [INFO] aiogram.event: Update id=846679726 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:12:27 [INFO] root: [CACHE] chat=6348613179 mid=24942 from=6348613179 owner=8947170643 cache_size=500
-2026-07-02 20:12:27 [INFO] aiogram.event: Update id=846679727 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:13:15 [INFO] root: [save] короткая ссылка развёрнута: https://vm.tiktok.com/ZGd9HTvPo/ -> https://www.tiktok.com/@_regween_/video/7653125214338862354?_r=1&_t=ZG-97hq3V01mpk
-2026-07-02 20:13:15 [INFO] root: [save] yt-dlp video: https://www.tiktok.com/@_regween_/video/7653125214338862354?_r=1&_t=ZG-97hq3V01mpk
-2026-07-02 20:13:16 [INFO] root: [save] yt-dlp video успех: 1 файл(ов)
-2026-07-02 20:13:21 [INFO] aiogram.event: Update id=846679728 is handled. Duration 7611 ms by bot id=7851684074
 2026-07-02 20:13:23 [INFO] root: [save] короткая ссылка развёрнута: https://vm.tiktok.com/ZGd9Hnm8Y/ -> https://www.tiktok.com/@_regween_/video/7650320664796171540?_r=1&_t=ZG-97hq4QXUktt
 2026-07-02 20:13:23 [INFO] root: [save] yt-dlp video: https://www.tiktok.com/@_regween_/video/7650320664796171540?_r=1&_t=ZG-97hq4QXUktt
 2026-07-02 20:13:24 [INFO] root: [save] yt-dlp video успех: 1 файл(ов)
@@ -761,3 +725,39 @@ Original description: Too Many Requests: retry after 3
 2026-07-02 21:06:31 [INFO] aiogram.event: Update id=846679937 is handled. Duration 0 ms by bot id=7851684074
 2026-07-02 21:06:37 [INFO] root: [CACHE] chat=6348613179 mid=25107 from=6348613179 owner=8947170643 cache_size=500
 2026-07-02 21:06:37 [INFO] aiogram.event: Update id=846679938 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:07:09 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-02 21:09:23 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
+2026-07-02 21:09:25 [INFO] root: [GH-CACHE] сохранено 549 сообщений в GitHub
+2026-07-02 21:10:18 [INFO] root: [CACHE] chat=1321861082 mid=25108 from=1321861082 owner=8947170643 cache_size=344
+2026-07-02 21:10:18 [INFO] aiogram.event: Update id=846679939 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:10:50 [INFO] root: [CACHE] chat=7141954392 mid=51545 from=8563553994 owner=8563553994 cache_size=158
+2026-07-02 21:10:50 [INFO] aiogram.event: Update id=846679940 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:11:00 [INFO] root: [CACHE] chat=7141954392 mid=51546 from=8563553994 owner=8563553994 cache_size=159
+2026-07-02 21:11:00 [INFO] aiogram.event: Update id=846679941 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:11:03 [INFO] root: [CACHE] chat=7141954392 mid=51547 from=8563553994 owner=8563553994 cache_size=160
+2026-07-02 21:11:03 [INFO] aiogram.event: Update id=846679942 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:11:06 [INFO] root: [CACHE] chat=7141954392 mid=51548 from=8563553994 owner=8563553994 cache_size=161
+2026-07-02 21:11:06 [INFO] root: [save] yt-dlp video: https://www.tiktok.com/@12_..37/video/7656769060813753620?_r=1&u_code=ecj5ahem0ml2ma&preview_pb=0&sharer_language=ru&_d=ei65k76j3dgf4g&share_item_id=7656769060813753620&source=h5_m&timestamp=1783026609&item_author_type=2&utm_source=copy&share_enter_from=homepage_hot&tt_from=copy&enable_checksum=1&utm_medium=ios&share_link_id=F0DDF17E-0C7F-46D9-AEC0-55BEB07D2505&user_id=7337814471995343878&sec_user_id=MS4wLjABAAAAu4euzyxZIj0LFFYCLesmKz0pdlT78xm9KnnabGJuYdCyGOSghbOkYpvEJbHjLZMC&utm_campaign=client_share&panel_source_v2=share_panel&ug_btm=b9081,b2001&social_share_type=0&link_reflow_popup_iteration_sharer=%7B%22follow_to_play_duration%22:-1,%22click_empty_to_play%22:1,%22profile_clickable%22:1,%22dynamic_cover%22:1%7D&share_app_id=1233&sp_root_share_link_id=F0DDF17E-0C7F-46D9-AEC0-55BEB07D2505&sp_root_d=ei65k76j3dgf4g&sp_level=1&sp_root_u=ecj5ahem0ml2ma
+2026-07-02 21:11:08 [INFO] root: [save] yt-dlp video успех: 1 файл(ов)
+2026-07-02 21:11:08 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8563553994
+2026-07-02 21:11:08 [INFO] root: Переслано 1/1 удалённых владельцу 8563553994
+2026-07-02 21:11:08 [INFO] aiogram.event: Update id=846679944 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:11:10 [INFO] aiogram.event: Update id=846679943 is handled. Duration 4167 ms by bot id=7851684074
+2026-07-02 21:11:29 [INFO] root: [CACHE] chat=7141954392 mid=51551 from=8563553994 owner=8563553994 cache_size=161
+2026-07-02 21:11:29 [INFO] aiogram.event: Update id=846679945 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:11:34 [INFO] root: [CACHE] chat=7141954392 mid=51552 from=8563553994 owner=8563553994 cache_size=162
+2026-07-02 21:11:34 [INFO] aiogram.event: Update id=846679946 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:11:37 [INFO] root: [CACHE] chat=6348613179 mid=25109 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:11:37 [INFO] aiogram.event: Update id=846679947 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:11:37 [INFO] root: [CACHE] chat=6348613179 mid=25110 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:11:37 [INFO] aiogram.event: Update id=846679948 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:11:43 [INFO] root: [CACHE] chat=6348613179 mid=25111 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:11:43 [INFO] aiogram.event: Update id=846679949 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:11:45 [INFO] root: [CACHE] chat=6348613179 mid=25112 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:11:45 [INFO] aiogram.event: Update id=846679950 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:11:48 [INFO] root: [CACHE] chat=7141954392 mid=51553 from=8563553994 owner=8563553994 cache_size=163
+2026-07-02 21:11:48 [INFO] aiogram.event: Update id=846679951 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:12:04 [INFO] root: [CACHE] chat=6348613179 mid=25113 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:12:04 [INFO] aiogram.event: Update id=846679952 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:12:04 [INFO] root: [CACHE] chat=6348613179 mid=25114 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:12:04 [INFO] aiogram.event: Update id=846679953 is handled. Duration 0 ms by bot id=7851684074
