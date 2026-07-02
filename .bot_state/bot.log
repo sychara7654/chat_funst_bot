@@ -1,12 +1,3 @@
-2026-07-02 03:36:16 [INFO] root: [CACHE] chat=8205663717 mid=120002 from=8205663717 owner=8662203967 cache_size=13
-2026-07-02 03:36:16 [INFO] aiogram.event: Update id=846678864 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 03:36:34 [INFO] root: [CACHE] chat=8205663717 mid=120003 from=8205663717 owner=8662203967 cache_size=14
-2026-07-02 03:36:34 [INFO] aiogram.event: Update id=846678865 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 03:37:03 [INFO] root: [CACHE] chat=620282399 mid=120004 from=8662203967 owner=8662203967 cache_size=1
-2026-07-02 03:37:03 [INFO] aiogram.event: Update id=846678866 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 03:37:03 [INFO] root: [CACHE] chat=749251504 mid=120005 from=8662203967 owner=8662203967 cache_size=1
-2026-07-02 03:37:03 [INFO] aiogram.event: Update id=846678867 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 03:37:03 [INFO] root: [CACHE] chat=913872304 mid=120006 from=8662203967 owner=8662203967 cache_size=1
 2026-07-02 03:37:03 [INFO] aiogram.event: Update id=846678868 is handled. Duration 0 ms by bot id=7851684074
 2026-07-02 03:37:03 [INFO] root: [CACHE] chat=994217989 mid=120007 from=8662203967 owner=8662203967 cache_size=1
 2026-07-02 03:37:03 [INFO] aiogram.event: Update id=846678869 is handled. Duration 0 ms by bot id=7851684074
@@ -584,3 +575,12 @@ Original description: Too Many Requests: retry after 3
 2026-07-02 05:58:53 [INFO] root: [CACHE] chat=1735612098 mid=120224 from=1735612098 owner=8662203967 cache_size=4
 2026-07-02 05:58:53 [INFO] aiogram.event: Update id=846679055 is handled. Duration 0 ms by bot id=7851684074
 2026-07-02 06:01:51 [INFO] root: Кэш очищен от сообщений старше 7 дней
+2026-07-02 06:03:08 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-02 06:04:10 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
+2026-07-02 06:04:12 [INFO] root: [GH-CACHE] сохранено 687 сообщений в GitHub
+2026-07-02 06:05:49 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-07-02 06:05:49 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7851684074)
+2026-07-02 06:06:08 [INFO] aiogram.dispatcher: Connection established (tryings = 1, bot id = 7851684074)
+2026-07-02 06:07:39 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-07-02 06:07:39 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7851684074)
+2026-07-02 06:07:53 [INFO] aiogram.dispatcher: Connection established (tryings = 1, bot id = 7851684074)
