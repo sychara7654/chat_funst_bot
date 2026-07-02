@@ -1,35 +1,3 @@
-2026-07-02 17:11:16 [INFO] root: [CACHE] chat=6348613179 mid=24894 from=8947170643 owner=8947170643 cache_size=500
-2026-07-02 17:11:16 [INFO] aiogram.event: Update id=846679595 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 17:11:17 [INFO] root: [CACHE] chat=6348613179 mid=24895 from=8947170643 owner=8947170643 cache_size=500
-2026-07-02 17:11:17 [INFO] aiogram.event: Update id=846679596 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 17:11:29 [INFO] root: [CACHE] chat=6348613179 mid=24896 from=8947170643 owner=8947170643 cache_size=500
-2026-07-02 17:11:29 [INFO] aiogram.event: Update id=846679597 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 17:16:08 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-02 17:18:03 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
-2026-07-02 17:18:05 [INFO] root: [GH-CACHE] сохранено 630 сообщений в GitHub
-2026-07-02 17:21:09 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-02 17:26:11 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-02 17:28:06 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
-2026-07-02 17:28:09 [INFO] root: [GH-CACHE] сохранено 630 сообщений в GitHub
-2026-07-02 17:29:33 [INFO] root: [CACHE] chat=7141954392 mid=51441 from=8563553994 owner=8563553994 cache_size=113
-2026-07-02 17:29:33 [INFO] aiogram.event: Update id=846679598 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 17:29:43 [INFO] root: [CACHE] chat=7141954392 mid=51442 from=8563553994 owner=8563553994 cache_size=114
-2026-07-02 17:29:43 [INFO] aiogram.event: Update id=846679599 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 17:31:12 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-02 17:36:13 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-02 17:38:10 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
-2026-07-02 17:38:12 [INFO] root: [GH-CACHE] сохранено 628 сообщений в GitHub
-2026-07-02 17:41:14 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-02 17:44:20 [INFO] root: [CACHE] chat=7614103178 mid=120685 from=8662203967 owner=8662203967 cache_size=273
-2026-07-02 17:44:20 [INFO] aiogram.event: Update id=846679600 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 17:46:16 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-02 17:46:55 [INFO] root: [CACHE] chat=8300029741 mid=51443 from=8563553994 owner=8563553994 cache_size=1
-2026-07-02 17:46:55 [INFO] aiogram.event: Update id=846679601 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 17:46:55 [INFO] root: [CACHE] chat=8300029741 mid=51444 from=8300029741 owner=8563553994 cache_size=2
-2026-07-02 17:46:55 [INFO] aiogram.event: Update id=846679602 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 17:46:55 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Bad Request: can't parse entities: Invalid custom emoji identifier specified
-2026-07-02 17:47:06 [INFO] newcontact: [FUNSTAT] user_id=8300029741 full=False fields=13 names=0 unames=0 groups=0 stickers=0
-2026-07-02 17:47:11 [INFO] root: [CACHE] chat=8300029741 mid=51446 from=8563553994 owner=8563553994 cache_size=3
 2026-07-02 17:47:11 [INFO] aiogram.event: Update id=846679603 is handled. Duration 0 ms by bot id=7851684074
 2026-07-02 17:47:15 [INFO] root: [CACHE] chat=8300029741 mid=51447 from=8563553994 owner=8563553994 cache_size=4
 2026-07-02 17:47:15 [INFO] aiogram.event: Update id=846679604 is handled. Duration 0 ms by bot id=7851684074
@@ -526,3 +494,270 @@ Original description: Too Many Requests: retry after 13
 2026-07-02 20:16:51 [INFO] aiogram.event: Update id=846679790 is handled. Duration 0 ms by bot id=7851684074
 2026-07-02 20:16:54 [INFO] root: [CACHE] chat=6348613179 mid=24990 from=6348613179 owner=8947170643 cache_size=500
 2026-07-02 20:16:54 [INFO] aiogram.event: Update id=846679791 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 20:16:55 [INFO] root: [CACHE] chat=5367226195 mid=120760 from=8662203967 owner=8662203967 cache_size=22
+2026-07-02 20:16:55 [INFO] aiogram.event: Update id=846679792 is handled. Duration 2 ms by bot id=7851684074
+2026-07-02 20:16:56 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-02 20:16:56 [INFO] root: [CACHE] chat=5367226195 mid=120761 from=8662203967 owner=8662203967 cache_size=23
+2026-07-02 20:16:56 [INFO] aiogram.event: Update id=846679793 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 20:16:59 [INFO] root: [CACHE] chat=5367226195 mid=120762 from=8662203967 owner=8662203967 cache_size=24
+2026-07-02 20:16:59 [INFO] aiogram.event: Update id=846679794 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 20:17:03 [INFO] root: [CACHE] chat=5367226195 mid=120763 from=8662203967 owner=8662203967 cache_size=25
+2026-07-02 20:17:03 [INFO] aiogram.event: Update id=846679796 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 20:17:04 [INFO] root: [save] короткая ссылка развёрнута: https://vt.tiktok.com/ZSCQPhEWk/ -> https://www.tiktok.com/@yara.yarinka/video/7657826110691953940?_r=1&_t=ZS-97hq6pRqgTo
+2026-07-02 20:17:04 [INFO] root: [save] yt-dlp video: https://www.tiktok.com/@yara.yarinka/video/7657826110691953940?_r=1&_t=ZS-97hq6pRqgTo
+2026-07-02 20:17:05 [INFO] root: [save] yt-dlp video успех: 1 файл(ов)
+2026-07-02 20:17:06 [INFO] aiogram.event: Update id=846679795 is handled. Duration 3575 ms by bot id=7851684074
+2026-07-02 20:17:17 [INFO] root: [CACHE] chat=6348613179 mid=24994 from=8947170643 owner=8947170643 cache_size=500
+2026-07-02 20:17:17 [INFO] aiogram.event: Update id=846679797 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 20:18:52 [INFO] root: [CACHE] chat=5367226195 mid=120764 from=8662203967 owner=8662203967 cache_size=26
+2026-07-02 20:18:52 [INFO] aiogram.event: Update id=846679798 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 20:18:52 [WARNING] root: Не удалось скопировать неизвестный тип сообщения: Telegram server says - Bad Request: message to copy not found
+2026-07-02 20:19:04 [INFO] aiogram.event: Update id=846679799 is not handled. Duration 0 ms by bot id=7851684074
+2026-07-02 20:19:04 [ERROR] aiogram.event: Cause exception while process update id=846679799 by bot id=7851684074
+AttributeError: 'Message' object has no attribute 'html_caption'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/app/bot.py", line 2238, in handle_edited
+    old_html = (old_msg.html_text or old_msg.html_caption or escape_html(old_text)) if old_msg else escape_html(old_text)
+                                     ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 1026, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Message' object has no attribute 'html_caption'
+2026-07-02 20:19:06 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
+2026-07-02 20:19:08 [INFO] root: [GH-CACHE] сохранено 559 сообщений в GitHub
+2026-07-02 20:19:14 [INFO] aiogram.event: Update id=846679800 is not handled. Duration 0 ms by bot id=7851684074
+2026-07-02 20:19:14 [ERROR] aiogram.event: Cause exception while process update id=846679800 by bot id=7851684074
+AttributeError: 'Message' object has no attribute 'html_caption'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/app/bot.py", line 2238, in handle_edited
+    old_html = (old_msg.html_text or old_msg.html_caption or escape_html(old_text)) if old_msg else escape_html(old_text)
+                                     ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 1026, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Message' object has no attribute 'html_caption'
+2026-07-02 20:19:24 [INFO] aiogram.event: Update id=846679801 is not handled. Duration 0 ms by bot id=7851684074
+2026-07-02 20:19:24 [ERROR] aiogram.event: Cause exception while process update id=846679801 by bot id=7851684074
+AttributeError: 'Message' object has no attribute 'html_caption'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/app/bot.py", line 2238, in handle_edited
+    old_html = (old_msg.html_text or old_msg.html_caption or escape_html(old_text)) if old_msg else escape_html(old_text)
+                                     ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 1026, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Message' object has no attribute 'html_caption'
+2026-07-02 20:19:34 [INFO] aiogram.event: Update id=846679802 is not handled. Duration 0 ms by bot id=7851684074
+2026-07-02 20:19:34 [ERROR] aiogram.event: Cause exception while process update id=846679802 by bot id=7851684074
+AttributeError: 'Message' object has no attribute 'html_caption'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/app/bot.py", line 2238, in handle_edited
+    old_html = (old_msg.html_text or old_msg.html_caption or escape_html(old_text)) if old_msg else escape_html(old_text)
+                                     ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 1026, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Message' object has no attribute 'html_caption'
+2026-07-02 20:19:40 [INFO] root: [CACHE] chat=5367226195 mid=120765 from=8662203967 owner=8662203967 cache_size=27
+2026-07-02 20:19:40 [INFO] aiogram.event: Update id=846679803 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 20:19:41 [INFO] aiogram.event: Update id=846679804 is not handled. Duration 0 ms by bot id=7851684074
+2026-07-02 20:19:41 [ERROR] aiogram.event: Cause exception while process update id=846679804 by bot id=7851684074
+AttributeError: 'Message' object has no attribute 'html_caption'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/app/bot.py", line 2238, in handle_edited
+    old_html = (old_msg.html_text or old_msg.html_caption or escape_html(old_text)) if old_msg else escape_html(old_text)
+                                     ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 1026, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Message' object has no attribute 'html_caption'
