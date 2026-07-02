@@ -1,207 +1,3 @@
-2026-07-02 20:19:24 [INFO] aiogram.event: Update id=846679801 is not handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:19:24 [ERROR] aiogram.event: Cause exception while process update id=846679801 by bot id=7851684074
-AttributeError: 'Message' object has no attribute 'html_caption'
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
-    response = await self.feed_update(bot, update, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
-    response = await self.update.wrap_outer_middleware(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
-    return await wrapped_inner(event, kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
-    return await wrapped()
-           ^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
-    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
-    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
-    return await self._propagate_event(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
-    response = await observer.trigger(event, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
-    return await wrapped_inner(event, kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
-    return await wrapped()
-           ^^^^^^^^^^^^^^^
-  File "/app/bot.py", line 2238, in handle_edited
-    old_html = (old_msg.html_text or old_msg.html_caption or escape_html(old_text)) if old_msg else escape_html(old_text)
-                                     ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 1026, in __getattr__
-    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
-AttributeError: 'Message' object has no attribute 'html_caption'
-2026-07-02 20:19:34 [INFO] aiogram.event: Update id=846679802 is not handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:19:34 [ERROR] aiogram.event: Cause exception while process update id=846679802 by bot id=7851684074
-AttributeError: 'Message' object has no attribute 'html_caption'
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
-    response = await self.feed_update(bot, update, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
-    response = await self.update.wrap_outer_middleware(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
-    return await wrapped_inner(event, kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
-    return await wrapped()
-           ^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
-    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
-    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
-    return await self._propagate_event(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
-    response = await observer.trigger(event, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
-    return await wrapped_inner(event, kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
-    return await wrapped()
-           ^^^^^^^^^^^^^^^
-  File "/app/bot.py", line 2238, in handle_edited
-    old_html = (old_msg.html_text or old_msg.html_caption or escape_html(old_text)) if old_msg else escape_html(old_text)
-                                     ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 1026, in __getattr__
-    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
-AttributeError: 'Message' object has no attribute 'html_caption'
-2026-07-02 20:19:40 [INFO] root: [CACHE] chat=5367226195 mid=120765 from=8662203967 owner=8662203967 cache_size=27
-2026-07-02 20:19:40 [INFO] aiogram.event: Update id=846679803 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:19:41 [INFO] aiogram.event: Update id=846679804 is not handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:19:41 [ERROR] aiogram.event: Cause exception while process update id=846679804 by bot id=7851684074
-AttributeError: 'Message' object has no attribute 'html_caption'
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 320, in _process_update
-    response = await self.feed_update(bot, update, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 164, in feed_update
-    response = await self.update.wrap_outer_middleware(
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/error.py", line 27, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 58, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/fsm/middleware.py", line 43, in __call__
-    return await handler(event, data)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
-    return await wrapped_inner(event, kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
-    return await wrapped()
-           ^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/dispatcher.py", line 283, in _listen_update
-    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 161, in propagate_event
-    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 153, in _wrapped
-    return await self._propagate_event(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/router.py", line 181, in _propagate_event
-    response = await observer.trigger(event, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/telegram.py", line 126, in trigger
-    return await wrapped_inner(event, kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/aiogram/dispatcher/event/handler.py", line 71, in call
-    return await wrapped()
-           ^^^^^^^^^^^^^^^
-  File "/app/bot.py", line 2238, in handle_edited
-    old_html = (old_msg.html_text or old_msg.html_caption or escape_html(old_text)) if old_msg else escape_html(old_text)
-                                     ^^^^^^^^^^^^^^^^^^^^
-  File "/usr/local/lib/python3.11/site-packages/pydantic/main.py", line 1026, in __getattr__
-    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
-AttributeError: 'Message' object has no attribute 'html_caption'
-2026-07-02 20:21:57 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-02 20:24:48 [INFO] root: [CACHE] chat=6774518930 mid=120766 from=6774518930 owner=8662203967 cache_size=83
-2026-07-02 20:24:48 [INFO] aiogram.event: Update id=846679805 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:25:04 [INFO] root: [CACHE] chat=6774518930 mid=120767 from=6774518930 owner=8662203967 cache_size=84
-2026-07-02 20:25:04 [INFO] aiogram.event: Update id=846679806 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:25:10 [INFO] root: [CACHE] chat=6774518930 mid=120768 from=6774518930 owner=8662203967 cache_size=85
-2026-07-02 20:25:10 [INFO] aiogram.event: Update id=846679807 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:26:58 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-02 20:29:10 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
-2026-07-02 20:29:11 [INFO] root: [GH-CACHE] сохранено 535 сообщений в GitHub
-2026-07-02 20:31:59 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-02 20:37:01 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-02 20:39:13 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
-2026-07-02 20:39:15 [INFO] root: [GH-CACHE] сохранено 530 сообщений в GitHub
-2026-07-02 20:42:02 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-02 20:46:52 [INFO] root: [CACHE] chat=6136287374 mid=51521 from=6136287374 owner=8563553994 cache_size=3
-2026-07-02 20:46:52 [INFO] aiogram.event: Update id=846679808 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:46:52 [INFO] root: [CACHE] chat=6348613179 mid=24995 from=6348613179 owner=8947170643 cache_size=500
-2026-07-02 20:46:52 [INFO] aiogram.event: Update id=846679809 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:46:54 [INFO] root: [CACHE] chat=6348613179 mid=24996 from=6348613179 owner=8947170643 cache_size=500
-2026-07-02 20:46:54 [INFO] aiogram.event: Update id=846679810 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:47:04 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-02 20:47:06 [INFO] root: [CACHE] chat=6136287374 mid=51522 from=6136287374 owner=8563553994 cache_size=4
-2026-07-02 20:47:06 [INFO] aiogram.event: Update id=846679811 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:47:12 [INFO] root: [CACHE] chat=6348613179 mid=24997 from=8947170643 owner=8947170643 cache_size=500
-2026-07-02 20:47:12 [INFO] aiogram.event: Update id=846679812 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:47:28 [INFO] root: [CACHE] chat=6348613179 mid=24998 from=8947170643 owner=8947170643 cache_size=500
-2026-07-02 20:47:28 [INFO] aiogram.event: Update id=846679813 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:47:28 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8662203967
-2026-07-02 20:47:28 [INFO] root: Переслано 1/1 удалённых владельцу 8662203967
-2026-07-02 20:47:28 [INFO] aiogram.event: Update id=846679814 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:47:41 [INFO] root: [CACHE] chat=6348613179 mid=24999 from=8947170643 owner=8947170643 cache_size=500
-2026-07-02 20:47:41 [INFO] aiogram.event: Update id=846679815 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:47:55 [INFO] root: [CACHE] chat=6348613179 mid=25000 from=6348613179 owner=8947170643 cache_size=500
-2026-07-02 20:47:55 [INFO] aiogram.event: Update id=846679816 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:48:10 [INFO] root: [CACHE] chat=6348613179 mid=25001 from=8947170643 owner=8947170643 cache_size=500
-2026-07-02 20:48:10 [INFO] aiogram.event: Update id=846679817 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:48:26 [INFO] root: [CACHE] chat=6348613179 mid=25002 from=6348613179 owner=8947170643 cache_size=500
-2026-07-02 20:48:26 [INFO] aiogram.event: Update id=846679818 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:48:38 [INFO] root: [CACHE] chat=6136287374 mid=51523 from=8563553994 owner=8563553994 cache_size=5
-2026-07-02 20:48:38 [INFO] aiogram.event: Update id=846679819 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:48:45 [INFO] root: [CACHE] chat=6136287374 mid=51524 from=8563553994 owner=8563553994 cache_size=6
-2026-07-02 20:48:45 [INFO] aiogram.event: Update id=846679820 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:49:09 [INFO] root: [CACHE] chat=6136287374 mid=51525 from=8563553994 owner=8563553994 cache_size=7
-2026-07-02 20:49:09 [INFO] aiogram.event: Update id=846679821 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:49:17 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
-2026-07-02 20:49:19 [INFO] root: [GH-CACHE] сохранено 534 сообщений в GitHub
-2026-07-02 20:49:39 [INFO] root: [CACHE] chat=6348613179 mid=25003 from=8947170643 owner=8947170643 cache_size=500
-2026-07-02 20:49:39 [INFO] aiogram.event: Update id=846679822 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:49:47 [INFO] root: [CACHE] chat=6348613179 mid=25004 from=8947170643 owner=8947170643 cache_size=500
-2026-07-02 20:49:47 [INFO] aiogram.event: Update id=846679823 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:49:54 [INFO] root: [CACHE] chat=6348613179 mid=25005 from=8947170643 owner=8947170643 cache_size=500
-2026-07-02 20:49:54 [INFO] aiogram.event: Update id=846679824 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 20:50:01 [INFO] root: [CACHE] chat=6348613179 mid=25006 from=8947170643 owner=8947170643 cache_size=500
-2026-07-02 20:50:01 [INFO] aiogram.event: Update id=846679825 is handled. Duration 0 ms by bot id=7851684074
 2026-07-02 20:50:20 [INFO] root: [CACHE] chat=6348613179 mid=25007 from=6348613179 owner=8947170643 cache_size=500
 2026-07-02 20:50:20 [INFO] aiogram.event: Update id=846679826 is handled. Duration 0 ms by bot id=7851684074
 2026-07-02 20:50:23 [INFO] root: [CACHE] chat=6348613179 mid=25008 from=6348613179 owner=8947170643 cache_size=500
@@ -641,3 +437,66 @@ Original description: Too Many Requests: retry after 3
 2026-07-02 21:27:06 [INFO] aiogram.event: Update id=846680032 is handled. Duration 0 ms by bot id=7851684074
 2026-07-02 21:27:12 [INFO] root: [CACHE] chat=6348613179 mid=25194 from=6348613179 owner=8947170643 cache_size=500
 2026-07-02 21:27:12 [INFO] aiogram.event: Update id=846680033 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:27:15 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-02 21:27:49 [INFO] root: [CACHE] chat=6348613179 mid=25195 from=8947170643 owner=8947170643 cache_size=500
+2026-07-02 21:27:49 [INFO] aiogram.event: Update id=846680034 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:28:23 [INFO] root: [CACHE] chat=6348613179 mid=25196 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:28:23 [INFO] aiogram.event: Update id=846680035 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:28:25 [INFO] root: [CACHE] chat=6348613179 mid=25197 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:28:25 [INFO] aiogram.event: Update id=846680036 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:28:29 [INFO] root: [CACHE] chat=6348613179 mid=25198 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:28:29 [INFO] aiogram.event: Update id=846680037 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:28:33 [INFO] root: [CACHE] chat=6348613179 mid=25199 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:28:33 [INFO] aiogram.event: Update id=846680038 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:28:36 [INFO] root: [CACHE] chat=6348613179 mid=25200 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:28:36 [INFO] aiogram.event: Update id=846680039 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:28:42 [INFO] root: [CACHE] chat=6348613179 mid=25201 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:28:42 [INFO] aiogram.event: Update id=846680040 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:28:47 [INFO] root: [CACHE] chat=6348613179 mid=25202 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:28:47 [INFO] aiogram.event: Update id=846680041 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:28:52 [INFO] root: [CACHE] chat=6348613179 mid=25203 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:28:52 [INFO] aiogram.event: Update id=846680042 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:28:55 [INFO] root: [CACHE] chat=6348613179 mid=25204 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:28:55 [INFO] aiogram.event: Update id=846680043 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:29:00 [INFO] root: [CACHE] chat=6348613179 mid=25205 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:29:00 [INFO] aiogram.event: Update id=846680044 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:29:02 [INFO] root: [CACHE] chat=6348613179 mid=25206 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:29:02 [INFO] aiogram.event: Update id=846680045 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:29:11 [INFO] root: [CACHE] chat=6348613179 mid=25207 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:29:11 [INFO] aiogram.event: Update id=846680046 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:29:14 [INFO] root: [CACHE] chat=6348613179 mid=25208 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:29:14 [INFO] aiogram.event: Update id=846680047 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:29:18 [INFO] root: [CACHE] chat=6348613179 mid=25209 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:29:18 [INFO] aiogram.event: Update id=846680048 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:29:21 [INFO] root: [CACHE] chat=6348613179 mid=25210 from=8947170643 owner=8947170643 cache_size=500
+2026-07-02 21:29:21 [INFO] aiogram.event: Update id=846680049 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:29:30 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
+2026-07-02 21:29:32 [INFO] root: [GH-CACHE] сохранено 535 сообщений в GitHub
+2026-07-02 21:29:34 [INFO] root: [CACHE] chat=6348613179 mid=25211 from=8947170643 owner=8947170643 cache_size=500
+2026-07-02 21:29:34 [INFO] aiogram.event: Update id=846680050 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:29:58 [INFO] root: [CACHE] chat=6348613179 mid=25212 from=8947170643 owner=8947170643 cache_size=500
+2026-07-02 21:29:58 [INFO] aiogram.event: Update id=846680051 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:30:10 [INFO] root: [CACHE] chat=6348613179 mid=25213 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:30:10 [INFO] aiogram.event: Update id=846680052 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:31:23 [INFO] root: [CACHE] chat=6348613179 mid=25214 from=8947170643 owner=8947170643 cache_size=500
+2026-07-02 21:31:23 [INFO] aiogram.event: Update id=846680053 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:31:27 [INFO] root: [CACHE] chat=6348613179 mid=25215 from=8947170643 owner=8947170643 cache_size=500
+2026-07-02 21:31:27 [INFO] aiogram.event: Update id=846680054 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:31:35 [INFO] root: [CACHE] chat=6348613179 mid=25216 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:31:35 [INFO] aiogram.event: Update id=846680055 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:31:44 [INFO] root: [CACHE] chat=6348613179 mid=25217 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:31:44 [INFO] aiogram.event: Update id=846680056 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:31:45 [INFO] root: [CACHE] chat=6348613179 mid=25218 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:31:45 [INFO] aiogram.event: Update id=846680057 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:31:50 [INFO] root: [CACHE] chat=6348613179 mid=25219 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:31:50 [INFO] aiogram.event: Update id=846680058 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:31:56 [INFO] root: [CACHE] chat=6348613179 mid=25220 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:31:56 [INFO] aiogram.event: Update id=846680059 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:31:58 [INFO] root: [CACHE] chat=6348613179 mid=25221 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:31:58 [INFO] aiogram.event: Update id=846680060 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:32:04 [INFO] root: [CACHE] chat=6348613179 mid=25222 from=8947170643 owner=8947170643 cache_size=500
+2026-07-02 21:32:04 [INFO] aiogram.event: Update id=846680061 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:32:08 [INFO] root: [CACHE] chat=6348613179 mid=25223 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:32:08 [INFO] aiogram.event: Update id=846680062 is handled. Duration 0 ms by bot id=7851684074
+2026-07-02 21:32:11 [INFO] root: [CACHE] chat=6348613179 mid=25224 from=6348613179 owner=8947170643 cache_size=500
+2026-07-02 21:32:11 [INFO] aiogram.event: Update id=846680063 is handled. Duration 0 ms by bot id=7851684074
