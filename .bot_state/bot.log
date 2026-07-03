@@ -1,17 +1,3 @@
-2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 4325216 bytes
-2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 4325266 bytes
-2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 4325752 bytes
-2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 4326504 bytes
-2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
-2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 4330358 bytes
-2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
-2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 4338816 bytes
-2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
-2026-07-03 00:46:00 [INFO] root: [music] Bandcamp не скачал (rc=1): ERROR: Unable to handle request: Unsupported url scheme: "bcsearch1" (urllib)
-
-2026-07-03 00:46:00 [WARNING] root: [music] VK API error 1116: Anonymous token is invalid
-2026-07-03 00:46:00 [INFO] root: [music] SoundCloud → оригинал: «Молодёжь (feat. Анастасия Кузнецова)»
-2026-07-03 00:46:00 [INFO] root: [music] YouTube → оригинал: «Молодёжь (feat. Анастасия Кузнецова)»
 2026-07-03 00:46:01 [INFO] root: [music] SoundCloud не скачал (rc=1): ERROR: [soundcloud] 1093628944: This video is DRM protected
 
 2026-07-03 00:46:02 [INFO] root: [music] YouTube не скачал (rc=1): -do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  
@@ -501,3 +487,16 @@
 2026-07-03 10:10:24 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-03 10:13:24 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
 2026-07-03 10:13:25 [INFO] root: [GH-CACHE] сохранено 474 сообщений в GitHub
+2026-07-03 10:15:25 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-03 10:16:57 [INFO] root: [CACHE] chat=5566870459 mid=51683 from=8563553994 owner=8563553994 cache_size=64
+2026-07-03 10:16:57 [INFO] aiogram.event: Update id=846681287 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 10:16:59 [INFO] root: [CACHE] chat=5566870459 mid=51684 from=8563553994 owner=8563553994 cache_size=65
+2026-07-03 10:16:59 [INFO] aiogram.event: Update id=846681288 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 10:17:06 [INFO] root: [CACHE] chat=5566870459 mid=51685 from=8563553994 owner=8563553994 cache_size=66
+2026-07-03 10:17:06 [INFO] aiogram.event: Update id=846681289 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 10:17:16 [INFO] root: [CACHE] chat=5566870459 mid=51686 from=8563553994 owner=8563553994 cache_size=67
+2026-07-03 10:17:16 [INFO] aiogram.event: Update id=846681290 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 10:17:47 [INFO] root: [CACHE] chat=5566870459 mid=51687 from=5566870459 owner=8563553994 cache_size=68
+2026-07-03 10:17:47 [INFO] aiogram.event: Update id=846681291 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 10:17:54 [INFO] root: [CACHE] chat=5566870459 mid=51688 from=5566870459 owner=8563553994 cache_size=69
+2026-07-03 10:17:54 [INFO] aiogram.event: Update id=846681292 is handled. Duration 0 ms by bot id=7851684074
