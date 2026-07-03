@@ -1,6 +1,3 @@
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 96033 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 98399 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 106360 bytes
 2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
 2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 110709 bytes
 2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 112312 bytes
@@ -511,3 +508,6 @@ Original description: Too Many Requests: retry after 9
 2026-07-03 14:53:53 [INFO] aiogram.event: Update id=846682319 is handled. Duration 0 ms by bot id=7851684074
 2026-07-03 14:54:56 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
 2026-07-03 14:54:59 [INFO] root: [GH-CACHE] сохранено 602 сообщений в GitHub
+2026-07-03 14:56:37 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-03 14:59:11 [INFO] root: [CACHE] chat=7141954392 mid=52291 from=7141954392 owner=8563553994 cache_size=307
+2026-07-03 14:59:11 [INFO] aiogram.event: Update id=846682320 is handled. Duration 0 ms by bot id=7851684074
