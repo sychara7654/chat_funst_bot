@@ -1,17 +1,3 @@
-2026-07-03 01:48:19 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-03 01:50:53 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
-2026-07-03 01:50:55 [INFO] root: [GH-CACHE] сохранено 495 сообщений в GitHub
-2026-07-03 01:53:20 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-03 01:58:22 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-03 02:00:56 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
-2026-07-03 02:00:57 [INFO] root: [GH-CACHE] сохранено 495 сообщений в GitHub
-2026-07-03 02:01:51 [INFO] root: Кэш очищен от сообщений старше 7 дней
-2026-07-03 02:03:23 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-03 02:08:24 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-03 02:10:59 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
-2026-07-03 02:11:00 [INFO] root: [GH-CACHE] сохранено 495 сообщений в GitHub
-2026-07-03 02:13:25 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-03 02:18:26 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-03 02:21:02 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
 2026-07-03 02:21:04 [INFO] root: [GH-CACHE] сохранено 495 сообщений в GitHub
 2026-07-03 02:23:28 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
@@ -512,3 +498,29 @@ Original description: Too Many Requests: retry after 4
 2026-07-03 10:30:28 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 4 seconds.
 Original description: Too Many Requests: retry after 4
 (background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2026-07-03 10:30:28 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 4 seconds.
+Original description: Too Many Requests: retry after 4
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2026-07-03 10:30:28 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 4 seconds.
+Original description: Too Many Requests: retry after 4
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2026-07-03 10:30:28 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 4 seconds.
+Original description: Too Many Requests: retry after 4
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2026-07-03 10:30:28 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 4 seconds.
+Original description: Too Many Requests: retry after 4
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2026-07-03 10:30:28 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 4 seconds.
+Original description: Too Many Requests: retry after 4
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2026-07-03 10:30:28 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 4 seconds.
+Original description: Too Many Requests: retry after 4
+(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
+2026-07-03 10:30:29 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-03 10:31:21 [INFO] root: [CACHE] chat=7487416794 mid=121028 from=7487416794 owner=8662203967 cache_size=2
+2026-07-03 10:31:21 [INFO] aiogram.event: Update id=846681318 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 10:31:32 [INFO] newcontact: [FUNSTAT] user_id=7487416794 full=False fields=0 names=0 unames=0 groups=0 stickers=0
+2026-07-03 10:33:30 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
+2026-07-03 10:33:31 [INFO] root: [GH-CACHE] сохранено 472 сообщений в GitHub
+2026-07-03 10:35:20 [INFO] root: [CACHE] chat=2087945662 mid=121033 from=2087945662 owner=8662203967 cache_size=2
+2026-07-03 10:35:20 [INFO] aiogram.event: Update id=846681319 is handled. Duration 0 ms by bot id=7851684074
