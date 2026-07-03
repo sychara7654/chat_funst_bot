@@ -1,25 +1,3 @@
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 805831 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 813490 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 814305 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 816165 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 820156 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 828130 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 837416 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 843931 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 850400 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 857784 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 857849 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 864784 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 870520 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 870725 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 885024 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 890433 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 891454 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 897422 bytes
 2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
 2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 909800 bytes
 2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 910076 bytes
@@ -511,3 +489,25 @@ Original description: Too Many Requests: retry after 9
 2026-07-03 15:35:20 [INFO] root: [CACHE] chat=967423536 mid=121753 from=8662203967 owner=8662203967 cache_size=54
 2026-07-03 15:35:20 [INFO] aiogram.event: Update id=846682385 is handled. Duration 0 ms by bot id=7851684074
 2026-07-03 15:35:20 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Bad Request: can't parse entities: Invalid custom emoji identifier specified
+2026-07-03 15:36:47 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-03 15:40:00 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8662203967
+2026-07-03 15:40:01 [INFO] root: Переслано 1/1 удалённых владельцу 8662203967
+2026-07-03 15:40:01 [INFO] aiogram.event: Update id=846682386 is handled. Duration 1033 ms by bot id=7851684074
+2026-07-03 15:40:12 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8662203967
+2026-07-03 15:40:12 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8662203967
+2026-07-03 15:40:12 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8662203967
+2026-07-03 15:40:12 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8662203967
+2026-07-03 15:40:13 [INFO] root: Переслано 1/1 удалённых владельцу 8662203967
+2026-07-03 15:40:13 [INFO] aiogram.event: Update id=846682387 is handled. Duration 356 ms by bot id=7851684074
+2026-07-03 15:40:13 [INFO] root: Переслано 1/1 удалённых владельцу 8662203967
+2026-07-03 15:40:13 [INFO] aiogram.event: Update id=846682388 is handled. Duration 658 ms by bot id=7851684074
+2026-07-03 15:40:13 [INFO] root: Переслано 1/1 удалённых владельцу 8662203967
+2026-07-03 15:40:13 [INFO] aiogram.event: Update id=846682389 is handled. Duration 688 ms by bot id=7851684074
+2026-07-03 15:40:14 [INFO] root: Переслано 1/1 удалённых владельцу 8662203967
+2026-07-03 15:40:14 [INFO] aiogram.event: Update id=846682390 is handled. Duration 1156 ms by bot id=7851684074
+2026-07-03 15:40:40 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8662203967
+2026-07-03 15:40:40 [INFO] root: Переслано 1/1 удалённых владельцу 8662203967
+2026-07-03 15:40:40 [INFO] aiogram.event: Update id=846682391 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 15:40:52 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8662203967
+2026-07-03 15:40:52 [INFO] root: Переслано 1/1 удалённых владельцу 8662203967
+2026-07-03 15:40:52 [INFO] aiogram.event: Update id=846682392 is handled. Duration 403 ms by bot id=7851684074
