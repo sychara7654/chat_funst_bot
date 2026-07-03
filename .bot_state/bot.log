@@ -1,39 +1,3 @@
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 1308327 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 1311816 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 1312831 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 1312940 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 1327427 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 1332664 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 1336191 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 1344535 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 1345022 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 1346305 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 1357646 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 1377268 bytes
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
-2026-07-03 14:22:35 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
-2026-07-03 14:22:36 [INFO] root: [music] Bandcamp не скачал (rc=1): ERROR: Unable to handle request: Unsupported url scheme: "bcsearch1" (urllib)
-
-2026-07-03 14:22:36 [WARNING] root: [music] VK API error 1116: Anonymous token is invalid
-2026-07-03 14:22:36 [INFO] root: [music] SoundCloud → оригинал: «Nautilus Pompilius - Дыхание»
-2026-07-03 14:22:36 [INFO] root: [music] YouTube → оригинал: «Дыхание»
-2026-07-03 14:22:38 [INFO] root: [music] YouTube не скачал (rc=1): -do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  
-2026-07-03 14:22:44 [INFO] root: [music] отправлено 'Nautilus Pompilius — Дыхание' из SoundCloud
-2026-07-03 14:22:48 [INFO] aiogram.event: Update id=846682234 is handled. Duration 0 ms by bot id=7851684074
-2026-07-03 14:22:48 [WARNING] root: Удалено 1 сообщений в чате 7141954392, в кэше отсутствует 1 (id: [52246]...)
-2026-07-03 14:22:48 [INFO] aiogram.event: Update id=846682235 is handled. Duration 0 ms by bot id=7851684074
-2026-07-03 14:22:48 [INFO] root: [CACHE] chat=7141954392 mid=52248 from=8563553994 owner=8563553994 cache_size=288
-2026-07-03 14:22:48 [INFO] aiogram.event: Update id=846682236 is handled. Duration 0 ms by bot id=7851684074
-2026-07-03 14:24:46 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
-2026-07-03 14:24:48 [INFO] root: [GH-CACHE] сохранено 620 сообщений в GitHub
-2026-07-03 14:26:29 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-03 14:30:09 [INFO] root: [CACHE] chat=7141954392 mid=52249 from=7141954392 owner=8563553994 cache_size=289
-2026-07-03 14:30:09 [INFO] aiogram.event: Update id=846682237 is handled. Duration 0 ms by bot id=7851684074
-2026-07-03 14:30:29 [INFO] root: [CACHE] chat=7141954392 mid=52250 from=7141954392 owner=8563553994 cache_size=290
-2026-07-03 14:30:29 [INFO] aiogram.event: Update id=846682238 is handled. Duration 0 ms by bot id=7851684074
-2026-07-03 14:31:30 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-03 14:32:47 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8662203967
 2026-07-03 14:32:47 [INFO] root: Переслано 1/1 удалённых владельцу 8662203967
 2026-07-03 14:32:47 [INFO] aiogram.event: Update id=846682239 is handled. Duration 589 ms by bot id=7851684074
 2026-07-03 14:32:56 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8662203967
@@ -513,3 +477,38 @@ Original description: Too Many Requests: retry after 9
 2026-07-03 16:01:48 [INFO] root: [CACHE] chat=8618942525 mid=121800 from=8618942525 owner=8662203967 cache_size=172
 2026-07-03 16:01:48 [INFO] aiogram.event: Update id=846682432 is handled. Duration 0 ms by bot id=7851684074
 2026-07-03 16:01:51 [INFO] root: Кэш очищен от сообщений старше 7 дней
+2026-07-03 16:01:54 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-03 16:02:03 [INFO] root: [CACHE] chat=1493329997 mid=121802 from=8662203967 owner=8662203967 cache_size=68
+2026-07-03 16:02:03 [INFO] aiogram.event: Update id=846682433 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 16:02:14 [INFO] root: [CACHE] chat=8618942525 mid=121803 from=8662203967 owner=8662203967 cache_size=173
+2026-07-03 16:02:14 [INFO] aiogram.event: Update id=846682434 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 16:02:17 [INFO] root: [CACHE] chat=8618942525 mid=121804 from=8662203967 owner=8662203967 cache_size=174
+2026-07-03 16:02:17 [INFO] aiogram.event: Update id=846682435 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 16:02:19 [INFO] root: [CACHE] chat=8618942525 mid=121805 from=8662203967 owner=8662203967 cache_size=175
+2026-07-03 16:02:19 [INFO] aiogram.event: Update id=846682436 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 16:02:26 [INFO] root: [CACHE] chat=8618942525 mid=121806 from=8618942525 owner=8662203967 cache_size=176
+2026-07-03 16:02:26 [INFO] aiogram.event: Update id=846682437 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 16:02:30 [INFO] root: [CACHE] chat=1493329997 mid=121807 from=1493329997 owner=8662203967 cache_size=69
+2026-07-03 16:02:30 [INFO] aiogram.event: Update id=846682438 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 16:02:34 [INFO] root: [CACHE] chat=8618942525 mid=121808 from=8618942525 owner=8662203967 cache_size=177
+2026-07-03 16:02:34 [INFO] aiogram.event: Update id=846682439 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 16:02:59 [INFO] root: [CACHE] chat=1493329997 mid=121809 from=8662203967 owner=8662203967 cache_size=70
+2026-07-03 16:02:59 [INFO] aiogram.event: Update id=846682440 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 16:04:15 [INFO] root: [CACHE] chat=8618942525 mid=121810 from=8662203967 owner=8662203967 cache_size=178
+2026-07-03 16:04:15 [INFO] aiogram.event: Update id=846682441 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 16:04:18 [INFO] root: [CACHE] chat=8618942525 mid=121811 from=8662203967 owner=8662203967 cache_size=179
+2026-07-03 16:04:18 [INFO] aiogram.event: Update id=846682442 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 16:04:36 [INFO] root: [CACHE] chat=1493329997 mid=121812 from=1493329997 owner=8662203967 cache_size=71
+2026-07-03 16:04:36 [INFO] aiogram.event: Update id=846682443 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 16:04:55 [INFO] root: [CACHE] chat=1493329997 mid=121813 from=8662203967 owner=8662203967 cache_size=72
+2026-07-03 16:04:55 [INFO] aiogram.event: Update id=846682444 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 16:05:05 [INFO] root: [CACHE] chat=8618942525 mid=121814 from=8618942525 owner=8662203967 cache_size=180
+2026-07-03 16:05:05 [INFO] aiogram.event: Update id=846682445 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 16:05:08 [INFO] root: [CACHE] chat=8618942525 mid=121815 from=8618942525 owner=8662203967 cache_size=181
+2026-07-03 16:05:08 [INFO] aiogram.event: Update id=846682446 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 16:05:12 [INFO] root: [CACHE] chat=8618942525 mid=121816 from=8618942525 owner=8662203967 cache_size=182
+2026-07-03 16:05:12 [INFO] aiogram.event: Update id=846682447 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 16:05:22 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
+2026-07-03 16:05:24 [INFO] root: [GH-CACHE] сохранено 636 сообщений в GitHub
+2026-07-03 16:06:06 [INFO] root: [CACHE] chat=8618942525 mid=121817 from=8662203967 owner=8662203967 cache_size=183
+2026-07-03 16:06:06 [INFO] aiogram.event: Update id=846682448 is handled. Duration 0 ms by bot id=7851684074
