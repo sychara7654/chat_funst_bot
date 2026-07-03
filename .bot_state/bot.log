@@ -1,6 +1,3 @@
-2026-07-02 23:47:58 [ERROR] root: Quotly статус 410: {"ok":false,"error":{"code":410,"message":"This domain (bot.lyo.su) is retired and will stop working after 2026-09-01. Update your integration to use https://quote.yuri.ly","new_url":"https://quote.yuri.ly/generate"}}
-2026-07-02 23:48:06 [INFO] aiogram.event: Update id=846680902 is handled. Duration 0 ms by bot id=7851684074
-2026-07-02 23:48:06 [INFO] root: [CACHE] chat=6348613179 mid=25987 from=8947170643 owner=8947170643 cache_size=500
 2026-07-02 23:48:06 [INFO] aiogram.event: Update id=846680903 is handled. Duration 0 ms by bot id=7851684074
 2026-07-02 23:48:06 [INFO] root: [CACHE] chat=6348613179 mid=25988 from=6348613179 owner=8947170643 cache_size=500
 2026-07-02 23:48:06 [INFO] aiogram.event: Update id=846680904 is handled. Duration 0 ms by bot id=7851684074
@@ -498,3 +495,6 @@
 2026-07-03 00:10:22 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
 2026-07-03 00:10:24 [INFO] root: [GH-CACHE] сохранено 504 сообщений в GitHub
 2026-07-03 00:12:55 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-03 00:17:57 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-03 00:20:25 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
+2026-07-03 00:20:27 [INFO] root: [GH-CACHE] сохранено 500 сообщений в GitHub
