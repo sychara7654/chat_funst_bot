@@ -1,12 +1,3 @@
-2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 4312515 bytes
-2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 4313897 bytes
-2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 4313989 bytes
-2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 4317067 bytes
-2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 4318258 bytes
-2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 4318692 bytes
-2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 4321717 bytes
-2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
-2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 4323625 bytes
 2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 4324822 bytes
 2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 4325079 bytes
 2026-07-03 00:45:59 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 4325131 bytes
@@ -501,3 +492,12 @@
 2026-07-03 10:01:51 [INFO] root: Кэш очищен от сообщений старше 7 дней
 2026-07-03 10:03:21 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
 2026-07-03 10:03:22 [INFO] root: [GH-CACHE] сохранено 476 сообщений в GitHub
+2026-07-03 10:05:22 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-03 10:08:26 [INFO] root: [CACHE] chat=8775473718 mid=120979 from=8662203967 owner=8662203967 cache_size=4
+2026-07-03 10:08:26 [INFO] aiogram.event: Update id=846681283 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 10:08:39 [INFO] root: [CACHE] chat=5566870459 mid=51680 from=8563553994 owner=8563553994 cache_size=61
+2026-07-03 10:08:39 [INFO] aiogram.event: Update id=846681284 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 10:09:41 [INFO] root: [CACHE] chat=5566870459 mid=51681 from=5566870459 owner=8563553994 cache_size=62
+2026-07-03 10:09:41 [INFO] aiogram.event: Update id=846681285 is handled. Duration 0 ms by bot id=7851684074
+2026-07-03 10:09:54 [INFO] root: [CACHE] chat=5566870459 mid=51682 from=5566870459 owner=8563553994 cache_size=63
+2026-07-03 10:09:54 [INFO] aiogram.event: Update id=846681286 is handled. Duration 0 ms by bot id=7851684074
