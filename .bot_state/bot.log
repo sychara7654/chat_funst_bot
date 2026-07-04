@@ -1,19 +1,3 @@
-2026-07-04 13:23:27 [ERROR] root: Ошибка сохранения кэша: dictionary changed size during iteration
-2026-07-04 13:23:27 [INFO] root: [CACHE] chat=5637652496 mid=122377 from=8662203967 owner=8662203967 cache_size=1
-2026-07-04 13:23:27 [INFO] aiogram.event: Update id=846685447 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 13:23:27 [INFO] root: [CACHE] chat=5641107746 mid=122378 from=8662203967 owner=8662203967 cache_size=1
-2026-07-04 13:23:27 [INFO] aiogram.event: Update id=846685448 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 13:23:28 [INFO] root: [CACHE] chat=5645797894 mid=122379 from=8662203967 owner=8662203967 cache_size=1
-2026-07-04 13:23:28 [INFO] aiogram.event: Update id=846685449 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 13:23:28 [INFO] root: [CACHE] chat=5653593227 mid=122380 from=8662203967 owner=8662203967 cache_size=1
-2026-07-04 13:23:28 [INFO] aiogram.event: Update id=846685450 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 13:23:28 [INFO] root: [CACHE] chat=6181522911 mid=122381 from=8662203967 owner=8662203967 cache_size=1
-2026-07-04 13:23:28 [INFO] aiogram.event: Update id=846685451 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 13:23:28 [INFO] root: [CACHE] chat=6229404606 mid=122382 from=8662203967 owner=8662203967 cache_size=1
-2026-07-04 13:23:28 [INFO] aiogram.event: Update id=846685452 is handled. Duration 2 ms by bot id=7851684074
-2026-07-04 13:23:29 [INFO] root: [CACHE] chat=6280363893 mid=122383 from=8662203967 owner=8662203967 cache_size=1
-2026-07-04 13:23:29 [INFO] aiogram.event: Update id=846685453 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 13:23:29 [INFO] root: [CACHE] chat=6575097464 mid=122384 from=8662203967 owner=8662203967 cache_size=1
 2026-07-04 13:23:29 [INFO] aiogram.event: Update id=846685454 is handled. Duration 1 ms by bot id=7851684074
 2026-07-04 13:23:29 [ERROR] root: Ошибка сохранения кэша: dictionary changed size during iteration
 2026-07-04 13:23:29 [INFO] root: [CACHE] chat=6599314568 mid=122385 from=8662203967 owner=8662203967 cache_size=1
@@ -575,3 +559,19 @@ Original description: Too Many Requests: retry after 10
 2026-07-04 14:02:23 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-04 14:03:03 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
 2026-07-04 14:03:05 [INFO] root: [GH-CACHE] сохранено 479 сообщений в GitHub
+2026-07-04 14:07:25 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-04 14:08:41 [INFO] root: [CACHE] chat=7698853158 mid=122494 from=8662203967 owner=8662203967 cache_size=211
+2026-07-04 14:08:43 [INFO] root: [save] короткая ссылка развёрнута: https://vt.tiktok.com/ZSCbMPKsc/ -> https://www.tiktok.com/@kuni_master910/video/7658537397021314311?_r=1&_t=ZS-97koDBK7o9t
+2026-07-04 14:08:43 [INFO] root: [save] yt-dlp video: https://www.tiktok.com/@kuni_master910/video/7658537397021314311?_r=1&_t=ZS-97koDBK7o9t
+2026-07-04 14:08:44 [INFO] root: [save] yt-dlp video успех: 1 файл(ов)
+2026-07-04 14:08:47 [INFO] aiogram.event: Update id=846685664 is handled. Duration 5155 ms by bot id=7851684074
+2026-07-04 14:09:04 [INFO] root: [CACHE] chat=7698853158 mid=122497 from=7698853158 owner=8662203967 cache_size=212
+2026-07-04 14:09:04 [INFO] aiogram.event: Update id=846685665 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 14:09:07 [INFO] root: [CACHE] chat=7698853158 mid=122498 from=7698853158 owner=8662203967 cache_size=213
+2026-07-04 14:09:07 [INFO] aiogram.event: Update id=846685666 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 14:10:36 [INFO] root: [save] короткая ссылка развёрнута: https://vm.tiktok.com/ZGd9xt1rS/ -> https://www.tiktok.com/@lesha_cto/video/7658064174748077319?_r=1&_t=ZG-97kmvipU4jh
+2026-07-04 14:10:36 [INFO] root: [save] yt-dlp video: https://www.tiktok.com/@lesha_cto/video/7658064174748077319?_r=1&_t=ZG-97kmvipU4jh
+2026-07-04 14:10:37 [INFO] root: [save] yt-dlp video успех: 1 файл(ов)
+2026-07-04 14:10:40 [INFO] aiogram.event: Update id=846685667 is handled. Duration 4286 ms by bot id=7851684074
+2026-07-04 14:11:13 [INFO] root: [CACHE] chat=6348613179 mid=28889 from=8947170643 owner=8947170643 cache_size=500
+2026-07-04 14:11:13 [INFO] aiogram.event: Update id=846685668 is handled. Duration 0 ms by bot id=7851684074
