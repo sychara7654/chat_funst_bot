@@ -1,32 +1,3 @@
-2026-07-04 13:23:31 [INFO] root: [CACHE] chat=7479789727 mid=122392 from=8662203967 owner=8662203967 cache_size=1
-2026-07-04 13:23:31 [INFO] aiogram.event: Update id=846685462 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 13:23:31 [ERROR] root: Ошибка сохранения кэша: dictionary changed size during iteration
-2026-07-04 13:23:32 [INFO] root: [CACHE] chat=8180895630 mid=122393 from=8662203967 owner=8662203967 cache_size=1
-2026-07-04 13:23:32 [INFO] aiogram.event: Update id=846685463 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 13:23:32 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-04 13:23:32 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-04 13:23:32 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-04 13:23:32 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-04 13:23:32 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-04 13:23:32 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-04 13:23:32 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-04 13:23:32 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
 2026-07-04 13:23:32 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
 Original description: Too Many Requests: retry after 5
 (background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
@@ -575,3 +546,16 @@ Original description: Too Many Requests: retry after 10
 2026-07-04 14:23:11 [INFO] root: [GH-CACHE] сохранено 442 сообщений в GitHub
 2026-07-04 14:25:13 [INFO] root: [CACHE] chat=8422451547 mid=122499 from=8422451547 owner=8662203967 cache_size=8
 2026-07-04 14:25:13 [INFO] aiogram.event: Update id=846685671 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 14:27:29 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-04 14:29:58 [INFO] root: [CACHE] chat=8947170643 mid=52683 from=8947170643 owner=8563553994 cache_size=43
+2026-07-04 14:29:58 [INFO] aiogram.event: Update id=846685672 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 14:29:59 [INFO] root: [CACHE] chat=8563553994 mid=28893 from=8947170643 owner=8947170643 cache_size=481
+2026-07-04 14:30:01 [INFO] root: [save] короткая ссылка развёрнута: https://vt.tiktok.com/ZSCbk93SH/ -> https://www.tiktok.com/@sakhabmakalov0/video/7501950205722463490?_r=1&_t=ZS-97kplkbR7GS
+2026-07-04 14:30:01 [INFO] root: [save] yt-dlp video: https://www.tiktok.com/@sakhabmakalov0/video/7501950205722463490?_r=1&_t=ZS-97kplkbR7GS
+2026-07-04 14:30:02 [INFO] root: [save] yt-dlp video успех: 1 файл(ов)
+2026-07-04 14:30:03 [INFO] aiogram.event: Update id=846685673 is handled. Duration 4474 ms by bot id=7851684074
+2026-07-04 14:32:28 [INFO] root: [CACHE] chat=8947170643 mid=52686 from=8947170643 owner=8563553994 cache_size=44
+2026-07-04 14:32:28 [INFO] aiogram.event: Update id=846685674 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 14:32:28 [INFO] root: [CACHE] chat=8563553994 mid=28896 from=8947170643 owner=8947170643 cache_size=482
+2026-07-04 14:32:29 [INFO] root: [save] короткая ссылка развёрнута: https://vt.tiktok.com/ZSCbkvgkh/ -> https://www.tiktok.com/@movsarevloevofficial/video/7648625088983616775?_r=1&_t=ZS-97kpwqzFepl
+2026-07-04 14:32:29 [INFO] root: [save] yt-dlp video: https://www.tiktok.com/@movsarevloevofficial/video/7648625088983616775?_r=1&_t=ZS-97kpwqzFepl
