@@ -1,17 +1,3 @@
-2026-07-04 01:07:26 [INFO] root: [CACHE] chat=6348613179 mid=28753 from=6348613179 owner=8947170643 cache_size=500
-2026-07-04 01:07:26 [INFO] aiogram.event: Update id=846685300 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 01:07:32 [INFO] root: [CACHE] chat=6348613179 mid=28754 from=8947170643 owner=8947170643 cache_size=500
-2026-07-04 01:07:32 [INFO] aiogram.event: Update id=846685301 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 01:07:34 [INFO] root: [CACHE] chat=6348613179 mid=28755 from=8947170643 owner=8947170643 cache_size=500
-2026-07-04 01:07:34 [INFO] aiogram.event: Update id=846685302 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 01:07:34 [INFO] root: [CACHE] chat=6348613179 mid=28756 from=6348613179 owner=8947170643 cache_size=500
-2026-07-04 01:07:34 [INFO] aiogram.event: Update id=846685303 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 01:07:35 [INFO] root: [CACHE] chat=6348613179 mid=28757 from=8947170643 owner=8947170643 cache_size=500
-2026-07-04 01:07:35 [INFO] aiogram.event: Update id=846685304 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 01:07:37 [INFO] root: [CACHE] chat=6348613179 mid=28758 from=6348613179 owner=8947170643 cache_size=500
-2026-07-04 01:07:37 [INFO] aiogram.event: Update id=846685305 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 01:07:40 [INFO] root: [CACHE] chat=6348613179 mid=28759 from=6348613179 owner=8947170643 cache_size=500
-2026-07-04 01:07:40 [INFO] aiogram.event: Update id=846685306 is handled. Duration 0 ms by bot id=7851684074
 2026-07-04 01:07:46 [INFO] root: [CACHE] chat=6348613179 mid=28760 from=8947170643 owner=8947170643 cache_size=500
 2026-07-04 01:07:46 [INFO] aiogram.event: Update id=846685307 is handled. Duration 0 ms by bot id=7851684074
 2026-07-04 01:07:51 [INFO] root: [CACHE] chat=6348613179 mid=28761 from=6348613179 owner=8947170643 cache_size=500
@@ -498,3 +484,17 @@
 2026-07-04 12:52:44 [INFO] root: [GH-CACHE] сохранено 499 сообщений в GitHub
 2026-07-04 12:57:07 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-04 13:01:51 [INFO] root: Кэш очищен от сообщений старше 7 дней
+2026-07-04 13:02:08 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-04 13:02:45 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
+2026-07-04 13:02:46 [INFO] root: [GH-CACHE] сохранено 482 сообщений в GitHub
+2026-07-04 13:05:16 [INFO] root: [CACHE] chat=7333452890 mid=122332 from=7333452890 owner=8662203967 cache_size=217
+2026-07-04 13:05:16 [INFO] aiogram.event: Update id=846685400 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 13:05:24 [INFO] root: [CACHE] chat=7333452890 mid=122333 from=7333452890 owner=8662203967 cache_size=218
+2026-07-04 13:05:24 [INFO] aiogram.event: Update id=846685401 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 13:05:25 [INFO] root: [CACHE] chat=7333452890 mid=122334 from=7333452890 owner=8662203967 cache_size=219
+2026-07-04 13:05:25 [INFO] aiogram.event: Update id=846685402 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 13:06:57 [INFO] root: [CACHE] chat=7333452890 mid=122335 from=8662203967 owner=8662203967 cache_size=220
+2026-07-04 13:06:57 [INFO] aiogram.event: Update id=846685403 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 13:06:57 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Bad Request: can't parse entities: Invalid custom emoji identifier specified
+2026-07-04 13:07:06 [INFO] root: [CACHE] chat=7333452890 mid=122336 from=8662203967 owner=8662203967 cache_size=221
+2026-07-04 13:07:06 [INFO] aiogram.event: Update id=846685404 is handled. Duration 0 ms by bot id=7851684074
