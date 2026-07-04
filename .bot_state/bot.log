@@ -1,24 +1,3 @@
-2026-07-04 13:23:32 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-04 13:23:32 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-04 13:23:32 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-04 13:23:32 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-04 13:23:32 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-04 13:23:32 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 5 seconds.
-Original description: Too Many Requests: retry after 5
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-04 13:23:50 [INFO] root: [CACHE] chat=1613270714 mid=122395 from=1613270714 owner=8662203967 cache_size=2
-2026-07-04 13:23:50 [INFO] aiogram.event: Update id=846685464 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 13:24:00 [INFO] newcontact: [FUNSTAT] user_id=1613270714 full=False fields=13 names=0 unames=0 groups=0 stickers=0
 2026-07-04 13:25:12 [INFO] root: [CACHE] chat=7333452890 mid=122397 from=7333452890 owner=8662203967 cache_size=243
 2026-07-04 13:25:12 [INFO] aiogram.event: Update id=846685465 is handled. Duration 0 ms by bot id=7851684074
 2026-07-04 13:26:18 [INFO] root: [CACHE] chat=7333452890 mid=122398 from=8662203967 owner=8662203967 cache_size=244
@@ -537,3 +516,12 @@ Original description: Too Many Requests: retry after 10
 2026-07-04 14:42:33 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-04 14:43:16 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
 2026-07-04 14:43:17 [INFO] root: [GH-CACHE] сохранено 418 сообщений в GitHub
+2026-07-04 14:47:35 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-04 14:48:59 [INFO] root: [CACHE] chat=8614174271 mid=52689 from=8614174271 owner=8563553994 cache_size=123
+2026-07-04 14:48:59 [INFO] aiogram.event: Update id=846685677 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 14:49:09 [INFO] root: [CACHE] chat=8614174271 mid=52690 from=8614174271 owner=8563553994 cache_size=124
+2026-07-04 14:49:09 [INFO] aiogram.event: Update id=846685678 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 14:49:16 [INFO] root: [CACHE] chat=8614174271 mid=52691 from=8614174271 owner=8563553994 cache_size=125
+2026-07-04 14:49:16 [INFO] aiogram.event: Update id=846685679 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 14:49:23 [INFO] root: [CACHE] chat=8614174271 mid=52692 from=8614174271 owner=8563553994 cache_size=126
+2026-07-04 14:49:23 [INFO] aiogram.event: Update id=846685680 is handled. Duration 0 ms by bot id=7851684074
