@@ -1,33 +1,3 @@
-2026-07-04 01:07:46 [INFO] root: [CACHE] chat=6348613179 mid=28760 from=8947170643 owner=8947170643 cache_size=500
-2026-07-04 01:07:46 [INFO] aiogram.event: Update id=846685307 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 01:07:51 [INFO] root: [CACHE] chat=6348613179 mid=28761 from=6348613179 owner=8947170643 cache_size=500
-2026-07-04 01:07:51 [INFO] aiogram.event: Update id=846685308 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 01:07:55 [INFO] root: [CACHE] chat=6348613179 mid=28762 from=6348613179 owner=8947170643 cache_size=500
-2026-07-04 01:07:55 [INFO] aiogram.event: Update id=846685309 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 01:08:01 [INFO] root: [CACHE] chat=6348613179 mid=28763 from=8947170643 owner=8947170643 cache_size=500
-2026-07-04 01:08:01 [INFO] aiogram.event: Update id=846685310 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 01:08:07 [INFO] root: [CACHE] chat=6348613179 mid=28764 from=8947170643 owner=8947170643 cache_size=500
-2026-07-04 01:08:07 [INFO] aiogram.event: Update id=846685311 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 01:08:16 [INFO] root: [CACHE] chat=6348613179 mid=28765 from=8947170643 owner=8947170643 cache_size=500
-2026-07-04 01:08:16 [INFO] aiogram.event: Update id=846685312 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 01:08:18 [INFO] root: [CACHE] chat=6348613179 mid=28766 from=8947170643 owner=8947170643 cache_size=500
-2026-07-04 01:08:18 [INFO] aiogram.event: Update id=846685313 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 01:08:34 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
-2026-07-04 01:08:36 [INFO] root: [GH-CACHE] сохранено 692 сообщений в GitHub
-2026-07-04 01:09:13 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-04 01:10:45 [INFO] root: [CACHE] chat=6348613179 mid=28767 from=6348613179 owner=8947170643 cache_size=500
-2026-07-04 01:10:45 [INFO] aiogram.event: Update id=846685314 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 01:10:51 [INFO] root: [CACHE] chat=6348613179 mid=28768 from=6348613179 owner=8947170643 cache_size=500
-2026-07-04 01:10:51 [INFO] aiogram.event: Update id=846685315 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 01:10:54 [INFO] root: [CACHE] chat=6348613179 mid=28769 from=6348613179 owner=8947170643 cache_size=500
-2026-07-04 01:10:54 [INFO] aiogram.event: Update id=846685316 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 01:10:55 [INFO] root: [CACHE] chat=6348613179 mid=28770 from=6348613179 owner=8947170643 cache_size=500
-2026-07-04 01:10:55 [INFO] aiogram.event: Update id=846685317 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 01:11:21 [INFO] root: [CACHE] chat=6348613179 mid=28771 from=6348613179 owner=8947170643 cache_size=500
-2026-07-04 01:11:21 [INFO] aiogram.event: Update id=846685318 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 01:11:26 [INFO] root: [CACHE] chat=6348613179 mid=28772 from=6348613179 owner=8947170643 cache_size=500
-2026-07-04 01:11:26 [INFO] aiogram.event: Update id=846685319 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 01:11:31 [INFO] root: [CACHE] chat=6348613179 mid=28773 from=6348613179 owner=8947170643 cache_size=500
 2026-07-04 01:11:31 [INFO] aiogram.event: Update id=846685320 is handled. Duration 0 ms by bot id=7851684074
 2026-07-04 01:11:32 [INFO] root: [CACHE] chat=6348613179 mid=28774 from=8947170643 owner=8947170643 cache_size=500
 2026-07-04 01:11:32 [INFO] aiogram.event: Update id=846685321 is handled. Duration 0 ms by bot id=7851684074
@@ -498,3 +468,41 @@
 2026-07-04 13:06:57 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Bad Request: can't parse entities: Invalid custom emoji identifier specified
 2026-07-04 13:07:06 [INFO] root: [CACHE] chat=7333452890 mid=122336 from=8662203967 owner=8662203967 cache_size=221
 2026-07-04 13:07:06 [INFO] aiogram.event: Update id=846685404 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 13:07:09 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-04 13:07:12 [INFO] root: [CACHE] chat=7333452890 mid=122337 from=8662203967 owner=8662203967 cache_size=222
+2026-07-04 13:07:12 [INFO] aiogram.event: Update id=846685405 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 13:07:32 [INFO] root: [music] Deezer: 'F**K LOVE' → 'XXXTENTACION - Fuck Love'
+2026-07-04 13:07:32 [INFO] root: [music] Deezer нормализация: 'F**K LOVE' → 'XXXTENTACION Fuck Love'
+2026-07-04 13:07:32 [INFO] root: [music] Bandcamp не скачал (rc=1): ERROR: Unable to handle request: Unsupported url scheme: "bcsearch1" (urllib)
+
+2026-07-04 13:07:33 [WARNING] root: [music] VK API error 1116: Anonymous token is invalid
+2026-07-04 13:07:33 [INFO] root: [music] SoundCloud → оригинал: «Fuck Love»
+2026-07-04 13:07:33 [INFO] root: [music] YouTube → оригинал: «XXXTENTACION - Fuck Love (Audio) (feat. Trippie Redd)»
+2026-07-04 13:07:34 [INFO] root: [music] SoundCloud не скачал (rc=1): ERROR: [soundcloud] 339318387: This video is DRM protected
+
+2026-07-04 13:07:35 [INFO] root: [music] YouTube не скачал (rc=1): ERROR: [youtube] JcWOSgImiRw: This video is age-restricted and only available on YouTube. Learn more
+
+2026-07-04 13:07:40 [INFO] aiogram.event: Update id=846685406 is handled. Duration 8747 ms by bot id=7851684074
+2026-07-04 13:07:46 [INFO] root: [music] Deezer: 'F**K LOVE XXXTENTACION' → 'XXXTENTACION - Fuck Love'
+2026-07-04 13:07:46 [INFO] root: [music] Deezer нормализация: 'F**K LOVE XXXTENTACION' → 'XXXTENTACION Fuck Love'
+2026-07-04 13:07:46 [INFO] root: [music] Bandcamp не скачал (rc=1): ERROR: Unable to handle request: Unsupported url scheme: "bcsearch1" (urllib)
+
+2026-07-04 13:07:46 [WARNING] root: [music] VK API error 1116: Anonymous token is invalid
+2026-07-04 13:07:47 [INFO] root: [music] SoundCloud → оригинал: «Fuck Love»
+2026-07-04 13:07:47 [INFO] root: [music] YouTube → оригинал: «XXXTENTACION - Fuck Love (Audio) (feat. Trippie Redd)»
+2026-07-04 13:07:47 [INFO] root: [music] SoundCloud не скачал (rc=1): ERROR: [soundcloud] 339318387: This video is DRM protected
+
+2026-07-04 13:07:49 [INFO] root: [music] YouTube не скачал (rc=1): ERROR: [youtube] JcWOSgImiRw: This video is age-restricted and only available on YouTube. Learn more
+
+2026-07-04 13:07:54 [INFO] aiogram.event: Update id=846685407 is handled. Duration 8731 ms by bot id=7851684074
+2026-07-04 13:08:41 [INFO] root: [music] Deezer: 'Дыхание' → 'Наутилус Помпилиус - Дыхание'
+2026-07-04 13:08:41 [INFO] root: [music] Deezer нормализация: 'Дыхание' → 'Наутилус Помпилиус Дыхание'
+2026-07-04 13:08:41 [INFO] root: [music] Bandcamp не скачал (rc=1): ERROR: Unable to handle request: Unsupported url scheme: "bcsearch1" (urllib)
+
+2026-07-04 13:08:41 [WARNING] root: [music] VK API error 1116: Anonymous token is invalid
+2026-07-04 13:08:42 [INFO] root: [music] SoundCloud → оригинал: «Дыхание»
+2026-07-04 13:08:42 [INFO] root: [music] YouTube → оригинал: «Nautilus Pompilius / Наутилус помпилиус - Дыханье»
+2026-07-04 13:08:43 [INFO] root: [music] SoundCloud не скачал (rc=1): ERROR: [soundcloud] 477081606: This video is DRM protected
+
+2026-07-04 13:08:44 [INFO] root: [music] YouTube не скачал (rc=1): -do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  
+2026-07-04 13:08:49 [INFO] aiogram.event: Update id=846685408 is handled. Duration 8569 ms by bot id=7851684074
