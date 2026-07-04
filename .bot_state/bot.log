@@ -1,27 +1,3 @@
-2026-07-04 13:39:44 [INFO] aiogram.event: Update id=846685502 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 13:39:45 [INFO] root: [CACHE] chat=8563553994 mid=122411 from=8563553994 owner=8662203967 cache_size=405
-2026-07-04 13:39:45 [INFO] aiogram.event: Update id=846685503 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 13:39:53 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 3 seconds.
-Original description: Too Many Requests: retry after 3
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-04 13:40:00 [INFO] root: [CACHE] chat=8563553994 mid=122412 from=8563553994 owner=8662203967 cache_size=406
-2026-07-04 13:40:00 [INFO] aiogram.event: Update id=846685505 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 13:40:01 [INFO] aiogram.event: Update id=846685504 is handled. Duration 166 ms by bot id=7851684074
-2026-07-04 13:40:01 [INFO] root: [music] Deezer: 'Псы попадут в рай' → 'плм - псы попадут в рай'
-2026-07-04 13:40:01 [INFO] root: [music] Deezer нормализация: 'Псы попадут в рай' → 'плм псы попадут в рай'
-2026-07-04 13:40:01 [INFO] aiogram.event: Update id=846685506 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 13:40:01 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8662203967
-2026-07-04 13:40:01 [INFO] root: [CACHE] chat=8662203967 mid=52602 from=8662203967 owner=8563553994 cache_size=462
-2026-07-04 13:40:01 [INFO] aiogram.event: Update id=846685508 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 13:40:01 [INFO] root: [CACHE] chat=8563553994 mid=122413 from=8662203967 owner=8662203967 cache_size=406
-2026-07-04 13:40:01 [INFO] aiogram.event: Update id=846685509 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 13:40:02 [INFO] root: [music] Bandcamp не скачал (rc=1): ERROR: Unable to handle request: Unsupported url scheme: "bcsearch1" (urllib)
-
-2026-07-04 13:40:02 [WARNING] root: [music] VK API error 1116: Anonymous token is invalid
-2026-07-04 13:40:02 [INFO] root: Переслано 1/1 удалённых владельцу 8662203967
-2026-07-04 13:40:02 [INFO] aiogram.event: Update id=846685507 is handled. Duration 343 ms by bot id=7851684074
-2026-07-04 13:40:02 [INFO] root: [music] SoundCloud → оригинал: «псы попадут в рай»
-2026-07-04 13:40:02 [INFO] root: [music] YouTube → оригинал: «плм - псы попадут в рай (Official audio)»
 2026-07-04 13:40:04 [INFO] root: [music] YouTube не скачал (rc=1): -do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  
 2026-07-04 13:40:08 [INFO] root: [music] отправлено 'ПОЛМАТЕРИ — псы попадут в рай' из SoundCloud
 2026-07-04 13:40:09 [WARNING] root: Удалено 1 сообщений в чате 8662203967, в кэше отсутствует 1 (id: [52603]...)
@@ -525,3 +501,24 @@ Original description: Too Many Requests: retry after 10
 2026-07-04 15:42:25 [INFO] aiogram.event: Update id=846685708 is handled. Duration 0 ms by bot id=7851684074
 2026-07-04 15:42:42 [INFO] root: [CACHE] chat=8614174271 mid=52719 from=8614174271 owner=8563553994 cache_size=131
 2026-07-04 15:42:42 [INFO] aiogram.event: Update id=846685709 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 15:42:48 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-04 15:42:54 [INFO] root: [CACHE] chat=8614174271 mid=52720 from=8563553994 owner=8563553994 cache_size=132
+2026-07-04 15:42:54 [INFO] aiogram.event: Update id=846685710 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 15:42:58 [INFO] root: [CACHE] chat=8614174271 mid=52721 from=8563553994 owner=8563553994 cache_size=133
+2026-07-04 15:42:58 [INFO] aiogram.event: Update id=846685711 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 15:43:27 [INFO] root: [CACHE] chat=8614174271 mid=52722 from=8614174271 owner=8563553994 cache_size=134
+2026-07-04 15:43:27 [INFO] aiogram.event: Update id=846685712 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 15:43:31 [INFO] root: [CACHE] chat=8614174271 mid=52723 from=8614174271 owner=8563553994 cache_size=135
+2026-07-04 15:43:31 [INFO] aiogram.event: Update id=846685713 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 15:43:34 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
+2026-07-04 15:43:36 [INFO] root: [GH-CACHE] сохранено 380 сообщений в GitHub
+2026-07-04 15:46:31 [INFO] root: [CACHE] chat=8614174271 mid=52724 from=8563553994 owner=8563553994 cache_size=136
+2026-07-04 15:46:31 [INFO] aiogram.event: Update id=846685714 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 15:46:33 [INFO] root: [CACHE] chat=8614174271 mid=52725 from=8563553994 owner=8563553994 cache_size=137
+2026-07-04 15:46:33 [INFO] aiogram.event: Update id=846685715 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 15:46:40 [INFO] root: [CACHE] chat=8614174271 mid=52726 from=8563553994 owner=8563553994 cache_size=138
+2026-07-04 15:46:40 [INFO] aiogram.event: Update id=846685716 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 15:46:51 [INFO] root: [CACHE] chat=8614174271 mid=52727 from=8614174271 owner=8563553994 cache_size=139
+2026-07-04 15:46:51 [INFO] aiogram.event: Update id=846685717 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 15:46:56 [INFO] root: [CACHE] chat=8614174271 mid=52728 from=8614174271 owner=8563553994 cache_size=140
+2026-07-04 15:46:56 [INFO] aiogram.event: Update id=846685718 is handled. Duration 0 ms by bot id=7851684074
