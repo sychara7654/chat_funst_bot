@@ -1,21 +1,3 @@
-2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 112335 bytes
-2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 115432 bytes
-2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
-2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 122000 bytes
-2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 124790 bytes
-2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 142371 bytes
-2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
-2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 146087 bytes
-2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 149763 bytes
-2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 150687 bytes
-2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 151140 bytes
-2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 151353 bytes
-2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 155886 bytes
-2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 157389 bytes
-2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 160535 bytes
-2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 163966 bytes
-2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 168577 bytes
-2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 171493 bytes
 2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: skipping junk at 173548 bytes
 2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
 2026-07-04 22:39:09 [WARNING] symphonia_bundle_mp3.demuxer: invalid mpeg audio header
@@ -500,3 +482,21 @@
 2026-07-04 22:55:58 [INFO] aiogram.event: Update id=846686748 is handled. Duration 0 ms by bot id=7851684074
 2026-07-04 22:57:12 [INFO] root: [CACHE] chat=6348613179 mid=29794 from=8947170643 owner=8947170643 cache_size=500
 2026-07-04 22:57:12 [INFO] aiogram.event: Update id=846686749 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:59:36 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-04 23:01:51 [INFO] root: Кэш очищен от сообщений старше 7 дней
+2026-07-04 23:03:55 [INFO] root: [CACHE] chat=7141954392 mid=52844 from=8563553994 owner=8563553994 cache_size=284
+2026-07-04 23:03:57 [INFO] root: [save] короткая ссылка развёрнута: https://vt.tiktok.com/ZSCgR4ATy/ -> https://www.tiktok.com/@user8176113526319/photo/7657189651773525269?_r=1&_t=ZS-97lROY9JCdt
+2026-07-04 23:03:57 [INFO] root: [save] yt-dlp video: https://www.tiktok.com/@user8176113526319/photo/7657189651773525269?_r=1&_t=ZS-97lROY9JCdt
+2026-07-04 23:03:58 [WARNING] root: [yt-dlp] ошибка: ERROR: Unsupported URL: https://www.tiktok.com/@user8176113526319/photo/7657189651773525269?_r=1&_t=ZS-97lROY9JCdt
+2026-07-04 23:03:58 [INFO] root: [save] TikTok: yt-dlp force_audio
+2026-07-04 23:03:58 [INFO] root: [CACHE] chat=7141954392 mid=52846 from=8563553994 owner=8563553994 cache_size=285
+2026-07-04 23:03:58 [INFO] aiogram.event: Update id=846686751 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 23:03:58 [WARNING] root: [yt-dlp] ошибка: ERROR: Unsupported URL: https://www.tiktok.com/@user8176113526319/photo/7657189651773525269?_r=1&_t=ZS-97lROY9JCdt
+2026-07-04 23:03:58 [INFO] root: [save] cobalt auto: https://www.tiktok.com/@user8176113526319/photo/7657189651773525269?_r=1&_t=ZS-97lROY9JCdt
+2026-07-04 23:03:58 [WARNING] root: [cobalt] API запрос не удался: HTTP Error 403: Forbidden
+2026-07-04 23:03:58 [INFO] root: [save] TikTok: cobalt audio mode, url=https://vt.tiktok.com/ZSCgR4ATy/
+2026-07-04 23:03:58 [WARNING] root: [cobalt] API запрос не удался: HTTP Error 403: Forbidden
+2026-07-04 23:03:58 [WARNING] root: [save] все способы не дали файлов для https://www.tiktok.com/@user8176113526319/photo/7657189651773525269?_r=1&_t=ZS-97lROY9JCdt
+2026-07-04 23:04:04 [INFO] aiogram.event: Update id=846686750 is handled. Duration 8784 ms by bot id=7851684074
+2026-07-04 23:04:07 [WARNING] root: Удалено 2 сообщений в чате 7141954392, в кэше отсутствует 2 (id: [52847, 52845]...)
+2026-07-04 23:04:07 [INFO] aiogram.event: Update id=846686752 is handled. Duration 0 ms by bot id=7851684074
