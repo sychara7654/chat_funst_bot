@@ -1,64 +1,3 @@
-2026-07-04 22:37:19 [INFO] root: [CACHE] chat=6348613179 mid=29725 from=8947170643 owner=8947170643 cache_size=500
-2026-07-04 22:37:19 [INFO] aiogram.event: Update id=846686680 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:37:20 [WARNING] root: Удалено 1 сообщений в чате 6348613179, в кэше отсутствует 1 (id: [29722]...)
-2026-07-04 22:37:20 [INFO] aiogram.event: Update id=846686681 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:37:20 [INFO] root: [CACHE] chat=6348613179 mid=29726 from=6348613179 owner=8947170643 cache_size=500
-2026-07-04 22:37:20 [INFO] aiogram.event: Update id=846686682 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:37:24 [INFO] aiogram.event: Update id=846686683 is handled. Duration 161 ms by bot id=7851684074
-2026-07-04 22:37:24 [INFO] root: [music] Deezer: 'По камушку' → 'Settlers - По камушку'
-2026-07-04 22:37:24 [INFO] root: [music] Deezer нормализация: 'По камушку' → 'Settlers По камушку'
-2026-07-04 22:37:25 [INFO] root: [music] Bandcamp не скачал (rc=1): ERROR: Unable to handle request: Unsupported url scheme: "bcsearch1" (urllib)
-
-2026-07-04 22:37:25 [WARNING] root: [music] VK API error 1116: Anonymous token is invalid
-2026-07-04 22:37:25 [INFO] root: [music] SoundCloud → оригинал: «По камушку»
-2026-07-04 22:37:25 [INFO] root: [music] YouTube → оригинал: «По камушку»
-2026-07-04 22:37:26 [INFO] root: [music] SoundCloud не скачал (rc=1): ERROR: [soundcloud] 2174644140: This video is DRM protected
-
-2026-07-04 22:37:27 [INFO] root: [music] YouTube не скачал (rc=1): -do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  
-2026-07-04 22:37:30 [INFO] aiogram.event: Update id=846686684 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:37:30 [WARNING] root: Удалено 1 сообщений в чате 6348613179, в кэше отсутствует 1 (id: [29728]...)
-2026-07-04 22:37:30 [INFO] aiogram.event: Update id=846686685 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:37:30 [INFO] root: [CACHE] chat=6348613179 mid=29730 from=6348613179 owner=8947170643 cache_size=500
-2026-07-04 22:37:30 [INFO] aiogram.event: Update id=846686686 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:37:33 [WARNING] root: Удалено 1 сообщений в чате 6348613179, в кэше отсутствует 1 (id: [29729]...)
-2026-07-04 22:37:33 [INFO] aiogram.event: Update id=846686687 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:37:33 [INFO] root: [CACHE] chat=6348613179 mid=29731 from=8947170643 owner=8947170643 cache_size=500
-2026-07-04 22:37:33 [INFO] aiogram.event: Update id=846686688 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:37:33 [INFO] root: [CACHE] chat=6348613179 mid=29732 from=6348613179 owner=8947170643 cache_size=500
-2026-07-04 22:37:33 [INFO] aiogram.event: Update id=846686689 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:37:38 [INFO] root: [CACHE] chat=6348613179 mid=29733 from=6348613179 owner=8947170643 cache_size=500
-2026-07-04 22:37:38 [INFO] aiogram.event: Update id=846686690 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:37:39 [INFO] root: [CACHE] chat=6348613179 mid=29734 from=8947170643 owner=8947170643 cache_size=500
-2026-07-04 22:37:39 [INFO] aiogram.event: Update id=846686691 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:37:39 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Bad Request: can't parse entities: Invalid custom emoji identifier specified
-2026-07-04 22:38:00 [INFO] root: [CACHE] chat=6348613179 mid=29735 from=6348613179 owner=8947170643 cache_size=500
-2026-07-04 22:38:00 [INFO] aiogram.event: Update id=846686692 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:38:16 [INFO] aiogram.event: Update id=846686693 is handled. Duration 158 ms by bot id=7851684074
-2026-07-04 22:38:16 [INFO] root: [music] Deezer: 'По камушку Settlers' → 'Settlers - По камушку'
-2026-07-04 22:38:16 [INFO] root: [music] Deezer нормализация: 'По камушку Settlers' → 'Settlers По камушку'
-2026-07-04 22:38:16 [INFO] root: [music] Bandcamp не скачал (rc=1): ERROR: Unable to handle request: Unsupported url scheme: "bcsearch1" (urllib)
-
-2026-07-04 22:38:17 [WARNING] root: [music] VK API error 1116: Anonymous token is invalid
-2026-07-04 22:38:17 [INFO] root: [music] SoundCloud → оригинал: «По камушку»
-2026-07-04 22:38:17 [INFO] root: [music] YouTube → оригинал: «По камушку»
-2026-07-04 22:38:18 [INFO] root: [music] SoundCloud не скачал (rc=1): ERROR: [soundcloud] 2174644140: This video is DRM protected
-
-2026-07-04 22:38:19 [INFO] root: [music] YouTube не скачал (rc=1): -do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  
-2026-07-04 22:38:23 [INFO] aiogram.event: Update id=846686694 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:38:23 [WARNING] root: Удалено 1 сообщений в чате 6348613179, в кэше отсутствует 1 (id: [29737]...)
-2026-07-04 22:38:23 [INFO] aiogram.event: Update id=846686695 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:38:23 [INFO] root: [CACHE] chat=6348613179 mid=29739 from=8947170643 owner=8947170643 cache_size=500
-2026-07-04 22:38:23 [INFO] aiogram.event: Update id=846686696 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:38:26 [WARNING] root: Удалено 1 сообщений в чате 6348613179, в кэше отсутствует 1 (id: [29738]...)
-2026-07-04 22:38:26 [INFO] aiogram.event: Update id=846686697 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:38:26 [INFO] root: [CACHE] chat=6348613179 mid=29740 from=6348613179 owner=8947170643 cache_size=500
-2026-07-04 22:38:26 [INFO] aiogram.event: Update id=846686698 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:38:26 [INFO] root: [CACHE] chat=6348613179 mid=29741 from=6348613179 owner=8947170643 cache_size=500
-2026-07-04 22:38:26 [INFO] aiogram.event: Update id=846686699 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:38:31 [INFO] root: [CACHE] chat=6348613179 mid=29742 from=8947170643 owner=8947170643 cache_size=500
-2026-07-04 22:38:31 [INFO] aiogram.event: Update id=846686700 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:38:37 [INFO] root: [CACHE] chat=6348613179 mid=29743 from=8947170643 owner=8947170643 cache_size=500
-2026-07-04 22:38:37 [INFO] aiogram.event: Update id=846686701 is handled. Duration 0 ms by bot id=7851684074
 2026-07-04 22:38:40 [INFO] root: [CACHE] chat=6348613179 mid=29744 from=6348613179 owner=8947170643 cache_size=500
 2026-07-04 22:38:40 [INFO] aiogram.event: Update id=846686702 is handled. Duration 0 ms by bot id=7851684074
 2026-07-04 22:39:01 [INFO] root: [CACHE] chat=6348613179 mid=29745 from=8947170643 owner=8947170643 cache_size=500
@@ -504,3 +443,60 @@
 2026-07-04 22:39:19 [INFO] aiogram.event: Update id=846686710 is handled. Duration 0 ms by bot id=7851684074
 2026-07-04 22:39:24 [INFO] root: [CACHE] chat=6348613179 mid=29754 from=8947170643 owner=8947170643 cache_size=500
 2026-07-04 22:39:24 [INFO] aiogram.event: Update id=846686711 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:39:31 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-04 22:39:51 [INFO] root: [CACHE] chat=6348613179 mid=29755 from=6348613179 owner=8947170643 cache_size=500
+2026-07-04 22:39:51 [INFO] aiogram.event: Update id=846686712 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:40:05 [INFO] root: [CACHE] chat=6348613179 mid=29756 from=8947170643 owner=8947170643 cache_size=500
+2026-07-04 22:40:05 [INFO] aiogram.event: Update id=846686713 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:40:07 [INFO] root: [CACHE] chat=6348613179 mid=29757 from=8947170643 owner=8947170643 cache_size=500
+2026-07-04 22:40:07 [INFO] aiogram.event: Update id=846686714 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:40:10 [INFO] root: [CACHE] chat=6348613179 mid=29758 from=8947170643 owner=8947170643 cache_size=500
+2026-07-04 22:40:10 [INFO] aiogram.event: Update id=846686715 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:40:17 [INFO] root: [CACHE] chat=6348613179 mid=29759 from=8947170643 owner=8947170643 cache_size=500
+2026-07-04 22:40:17 [INFO] aiogram.event: Update id=846686716 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:40:23 [INFO] root: [CACHE] chat=6348613179 mid=29760 from=6348613179 owner=8947170643 cache_size=500
+2026-07-04 22:40:23 [INFO] aiogram.event: Update id=846686717 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:40:31 [INFO] root: [CACHE] chat=6348613179 mid=29761 from=6348613179 owner=8947170643 cache_size=500
+2026-07-04 22:40:31 [INFO] aiogram.event: Update id=846686718 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:40:35 [INFO] root: [CACHE] chat=6348613179 mid=29762 from=8947170643 owner=8947170643 cache_size=500
+2026-07-04 22:40:35 [INFO] aiogram.event: Update id=846686719 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:40:41 [INFO] root: [CACHE] chat=6348613179 mid=29763 from=6348613179 owner=8947170643 cache_size=500
+2026-07-04 22:40:41 [INFO] aiogram.event: Update id=846686720 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:40:43 [INFO] root: [CACHE] chat=6348613179 mid=29764 from=8947170643 owner=8947170643 cache_size=500
+2026-07-04 22:40:43 [INFO] aiogram.event: Update id=846686721 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:40:51 [INFO] root: [CACHE] chat=6348613179 mid=29765 from=6348613179 owner=8947170643 cache_size=500
+2026-07-04 22:40:51 [INFO] aiogram.event: Update id=846686722 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:41:12 [INFO] root: [CACHE] chat=6348613179 mid=29766 from=8947170643 owner=8947170643 cache_size=500
+2026-07-04 22:41:12 [INFO] aiogram.event: Update id=846686723 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:41:15 [INFO] root: [CACHE] chat=6348613179 mid=29767 from=8947170643 owner=8947170643 cache_size=500
+2026-07-04 22:41:15 [INFO] aiogram.event: Update id=846686724 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:41:16 [INFO] root: [CACHE] chat=6348613179 mid=29768 from=6348613179 owner=8947170643 cache_size=500
+2026-07-04 22:41:16 [INFO] aiogram.event: Update id=846686725 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:42:07 [INFO] root: [CACHE] chat=6348613179 mid=29769 from=6348613179 owner=8947170643 cache_size=500
+2026-07-04 22:42:07 [INFO] aiogram.event: Update id=846686726 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:42:08 [INFO] root: [CACHE] chat=6348613179 mid=29770 from=6348613179 owner=8947170643 cache_size=500
+2026-07-04 22:42:08 [INFO] aiogram.event: Update id=846686727 is handled. Duration 1 ms by bot id=7851684074
+2026-07-04 22:42:31 [INFO] root: [CACHE] chat=6348613179 mid=29771 from=8947170643 owner=8947170643 cache_size=500
+2026-07-04 22:42:31 [INFO] aiogram.event: Update id=846686728 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:42:36 [INFO] root: [CACHE] chat=6348613179 mid=29772 from=6348613179 owner=8947170643 cache_size=500
+2026-07-04 22:42:36 [INFO] aiogram.event: Update id=846686729 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:42:42 [INFO] root: [CACHE] chat=6348613179 mid=29773 from=8947170643 owner=8947170643 cache_size=500
+2026-07-04 22:42:42 [INFO] aiogram.event: Update id=846686730 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:42:45 [INFO] root: [CACHE] chat=6348613179 mid=29774 from=8947170643 owner=8947170643 cache_size=500
+2026-07-04 22:42:45 [INFO] aiogram.event: Update id=846686731 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:42:46 [INFO] root: [CACHE] chat=6348613179 mid=29775 from=6348613179 owner=8947170643 cache_size=500
+2026-07-04 22:42:46 [INFO] aiogram.event: Update id=846686732 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:42:50 [INFO] root: [CACHE] chat=6348613179 mid=29776 from=8947170643 owner=8947170643 cache_size=500
+2026-07-04 22:42:50 [INFO] aiogram.event: Update id=846686733 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:43:00 [INFO] root: [CACHE] chat=6348613179 mid=29777 from=6348613179 owner=8947170643 cache_size=500
+2026-07-04 22:43:00 [INFO] aiogram.event: Update id=846686734 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:43:08 [INFO] root: [CACHE] chat=6348613179 mid=29778 from=8947170643 owner=8947170643 cache_size=500
+2026-07-04 22:43:08 [INFO] aiogram.event: Update id=846686735 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:43:30 [INFO] root: [CACHE] chat=6348613179 mid=29779 from=6348613179 owner=8947170643 cache_size=500
+2026-07-04 22:43:30 [INFO] aiogram.event: Update id=846686736 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:43:40 [INFO] root: [CACHE] chat=6348613179 mid=29780 from=6348613179 owner=8947170643 cache_size=500
+2026-07-04 22:43:40 [INFO] aiogram.event: Update id=846686737 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:43:49 [INFO] root: [CACHE] chat=6348613179 mid=29781 from=6348613179 owner=8947170643 cache_size=500
+2026-07-04 22:43:49 [INFO] aiogram.event: Update id=846686738 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 22:43:51 [INFO] root: [CACHE] chat=6348613179 mid=29782 from=6348613179 owner=8947170643 cache_size=500
+2026-07-04 22:43:51 [INFO] aiogram.event: Update id=846686739 is handled. Duration 0 ms by bot id=7851684074
