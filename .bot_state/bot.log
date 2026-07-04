@@ -1,6 +1,3 @@
-2026-07-04 17:48:41 [INFO] aiogram.event: Update id=846685766 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 17:51:19 [INFO] root: [CACHE] chat=8950152467 mid=52746 from=8563553994 owner=8563553994 cache_size=439
-2026-07-04 17:51:19 [INFO] aiogram.event: Update id=846685767 is handled. Duration 0 ms by bot id=7851684074
 2026-07-04 17:51:24 [INFO] root: [CACHE] chat=8950152467 mid=52747 from=8563553994 owner=8563553994 cache_size=440
 2026-07-04 17:51:24 [INFO] aiogram.event: Update id=846685768 is handled. Duration 0 ms by bot id=7851684074
 2026-07-04 17:51:26 [INFO] root: [CACHE] chat=8950152467 mid=52748 from=8563553994 owner=8563553994 cache_size=441
@@ -498,3 +495,6 @@
 2026-07-04 19:30:21 [WARNING] root: Не удалось скопировать неизвестный тип сообщения: Telegram server says - Bad Request: message to copy not found
 2026-07-04 19:31:01 [INFO] root: [CACHE] chat=8300029741 mid=122592 from=8300029741 owner=8662203967 cache_size=5
 2026-07-04 19:31:01 [INFO] aiogram.event: Update id=846685986 is handled. Duration 0 ms by bot id=7851684074
+2026-07-04 19:33:45 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-04 19:34:44 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
+2026-07-04 19:34:46 [INFO] root: [GH-CACHE] сохранено 280 сообщений в GitHub
