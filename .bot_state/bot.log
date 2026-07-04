@@ -1,6 +1,3 @@
-2026-07-04 13:23:27 [INFO] aiogram.event: Update id=846685445 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 13:23:27 [INFO] root: [CACHE] chat=5625484947 mid=122376 from=8662203967 owner=8662203967 cache_size=1
-2026-07-04 13:23:27 [INFO] aiogram.event: Update id=846685446 is handled. Duration 0 ms by bot id=7851684074
 2026-07-04 13:23:27 [ERROR] root: Ошибка сохранения кэша: dictionary changed size during iteration
 2026-07-04 13:23:27 [INFO] root: [CACHE] chat=5637652496 mid=122377 from=8662203967 owner=8662203967 cache_size=1
 2026-07-04 13:23:27 [INFO] aiogram.event: Update id=846685447 is handled. Duration 0 ms by bot id=7851684074
@@ -575,3 +572,6 @@ Original description: Too Many Requests: retry after 10
 2026-07-04 13:53:02 [INFO] root: [GH-CACHE] сохранено 479 сообщений в GitHub
 2026-07-04 13:57:22 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-04 14:01:51 [INFO] root: Кэш очищен от сообщений старше 7 дней
+2026-07-04 14:02:23 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-04 14:03:03 [INFO] root: [GH-STATE] сохранено в GitHub, topics=13
+2026-07-04 14:03:05 [INFO] root: [GH-CACHE] сохранено 479 сообщений в GitHub
