@@ -1,22 +1,3 @@
-2026-07-04 23:03:58 [WARNING] root: [cobalt] API запрос не удался: HTTP Error 403: Forbidden
-2026-07-04 23:03:58 [WARNING] root: [save] все способы не дали файлов для https://www.tiktok.com/@user8176113526319/photo/7657189651773525269?_r=1&_t=ZS-97lROY9JCdt
-2026-07-04 23:04:04 [INFO] aiogram.event: Update id=846686750 is handled. Duration 8784 ms by bot id=7851684074
-2026-07-04 23:04:07 [WARNING] root: Удалено 2 сообщений в чате 7141954392, в кэше отсутствует 2 (id: [52847, 52845]...)
-2026-07-04 23:04:07 [INFO] aiogram.event: Update id=846686752 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 23:04:37 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-04 23:05:49 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
-2026-07-04 23:05:51 [INFO] root: [GH-CACHE] сохранено 254 сообщений в GitHub
-2026-07-04 23:09:38 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-04 23:13:34 [INFO] root: [CACHE] chat=7141954392 mid=52848 from=7141954392 owner=8563553994 cache_size=286
-2026-07-04 23:13:34 [INFO] aiogram.event: Update id=846686753 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 23:13:37 [INFO] root: [CACHE] chat=7141954392 mid=52849 from=7141954392 owner=8563553994 cache_size=287
-2026-07-04 23:13:37 [INFO] aiogram.event: Update id=846686754 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 23:14:39 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-04 23:15:53 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
-2026-07-04 23:15:54 [INFO] root: [GH-CACHE] сохранено 256 сообщений в GitHub
-2026-07-04 23:19:41 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-04 23:19:58 [INFO] root: [CACHE] chat=7141954392 mid=52850 from=8563553994 owner=8563553994 cache_size=288
-2026-07-04 23:19:58 [INFO] aiogram.event: Update id=846686755 is handled. Duration 0 ms by bot id=7851684074
 2026-07-04 23:20:02 [INFO] root: [CACHE] chat=7141954392 mid=52851 from=8563553994 owner=8563553994 cache_size=289
 2026-07-04 23:20:02 [INFO] aiogram.event: Update id=846686756 is handled. Duration 0 ms by bot id=7851684074
 2026-07-04 23:20:09 [INFO] root: [CACHE] chat=7141954392 mid=52852 from=8563553994 owner=8563553994 cache_size=290
@@ -498,3 +479,24 @@
 2026-07-05 12:39:52 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
 2026-07-05 12:39:53 [INFO] root: [GH-CACHE] сохранено 293 сообщений в GitHub
 2026-07-05 12:42:58 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-05 12:47:59 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-05 12:49:17 [INFO] root: [music] Deezer: 'Hot INNA' → 'Inna - Hot (Play & Win Radio Version)'
+2026-07-05 12:49:17 [INFO] root: [music] Deezer нормализация: 'Hot INNA' → 'Inna Hot (Play & Win Radio Version)'
+2026-07-05 12:49:18 [INFO] root: [music] Bandcamp не скачал (rc=1): ERROR: Unable to handle request: Unsupported url scheme: "bcsearch1" (urllib)
+
+2026-07-05 12:49:18 [WARNING] root: [music] VK API error 1116: Anonymous token is invalid
+2026-07-05 12:49:18 [INFO] root: [music] SoundCloud → оригинал: «Hot (Play & Win Radio Version)»
+2026-07-05 12:49:18 [INFO] root: [music] YouTube → оригинал: «INNA - Hot (Play & Win Club Version)»
+2026-07-05 12:49:19 [INFO] root: [music] SoundCloud не скачал (rc=1): ERROR: [soundcloud] 515692344: This video is DRM protected
+
+2026-07-05 12:49:20 [INFO] root: [music] YouTube не скачал (rc=1): -do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  
+2026-07-05 12:49:25 [INFO] aiogram.event: Update id=846686828 is handled. Duration 8717 ms by bot id=7851684074
+2026-07-05 12:49:54 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
+2026-07-05 12:49:56 [INFO] root: [GH-CACHE] сохранено 293 сообщений в GitHub
+2026-07-05 12:50:02 [INFO] root: [CACHE] chat=8218581656 mid=29825 from=8218581656 owner=8947170643 cache_size=162
+2026-07-05 12:50:02 [INFO] aiogram.event: Update id=846686829 is handled. Duration 0 ms by bot id=7851684074
+2026-07-05 12:50:04 [INFO] root: [CACHE] chat=8218581656 mid=29826 from=8218581656 owner=8947170643 cache_size=163
+2026-07-05 12:50:04 [INFO] aiogram.event: Update id=846686830 is handled. Duration 0 ms by bot id=7851684074
+2026-07-05 12:50:06 [INFO] root: [CACHE] chat=8218581656 mid=29827 from=8218581656 owner=8947170643 cache_size=164
+2026-07-05 12:50:06 [INFO] aiogram.event: Update id=846686831 is handled. Duration 0 ms by bot id=7851684074
+2026-07-05 12:51:23 [INFO] aiogram.event: Update id=846686832 is handled. Duration 1 ms by bot id=7851684074
