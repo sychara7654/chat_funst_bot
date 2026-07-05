@@ -1,7 +1,3 @@
-2026-07-04 22:39:10 [INFO] root: [CACHE] chat=6348613179 mid=29750 from=8947170643 owner=8947170643 cache_size=500
-2026-07-04 22:39:10 [INFO] aiogram.event: Update id=846686706 is handled. Duration 0 ms by bot id=7851684074
-2026-07-04 22:39:10 [INFO] root: [music] Bandcamp не скачал (rc=1): ERROR: Unable to handle request: Unsupported url scheme: "bcsearch1" (urllib)
-
 2026-07-04 22:39:10 [WARNING] root: [music] VK API error 1116: Anonymous token is invalid
 2026-07-04 22:39:10 [INFO] root: [music] SoundCloud → оригинал: «По камушку»
 2026-07-04 22:39:10 [INFO] root: [music] YouTube → оригинал: «По камушку»
@@ -500,3 +496,6 @@
 2026-07-05 10:29:48 [WARNING] root: Удалено 1 сообщений в чате 5536100586, в кэше отсутствует 1 (id: [68]...)
 2026-07-05 10:29:48 [INFO] aiogram.event: Update id=846686796 is handled. Duration 0 ms by bot id=7851684074
 2026-07-05 10:32:26 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-05 10:37:28 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-05 10:39:16 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
+2026-07-05 10:39:17 [INFO] root: [GH-CACHE] сохранено 276 сообщений в GitHub
