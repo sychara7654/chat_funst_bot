@@ -1,10 +1,3 @@
-2026-07-06 13:05:33 [INFO] root: [CACHE] chat=1089623979 mid=124765 from=8662203967 owner=8662203967 cache_size=111
-2026-07-06 13:05:33 [INFO] aiogram.event: Update id=846688220 is handled. Duration 0 ms by bot id=7851684074
-2026-07-06 13:05:33 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Bad Request: can't parse entities: Invalid custom emoji identifier specified
-2026-07-06 13:05:34 [INFO] root: [CACHE] chat=1089623979 mid=124766 from=1089623979 owner=8662203967 cache_size=112
-2026-07-06 13:05:34 [INFO] aiogram.event: Update id=846688221 is handled. Duration 0 ms by bot id=7851684074
-2026-07-06 13:05:44 [INFO] root: [CACHE] chat=1089623979 mid=124767 from=8662203967 owner=8662203967 cache_size=113
-2026-07-06 13:05:44 [INFO] aiogram.event: Update id=846688222 is handled. Duration 0 ms by bot id=7851684074
 2026-07-06 13:06:10 [INFO] root: [CACHE] chat=1089623979 mid=124768 from=8662203967 owner=8662203967 cache_size=114
 2026-07-06 13:06:10 [INFO] aiogram.event: Update id=846688223 is handled. Duration 0 ms by bot id=7851684074
 2026-07-06 13:06:11 [INFO] root: [CACHE] chat=1089623979 mid=124769 from=1089623979 owner=8662203967 cache_size=115
@@ -498,3 +491,10 @@
 2026-07-06 17:35:43 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-06 17:39:47 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
 2026-07-06 17:39:49 [INFO] root: [GH-CACHE] сохранено 472 сообщений в GitHub
+2026-07-06 17:40:45 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-06 17:41:16 [INFO] root: [CACHE] chat=5536100586 mid=401 from=8870134544 owner=8870134544 cache_size=220
+2026-07-06 17:41:16 [INFO] aiogram.event: Update id=846688403 is handled. Duration 0 ms by bot id=7851684074
+2026-07-06 17:41:18 [INFO] root: [CACHE] chat=5536100586 mid=402 from=8870134544 owner=8870134544 cache_size=221
+2026-07-06 17:41:18 [INFO] aiogram.event: Update id=846688404 is handled. Duration 1 ms by bot id=7851684074
+2026-07-06 17:41:28 [INFO] root: [CACHE] chat=5536100586 mid=403 from=8870134544 owner=8870134544 cache_size=222
+2026-07-06 17:41:28 [INFO] aiogram.event: Update id=846688405 is handled. Duration 0 ms by bot id=7851684074
