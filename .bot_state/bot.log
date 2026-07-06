@@ -1,8 +1,3 @@
-2026-07-06 13:04:35 [INFO] root: [CACHE] chat=1089623979 mid=124747 from=1089623979 owner=8662203967 cache_size=93
-2026-07-06 13:04:35 [INFO] aiogram.event: Update id=846688202 is handled. Duration 0 ms by bot id=7851684074
-2026-07-06 13:04:37 [INFO] root: [CACHE] chat=1089623979 mid=124748 from=1089623979 owner=8662203967 cache_size=94
-2026-07-06 13:04:37 [INFO] aiogram.event: Update id=846688203 is handled. Duration 0 ms by bot id=7851684074
-2026-07-06 13:04:40 [INFO] root: [CACHE] chat=1089623979 mid=124749 from=8662203967 owner=8662203967 cache_size=95
 2026-07-06 13:04:40 [INFO] aiogram.event: Update id=846688204 is handled. Duration 0 ms by bot id=7851684074
 2026-07-06 13:04:47 [INFO] root: [CACHE] chat=1089623979 mid=124750 from=1089623979 owner=8662203967 cache_size=96
 2026-07-06 13:04:47 [INFO] aiogram.event: Update id=846688205 is handled. Duration 0 ms by bot id=7851684074
@@ -498,3 +493,8 @@
 2026-07-06 16:55:31 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-06 16:59:31 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
 2026-07-06 16:59:34 [INFO] root: [GH-CACHE] сохранено 473 сообщений в GitHub
+2026-07-06 17:00:32 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-06 17:01:52 [INFO] root: Кэш очищен от сообщений старше 7 дней
+2026-07-06 17:04:52 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8662203967
+2026-07-06 17:04:52 [INFO] root: Переслано 1/1 удалённых владельцу 8662203967
+2026-07-06 17:04:52 [INFO] aiogram.event: Update id=846688394 is handled. Duration 0 ms by bot id=7851684074
