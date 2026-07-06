@@ -1,19 +1,3 @@
-2026-07-05 22:48:32 [INFO] root: [CACHE] chat=1321861082 mid=30136 from=8947170643 owner=8947170643 cache_size=414
-2026-07-05 22:48:32 [INFO] aiogram.event: Update id=846687853 is handled. Duration 0 ms by bot id=7851684074
-2026-07-05 22:48:43 [INFO] root: [CACHE] chat=1321861082 mid=30137 from=8947170643 owner=8947170643 cache_size=415
-2026-07-05 22:48:43 [INFO] aiogram.event: Update id=846687854 is handled. Duration 0 ms by bot id=7851684074
-2026-07-05 22:48:47 [INFO] root: [CACHE] chat=1321861082 mid=30138 from=8947170643 owner=8947170643 cache_size=416
-2026-07-05 22:48:47 [INFO] aiogram.event: Update id=846687855 is handled. Duration 0 ms by bot id=7851684074
-2026-07-05 22:48:48 [INFO] root: [CACHE] chat=1321861082 mid=30139 from=8947170643 owner=8947170643 cache_size=417
-2026-07-05 22:48:48 [INFO] aiogram.event: Update id=846687856 is handled. Duration 0 ms by bot id=7851684074
-2026-07-05 22:48:51 [INFO] root: [CACHE] chat=1321861082 mid=30140 from=8947170643 owner=8947170643 cache_size=418
-2026-07-05 22:48:51 [INFO] aiogram.event: Update id=846687857 is handled. Duration 0 ms by bot id=7851684074
-2026-07-05 22:48:51 [INFO] root: [CACHE] chat=1321861082 mid=30141 from=1321861082 owner=8947170643 cache_size=419
-2026-07-05 22:48:51 [INFO] aiogram.event: Update id=846687858 is handled. Duration 0 ms by bot id=7851684074
-2026-07-05 22:48:53 [INFO] root: [CACHE] chat=1321861082 mid=30142 from=1321861082 owner=8947170643 cache_size=420
-2026-07-05 22:48:53 [INFO] aiogram.event: Update id=846687859 is handled. Duration 0 ms by bot id=7851684074
-2026-07-05 22:48:55 [INFO] root: [CACHE] chat=1321861082 mid=30143 from=1321861082 owner=8947170643 cache_size=421
-2026-07-05 22:48:55 [INFO] aiogram.event: Update id=846687860 is handled. Duration 0 ms by bot id=7851684074
 2026-07-05 22:48:58 [INFO] root: [CACHE] chat=1321861082 mid=30144 from=1321861082 owner=8947170643 cache_size=422
 2026-07-05 22:48:58 [INFO] aiogram.event: Update id=846687861 is handled. Duration 0 ms by bot id=7851684074
 2026-07-05 22:49:08 [INFO] root: [CACHE] chat=1321861082 mid=30145 from=1321861082 owner=8947170643 cache_size=423
@@ -498,3 +482,19 @@
 2026-07-06 09:21:19 [INFO] aiogram.event: Update id=846687967 is handled. Duration 0 ms by bot id=7851684074
 2026-07-06 09:21:25 [INFO] root: [CACHE] chat=5367226195 mid=124471 from=5367226195 owner=8662203967 cache_size=94
 2026-07-06 09:21:25 [INFO] aiogram.event: Update id=846687968 is handled. Duration 0 ms by bot id=7851684074
+2026-07-06 09:23:12 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-06 09:23:46 [INFO] root: [CACHE] chat=5367226195 mid=124472 from=8662203967 owner=8662203967 cache_size=95
+2026-07-06 09:23:46 [INFO] aiogram.event: Update id=846687969 is handled. Duration 0 ms by bot id=7851684074
+2026-07-06 09:23:47 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Bad Request: can't parse entities: Invalid custom emoji identifier specified
+2026-07-06 09:23:50 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8662203967
+2026-07-06 09:23:50 [INFO] root: Переслано 1/1 удалённых владельцу 8662203967
+2026-07-06 09:23:50 [INFO] aiogram.event: Update id=846687970 is handled. Duration 0 ms by bot id=7851684074
+2026-07-06 09:23:56 [INFO] root: [CACHE] chat=5367226195 mid=124473 from=8662203967 owner=8662203967 cache_size=95
+2026-07-06 09:23:56 [INFO] aiogram.event: Update id=846687971 is handled. Duration 0 ms by bot id=7851684074
+2026-07-06 09:23:56 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Bad Request: can't parse entities: Invalid custom emoji identifier specified
+2026-07-06 09:26:32 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
+2026-07-06 09:26:33 [INFO] root: [GH-CACHE] сохранено 476 сообщений в GitHub
+2026-07-06 09:27:04 [INFO] root: [save] короткая ссылка развёрнута: https://vt.tiktok.com/ZSCtb63M6/ -> https://www.tiktok.com/@jumpedby_blackmen45/video/7654319980711824661?_r=1&_t=ZS-97nsCUXt6M4
+2026-07-06 09:27:04 [INFO] root: [save] yt-dlp video: https://www.tiktok.com/@jumpedby_blackmen45/video/7654319980711824661?_r=1&_t=ZS-97nsCUXt6M4
+2026-07-06 09:27:05 [INFO] root: [save] yt-dlp video успех: 1 файл(ов)
+2026-07-06 09:27:10 [INFO] aiogram.event: Update id=846687972 is handled. Duration 7401 ms by bot id=7851684074
