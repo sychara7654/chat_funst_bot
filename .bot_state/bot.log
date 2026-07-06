@@ -1,18 +1,3 @@
-2026-07-05 22:34:55 [INFO] root: [CACHE] chat=6348613179 mid=30081 from=6348613179 owner=8947170643 cache_size=500
-2026-07-05 22:34:55 [INFO] aiogram.event: Update id=846687797 is handled. Duration 0 ms by bot id=7851684074
-2026-07-05 22:35:02 [INFO] root: [CACHE] chat=6348613179 mid=30082 from=6348613179 owner=8947170643 cache_size=500
-2026-07-05 22:35:02 [INFO] aiogram.event: Update id=846687798 is handled. Duration 0 ms by bot id=7851684074
-2026-07-05 22:35:08 [INFO] root: [CACHE] chat=6348613179 mid=30083 from=6348613179 owner=8947170643 cache_size=500
-2026-07-05 22:35:08 [INFO] aiogram.event: Update id=846687799 is handled. Duration 0 ms by bot id=7851684074
-2026-07-05 22:35:14 [INFO] root: [CACHE] chat=6348613179 mid=30084 from=6348613179 owner=8947170643 cache_size=500
-2026-07-05 22:35:14 [INFO] aiogram.event: Update id=846687800 is handled. Duration 0 ms by bot id=7851684074
-2026-07-05 22:35:24 [INFO] root: [CACHE] chat=6348613179 mid=30085 from=6348613179 owner=8947170643 cache_size=500
-2026-07-05 22:35:24 [INFO] aiogram.event: Update id=846687801 is handled. Duration 0 ms by bot id=7851684074
-2026-07-05 22:35:25 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-05 22:35:28 [INFO] root: [CACHE] chat=6348613179 mid=30086 from=8947170643 owner=8947170643 cache_size=500
-2026-07-05 22:35:28 [INFO] aiogram.event: Update id=846687802 is handled. Duration 0 ms by bot id=7851684074
-2026-07-05 22:35:38 [INFO] root: [CACHE] chat=6348613179 mid=30087 from=6348613179 owner=8947170643 cache_size=500
-2026-07-05 22:35:38 [INFO] aiogram.event: Update id=846687803 is handled. Duration 0 ms by bot id=7851684074
 2026-07-05 22:35:44 [INFO] root: [CACHE] chat=6348613179 mid=30088 from=6348613179 owner=8947170643 cache_size=500
 2026-07-05 22:35:44 [INFO] aiogram.event: Update id=846687804 is handled. Duration 0 ms by bot id=7851684074
 2026-07-05 22:35:48 [INFO] root: [CACHE] chat=6348613179 mid=30089 from=8947170643 owner=8947170643 cache_size=500
@@ -498,3 +483,18 @@
 2026-07-06 07:52:47 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-06 07:55:57 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
 2026-07-06 07:55:59 [INFO] root: [GH-CACHE] сохранено 457 сообщений в GitHub
+2026-07-06 07:57:48 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-06 07:58:30 [INFO] root: [CACHE] chat=7943741856 mid=124422 from=8662203967 owner=8662203967 cache_size=1
+2026-07-06 07:58:30 [INFO] aiogram.event: Update id=846687930 is handled. Duration 0 ms by bot id=7851684074
+2026-07-06 07:58:30 [INFO] root: [CACHE] chat=7943741856 mid=124423 from=8662203967 owner=8662203967 cache_size=2
+2026-07-06 07:58:30 [INFO] aiogram.event: Update id=846687931 is handled. Duration 0 ms by bot id=7851684074
+2026-07-06 07:58:31 [WARNING] root: Не удалось скопировать неизвестный тип сообщения: Telegram server says - Bad Request: message to copy not found
+2026-07-06 07:58:35 [INFO] root: [CACHE] chat=7943741856 mid=124424 from=8662203967 owner=8662203967 cache_size=3
+2026-07-06 07:58:35 [INFO] aiogram.event: Update id=846687932 is handled. Duration 0 ms by bot id=7851684074
+2026-07-06 07:58:35 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Bad Request: can't parse entities: Invalid custom emoji identifier specified
+2026-07-06 08:00:29 [INFO] aiogram.event: Update id=846687933 is handled. Duration 1213 ms by bot id=7851684074
+2026-07-06 08:00:31 [INFO] root: [save] короткая ссылка развёрнута: https://vt.tiktok.com/ZSCtyQVqV/ -> https://www.tiktok.com/@usarname_meme/video/7657603330415299847?_r=1&_t=ZS-97nlua5idAF
+2026-07-06 08:00:31 [INFO] root: [save] yt-dlp video: https://www.tiktok.com/@usarname_meme/video/7657603330415299847?_r=1&_t=ZS-97nlua5idAF
+2026-07-06 08:00:32 [INFO] root: [save] yt-dlp video успех: 1 файл(ов)
+2026-07-06 08:00:36 [INFO] aiogram.event: Update id=846687934 is handled. Duration 5105 ms by bot id=7851684074
+2026-07-06 08:01:52 [INFO] root: Кэш очищен от сообщений старше 7 дней
