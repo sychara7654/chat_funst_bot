@@ -1,6 +1,3 @@
-2026-07-07 01:10:50 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
-2026-07-07 01:10:50 [WARNING] aiogram.dispatcher: Sleep for 2.356020 seconds and try again... (tryings = 3, bot id = 7851684074)
-2026-07-07 01:12:03 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
 2026-07-07 01:12:03 [WARNING] aiogram.dispatcher: Sleep for 3.193569 seconds and try again... (tryings = 4, bot id = 7851684074)
 2026-07-07 01:12:27 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
 2026-07-07 01:12:29 [INFO] root: [GH-CACHE] сохранено 426 сообщений в GitHub
@@ -498,3 +495,6 @@
 2026-07-07 14:57:09 [INFO] root: [GH-CACHE] сохранено 323 сообщений в GitHub
 2026-07-07 15:01:44 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-07 15:01:52 [INFO] root: Кэш очищен от сообщений старше 7 дней
+2026-07-07 15:06:45 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-07 15:07:13 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
+2026-07-07 15:07:24 [ERROR] root: [GH-CACHE] не удалось сохранить кэш: {'_status': 403, '_body': '{"message":"Timed out validating rule, please try again","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"403"}'}
