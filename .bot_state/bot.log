@@ -1,17 +1,3 @@
-2026-07-06 22:21:33 [INFO] root: [CACHE] chat=8935043933 mid=9001 from=8573476514 owner=8573476514 cache_size=19
-2026-07-06 22:21:33 [INFO] aiogram.event: Update id=846689246 is handled. Duration 0 ms by bot id=7851684074
-2026-07-06 22:21:37 [INFO] root: [CACHE] chat=8935043933 mid=9002 from=8573476514 owner=8573476514 cache_size=20
-2026-07-06 22:21:37 [INFO] aiogram.event: Update id=846689247 is handled. Duration 0 ms by bot id=7851684074
-2026-07-06 22:21:40 [INFO] root: [CACHE] chat=8935043933 mid=9003 from=8573476514 owner=8573476514 cache_size=21
-2026-07-06 22:21:40 [INFO] aiogram.event: Update id=846689248 is handled. Duration 0 ms by bot id=7851684074
-2026-07-06 22:21:41 [INFO] root: [CACHE] chat=8935043933 mid=9004 from=8573476514 owner=8573476514 cache_size=22
-2026-07-06 22:21:41 [INFO] aiogram.event: Update id=846689249 is handled. Duration 0 ms by bot id=7851684074
-2026-07-06 22:21:46 [INFO] root: [CACHE] chat=8935043933 mid=9005 from=8573476514 owner=8573476514 cache_size=23
-2026-07-06 22:21:46 [INFO] aiogram.event: Update id=846689250 is handled. Duration 0 ms by bot id=7851684074
-2026-07-06 22:21:50 [INFO] aiogram.event: Update id=846689251 is handled. Duration 0 ms by bot id=7851684074
-2026-07-06 22:22:15 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-06 22:22:54 [INFO] root: [CACHE] chat=8935043933 mid=9006 from=8935043933 owner=8573476514 cache_size=24
-2026-07-06 22:22:54 [INFO] aiogram.event: Update id=846689252 is handled. Duration 0 ms by bot id=7851684074
 2026-07-06 22:24:00 [INFO] root: [CACHE] chat=8935043933 mid=9008 from=8573476514 owner=8573476514 cache_size=25
 2026-07-06 22:24:00 [INFO] aiogram.event: Update id=846689253 is handled. Duration 0 ms by bot id=7851684074
 2026-07-06 22:24:02 [INFO] root: [CACHE] chat=8935043933 mid=9009 from=8573476514 owner=8573476514 cache_size=26
@@ -498,3 +484,17 @@
 2026-07-07 01:02:23 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
 2026-07-07 01:02:25 [INFO] root: [GH-CACHE] сохранено 426 сообщений в GitHub
 2026-07-07 01:02:59 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-07 01:08:01 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-07 01:10:46 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2026-07-07 01:10:46 [WARNING] aiogram.dispatcher: Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7851684074)
+2026-07-07 01:10:47 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2026-07-07 01:10:47 [WARNING] aiogram.dispatcher: Sleep for 1.259022 seconds and try again... (tryings = 1, bot id = 7851684074)
+2026-07-07 01:10:48 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2026-07-07 01:10:48 [WARNING] aiogram.dispatcher: Sleep for 1.777825 seconds and try again... (tryings = 2, bot id = 7851684074)
+2026-07-07 01:10:50 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+2026-07-07 01:10:50 [WARNING] aiogram.dispatcher: Sleep for 2.356020 seconds and try again... (tryings = 3, bot id = 7851684074)
+2026-07-07 01:12:03 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-07-07 01:12:03 [WARNING] aiogram.dispatcher: Sleep for 3.193569 seconds and try again... (tryings = 4, bot id = 7851684074)
+2026-07-07 01:12:27 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
+2026-07-07 01:12:29 [INFO] root: [GH-CACHE] сохранено 426 сообщений в GitHub
+2026-07-07 01:12:31 [INFO] aiogram.dispatcher: Connection established (tryings = 5, bot id = 7851684074)
