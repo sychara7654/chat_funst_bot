@@ -1,5 +1,3 @@
-2026-07-07 01:10:48 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
-2026-07-07 01:10:48 [WARNING] aiogram.dispatcher: Sleep for 1.777825 seconds and try again... (tryings = 2, bot id = 7851684074)
 2026-07-07 01:10:50 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
 2026-07-07 01:10:50 [WARNING] aiogram.dispatcher: Sleep for 2.356020 seconds and try again... (tryings = 3, bot id = 7851684074)
 2026-07-07 01:12:03 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
@@ -498,3 +496,5 @@
 2026-07-07 14:56:42 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-07 14:57:07 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
 2026-07-07 14:57:09 [INFO] root: [GH-CACHE] сохранено 323 сообщений в GitHub
+2026-07-07 15:01:44 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-07 15:01:52 [INFO] root: Кэш очищен от сообщений старше 7 дней
