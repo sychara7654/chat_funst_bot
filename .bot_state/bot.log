@@ -1,12 +1,3 @@
-2026-07-08 02:21:31 [INFO] aiogram.event: Update id=846691234 is handled. Duration 0 ms by bot id=7851684074
-2026-07-08 02:21:31 [INFO] root: [CACHE] chat=8563553994 mid=32056 from=8947170643 owner=8947170643 cache_size=445
-2026-07-08 02:21:31 [INFO] root: [save] yt-dlp video: https://www.instagram.com/reel/DaTMLmcMG4t/?igsh=NDdrbDNnemtoZTBi
-2026-07-08 02:21:32 [WARNING] root: [yt-dlp] ошибка: ERROR: [Instagram] DaTMLmcMG4t: Instagram sent an empty media response. Check if this post is accessible in your browser without being logged-in. If it is not, then use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Otherwise, if the post is accessible in browser without being logged-in, please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
-2026-07-08 02:21:32 [INFO] root: [save] cobalt auto: https://www.instagram.com/reel/DaTMLmcMG4t/?igsh=NDdrbDNnemtoZTBi
-2026-07-08 02:21:32 [WARNING] root: [cobalt] API запрос не удался: HTTP Error 403: Forbidden
-2026-07-08 02:21:32 [WARNING] root: [save] все способы не дали файлов для https://www.instagram.com/reel/DaTMLmcMG4t/?igsh=NDdrbDNnemtoZTBi
-2026-07-08 02:21:37 [INFO] aiogram.event: Update id=846691235 is handled. Duration 6071 ms by bot id=7851684074
-2026-07-08 02:22:58 [INFO] root: [CACHE] chat=8947170643 mid=53204 from=8947170643 owner=8563553994 cache_size=49
 2026-07-08 02:22:58 [INFO] aiogram.event: Update id=846691236 is handled. Duration 0 ms by bot id=7851684074
 2026-07-08 02:22:58 [INFO] root: [CACHE] chat=8563553994 mid=32059 from=8947170643 owner=8947170643 cache_size=446
 2026-07-08 02:22:58 [INFO] root: [save] yt-dlp video: https://www.instagram.com/reel/DYPd-fyMm3t/?igsh=eGhyeWtpcXpkajVx
@@ -498,3 +489,12 @@
 2026-07-08 15:05:16 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
 2026-07-08 15:05:17 [INFO] root: [GH-CACHE] сохранено 314 сообщений в GitHub
 2026-07-08 15:08:20 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-08 15:13:22 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-08 15:15:19 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
+2026-07-08 15:15:21 [INFO] root: [GH-CACHE] сохранено 314 сообщений в GitHub
+2026-07-08 15:17:38 [INFO] root: [CACHE] chat=7614103178 mid=126730 from=8662203967 owner=8662203967 cache_size=285
+2026-07-08 15:17:38 [INFO] aiogram.event: Update id=846691310 is handled. Duration 0 ms by bot id=7851684074
+2026-07-08 15:17:51 [INFO] root: [CACHE] chat=7614103178 mid=126731 from=8662203967 owner=8662203967 cache_size=286
+2026-07-08 15:17:51 [INFO] aiogram.event: Update id=846691311 is handled. Duration 0 ms by bot id=7851684074
+2026-07-08 15:18:03 [INFO] root: [CACHE] chat=7614103178 mid=126732 from=7614103178 owner=8662203967 cache_size=287
+2026-07-08 15:18:03 [INFO] aiogram.event: Update id=846691312 is handled. Duration 0 ms by bot id=7851684074
