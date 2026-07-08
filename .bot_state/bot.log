@@ -1,18 +1,3 @@
-2026-07-08 02:22:58 [INFO] aiogram.event: Update id=846691236 is handled. Duration 0 ms by bot id=7851684074
-2026-07-08 02:22:58 [INFO] root: [CACHE] chat=8563553994 mid=32059 from=8947170643 owner=8947170643 cache_size=446
-2026-07-08 02:22:58 [INFO] root: [save] yt-dlp video: https://www.instagram.com/reel/DYPd-fyMm3t/?igsh=eGhyeWtpcXpkajVx
-2026-07-08 02:22:58 [WARNING] root: [yt-dlp] ошибка: ERROR: [Instagram] DYPd-fyMm3t: Instagram sent an empty media response. Check if this post is accessible in your browser without being logged-in. If it is not, then use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Otherwise, if the post is accessible in browser without being logged-in, please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
-2026-07-08 02:22:58 [INFO] root: [save] cobalt auto: https://www.instagram.com/reel/DYPd-fyMm3t/?igsh=eGhyeWtpcXpkajVx
-2026-07-08 02:22:58 [WARNING] root: [cobalt] API запрос не удался: HTTP Error 403: Forbidden
-2026-07-08 02:22:58 [WARNING] root: [save] все способы не дали файлов для https://www.instagram.com/reel/DYPd-fyMm3t/?igsh=eGhyeWtpcXpkajVx
-2026-07-08 02:23:04 [INFO] aiogram.event: Update id=846691237 is handled. Duration 6137 ms by bot id=7851684074
-2026-07-08 02:24:49 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-08 02:26:20 [INFO] root: [CACHE] chat=8947170643 mid=53207 from=8947170643 owner=8563553994 cache_size=50
-2026-07-08 02:26:20 [INFO] aiogram.event: Update id=846691238 is handled. Duration 0 ms by bot id=7851684074
-2026-07-08 02:26:20 [INFO] root: [CACHE] chat=8563553994 mid=32062 from=8947170643 owner=8947170643 cache_size=447
-2026-07-08 02:26:21 [INFO] root: [save] yt-dlp video: https://www.instagram.com/reel/DZ7eBxvMgcb/?igsh=MXRsNzNmbTlkaXV1cg==
-2026-07-08 02:26:21 [WARNING] root: [yt-dlp] ошибка: ERROR: [Instagram] DZ7eBxvMgcb: Instagram sent an empty media response. Check if this post is accessible in your browser without being logged-in. If it is not, then use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Otherwise, if the post is accessible in browser without being logged-in, please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
-2026-07-08 02:26:21 [INFO] root: [save] cobalt auto: https://www.instagram.com/reel/DZ7eBxvMgcb/?igsh=MXRsNzNmbTlkaXV1cg==
 2026-07-08 02:26:21 [WARNING] root: [cobalt] API запрос не удался: HTTP Error 403: Forbidden
 2026-07-08 02:26:21 [WARNING] root: [save] все способы не дали файлов для https://www.instagram.com/reel/DZ7eBxvMgcb/?igsh=MXRsNzNmbTlkaXV1cg==
 2026-07-08 02:26:26 [INFO] aiogram.event: Update id=846691239 is handled. Duration 6027 ms by bot id=7851684074
@@ -498,3 +483,18 @@
 2026-07-08 15:17:51 [INFO] aiogram.event: Update id=846691311 is handled. Duration 0 ms by bot id=7851684074
 2026-07-08 15:18:03 [INFO] root: [CACHE] chat=7614103178 mid=126732 from=7614103178 owner=8662203967 cache_size=287
 2026-07-08 15:18:03 [INFO] aiogram.event: Update id=846691312 is handled. Duration 0 ms by bot id=7851684074
+2026-07-08 15:18:23 [INFO] root: [CACHE] chat=7614103178 mid=126733 from=7614103178 owner=8662203967 cache_size=288
+2026-07-08 15:18:23 [INFO] aiogram.event: Update id=846691313 is handled. Duration 0 ms by bot id=7851684074
+2026-07-08 15:18:23 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-08 15:19:37 [INFO] root: [CACHE] chat=7614103178 mid=126734 from=8662203967 owner=8662203967 cache_size=289
+2026-07-08 15:19:37 [INFO] aiogram.event: Update id=846691314 is handled. Duration 0 ms by bot id=7851684074
+2026-07-08 15:19:41 [INFO] root: [CACHE] chat=7614103178 mid=126735 from=8662203967 owner=8662203967 cache_size=290
+2026-07-08 15:19:41 [INFO] aiogram.event: Update id=846691315 is handled. Duration 0 ms by bot id=7851684074
+2026-07-08 15:19:44 [INFO] root: [CACHE] chat=7614103178 mid=126736 from=8662203967 owner=8662203967 cache_size=291
+2026-07-08 15:19:44 [INFO] aiogram.event: Update id=846691316 is handled. Duration 0 ms by bot id=7851684074
+2026-07-08 15:20:16 [INFO] root: [CACHE] chat=7614103178 mid=126737 from=7614103178 owner=8662203967 cache_size=292
+2026-07-08 15:20:16 [INFO] aiogram.event: Update id=846691317 is handled. Duration 0 ms by bot id=7851684074
+2026-07-08 15:20:20 [INFO] root: [CACHE] chat=7614103178 mid=126738 from=7614103178 owner=8662203967 cache_size=293
+2026-07-08 15:20:20 [INFO] aiogram.event: Update id=846691318 is handled. Duration 0 ms by bot id=7851684074
+2026-07-08 15:22:58 [INFO] root: [CACHE] chat=7614103178 mid=126739 from=7614103178 owner=8662203967 cache_size=294
+2026-07-08 15:22:58 [INFO] aiogram.event: Update id=846691319 is handled. Duration 0 ms by bot id=7851684074
