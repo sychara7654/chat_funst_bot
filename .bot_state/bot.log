@@ -1,6 +1,3 @@
-2026-07-08 02:19:48 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-08 02:21:03 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
-2026-07-08 02:21:04 [INFO] root: [GH-CACHE] сохранено 313 сообщений в GitHub
 2026-07-08 02:21:31 [INFO] root: [CACHE] chat=8947170643 mid=53201 from=8947170643 owner=8563553994 cache_size=48
 2026-07-08 02:21:31 [INFO] aiogram.event: Update id=846691234 is handled. Duration 0 ms by bot id=7851684074
 2026-07-08 02:21:31 [INFO] root: [CACHE] chat=8563553994 mid=32056 from=8947170643 owner=8947170643 cache_size=445
@@ -498,3 +495,6 @@
 2026-07-08 15:02:32 [INFO] aiogram.event: Update id=846691308 is handled. Duration 8089 ms by bot id=7851684074
 2026-07-08 15:03:00 [INFO] root: [CACHE] chat=7614103178 mid=126729 from=7614103178 owner=8662203967 cache_size=284
 2026-07-08 15:03:00 [INFO] aiogram.event: Update id=846691309 is handled. Duration 0 ms by bot id=7851684074
+2026-07-08 15:03:19 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-08 15:05:16 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
+2026-07-08 15:05:17 [INFO] root: [GH-CACHE] сохранено 314 сообщений в GitHub
