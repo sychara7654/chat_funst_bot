@@ -1,22 +1,3 @@
-2026-07-09 12:22:35 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendSticker' in chat -1003974749024. Retry in 43 seconds.
-Original description: Too Many Requests: retry after 43
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-09 12:22:35 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendSticker' in chat -1003974749024. Retry in 43 seconds.
-Original description: Too Many Requests: retry after 43
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-09 12:23:59 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-09 12:25:59 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8563553994
-2026-07-09 12:25:59 [INFO] root: Переслано 1/1 удалённых владельцу 8563553994
-2026-07-09 12:25:59 [INFO] aiogram.event: Update id=846693307 is handled. Duration 0 ms by bot id=7851684074
-2026-07-09 12:26:30 [INFO] root: Пересылка 1 удалённых сообщений владельцу 8563553994
-2026-07-09 12:26:30 [INFO] root: Переслано 1/1 удалённых владельцу 8563553994
-2026-07-09 12:26:30 [INFO] aiogram.event: Update id=846693308 is handled. Duration 0 ms by bot id=7851684074
-2026-07-09 12:29:00 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-09 12:32:29 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
-2026-07-09 12:32:31 [INFO] root: [GH-CACHE] сохранено 479 сообщений в GitHub
-2026-07-09 12:34:01 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-09 12:39:02 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-09 12:42:32 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
 2026-07-09 12:42:34 [INFO] root: [GH-CACHE] сохранено 479 сообщений в GitHub
 2026-07-09 12:44:04 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-09 12:49:05 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
@@ -502,3 +483,18 @@ Original description: Too Many Requests: retry after 43
 2026-07-09 16:30:19 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-09 16:34:02 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
 2026-07-09 16:34:04 [INFO] root: [GH-CACHE] сохранено 460 сообщений в GitHub
+2026-07-09 16:35:20 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-09 16:36:00 [INFO] root: [CACHE] chat=8218581656 mid=33428 from=8218581656 owner=8947170643 cache_size=238
+2026-07-09 16:36:00 [INFO] aiogram.event: Update id=846693502 is handled. Duration 0 ms by bot id=7851684074
+2026-07-09 16:36:03 [INFO] root: [CACHE] chat=8218581656 mid=33429 from=8218581656 owner=8947170643 cache_size=239
+2026-07-09 16:36:03 [INFO] aiogram.event: Update id=846693503 is handled. Duration 0 ms by bot id=7851684074
+2026-07-09 16:36:09 [INFO] root: [CACHE] chat=8218581656 mid=33430 from=8218581656 owner=8947170643 cache_size=240
+2026-07-09 16:36:09 [INFO] aiogram.event: Update id=846693504 is handled. Duration 0 ms by bot id=7851684074
+2026-07-09 16:36:15 [INFO] root: [CACHE] chat=8218581656 mid=33431 from=8218581656 owner=8947170643 cache_size=241
+2026-07-09 16:36:15 [INFO] aiogram.event: Update id=846693505 is handled. Duration 0 ms by bot id=7851684074
+2026-07-09 16:36:30 [INFO] root: [CACHE] chat=8218581656 mid=33432 from=8218581656 owner=8947170643 cache_size=242
+2026-07-09 16:36:30 [INFO] aiogram.event: Update id=846693506 is handled. Duration 0 ms by bot id=7851684074
+2026-07-09 16:36:33 [INFO] root: [CACHE] chat=1321861082 mid=33433 from=1321861082 owner=8947170643 cache_size=384
+2026-07-09 16:36:33 [INFO] aiogram.event: Update id=846693507 is handled. Duration 4 ms by bot id=7851684074
+2026-07-09 16:36:33 [INFO] root: [CACHE] chat=1321861082 mid=33434 from=1321861082 owner=8947170643 cache_size=385
+2026-07-09 16:36:33 [INFO] aiogram.event: Update id=846693508 is handled. Duration 0 ms by bot id=7851684074
