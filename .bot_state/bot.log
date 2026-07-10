@@ -1,6 +1,3 @@
-2026-07-10 11:34:52 [ERROR] root: [CONN] не удалось уведомить об отключении: Telegram server says - Bad Request: message thread not found
-2026-07-10 11:34:53 [INFO] aiogram.event: Update id=846696194 is handled. Duration 525 ms by bot id=7851684074
-2026-07-10 11:37:38 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-10 11:42:39 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-10 11:42:53 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
 2026-07-10 11:42:54 [INFO] root: [GH-CACHE] сохранено 414 сообщений в GitHub
@@ -516,3 +513,6 @@ Original description: Too Many Requests: retry after 3
 2026-07-10 13:56:31 [INFO] aiogram.event: Update id=846696408 is handled. Duration 0 ms by bot id=7851684074
 2026-07-10 13:58:32 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-10 14:01:52 [INFO] root: Кэш очищен от сообщений старше 7 дней
+2026-07-10 14:03:33 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-10 14:03:53 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
+2026-07-10 14:03:59 [INFO] root: [GH-CACHE] сохранено 385 сообщений в GitHub
