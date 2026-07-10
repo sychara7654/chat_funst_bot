@@ -1,7 +1,3 @@
-2026-07-10 01:26:16 [INFO] root: [CACHE] chat=7698853158 mid=129329 from=8662203967 owner=8662203967 cache_size=384
-2026-07-10 01:26:16 [INFO] aiogram.event: Update id=846696039 is handled. Duration 0 ms by bot id=7851684074
-2026-07-10 01:26:22 [INFO] root: [CACHE] chat=7698853158 mid=129330 from=7698853158 owner=8662203967 cache_size=385
-2026-07-10 01:26:22 [INFO] aiogram.event: Update id=846696040 is handled. Duration 0 ms by bot id=7851684074
 2026-07-10 01:26:32 [INFO] root: [CACHE] chat=7698853158 mid=129331 from=8662203967 owner=8662203967 cache_size=386
 2026-07-10 01:26:32 [INFO] aiogram.event: Update id=846696041 is handled. Duration 0 ms by bot id=7851684074
 2026-07-10 01:26:37 [INFO] root: [CACHE] chat=7698853158 mid=129332 from=8662203967 owner=8662203967 cache_size=387
@@ -498,3 +494,7 @@
 2026-07-10 10:52:35 [INFO] root: [GH-CACHE] сохранено 392 сообщений в GitHub
 2026-07-10 10:57:25 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
 2026-07-10 11:01:52 [INFO] root: Кэш очищен от сообщений старше 7 дней
+2026-07-10 11:02:27 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-10 11:02:37 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
+2026-07-10 11:02:39 [INFO] root: [GH-CACHE] сохранено 392 сообщений в GitHub
+2026-07-10 11:07:27 [ERROR] root: [GH-LOG] не удалось запушить логи: {'_status': 422, '_body': '{"message":"Invalid request.\\n\\n\\"sha\\" wasn\'t supplied.","documentation_url":"https://docs.github.com/rest/repos/contents#create-or-update-file-contents","status":"422"}'}
