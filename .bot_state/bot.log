@@ -1,5 +1,3 @@
-2026-07-10 12:21:22 [INFO] root: [CACHE] chat=8563553994 mid=129465 from=8662203967 owner=8662203967 cache_size=493
-2026-07-10 12:21:22 [INFO] aiogram.event: Update id=846696254 is handled. Duration 0 ms by bot id=7851684074
 2026-07-10 12:21:28 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 3 seconds.
 Original description: Too Many Requests: retry after 3
 (background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
@@ -500,3 +498,5 @@ Original description: Too Many Requests: retry after 3
 2026-07-10 15:58:58 [INFO] aiogram.event: Update id=846696456 is handled. Duration 0 ms by bot id=7851684074
 2026-07-10 15:58:59 [INFO] root: [CACHE] chat=7698853158 mid=129642 from=7698853158 owner=8662203967 cache_size=500
 2026-07-10 15:58:59 [INFO] aiogram.event: Update id=846696457 is handled. Duration 0 ms by bot id=7851684074
+2026-07-10 15:59:08 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-10 16:01:52 [INFO] root: Кэш очищен от сообщений старше 7 дней
