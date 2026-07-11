@@ -1,23 +1,3 @@
-2026-07-10 21:42:58 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 21 seconds.
-Original description: Too Many Requests: retry after 21
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-10 21:42:58 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 21 seconds.
-Original description: Too Many Requests: retry after 21
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-10 21:43:08 [INFO] root: [CACHE] chat=8662203967 mid=54460 from=8662203967 owner=8563553994 cache_size=454
-2026-07-10 21:43:08 [INFO] aiogram.event: Update id=846697352 is handled. Duration 0 ms by bot id=7851684074
-2026-07-10 21:43:08 [INFO] root: [CACHE] chat=8563553994 mid=129939 from=8662203967 owner=8662203967 cache_size=500
-2026-07-10 21:43:08 [INFO] aiogram.event: Update id=846697353 is handled. Duration 0 ms by bot id=7851684074
-2026-07-10 21:43:08 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 11 seconds.
-Original description: Too Many Requests: retry after 11
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-10 21:43:08 [ERROR] root: Ошибка тихой пересылки в группу: Telegram server says - Flood control exceeded on method 'SendMessage' in chat -1003974749024. Retry in 11 seconds.
-Original description: Too Many Requests: retry after 11
-(background on this error at: https://core.telegram.org/bots/faq#my-bot-is-hitting-limits-how-do-i-avoid-this)
-2026-07-10 21:43:13 [INFO] root: [CACHE] chat=8662203967 mid=54461 from=8662203967 owner=8563553994 cache_size=455
-2026-07-10 21:43:13 [INFO] aiogram.event: Update id=846697354 is handled. Duration 0 ms by bot id=7851684074
-2026-07-10 21:43:14 [INFO] root: [CACHE] chat=8563553994 mid=129940 from=8662203967 owner=8662203967 cache_size=500
-2026-07-10 21:43:14 [INFO] aiogram.event: Update id=846697355 is handled. Duration 0 ms by bot id=7851684074
 2026-07-10 21:43:19 [INFO] root: [CACHE] chat=8662203967 mid=54462 from=8563553994 owner=8563553994 cache_size=456
 2026-07-10 21:43:19 [INFO] aiogram.event: Update id=846697356 is handled. Duration 0 ms by bot id=7851684074
 2026-07-10 21:43:19 [INFO] root: [CACHE] chat=8563553994 mid=129941 from=8563553994 owner=8662203967 cache_size=500
@@ -544,3 +524,16 @@ Original description: Too Many Requests: retry after 21
 2026-07-11 00:18:30 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
 2026-07-11 00:18:31 [INFO] root: [GH-CACHE] сохранено 377 сообщений в GitHub
 2026-07-11 00:21:46 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-11 00:26:48 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-11 00:28:35 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
+2026-07-11 00:28:36 [INFO] root: [GH-CACHE] сохранено 377 сообщений в GitHub
+2026-07-11 00:30:10 [INFO] root: [music] Deezer: 'After dark' → 'Mr.Kitty - After Dark'
+2026-07-11 00:30:10 [INFO] root: [music] Deezer нормализация: 'After dark' → 'Mr.Kitty After Dark'
+2026-07-11 00:30:11 [WARNING] root: [music] VK API error 1116: Anonymous token is invalid
+2026-07-11 00:30:11 [INFO] root: [music] Bandcamp не скачал (rc=1): ERROR: Unable to handle request: Unsupported url scheme: "bcsearch1" (urllib)
+
+2026-07-11 00:30:12 [INFO] root: [music] SoundCloud → оригинал: «After Dark»
+2026-07-11 00:30:12 [INFO] root: [music] YouTube → оригинал: «Mr.Kitty - After Dark»
+2026-07-11 00:30:14 [INFO] root: [music] YouTube не скачал (rc=1): -do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  
+2026-07-11 00:30:20 [INFO] root: [music] отправлено 'MrKitty — After Dark' из SoundCloud
+2026-07-11 00:30:20 [INFO] aiogram.event: Update id=846697557 is handled. Duration 9466 ms by bot id=7851684074
