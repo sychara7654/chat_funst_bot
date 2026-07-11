@@ -1,30 +1,3 @@
-2026-07-10 21:43:19 [INFO] root: [CACHE] chat=8662203967 mid=54462 from=8563553994 owner=8563553994 cache_size=456
-2026-07-10 21:43:19 [INFO] aiogram.event: Update id=846697356 is handled. Duration 0 ms by bot id=7851684074
-2026-07-10 21:43:19 [INFO] root: [CACHE] chat=8563553994 mid=129941 from=8563553994 owner=8662203967 cache_size=500
-2026-07-10 21:43:19 [INFO] aiogram.event: Update id=846697357 is handled. Duration 0 ms by bot id=7851684074
-2026-07-10 21:43:21 [INFO] root: [CACHE] chat=8662203967 mid=54463 from=8563553994 owner=8563553994 cache_size=457
-2026-07-10 21:43:21 [INFO] aiogram.event: Update id=846697358 is handled. Duration 0 ms by bot id=7851684074
-2026-07-10 21:43:22 [INFO] root: [CACHE] chat=8563553994 mid=129942 from=8563553994 owner=8662203967 cache_size=500
-2026-07-10 21:43:22 [INFO] aiogram.event: Update id=846697359 is handled. Duration 0 ms by bot id=7851684074
-2026-07-10 21:43:24 [INFO] root: [CACHE] chat=8662203967 mid=54464 from=8662203967 owner=8563553994 cache_size=458
-2026-07-10 21:43:24 [INFO] aiogram.event: Update id=846697360 is handled. Duration 0 ms by bot id=7851684074
-2026-07-10 21:43:24 [INFO] root: [CACHE] chat=8563553994 mid=129943 from=8662203967 owner=8662203967 cache_size=500
-2026-07-10 21:43:24 [INFO] aiogram.event: Update id=846697361 is handled. Duration 0 ms by bot id=7851684074
-2026-07-10 21:43:28 [INFO] root: [CACHE] chat=8662203967 mid=54465 from=8662203967 owner=8563553994 cache_size=459
-2026-07-10 21:43:28 [INFO] aiogram.event: Update id=846697362 is handled. Duration 0 ms by bot id=7851684074
-2026-07-10 21:43:28 [INFO] root: [CACHE] chat=8563553994 mid=129944 from=8662203967 owner=8662203967 cache_size=500
-2026-07-10 21:43:28 [INFO] aiogram.event: Update id=846697363 is handled. Duration 0 ms by bot id=7851684074
-2026-07-10 21:43:29 [INFO] root: [CACHE] chat=8662203967 mid=54466 from=8662203967 owner=8563553994 cache_size=460
-2026-07-10 21:43:29 [INFO] aiogram.event: Update id=846697364 is handled. Duration 0 ms by bot id=7851684074
-2026-07-10 21:43:30 [INFO] root: [CACHE] chat=8563553994 mid=129945 from=8662203967 owner=8662203967 cache_size=500
-2026-07-10 21:43:30 [INFO] aiogram.event: Update id=846697365 is handled. Duration 0 ms by bot id=7851684074
-2026-07-10 21:43:36 [INFO] root: [CACHE] chat=8662203967 mid=54467 from=8563553994 owner=8563553994 cache_size=461
-2026-07-10 21:43:36 [INFO] aiogram.event: Update id=846697366 is handled. Duration 0 ms by bot id=7851684074
-2026-07-10 21:43:36 [INFO] root: [CACHE] chat=8563553994 mid=129946 from=8563553994 owner=8662203967 cache_size=500
-2026-07-10 21:43:36 [INFO] aiogram.event: Update id=846697367 is handled. Duration 0 ms by bot id=7851684074
-2026-07-10 21:43:40 [INFO] root: [CACHE] chat=8662203967 mid=54468 from=8662203967 owner=8563553994 cache_size=462
-2026-07-10 21:43:40 [INFO] aiogram.event: Update id=846697368 is handled. Duration 0 ms by bot id=7851684074
-2026-07-10 21:43:41 [INFO] root: [CACHE] chat=8563553994 mid=129947 from=8662203967 owner=8662203967 cache_size=500
 2026-07-10 21:43:41 [INFO] aiogram.event: Update id=846697369 is handled. Duration 0 ms by bot id=7851684074
 2026-07-10 21:44:16 [INFO] root: [CACHE] chat=8662203967 mid=54469 from=8662203967 owner=8563553994 cache_size=463
 2026-07-10 21:44:16 [INFO] aiogram.event: Update id=846697370 is handled. Duration 0 ms by bot id=7851684074
@@ -537,3 +510,33 @@ Original description: Too Many Requests: retry after 21
 2026-07-11 00:30:14 [INFO] root: [music] YouTube не скачал (rc=1): -do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  
 2026-07-11 00:30:20 [INFO] root: [music] отправлено 'MrKitty — After Dark' из SoundCloud
 2026-07-11 00:30:20 [INFO] aiogram.event: Update id=846697557 is handled. Duration 9466 ms by bot id=7851684074
+2026-07-11 00:31:49 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-11 00:32:21 [INFO] root: [music] Deezer: 'Daddy issues' → 'The Neighbourhood - Daddy Issues'
+2026-07-11 00:32:21 [INFO] root: [music] Deezer нормализация: 'Daddy issues' → 'The Neighbourhood Daddy Issues'
+2026-07-11 00:32:22 [INFO] root: [music] Bandcamp не скачал (rc=1): ERROR: Unable to handle request: Unsupported url scheme: "bcsearch1" (urllib)
+
+2026-07-11 00:32:22 [WARNING] root: [music] VK API error 1116: Anonymous token is invalid
+2026-07-11 00:32:22 [INFO] root: [music] SoundCloud → оригинал: «Daddy Issues»
+2026-07-11 00:32:22 [INFO] root: [music] YouTube → оригинал: «The Neighbourhood - Daddy Issues (Official Video)»
+2026-07-11 00:32:31 [INFO] root: [music] отправлено 'The Neighbourhood — Daddy Issues' из SoundCloud
+2026-07-11 00:32:31 [INFO] aiogram.event: Update id=846697558 is handled. Duration 10376 ms by bot id=7851684074
+2026-07-11 00:32:50 [INFO] root: [music] Deezer: 'Apocalypse' → 'Cigarettes After Sex - Apocalypse'
+2026-07-11 00:32:50 [INFO] root: [music] Deezer нормализация: 'Apocalypse' → 'Cigarettes After Sex Apocalypse'
+2026-07-11 00:32:51 [INFO] root: [music] Bandcamp не скачал (rc=1): ERROR: Unable to handle request: Unsupported url scheme: "bcsearch1" (urllib)
+
+2026-07-11 00:32:51 [WARNING] root: [music] VK API error 1116: Anonymous token is invalid
+2026-07-11 00:32:51 [INFO] root: [music] SoundCloud → оригинал: «Apocalypse»
+2026-07-11 00:32:52 [INFO] root: [music] YouTube → оригинал: «Apocalypse - Cigarettes After Sex»
+2026-07-11 00:32:53 [INFO] root: [music] YouTube не скачал (rc=1): -do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  
+2026-07-11 00:33:00 [INFO] root: [music] отправлено 'Cigarettes After Sex — Apocalypse' из SoundCloud
+2026-07-11 00:33:00 [INFO] aiogram.event: Update id=846697559 is handled. Duration 9854 ms by bot id=7851684074
+2026-07-11 00:33:43 [INFO] root: [music] Deezer: 'METAMORPHOSIS' → 'Interworld - METAMORPHOSIS'
+2026-07-11 00:33:43 [INFO] root: [music] Deezer нормализация: 'METAMORPHOSIS' → 'Interworld METAMORPHOSIS'
+2026-07-11 00:33:44 [INFO] root: [music] Bandcamp не скачал (rc=1): ERROR: Unable to handle request: Unsupported url scheme: "bcsearch1" (urllib)
+
+2026-07-11 00:33:44 [WARNING] root: [music] VK API error 1116: Anonymous token is invalid
+2026-07-11 00:33:45 [INFO] root: [music] SoundCloud → оригинал: «METAMORPHOSIS»
+2026-07-11 00:33:45 [INFO] root: [music] YouTube → оригинал: «INTERWORLD - METAMORPHOSIS»
+2026-07-11 00:33:46 [INFO] root: [music] YouTube не скачал (rc=1): -do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  
+2026-07-11 00:33:51 [INFO] root: [music] отправлено 'INTERWORLD — METAMORPHOSIS' из SoundCloud
+2026-07-11 00:33:51 [INFO] aiogram.event: Update id=846697560 is handled. Duration 7440 ms by bot id=7851684074
