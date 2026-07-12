@@ -1,122 +1,3 @@
-2026-07-12 15:08:24 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:08:24 [WARNING] aiogram.dispatcher: Sleep for 4.918177 seconds and try again... (tryings = 14206, bot id = 7851684074)
-2026-07-12 15:08:29 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:08:29 [WARNING] aiogram.dispatcher: Sleep for 5.116135 seconds and try again... (tryings = 14207, bot id = 7851684074)
-2026-07-12 15:08:34 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:08:34 [WARNING] aiogram.dispatcher: Sleep for 5.117890 seconds and try again... (tryings = 14208, bot id = 7851684074)
-2026-07-12 15:08:40 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:08:40 [WARNING] aiogram.dispatcher: Sleep for 4.959230 seconds and try again... (tryings = 14209, bot id = 7851684074)
-2026-07-12 15:08:45 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:08:45 [WARNING] aiogram.dispatcher: Sleep for 5.052215 seconds and try again... (tryings = 14210, bot id = 7851684074)
-2026-07-12 15:08:50 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:08:50 [WARNING] aiogram.dispatcher: Sleep for 4.983225 seconds and try again... (tryings = 14211, bot id = 7851684074)
-2026-07-12 15:08:55 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:08:55 [WARNING] aiogram.dispatcher: Sleep for 4.957495 seconds and try again... (tryings = 14212, bot id = 7851684074)
-2026-07-12 15:09:00 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:09:00 [WARNING] aiogram.dispatcher: Sleep for 5.123193 seconds and try again... (tryings = 14213, bot id = 7851684074)
-2026-07-12 15:09:06 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:09:06 [WARNING] aiogram.dispatcher: Sleep for 4.855640 seconds and try again... (tryings = 14214, bot id = 7851684074)
-2026-07-12 15:09:11 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:09:11 [WARNING] aiogram.dispatcher: Sleep for 4.999438 seconds and try again... (tryings = 14215, bot id = 7851684074)
-2026-07-12 15:09:16 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:09:16 [WARNING] aiogram.dispatcher: Sleep for 4.975092 seconds and try again... (tryings = 14216, bot id = 7851684074)
-2026-07-12 15:09:21 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:09:21 [WARNING] aiogram.dispatcher: Sleep for 5.139819 seconds and try again... (tryings = 14217, bot id = 7851684074)
-2026-07-12 15:09:26 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:09:26 [WARNING] aiogram.dispatcher: Sleep for 5.002135 seconds and try again... (tryings = 14218, bot id = 7851684074)
-2026-07-12 15:09:27 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
-2026-07-12 15:09:31 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:09:31 [WARNING] aiogram.dispatcher: Sleep for 4.981401 seconds and try again... (tryings = 14219, bot id = 7851684074)
-2026-07-12 15:09:36 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:09:36 [WARNING] aiogram.dispatcher: Sleep for 5.174856 seconds and try again... (tryings = 14220, bot id = 7851684074)
-2026-07-12 15:09:42 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:09:42 [WARNING] aiogram.dispatcher: Sleep for 5.102827 seconds and try again... (tryings = 14221, bot id = 7851684074)
-2026-07-12 15:09:47 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:09:47 [WARNING] aiogram.dispatcher: Sleep for 4.833030 seconds and try again... (tryings = 14222, bot id = 7851684074)
-2026-07-12 15:09:52 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:09:52 [WARNING] aiogram.dispatcher: Sleep for 4.986612 seconds and try again... (tryings = 14223, bot id = 7851684074)
-2026-07-12 15:09:57 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:09:57 [WARNING] aiogram.dispatcher: Sleep for 5.078374 seconds and try again... (tryings = 14224, bot id = 7851684074)
-2026-07-12 15:10:02 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:10:02 [WARNING] aiogram.dispatcher: Sleep for 5.012080 seconds and try again... (tryings = 14225, bot id = 7851684074)
-2026-07-12 15:10:08 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:10:08 [WARNING] aiogram.dispatcher: Sleep for 4.974505 seconds and try again... (tryings = 14226, bot id = 7851684074)
-2026-07-12 15:10:13 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:10:13 [WARNING] aiogram.dispatcher: Sleep for 5.219922 seconds and try again... (tryings = 14227, bot id = 7851684074)
-2026-07-12 15:10:18 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:10:18 [WARNING] aiogram.dispatcher: Sleep for 5.116815 seconds and try again... (tryings = 14228, bot id = 7851684074)
-2026-07-12 15:10:23 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:10:23 [WARNING] aiogram.dispatcher: Sleep for 5.075916 seconds and try again... (tryings = 14229, bot id = 7851684074)
-2026-07-12 15:10:29 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:10:29 [WARNING] aiogram.dispatcher: Sleep for 5.045841 seconds and try again... (tryings = 14230, bot id = 7851684074)
-2026-07-12 15:10:34 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:10:34 [WARNING] aiogram.dispatcher: Sleep for 4.893030 seconds and try again... (tryings = 14231, bot id = 7851684074)
-2026-07-12 15:10:39 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:10:39 [WARNING] aiogram.dispatcher: Sleep for 4.984389 seconds and try again... (tryings = 14232, bot id = 7851684074)
-2026-07-12 15:10:44 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:10:44 [WARNING] aiogram.dispatcher: Sleep for 4.959398 seconds and try again... (tryings = 14233, bot id = 7851684074)
-2026-07-12 15:10:49 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:10:49 [WARNING] aiogram.dispatcher: Sleep for 4.972878 seconds and try again... (tryings = 14234, bot id = 7851684074)
-2026-07-12 15:10:54 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:10:54 [WARNING] aiogram.dispatcher: Sleep for 5.026580 seconds and try again... (tryings = 14235, bot id = 7851684074)
-2026-07-12 15:10:59 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:10:59 [WARNING] aiogram.dispatcher: Sleep for 4.983231 seconds and try again... (tryings = 14236, bot id = 7851684074)
-2026-07-12 15:11:05 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:11:05 [WARNING] aiogram.dispatcher: Sleep for 4.986324 seconds and try again... (tryings = 14237, bot id = 7851684074)
-2026-07-12 15:11:10 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:11:10 [WARNING] aiogram.dispatcher: Sleep for 4.941255 seconds and try again... (tryings = 14238, bot id = 7851684074)
-2026-07-12 15:11:15 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:11:15 [WARNING] aiogram.dispatcher: Sleep for 4.874892 seconds and try again... (tryings = 14239, bot id = 7851684074)
-2026-07-12 15:11:20 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:11:20 [WARNING] aiogram.dispatcher: Sleep for 5.050405 seconds and try again... (tryings = 14240, bot id = 7851684074)
-2026-07-12 15:11:25 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:11:25 [WARNING] aiogram.dispatcher: Sleep for 4.949502 seconds and try again... (tryings = 14241, bot id = 7851684074)
-2026-07-12 15:11:30 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:11:30 [WARNING] aiogram.dispatcher: Sleep for 4.876474 seconds and try again... (tryings = 14242, bot id = 7851684074)
-2026-07-12 15:11:35 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:11:35 [WARNING] aiogram.dispatcher: Sleep for 4.986801 seconds and try again... (tryings = 14243, bot id = 7851684074)
-2026-07-12 15:11:40 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:11:40 [WARNING] aiogram.dispatcher: Sleep for 5.042449 seconds and try again... (tryings = 14244, bot id = 7851684074)
-2026-07-12 15:11:45 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:11:45 [WARNING] aiogram.dispatcher: Sleep for 4.911187 seconds and try again... (tryings = 14245, bot id = 7851684074)
-2026-07-12 15:11:51 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:11:51 [WARNING] aiogram.dispatcher: Sleep for 4.996646 seconds and try again... (tryings = 14246, bot id = 7851684074)
-2026-07-12 15:11:56 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:11:56 [WARNING] aiogram.dispatcher: Sleep for 5.055590 seconds and try again... (tryings = 14247, bot id = 7851684074)
-2026-07-12 15:12:01 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:12:01 [WARNING] aiogram.dispatcher: Sleep for 4.923057 seconds and try again... (tryings = 14248, bot id = 7851684074)
-2026-07-12 15:12:06 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:12:06 [WARNING] aiogram.dispatcher: Sleep for 5.094623 seconds and try again... (tryings = 14249, bot id = 7851684074)
-2026-07-12 15:12:11 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:12:11 [WARNING] aiogram.dispatcher: Sleep for 4.999720 seconds and try again... (tryings = 14250, bot id = 7851684074)
-2026-07-12 15:12:16 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:12:16 [WARNING] aiogram.dispatcher: Sleep for 5.209433 seconds and try again... (tryings = 14251, bot id = 7851684074)
-2026-07-12 15:12:22 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:12:22 [WARNING] aiogram.dispatcher: Sleep for 4.899553 seconds and try again... (tryings = 14252, bot id = 7851684074)
-2026-07-12 15:12:27 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:12:27 [WARNING] aiogram.dispatcher: Sleep for 5.136658 seconds and try again... (tryings = 14253, bot id = 7851684074)
-2026-07-12 15:12:32 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:12:32 [WARNING] aiogram.dispatcher: Sleep for 4.862963 seconds and try again... (tryings = 14254, bot id = 7851684074)
-2026-07-12 15:12:37 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:12:37 [WARNING] aiogram.dispatcher: Sleep for 5.117171 seconds and try again... (tryings = 14255, bot id = 7851684074)
-2026-07-12 15:12:42 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:12:42 [WARNING] aiogram.dispatcher: Sleep for 5.014567 seconds and try again... (tryings = 14256, bot id = 7851684074)
-2026-07-12 15:12:48 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:12:48 [WARNING] aiogram.dispatcher: Sleep for 4.860564 seconds and try again... (tryings = 14257, bot id = 7851684074)
-2026-07-12 15:12:53 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:12:53 [WARNING] aiogram.dispatcher: Sleep for 5.162406 seconds and try again... (tryings = 14258, bot id = 7851684074)
-2026-07-12 15:12:58 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:12:58 [WARNING] aiogram.dispatcher: Sleep for 5.075716 seconds and try again... (tryings = 14259, bot id = 7851684074)
-2026-07-12 15:13:03 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:13:03 [WARNING] aiogram.dispatcher: Sleep for 4.988738 seconds and try again... (tryings = 14260, bot id = 7851684074)
-2026-07-12 15:13:08 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:13:08 [WARNING] aiogram.dispatcher: Sleep for 4.959553 seconds and try again... (tryings = 14261, bot id = 7851684074)
-2026-07-12 15:13:13 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:13:13 [WARNING] aiogram.dispatcher: Sleep for 5.022694 seconds and try again... (tryings = 14262, bot id = 7851684074)
-2026-07-12 15:13:19 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:13:19 [WARNING] aiogram.dispatcher: Sleep for 4.801280 seconds and try again... (tryings = 14263, bot id = 7851684074)
-2026-07-12 15:13:24 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
-2026-07-12 15:13:24 [WARNING] aiogram.dispatcher: Sleep for 4.965570 seconds and try again... (tryings = 14264, bot id = 7851684074)
 2026-07-12 15:13:29 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
 2026-07-12 15:13:29 [WARNING] aiogram.dispatcher: Sleep for 5.079823 seconds and try again... (tryings = 14265, bot id = 7851684074)
 2026-07-12 15:13:34 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
@@ -498,3 +379,122 @@
 2026-07-12 15:29:22 [WARNING] aiogram.dispatcher: Sleep for 5.096250 seconds and try again... (tryings = 14450, bot id = 7851684074)
 2026-07-12 15:29:28 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
 2026-07-12 15:29:28 [WARNING] aiogram.dispatcher: Sleep for 4.961131 seconds and try again... (tryings = 14451, bot id = 7851684074)
+2026-07-12 15:29:33 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:29:33 [WARNING] aiogram.dispatcher: Sleep for 5.109321 seconds and try again... (tryings = 14452, bot id = 7851684074)
+2026-07-12 15:29:33 [INFO] root: [GH-LOG] логи запушены в GitHub (500 строк)
+2026-07-12 15:29:38 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:29:38 [WARNING] aiogram.dispatcher: Sleep for 4.926196 seconds and try again... (tryings = 14453, bot id = 7851684074)
+2026-07-12 15:29:43 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:29:43 [WARNING] aiogram.dispatcher: Sleep for 4.999886 seconds and try again... (tryings = 14454, bot id = 7851684074)
+2026-07-12 15:29:48 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:29:48 [WARNING] aiogram.dispatcher: Sleep for 4.996799 seconds and try again... (tryings = 14455, bot id = 7851684074)
+2026-07-12 15:29:53 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:29:53 [WARNING] aiogram.dispatcher: Sleep for 4.939853 seconds and try again... (tryings = 14456, bot id = 7851684074)
+2026-07-12 15:29:58 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:29:58 [WARNING] aiogram.dispatcher: Sleep for 5.047732 seconds and try again... (tryings = 14457, bot id = 7851684074)
+2026-07-12 15:30:04 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:30:04 [WARNING] aiogram.dispatcher: Sleep for 5.063676 seconds and try again... (tryings = 14458, bot id = 7851684074)
+2026-07-12 15:30:09 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:30:09 [WARNING] aiogram.dispatcher: Sleep for 5.008160 seconds and try again... (tryings = 14459, bot id = 7851684074)
+2026-07-12 15:30:14 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:30:14 [WARNING] aiogram.dispatcher: Sleep for 5.195809 seconds and try again... (tryings = 14460, bot id = 7851684074)
+2026-07-12 15:30:19 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:30:19 [WARNING] aiogram.dispatcher: Sleep for 4.962004 seconds and try again... (tryings = 14461, bot id = 7851684074)
+2026-07-12 15:30:24 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:30:24 [WARNING] aiogram.dispatcher: Sleep for 5.018457 seconds and try again... (tryings = 14462, bot id = 7851684074)
+2026-07-12 15:30:30 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:30:30 [WARNING] aiogram.dispatcher: Sleep for 4.907867 seconds and try again... (tryings = 14463, bot id = 7851684074)
+2026-07-12 15:30:35 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:30:35 [WARNING] aiogram.dispatcher: Sleep for 4.927719 seconds and try again... (tryings = 14464, bot id = 7851684074)
+2026-07-12 15:30:40 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:30:40 [WARNING] aiogram.dispatcher: Sleep for 4.985453 seconds and try again... (tryings = 14465, bot id = 7851684074)
+2026-07-12 15:30:45 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:30:45 [WARNING] aiogram.dispatcher: Sleep for 4.964987 seconds and try again... (tryings = 14466, bot id = 7851684074)
+2026-07-12 15:30:50 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:30:50 [WARNING] aiogram.dispatcher: Sleep for 4.864559 seconds and try again... (tryings = 14467, bot id = 7851684074)
+2026-07-12 15:30:55 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:30:55 [WARNING] aiogram.dispatcher: Sleep for 4.921195 seconds and try again... (tryings = 14468, bot id = 7851684074)
+2026-07-12 15:31:00 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:31:00 [WARNING] aiogram.dispatcher: Sleep for 5.095308 seconds and try again... (tryings = 14469, bot id = 7851684074)
+2026-07-12 15:31:05 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:31:05 [WARNING] aiogram.dispatcher: Sleep for 5.007501 seconds and try again... (tryings = 14470, bot id = 7851684074)
+2026-07-12 15:31:10 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:31:10 [WARNING] aiogram.dispatcher: Sleep for 4.989900 seconds and try again... (tryings = 14471, bot id = 7851684074)
+2026-07-12 15:31:17 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:31:17 [WARNING] aiogram.dispatcher: Sleep for 5.150706 seconds and try again... (tryings = 14472, bot id = 7851684074)
+2026-07-12 15:31:22 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:31:22 [WARNING] aiogram.dispatcher: Sleep for 4.944299 seconds and try again... (tryings = 14473, bot id = 7851684074)
+2026-07-12 15:31:28 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:31:28 [WARNING] aiogram.dispatcher: Sleep for 4.828040 seconds and try again... (tryings = 14474, bot id = 7851684074)
+2026-07-12 15:31:32 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:31:32 [WARNING] aiogram.dispatcher: Sleep for 5.012416 seconds and try again... (tryings = 14475, bot id = 7851684074)
+2026-07-12 15:31:38 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:31:38 [WARNING] aiogram.dispatcher: Sleep for 4.891992 seconds and try again... (tryings = 14476, bot id = 7851684074)
+2026-07-12 15:31:43 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:31:43 [WARNING] aiogram.dispatcher: Sleep for 5.072550 seconds and try again... (tryings = 14477, bot id = 7851684074)
+2026-07-12 15:31:48 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:31:48 [WARNING] aiogram.dispatcher: Sleep for 4.921882 seconds and try again... (tryings = 14478, bot id = 7851684074)
+2026-07-12 15:31:53 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:31:53 [WARNING] aiogram.dispatcher: Sleep for 4.939855 seconds and try again... (tryings = 14479, bot id = 7851684074)
+2026-07-12 15:31:58 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:31:58 [WARNING] aiogram.dispatcher: Sleep for 5.122119 seconds and try again... (tryings = 14480, bot id = 7851684074)
+2026-07-12 15:32:03 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:32:03 [WARNING] aiogram.dispatcher: Sleep for 5.170116 seconds and try again... (tryings = 14481, bot id = 7851684074)
+2026-07-12 15:32:09 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:32:09 [WARNING] aiogram.dispatcher: Sleep for 4.904633 seconds and try again... (tryings = 14482, bot id = 7851684074)
+2026-07-12 15:32:14 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:32:14 [WARNING] aiogram.dispatcher: Sleep for 5.019875 seconds and try again... (tryings = 14483, bot id = 7851684074)
+2026-07-12 15:32:19 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:32:19 [WARNING] aiogram.dispatcher: Sleep for 5.025222 seconds and try again... (tryings = 14484, bot id = 7851684074)
+2026-07-12 15:32:24 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:32:24 [WARNING] aiogram.dispatcher: Sleep for 4.974344 seconds and try again... (tryings = 14485, bot id = 7851684074)
+2026-07-12 15:32:29 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:32:29 [WARNING] aiogram.dispatcher: Sleep for 5.226886 seconds and try again... (tryings = 14486, bot id = 7851684074)
+2026-07-12 15:32:34 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:32:34 [WARNING] aiogram.dispatcher: Sleep for 5.029456 seconds and try again... (tryings = 14487, bot id = 7851684074)
+2026-07-12 15:32:40 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:32:40 [WARNING] aiogram.dispatcher: Sleep for 4.976913 seconds and try again... (tryings = 14488, bot id = 7851684074)
+2026-07-12 15:32:45 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:32:45 [WARNING] aiogram.dispatcher: Sleep for 4.982220 seconds and try again... (tryings = 14489, bot id = 7851684074)
+2026-07-12 15:32:50 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:32:50 [WARNING] aiogram.dispatcher: Sleep for 5.009452 seconds and try again... (tryings = 14490, bot id = 7851684074)
+2026-07-12 15:32:55 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:32:55 [WARNING] aiogram.dispatcher: Sleep for 5.037199 seconds and try again... (tryings = 14491, bot id = 7851684074)
+2026-07-12 15:33:00 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:33:00 [WARNING] aiogram.dispatcher: Sleep for 5.087563 seconds and try again... (tryings = 14492, bot id = 7851684074)
+2026-07-12 15:33:05 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:33:05 [WARNING] aiogram.dispatcher: Sleep for 5.162718 seconds and try again... (tryings = 14493, bot id = 7851684074)
+2026-07-12 15:33:11 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:33:11 [WARNING] aiogram.dispatcher: Sleep for 5.130156 seconds and try again... (tryings = 14494, bot id = 7851684074)
+2026-07-12 15:33:16 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:33:16 [WARNING] aiogram.dispatcher: Sleep for 4.887541 seconds and try again... (tryings = 14495, bot id = 7851684074)
+2026-07-12 15:33:21 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:33:21 [WARNING] aiogram.dispatcher: Sleep for 4.867107 seconds and try again... (tryings = 14496, bot id = 7851684074)
+2026-07-12 15:33:26 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:33:26 [WARNING] aiogram.dispatcher: Sleep for 4.955659 seconds and try again... (tryings = 14497, bot id = 7851684074)
+2026-07-12 15:33:31 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:33:31 [WARNING] aiogram.dispatcher: Sleep for 5.111152 seconds and try again... (tryings = 14498, bot id = 7851684074)
+2026-07-12 15:33:36 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:33:36 [WARNING] aiogram.dispatcher: Sleep for 4.820371 seconds and try again... (tryings = 14499, bot id = 7851684074)
+2026-07-12 15:33:41 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:33:41 [WARNING] aiogram.dispatcher: Sleep for 5.118300 seconds and try again... (tryings = 14500, bot id = 7851684074)
+2026-07-12 15:33:47 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:33:47 [WARNING] aiogram.dispatcher: Sleep for 4.926907 seconds and try again... (tryings = 14501, bot id = 7851684074)
+2026-07-12 15:33:52 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:33:52 [WARNING] aiogram.dispatcher: Sleep for 4.993008 seconds and try again... (tryings = 14502, bot id = 7851684074)
+2026-07-12 15:33:57 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:33:57 [WARNING] aiogram.dispatcher: Sleep for 5.044375 seconds and try again... (tryings = 14503, bot id = 7851684074)
+2026-07-12 15:34:02 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:34:02 [WARNING] aiogram.dispatcher: Sleep for 4.981081 seconds and try again... (tryings = 14504, bot id = 7851684074)
+2026-07-12 15:34:07 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:34:07 [WARNING] aiogram.dispatcher: Sleep for 4.936150 seconds and try again... (tryings = 14505, bot id = 7851684074)
+2026-07-12 15:34:12 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:34:12 [WARNING] aiogram.dispatcher: Sleep for 5.111238 seconds and try again... (tryings = 14506, bot id = 7851684074)
+2026-07-12 15:34:18 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:34:18 [WARNING] aiogram.dispatcher: Sleep for 5.118431 seconds and try again... (tryings = 14507, bot id = 7851684074)
+2026-07-12 15:34:23 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:34:23 [WARNING] aiogram.dispatcher: Sleep for 4.917288 seconds and try again... (tryings = 14508, bot id = 7851684074)
+2026-07-12 15:34:26 [INFO] root: [GH-STATE] сохранено в GitHub, topics=14
+2026-07-12 15:34:27 [INFO] root: [GH-CACHE] сохранено 94 сообщений в GitHub
+2026-07-12 15:34:28 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramUnauthorizedError: Telegram server says - Unauthorized
+2026-07-12 15:34:28 [WARNING] aiogram.dispatcher: Sleep for 4.991941 seconds and try again... (tryings = 14509, bot id = 7851684074)
