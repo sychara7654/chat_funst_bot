@@ -43,12 +43,12 @@ JUNK_RE = re.compile(
     r"reverb(?:ed)?|"
     r"cover(?:\s+version)?|кавер|"
     r"karaoke|instrumental|tribute|mashup|"
-    r"edit(?:ed)?(?:\s+version)?|"
+    r"(?:radio|extended|club|dj)\s+edit|"
     r"live(?:\s+at|\s+from|\s+version)?|concert|"
     r"acoustic\s+version|orchestral|piano\s+version|ringtone|"
     r"lyric[s]?\s+video|8d\s+audio|bass\s+boost(?:ed)?|"
-    r"phonk(?:\s+version)?|extended\s+mix|radio\s+edit|"
-    r"demo|rehearsal|tiktok(?:\s+version)?"
+    r"extended\s+mix|"
+    r"rehearsal|tiktok(?:\s+version)?"
     r")\b"
 )
 
@@ -67,15 +67,15 @@ SHAZAM_TIMEOUT      = 30
 SHAZAM_INPUT_LIMIT  = 10 * 1024 * 1024
 DEEZER_TIMEOUT      = 8
 ITUNES_TIMEOUT      = 6
-CANDIDATES_TIMEOUT  = 25   # таймаут фазы получения кандидатов
+CANDIDATES_TIMEOUT  = 30   # таймаут фазы получения кандидатов
 
 # ── Источники ───────────────────────────────────────────────────────
 VK_SOURCE       = "vk:"
-DEFAULT_SOURCES = ("vk:", "ytsearch20:", "scsearch15:", "bcsearch1:")
+DEFAULT_SOURCES = ("vk:", "ytsearch30:", "scsearch20:", "bcsearch1:")
 SOURCE_LABELS   = {
     "vk:":         "VK",
-    "ytsearch20:": "YouTube",
-    "scsearch15:": "SoundCloud",
+    "ytsearch30:": "YouTube",
+    "scsearch20:": "SoundCloud",
     "bcsearch1:":  "Bandcamp",
 }
 
@@ -131,7 +131,7 @@ async def _normalize_via_deezer(query: str) -> str | None:
         title  = (track.get("title") or "").strip()
         if artist and title:
             logging.info(f"[music] Deezer: '{query}' → '{artist} - {title}'")
-            return f"{artist} {title}"
+            return f"{artist} - {title}"
     except asyncio.CancelledError:
         raise
     except Exception as e:
@@ -158,7 +158,7 @@ async def _normalize_via_itunes(query: str) -> str | None:
         title  = (track.get("trackName") or "").strip()
         if artist and title:
             logging.info(f"[music] iTunes: '{query}' → '{artist} - {title}'")
-            return f"{artist} {title}"
+            return f"{artist} - {title}"
     except asyncio.CancelledError:
         raise
     except Exception as e:
@@ -396,7 +396,7 @@ async def _try_vk(query: str, tmpdir: str) -> dict | None:
         it for it in items
         if (it.get("url") or "").strip()
         and int(it.get("duration") or 0) <= MAX_DURATION_SEC
-        and int(it.get("duration") or 1) >= 60
+        and int(it.get("duration") or 1) >= 30
     ]
     clean = [it for it in valid if not _is_junk(f"{it.get('artist','')} {it.get('title','')}")]
 
@@ -566,6 +566,23 @@ def _pick_audio_source(reply) -> str | None:
 #  Парсинг аргументов
 # ════════════════════════════════════════════════════════════════════
 
+# Суффиксы, которые мешают нормализации
+_NOISE_RE = re.compile(
+    r"\s*[\(\[\|]"
+    r"(?:official\s+(?:music\s+)?(?:video|audio|lyric[s]?\s*video)?|"
+    r"lyrics?(?:\s+video)?|audio|hd|hq|4k|full\s+(?:song|version)|"
+    r"premiere|клип|премьера(?:\s+клипа)?|"
+    r"music\s+video|fan\s+video|visualizer)"
+    r"[\)\]\|]?",
+    re.IGNORECASE,
+)
+
+def _clean_query(q: str) -> str:
+    """Убирает шумовые суффиксы типа '(Official Video)' из запроса."""
+    q = _NOISE_RE.sub("", q)
+    return re.sub(r"\s{2,}", " ", q).strip(" -–—|")
+
+
 def _parse_query(text: str) -> tuple[str, tuple[str, ...]]:
     parts = text.split(maxsplit=2)
     rest  = parts[1:] if len(parts) > 1 else []
@@ -575,9 +592,9 @@ def _parse_query(text: str) -> tuple[str, tuple[str, ...]]:
     if first in ("vk", "вк", "vkmusic") and len(rest) > 1:
         return " ".join(rest[1:]).strip(), ("vk:",)
     if first in ("yt", "youtube") and len(rest) > 1:
-        return " ".join(rest[1:]).strip(), ("ytsearch20:",)
+        return " ".join(rest[1:]).strip(), ("ytsearch30:",)
     if first in ("sc", "soundcloud", "soundc") and len(rest) > 1:
-        return " ".join(rest[1:]).strip(), ("scsearch15:",)
+        return " ".join(rest[1:]).strip(), ("scsearch20:",)
     if first in ("bc", "bandcamp") and len(rest) > 1:
         return " ".join(rest[1:]).strip(), ("bcsearch1:",)
     return " ".join(rest).strip(), DEFAULT_SOURCES
@@ -657,17 +674,23 @@ async def cmd_music(message: Message, bot: Bot):
                 f"🎙 Shazam: {artist + ' — ' if artist else ''}{title}\n🔎 Ищу полную версию…"
             )
 
-        # ── Этап 2: Нормализация запроса через Deezer (первый приоритет) ────────
-        # Нормализованный запрос становится ОСНОВНЫМ для всех источников.
+        # ── Этап 2: Предочистка + нормализация запроса ───────────────────────────
+        # Оригинальный запрос очищается от шумовых суффиксов и остаётся
+        # ОСНОВНЫМ. Нормализованный (Deezer/iTunes) запускается как
+        # дополнительные задачи параллельно — так ошибка нормализации
+        # не убивает поиск по оригиналу.
         normalized_query: str | None = None
+        if text_query:
+            clean_query = _clean_query(query)
+            if clean_query and clean_query.lower() != query.lower():
+                logging.info(f"[music] очистка запроса: '{query}' → '{clean_query}'")
+                query = clean_query
         if text_query and sources == DEFAULT_SOURCES:
             _, normalized_query = await _get_best_query(query)
             if normalized_query and normalized_query.lower().strip() == query.lower().strip():
                 normalized_query = None
             if normalized_query:
-                logging.info(f"[music] Deezer нормализация: '{query}' → '{normalized_query}'")
-                query = normalized_query   # используем нормализованный как основной
-                normalized_query = None   # доп. задачи не нужны
+                logging.info(f"[music] нормализация: '{query}' → '{normalized_query}'")
 
         # ── Этап 3: Статус ────────────────────────────────────────────
         if status_id is None:
@@ -703,11 +726,11 @@ async def cmd_music(message: Message, bot: Bot):
             return label, res
 
         tasks_list = [(_src_task(query, p), p) for p in active_sources]
-        # Нормализованный запрос — дополнительно на YT и VK
+        # Нормализованный запрос — параллельно по всем источникам.
+        # Оригинальный при этом тоже ищется — ошибка нормализации не убивает поиск.
         if normalized_query:
-            for p in ("ytsearch20:", "vk:"):
-                if p in active_sources:
-                    tasks_list.append((_src_task(normalized_query, p), p + "_norm"))
+            for p in active_sources:
+                tasks_list.append((_src_task(normalized_query, p), p + "_norm"))
 
         tasks = {asyncio.create_task(coro): tag for coro, tag in tasks_list}
 
