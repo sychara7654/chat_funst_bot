@@ -1446,7 +1446,16 @@ async def handle_connection(bc: BusinessConnection):
     user_id = bc.user.id
     if bc.is_enabled:
         if user_id in banned_users:
-            await bot.send_message(user_id, "🚫 Вы заблокированы и не можете пользоваться ботом.")
+            # Убираем любое старое подключение этого пользователя
+            old_bc = user_to_bc.pop(user_id, None)
+            if old_bc:
+                connection_owners.pop(old_bc, None)
+            connected_users.pop(user_id, None)
+            schedule_persist()
+            try:
+                await bot.send_message(user_id, "🚫 Вы заблокированы и не можете пользоваться ботом.")
+            except Exception:
+                pass
             return
         connection_owners[bc.id] = user_id
         user_to_bc[user_id] = bc.id
@@ -3022,9 +3031,14 @@ async def cmd_ban(message: Message):
         await message.answer("❌ Нельзя заблокировать администратора.")
         return
     banned_users.add(target_id)
-    info = connected_users.get(target_id)
+    # Принудительно отключаем — убираем все данные подключения
+    old_bc = user_to_bc.pop(target_id, None)
+    if old_bc:
+        connection_owners.pop(old_bc, None)
+    info = connected_users.pop(target_id, None)
     name = info["name"] if info else str(target_id)
-    await message.answer(f"🚫 Пользователь {name} (ID: {target_id}) заблокирован.")
+    schedule_persist()
+    await message.answer(f"🚫 Пользователь {name} (ID: {target_id}) заблокирован и отключён.")
     try:
         await bot.send_message(target_id, "🚫 Вы были заблокированы администратором.")
     except Exception:
@@ -3055,6 +3069,7 @@ async def cmd_unban(message: Message):
         banned_users.discard(target_id)
         info = connected_users.get(target_id)
         name = info["name"] if info else str(target_id)
+        schedule_persist()
         await message.answer(f"✅ Пользователь {name} (ID: {target_id}) разблокирован.")
         try:
             await bot.send_message(target_id, "✅ Вы были разблокированы администратором.")
